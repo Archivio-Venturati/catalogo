@@ -50,6 +50,12 @@ const el = (id) => document.getElementById(id);
 
 function norm(s) { return (s ?? "").toString().trim(); }
 
+function metaRow(label, value) {
+  const v = norm(value);
+  if (!v) return "";
+  return `<div class="k">${escapeHtml(label)}</div><div class="v">${escapeHtml(v)}</div>`;
+}
+
 function escapeHtml(s) {
   return (s ?? "").toString()
     .replaceAll("&", "&amp;")
@@ -354,14 +360,15 @@ function renderBook(id) {
       </div>
 
       <div class="meta">
-        <div class="k">Codice</div><div class="v">${escapeHtml(r.codice)}</div>
-        <div class="k">Tipo</div><div class="v">${escapeHtml(r.tipo)}</div>
-        <div class="k">Volume</div><div class="v">${escapeHtml(r.volume)}</div>
-        <div class="k">Autore/i</div><div class="v">${escapeHtml(r.autori.join("; "))}</div>
-        <div class="k">Anno</div><div class="v">${escapeHtml(r.anno)}</div>
-        <div class="k">Luogo</div><div class="v">${escapeHtml(r.luogo)}</div>
-        <div class="k">Editore</div><div class="v">${escapeHtml(r.editore)}</div>
-      </div>
+  ${metaRow("Codice", r.codice)}
+  ${metaRow("Tipo", r.tipo)}
+  ${metaRow("Volume", r.volume)}
+  ${metaRow("Autore/i", r.autori?.length ? r.autori.join("; ") : "")}
+  ${metaRow("Anno", r.anno)}
+  ${metaRow("Luogo", r.luogo)}
+  ${metaRow("Editore", r.editore)}
+</div>
+
 
       ${r.pdf ? `
         <p style="margin-top:12px">
