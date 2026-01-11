@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Archivio – Fondi</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">📚</span>
+      <span class="title">Archivio</span>
+    </div>
+    <nav class="topnav">
+      <a href="#/">Fondi</a>
+      <a href="#/fondi-info">Cosa sono i fondi</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="box">
+        <div class="box-title">Ricerca</div>
+        <input id="q" type="search" placeholder="Titolo, autore, tag, codice…" />
+        <div class="hint">Suggerimento: usa parole brevi (es. “socialismo”, “AAVV”, “1960”).</div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Filtri</div>
+        <label>Autore</label>
+        <select id="authorFilter"><option value="">(tutti)</option></select>
+        <label>Tag</label>
+        <select id="tagFilter"><option value="">(tutti)</option></select>
+        <button id="clearFilters" class="btn">Azzera filtri</button>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Fondi</div>
+        <div id="fundList" class="fund-list"></div>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div id="status" class="status">Caricamento dati…</div>
+      <div id="view"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span id="count"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
