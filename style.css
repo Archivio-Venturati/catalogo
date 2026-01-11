@@ -22,7 +22,7 @@ html, body{
   background:var(--bg);
   color:var(--text);
 
-  /* IMPORTANTISSIMO: evita l’auto-ingrandimento del testo su mobile (iOS/Android) */
+  /* Evita l’auto-ingrandimento del testo su mobile (iOS/Android) */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
@@ -30,10 +30,10 @@ html, body{
 body{
   margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-  overflow-x: hidden; /* niente “sforamenti” orizzontali */
+  overflow-x:hidden; /* niente sforamenti orizzontali */
 }
 
-/* Regola di sicurezza: nessuna immagine deve mai uscire dal suo contenitore */
+/* Blindatura: nessuna immagine deve mai uscire dal contenitore */
 img{
   max-width:100%;
   height:auto;
@@ -200,7 +200,7 @@ input[type="search"]::placeholder{color:#8a7f70}
   background:var(--badge-bg);
   color:var(--badge-text);
   max-width:100%;
-  overflow-wrap:anywhere; /* codici/tag lunghi non sfondano */
+  overflow-wrap:anywhere; /* tag/codici lunghi non sfondano */
 }
 
 /* Card */
@@ -218,22 +218,22 @@ input[type="search"]::placeholder{color:#8a7f70}
 .fund-text{
   white-space: pre-wrap;
   max-width: 70ch;
-  overflow-wrap:anywhere; /* evita “testo non sta nello schermo” */
+  overflow-wrap:anywhere;
 }
 
 /* immagini descrizioni fondi */
 .fund-photo{
-  width: min(300px, 100%);
-  height: auto;
-  margin: 10px 0;
+  width:min(300px, 100%);
+  height:auto;
+  margin:10px 0;
   display:block;
 }
 
 /* Badge fondi nella HOME */
 .fund-badge{
-  font-size: 16px;
-  font-weight: 700;
-  padding: 8px 12px;
+  font-size:16px;
+  font-weight:700;
+  padding:8px 12px;
 }
 
 /* Meta grid */
@@ -262,61 +262,57 @@ a:hover{color:var(--text)}
 @media (max-width: 768px){
 
   body{
-    font-size: 15px;
-    line-height: 1.45;
+    font-size:15px;
+    line-height:1.45;
   }
 
   .layout{
-    grid-template-columns: 1fr;
-    padding: 10px;
-    gap: 10px;
+    grid-template-columns:1fr;
+    padding:10px;
+    gap:10px;
   }
 
   /* content sopra, sidebar sotto */
-  .content{ order: 1; padding: 10px; min-height: auto; }
-  .sidebar{ order: 2; }
+  .content{ order:1; padding:10px; min-height:auto; }
+  .sidebar{ order:2; }
 
-  .topbar{ padding: 10px 12px; }
-  .title{ font-size: 16px; }
-  .topnav a{ margin-left: 10px; font-size: 14px; }
+  .topbar{ padding:10px 12px; }
+  .title{ font-size:16px; }
+  .topnav a{ margin-left:10px; font-size:14px; }
 
-  .card{ padding: 12px; }
-  .card h1{ font-size: 18px; line-height: 1.2; }
-  .hint{ font-size: 13px; }
+  .card{ padding:12px; }
+  .card h1{ font-size:18px; line-height:1.2; }
+  .hint{ font-size:13px; }
 
-  /* immagini responsive (ridondante ma blindato) */
+  /* immagini davvero responsive */
   .card img{
-    max-width: 100% !important;
-    height: auto !important;
+    max-width:100% !important;
+    height:auto !important;
     display:block;
   }
+  .fund-photo{ width:min(240px, 100%); }
 
-  .fund-photo{
-    width: min(240px, 100%);
-  }
+  /* testo dentro lo schermo */
+  .fund-text{ max-width:100%; }
 
-  /* testo sempre dentro lo schermo */
-  .fund-text{ max-width: 100%; }
-
-  /* tabella: scrollabile ma SENZA nowrap (nowrap è quello che ti rompeva il layout) */
+  /* tabella scrollabile, ma SENZA nowrap (nowrap = layout rotto) */
   table.grid{
     display:block;
     width:100%;
     overflow-x:auto;
     -webkit-overflow-scrolling: touch;
-    font-size: 14px;
+    font-size:14px;
   }
   table.grid th, table.grid td{
-    white-space: normal;     /* <— qui la differenza */
-    overflow-wrap:anywhere;  /* <— e qui */
+    white-space: normal;
+    overflow-wrap:anywhere;
   }
 
   /* scheda libro: meta a colonna */
-  .meta{ grid-template-columns: 1fr; }
+  .meta{ grid-template-columns:1fr; }
 
-  /* badge fondi: leggermente più piccoli su mobile */
   .fund-badge{
-    font-size: 15px;
-    padding: 7px 10px;
+    font-size:15px;
+    padding:7px 10px;
   }
 }
