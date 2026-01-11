@@ -1,5 +1,14 @@
+// Archivio statico: carica archivio.csv dal repo e costruisce:
+// - Home con descrizione + fondi + (se filtri/ricerca attivi) risultati globali
+// - Pagine per fondo con filtri autore/tag + ricerca
+// - Scheda libro cliccabile + bottone "Apri PDF" se presente nel CSV (colonna PDF)
+//
+// CSV consigliato (intestazioni):
+// Titolo, Codice, Tipo, Volume, Autore1.., Anno (o "Anno di pubblicazione"), Luogo, Editore, Tags, Fondo, PDF
+
 const DATA_FILE = "archivio.csv";
 
+// Info fondi: chiavi = valore esatto della colonna "Fondo" nel CSV (senza spazi finali)
 const FUND_INFO = {
   "Venturati": {
     subtitle: "Fondo Venturati",
@@ -20,11 +29,13 @@ I Socialisti hanno rappresentato una parte fondamentale della storia politica e 
 Nel Novecento, fu soprattutto grazie alla costruzione e gestione del Circulì che fino al 2023 la Cooperativa diviene punto di riferimento per la cultura socialdemocratica della Bassa Bergamasca. 
 Il Circolo socialista, attivo fino ai primi anni '10 del 2000, è intitolato all'Onorevole Emilio Gallavresi (1856-1931), figura di spicco del socialismo italiano e deputato con il PSI per due legislature. La sua famiglia fu proprietaria dell'attuale Palazzo Comunale.`
   },
+
   "Stella": {
     subtitle: "Fondo Stella",
     text: `Si tratta del fondo iniziale della Casa del Popolo, lascito delle diverse organizzazioni politiche che l'hanno animata, ovvero Partito Comunista Italiano, Partito Democratico della Sinistra, Democratici di Sinistra e Partito Democratico.
 Nella maggior parte è costituito da documentazione interna e organizzativa o materiale elettorale, ma anche da libri editi di vario genere.`
   },
+
   "Castelli": { subtitle: "Fondo Castelli", text: `Scrivi qui la descrizione.` },
   "Stuani":   { subtitle: "Fondo Stuani",   text: `Scrivi qui la descrizione.` },
   "Rossoni":  { subtitle: "Fondo Rossoni",  text: `Scrivi qui la descrizione.` },
@@ -93,6 +104,7 @@ function buildIndex() {
   AUTHORS = [...authorSet].sort((a, b) => a.localeCompare(b, "it"));
   TAGS = [...tagSet].sort((a, b) => a.localeCompare(b, "it"));
 
+  // Sidebar fondi
   const fundList = el("fundList");
   if (fundList) {
     fundList.innerHTML = FUNDS
@@ -100,6 +112,7 @@ function buildIndex() {
       .join("");
   }
 
+  // Filtri globali
   const aSel = el("authorFilter");
   const tSel = el("tagFilter");
   if (aSel) {
@@ -138,6 +151,7 @@ function applyFilters(list) {
   });
 }
 
+/* HOME: mostra fondi + (se filtri/ricerca attivi) risultati globali */
 function renderHome() {
   setStatus("");
   const view = el("view");
@@ -147,11 +161,10 @@ function renderHome() {
     norm(el("authorFilter")?.value) ||
     norm(el("tagFilter")?.value);
 
-  // risultati globali (q + autore + tag)
   const filtered = applyFilters(RECORDS);
 
-  // Se c'è filtro attivo: aggiorna le tendine per far vedere solo opzioni utili
-  // (senza rompere: se l'opzione selezionata non è più valida, resta comunque selezionata)
+  // In HOME: se filtri attivi, restringi le tendine alle opzioni utili.
+  // Se filtri disattivi, ripristina elenco completo.
   if (hasQuery) {
     const authorSet = new Set();
     const tagSet = new Set();
@@ -173,19 +186,29 @@ function renderHome() {
       aSel.innerHTML =
         `<option value="">(tutti)</option>` +
         aList.map(a => `<option value="${escapeAttr(a)}">${escapeHtml(a)}</option>`).join("");
-      if (currentA) aSel.value = currentA; // ripristina selezione
+      if (currentA) aSel.value = currentA;
     }
 
     if (tSel) {
       tSel.innerHTML =
         `<option value="">(tutti)</option>` +
         tList.map(t => `<option value="${escapeAttr(t)}">${escapeHtml(t)}</option>`).join("");
-      if (currentT) tSel.value = currentT; // ripristina selezione
+      if (currentT) tSel.value = currentT;
     }
   } else {
-    // se non c'è filtro attivo, ripristina index completo (tutte opzioni)
-    // (evita che restino "strozzate" dopo una ricerca)
-    buildIndex();
+    // ripristina opzioni complete (senza toccare i fondi)
+    const aSel = el("authorFilter");
+    const tSel = el("tagFilter");
+    if (aSel) {
+      aSel.innerHTML =
+        `<option value="">(tutti)</option>` +
+        AUTHORS.map(a => `<option value="${escapeAttr(a)}">${escapeHtml(a)}</option>`).join("");
+    }
+    if (tSel) {
+      tSel.innerHTML =
+        `<option value="">(tutti)</option>` +
+        TAGS.map(t => `<option value="${escapeAttr(t)}">${escapeHtml(t)}</option>`).join("");
+    }
   }
 
   const aboutHtml = `
@@ -315,6 +338,7 @@ function renderBook(id) {
     return;
   }
 
+  // Copertina opzionale: images/libri/CODICE.jpg
   const coverPath = r.codice ? `images/libri/${encodeURIComponent(r.codice)}.jpg` : "";
 
   setStatus("");
@@ -338,6 +362,14 @@ function renderBook(id) {
         <div class="k">Luogo</div><div class="v">${escapeHtml(r.luogo)}</div>
         <div class="k">Editore</div><div class="v">${escapeHtml(r.editore)}</div>
       </div>
+
+      ${r.pdf ? `
+        <p style="margin-top:12px">
+          <a class="btn" style="display:inline-block;width:auto" href="${escapeAttr(r.pdf)}" target="_blank" rel="noopener">
+            Apri PDF
+          </a>
+        </p>
+      ` : ``}
 
       <p style="margin-top:14px"><a href="#/fondo/${encodeURIComponent(r.fondo)}">← Torna al fondo</a></p>
     </div>
@@ -374,6 +406,21 @@ function wireEvents() {
     if (el("q")) el("q").value = "";
     if (el("authorFilter")) el("authorFilter").value = "";
     if (el("tagFilter")) el("tagFilter").value = "";
+
+    // ripristina tendine complete (per HOME)
+    const aSel = el("authorFilter");
+    const tSel = el("tagFilter");
+    if (aSel) {
+      aSel.innerHTML =
+        `<option value="">(tutti)</option>` +
+        AUTHORS.map(a => `<option value="${escapeAttr(a)}">${escapeHtml(a)}</option>`).join("");
+    }
+    if (tSel) {
+      tSel.innerHTML =
+        `<option value="">(tutti)</option>` +
+        TAGS.map(t => `<option value="${escapeAttr(t)}">${escapeHtml(t)}</option>`).join("");
+    }
+
     render();
   });
 }
@@ -394,6 +441,8 @@ async function loadData() {
     skipEmptyLines: true,
     dynamicTyping: false,
   });
+
+  if (parsed.errors?.length) console.warn(parsed.errors);
 
   const rows = parsed.data;
 
@@ -418,9 +467,12 @@ async function loadData() {
 
     const autori = splitAuthors(row);
 
+    // PDF: colonna "PDF" nel CSV (oppure "pdf")
+    const pdf = norm(row.PDF ?? row.pdf ?? row["PDF"] ?? row["pdf"] ?? "");
+
     const id = codice || ("row-" + Math.random().toString(36).slice(2));
 
-    return { id, titolo, codice, tipo, volume, autori, anno, luogo, editore, tags, fondo };
+    return { id, titolo, codice, tipo, volume, autori, anno, luogo, editore, tags, fondo, pdf };
   }).filter(r => r.titolo || r.codice);
 
   buildIndex();
