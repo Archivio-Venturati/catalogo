@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Archivio – Fondi</title>
-  <link rel="stylesheet" href="style.css?v=101">
+  <link rel="stylesheet" href="style.css?v=102">
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
-      <span class="logo">📚</span>
+      <span class="logo" aria-hidden="true">📚</span>
       <span class="title">Archivio</span>
     </div>
-    <nav class="topnav">
+    <nav class="topnav" aria-label="Navigazione">
       <a href="#/">Fondi</a>
     </nav>
   </header>
@@ -22,17 +22,18 @@
     <aside class="sidebar">
       <div class="box">
         <div class="box-title">Ricerca</div>
+        <label for="q">Cerca</label>
         <input id="q" type="search" placeholder="Titolo, autore, tag, codice…" />
         <div class="hint">Suggerimento: usa parole brevi (es. “socialismo”, “Togliatti”, “1960”).</div>
       </div>
 
       <div class="box">
         <div class="box-title">Filtri</div>
-        <label>Autore</label>
+        <label for="authorFilter">Autore</label>
         <select id="authorFilter"><option value="">(tutti)</option></select>
-        <label>Tag</label>
+        <label for="tagFilter">Tag</label>
         <select id="tagFilter"><option value="">(tutti)</option></select>
-        <button id="clearFilters" class="btn">Azzera filtri</button>
+        <button id="clearFilters" class="btn" type="button">Azzera filtri</button>
       </div>
 
       <div class="box">
@@ -51,6 +52,6 @@
     <span id="count"></span>
   </footer>
 
-  <script src="app.js?v=101"></script>
+  <script src="app.js?v=102"></script>
 </body>
 </html>
