@@ -283,4 +283,84 @@ function parseRoute() {
   const h = location.hash || "#/";
   const parts = h.replace(/^#\//, "").split("/").filter(Boolean);
   if (parts.length === 0) return { name: "home" };
-  i
+  if (parts[0] === "fondo") return { name: "fondo", fondo: decodeURIComponent(parts.slice(1).join("/")) };
+  if (parts[0] === "libro") return { name: "libro", id: decodeURIComponent(parts.slice(1).join("/")) };
+  return { name: "home" };
+}
+
+function render() {
+  const route = parseRoute();
+  if (route.name === "home") return renderHome();
+  if (route.name === "fondo") return renderFund(route.fondo);
+  if (route.name === "libro") return renderBook(route.id);
+}
+
+function wireEvents() {
+  window.addEventListener("hashchange", render);
+
+  el("q")?.addEventListener("input", render);
+  el("authorFilter")?.addEventListener("change", render);
+  el("tagFilter")?.addEventListener("change", render);
+
+  el("clearFilters")?.addEventListener("click", () => {
+    if (el("q")) el("q").value = "";
+    if (el("authorFilter")) el("authorFilter").value = "";
+    if (el("tagFilter")) el("tagFilter").value = "";
+    render();
+  });
+}
+
+async function loadData() {
+  setStatus("Caricamento dati…");
+
+  const res = await fetch(DATA_FILE, { cache: "no-store" });
+  if (!res.ok) {
+    setStatus(`Errore: non trovo ${DATA_FILE}. Deve stare nella root del repo insieme a index.html.`);
+    return;
+  }
+
+  const csvText = await res.text();
+
+  const parsed = Papa.parse(csvText, {
+    header: true,
+    skipEmptyLines: true,
+    dynamicTyping: false,
+  });
+
+  if (parsed.errors?.length) console.warn(parsed.errors);
+
+  const rows = parsed.data;
+
+  RECORDS = rows.map(row => {
+    const titolo  = norm(row.titolo ?? row.Titolo ?? row["Titolo"]);
+    const codice  = norm(row.codice ?? row.Codice ?? row["Codice"]);
+    const tipo    = norm(row.tipo ?? row.Tipo ?? row["Tipo"]);
+    const volume  = norm(row.volume ?? row.Volume ?? row["Volume"]);
+
+    const anno = norm(
+      row.anno ?? row.Anno ?? row["Anno"] ??
+      row["Anno di pubblicazione"] ?? row["Anno di pubblica"] ?? row["Anno di pubblicazione "]
+    );
+
+    const luogo   = norm(row.luogo ?? row.Luogo ?? row["Luogo"]);
+    const editore = norm(row.editore ?? row.Editore ?? row["Editore"]);
+
+    const fondo = norm(row.fondo ?? row.Fondo ?? row["Fondo"] ?? row["Fondo (from Fondo)"]);
+
+    const tagRaw = row.tag ?? row.tags ?? row.Tags ?? row["Tags"] ?? "";
+    const tags = splitTags(tagRaw);
+
+    const autori = splitAuthors(row);
+
+    const id = codice || ("row-" + Math.random().toString(36).slice(2));
+
+    return { id, titolo, codice, tipo, volume, autori, anno, luogo, editore, tags, fondo };
+  }).filter(r => r.titolo || r.codice);
+
+  buildIndex();
+  wireEvents();
+  render();
+  setStatus("");
+}
+
+loadData();
