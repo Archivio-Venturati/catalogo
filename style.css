@@ -26,6 +26,87 @@ body{
   background:linear-gradient(180deg, var(--panel), var(--panel2));
   position:sticky; top:0; z-index:10;
 }
+/* ====== Tema "beige archivio" (override) ====== */
+:root{
+  --bg: #f3efe6;        /* carta */
+  --panel: #ede6d7;     /* pannelli */
+  --card: #f8f4eb;      /* schede */
+  --border: #d6cbb6;    /* bordi */
+  --text: #2b2620;      /* testo */
+  --muted: #6b6256;     /* testo secondario */
+  --link: #2f5e4e;      /* verde archivio */
+  --badge-bg: #e6dccb;  /* badge chiari */
+  --badge-text: #2b2620;
+  --table-head: #e9dfcc;
+  --shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+html, body{
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+a{
+  color: var(--link) !important;
+}
+
+.sidebar, aside, .left, .filters, .panel{
+  background: var(--panel) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+.card{
+  background: var(--card) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+.hint, .muted, small{
+  color: var(--muted) !important;
+}
+
+input, select{
+  background: #fffaf0 !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+}
+
+table.grid, table{
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+table thead th{
+  background: var(--table-head) !important;
+  color: var(--text) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+table td, table th{
+  border-color: var(--border) !important;
+}
+
+.badge{
+  background: var(--badge-bg) !important;
+  color: var(--badge-text) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.badges .badge, .badge{
+  box-shadow: none !important;
+}
+
+button, .btn{
+  background: #e3d7c2 !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+}
+
+button:hover, .btn:hover{
+  filter: brightness(0.98);
+}
 
 .brand{display:flex; align-items:center; gap:10px}
 .logo{font-size:20px}
