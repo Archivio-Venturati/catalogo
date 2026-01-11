@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Archivio – Fondi</title>
 
-  <link rel="stylesheet" href="style.css?v=1">
+  <!-- CSS: path assoluto (robusto su GitHub Pages) -->
+  <link rel="stylesheet" href="/Archivio-Storico-Politico-Carlo-Venturati/style.css?v=10">
 
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 </head>
@@ -23,25 +24,19 @@
 
   <main class="layout">
     <aside class="sidebar">
-
       <div class="box">
         <div class="box-title">Ricerca</div>
         <label for="q">Cerca</label>
         <input id="q" type="search" placeholder="Titolo, autore, tag, codice…" />
-        <div class="hint">
-          Suggerimento: usa parole brevi (es. “socialismo”, “Togliatti”, “1960”).
-        </div>
+        <div class="hint">Suggerimento: usa parole brevi (es. “socialismo”, “Togliatti”, “1960”).</div>
       </div>
 
       <div class="box">
         <div class="box-title">Filtri</div>
-
         <label for="authorFilter">Autore</label>
         <select id="authorFilter"><option value="">(tutti)</option></select>
-
         <label for="tagFilter">Tag</label>
         <select id="tagFilter"><option value="">(tutti)</option></select>
-
         <button id="clearFilters" class="btn" type="button">Azzera filtri</button>
       </div>
 
@@ -49,7 +44,6 @@
         <div class="box-title">Fondi</div>
         <div id="fundList" class="fund-list"></div>
       </div>
-
     </aside>
 
     <section class="content">
@@ -62,6 +56,6 @@
     <span id="count"></span>
   </footer>
 
-  <script src="app.js?v=1"></script>
+  <script src="/Archivio-Storico-Politico-Carlo-Venturati/app.js?v=10"></script>
 </body>
 </html>
