@@ -16,14 +16,14 @@ Il fondo è stato donato dalla Famiglia di Carlo Venturati. Il fondo è il più 
   "Gallavresi": {
     subtitle: "Fondo Gallavresi",
     text: `Il fondo Gallavresi rappresenta il lascito alla Casa del Popolo da parte della Cooperativa dei Lavoratori di Caravaggio e del Circolo "Gallavresi" di Caravaggio del Partito Socialista Italiano. 
-    I Socialisti hanno rappresentato una parte fondamentale della storia politica e culturale di Caravaggio. Fin dalla fine del XIX secolo, infatti, Caravaggio è stata un terreno molto fertile per le idee del socialismo. Nelle sue campagne, già nel 1897 nasce la Lega di resistenza contadina e nel 1898 la Lega dei muratori. 
-    Nel Novecento, fu soprattutto grazie alla costruzione e gestione del Circulì che fino al 2023 la Cooperativa diviene punto di riferimento per la cultura socialdemocratica della Bassa Bergamasca. 
-    Il Circolo socialista, attivo fino ai primi anni '10 del 2000, è intitolato all'Onorevole Emilio Gallavresi (1856-1931), figura di spicco del socialismo italiano e deputato con il PSI per due legislature. La sua famiglia fu proprietaria dell'attuale Palazzo Comunale.`
+I Socialisti hanno rappresentato una parte fondamentale della storia politica e culturale di Caravaggio. Fin dalla fine del XIX secolo, infatti, Caravaggio è stata un terreno molto fertile per le idee del socialismo. Nelle sue campagne, già nel 1897 nasce la Lega di resistenza contadina e nel 1898 la Lega dei muratori. 
+Nel Novecento, fu soprattutto grazie alla costruzione e gestione del Circulì che fino al 2023 la Cooperativa diviene punto di riferimento per la cultura socialdemocratica della Bassa Bergamasca. 
+Il Circolo socialista, attivo fino ai primi anni '10 del 2000, è intitolato all'Onorevole Emilio Gallavresi (1856-1931), figura di spicco del socialismo italiano e deputato con il PSI per due legislature. La sua famiglia fu proprietaria dell'attuale Palazzo Comunale.`
   },
   "Stella": {
     subtitle: "Fondo Stella",
     text: `Si tratta del fondo iniziale della Casa del Popolo, lascito delle diverse organizzazioni politiche che l'hanno animata, ovvero Partito Comunista Italiano, Partito Democratico della Sinistra, Democratici di Sinistra e Partito Democratico.
-    Nella maggior parte è costituito da documentazione interna e organizzativa o materiale elettorale, ma anche da libri editi di vario genere.`
+Nella maggior parte è costituito da documentazione interna e organizzativa o materiale elettorale, ma anche da libri editi di vario genere.`
   },
   "Castelli": { subtitle: "Fondo Castelli", text: `Scrivi qui la descrizione.` },
   "Stuani":   { subtitle: "Fondo Stuani",   text: `Scrivi qui la descrizione.` },
