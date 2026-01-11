@@ -9,24 +9,31 @@
 const DATA_FILE = "archivio.csv";
 
 // Descrizioni dei fondi (chiavi = valore esatto della colonna "Fondo" nel CSV, senza spazi finali)
+// Qui NON metti HTML nel testo: metti solo testo + (opzionale) percorso immagine.
 const FUND_INFO = {
   "Venturati": {
-  subtitle: "Fondo Venturati",
-  text: `<img src="images/carlo_venturati.jpg" style="max-width:300px; margin-bottom:10px">
-
-Carlo Venturati nacque a Caravaggio il 21/7/1921.
+    subtitle: "Fondo Venturati",
+    image: "images/carlo_venturati.jpg",
+    text: `Carlo Venturati nacque a Caravaggio il 21/7/1921.
 Nel 1940, iscritto al primo anno della facoltà di chimica, venne chiamato sotto le armi. Fatto prigioniero in Albania, a Durazzo, il 10/9/1943, deportato in Austria, Polonia e Germania, il 7/4/1945 a Stahle venne liberato dalla 9A armata americana. Solo il 13/9/1945 fece ritorno a Caravaggio con negli occhi e nella mente gli orrori della guerra, della prigionia, della deportazione e subito si iscrisse al Partito Socialista Italiano.
 Cambiò anche corso di studi e già nel marzo del 1948 si laureò in giurisprudenza presso l’Università degli Studi di Milano per poi intraprendere la professione di avvocato.
 Per circa trent’anni, dal 1952, fu consigliere comunale prima a Caravaggio e poi a Treviglio, dove era andato a risiedere con la famiglia, e occupò posti chiave nel PSI: consigliere provinciale, segretario della Sezione di Treviglio, segretario della Federazione di Bergamo, membro dei probi viri del partito.
 Morì in Spagna, improvvisamente, l’11 maggio 1984, durante una breve vacanza.
 
 Il fondo è stato donato dalla Famiglia di Carlo Venuturati. Il fondo è il più consistente posseduto dall'Archivio che, difatti, è intitolato a Venturati. È costituito per la maggior parte di opere edite di stampo politico e filosofico-politico, soprattutto sul tema del socialismo italiano.`
-},
-  "Gallavresi": { subtitle: "Fondo Gallavresi", text: `Il fondo Gallavresi è stato di proprietà della Cooperativa dei Lavoratori di Caravaggio e del Circolo "Gallavresi" di Caravaggio del Partito Socialista Italiano.` },
-  "Stella":     { subtitle: "Fondo Stella",     text: `Si tratta del fondo iniziale della Casa del Popolo, lascito delle diverse organizzazioni politiche che l'hanno animata.` },
-  "Castelli":   { subtitle: "Fondo Castelli",   text: `Scrivi qui la descrizione.` },
-  "Stuani":     { subtitle: "Fondo Stuani",     text: `Scrivi qui la descrizione.` },
-  "Rossoni":    { subtitle: "Fondo Rossoni",    text: `Scrivi qui la descrizione.` },
+  },
+
+  "Gallavresi": {
+    subtitle: "Fondo Gallavresi",
+    text: `Il fondo Gallavresi è stato di proprietà della Cooperativa dei Lavoratori di Caravaggio e del Circolo "Gallavresi" di Caravaggio del Partito Socialista Italiano.`
+  },
+  "Stella": {
+    subtitle: "Fondo Stella",
+    text: `Si tratta del fondo iniziale della Casa del Popolo, lascito delle diverse organizzazioni politiche che l'hanno animata.`
+  },
+  "Castelli": { subtitle: "Fondo Castelli", text: `Scrivi qui la descrizione.` },
+  "Stuani":   { subtitle: "Fondo Stuani",   text: `Scrivi qui la descrizione.` },
+  "Rossoni":  { subtitle: "Fondo Rossoni",  text: `Scrivi qui la descrizione.` },
 };
 
 let RECORDS = [];
@@ -190,8 +197,11 @@ function renderFund(fondo) {
 
       ${
         info
-          ? `<div class="hint">${escapeHtml(info.subtitle || "")}</div>
-             <div style="margin-top:10px; white-space:pre-wrap">${info.text || ""}</div>`
+          ? `
+            <div class="hint">${escapeHtml(info.subtitle || "")}</div>
+            ${info.image ? `<img src="${escapeAttr(info.image)}" style="max-width:300px; margin:10px 0" onerror="this.style.display='none'">` : ``}
+            <div style="margin-top:10px; white-space:pre-wrap">${escapeHtml(info.text || "")}</div>
+          `
           : `<div class="hint">Descrizione del fondo non ancora inserita.</div>`
       }
 
@@ -237,10 +247,14 @@ function renderBook(id) {
     return;
   }
 
+  const coverPath = r.codice ? `images/libri/${r.codice}.jpg` : "";
+
   setStatus("");
   view.innerHTML = `
     <div class="card">
       <h1>${escapeHtml(r.titolo)}</h1>
+
+      ${coverPath ? `<img src="${escapeAttr(coverPath)}" style="max-width:220px; margin:10px 0 12px" onerror="this.style.display='none'">` : ``}
 
       <div class="badges" style="margin:8px 0 12px">
         <a class="badge" href="#/fondo/${encodeURIComponent(r.fondo)}">Fondo: ${escapeHtml(r.fondo || "(n.d.)")}</a>
