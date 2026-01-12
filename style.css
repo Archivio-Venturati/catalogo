@@ -388,4 +388,23 @@ input[type="search"]::placeholder{ color:#8a7f70; }
     max-width: 110ch;   /* prima era 70ch */
   }
 }
+.thumb{
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.photo-full{
+  display:block;
+  width:100%;
+  max-width:900px;
+  max-height:70vh;
+  object-fit:contain;
+  margin:10px 0;
+  border-radius:12px;
+  border:1px solid var(--border);
+  box-shadow: var(--shadow);
+}
 
