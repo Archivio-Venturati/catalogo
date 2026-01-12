@@ -407,4 +407,11 @@ input[type="search"]::placeholder{ color:#8a7f70; }
   border:1px solid var(--border);
   box-shadow: var(--shadow);
 }
+.thumb{
+  width:54px;
+  height:54px;
+  object-fit:cover;
+  border-radius:10px;
+  border:1px solid var(--border);
+}
 
