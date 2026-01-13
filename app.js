@@ -240,8 +240,6 @@ Principalmente, raccoglie fondi provenienti da militanti, associazioni culturali
 È consultabile in sede, presso la Casa del Popolo di Caravaggio (BG), via Fermo Stella 10. Si consiglia appuntamento, scrivendo a pdcaravaggio@gmail.com oppure circoloarcicaravaggio@gmail.com.
 Allo stesso modo, se hai un fondo affine ai nostri e vuoi renderlo pubblicamente consultabile, scrivici!
 
-
-
 <b>Disclaimer: l'Archivio raccoglie anche materiale fotografico rinvenuto alla Casa del Popolo o donato da privati afferenti a realtà politiche. Si tratta di immagini di momenti di vita politica. Abbiamo deciso di caricare tutte le immagini che raffigurano certamente momenti di vita politica <i>collettiva</i>, mentre per quelle raffiguranti un primo piano che non abbiamo a che fare con materiale elettorale abbiamo lasciato solo i metadati. Tuttavia, se qualcuno volesse oscurare una fotografia che lo ritrae, non esiti a contattarci. Immagini e documenti sono pubblicati ai soli fini di documentazione storica e culturale.</b> 
 
 La sistemazione dell'Archivio è in corso. Nel tempo saranno resi disponibili altri record, pdf e fotografie. Se vuoi aiutare a completare l'Archivio, contattaci!
