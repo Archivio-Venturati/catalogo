@@ -9,6 +9,16 @@
 const DATA_FILE = "Archivio.csv";
 
 // Info fondi: chiavi = valore esatto della colonna "Fondo" nel CSV (senza spazi finali)
+
+const CASA_DEL_POPOLO_STORIA = `
+<h1>Casa del Popolo di Caravaggio</h1>
+
+<p class="lead">
+Storia...
+</p>
+
+`;
+
 const FUND_INFO = {
   "Venturati": {
     subtitle: "Fondo Venturati",
@@ -348,6 +358,14 @@ function renderFund(fondo) {
   if (c) c.textContent = `${inFund.length} nel fondo “${key}”`;
 }
 
+function renderStoria() {
+  setStatus("");
+  const view = el("view");
+  view.innerHTML = `<div class="card prose">${CASA_DEL_POPOLO_STORIA}</div>`;
+  const c = el("count");
+  if (c) c.textContent = "";
+}
+
 function renderBook(id) {
   const r = RECORDS.find(x => x.id === id);
   const view = el("view");
@@ -407,6 +425,7 @@ function parseRoute() {
   if (parts.length === 0) return { name: "home" };
   if (parts[0] === "fondo") return { name: "fondo", fondo: decodeURIComponent(parts.slice(1).join("/")) };
   if (parts[0] === "libro") return { name: "libro", id: decodeURIComponent(parts.slice(1).join("/")) };
+  if (parts[0] === "storia") return { name: "storia" };
   return { name: "home" };
 }
 
@@ -415,6 +434,7 @@ function render() {
   if (route.name === "home") return renderHome();
   if (route.name === "fondo") return renderFund(route.fondo);
   if (route.name === "libro") return renderBook(route.id);
+  if (route.name === "storia") return renderStoria();
 }
 
 function wireEvents() {
