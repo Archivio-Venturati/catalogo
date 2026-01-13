@@ -24,7 +24,6 @@ Il fondo è stato donato dalla Famiglia di Carlo Venturati. Il fondo è il più 
 
   "Gallavresi": {
     subtitle: "Fondo Gallavresi",
-    image: "images/gallavresi.jpeg",
      image: "images/circuli.jpeg",
     text: `Il fondo Gallavresi rappresenta il lascito alla Casa del Popolo da parte della Cooperativa dei Lavoratori di Caravaggio e del Circolo "Gallavresi" di Caravaggio del Partito Socialista Italiano. 
 I Socialisti hanno rappresentato una parte fondamentale della storia politica e culturale di Caravaggio. Fin dalla fine del XIX secolo, infatti, Caravaggio è stata un terreno molto fertile per le idee del socialismo. Nelle sue campagne, già nel 1897 nasce la Lega di resistenza contadina e nel 1898 la Lega dei muratori. 
