@@ -51,6 +51,9 @@ Nella maggior parte è costituito da documentazione interna e organizzativa o ma
   "Stuani":   { subtitle: "Fondo Stuani",   text: `Scrivi qui la descrizione.` },
   "Rossoni":  { subtitle: "Fondo Rossoni",  text: `Scrivi qui la descrizione.` },
   "Crapabela":  { subtitle: "Fondo Crapabela",  text: `Giuseppe Pisoni, detto "Crapabela", è stato segretario politico del Partito Comunista Italiano - Sezione di Caravaggio...` },
+  "PD Caravaggio":  { subtitle: "Fondo del Partito Democratico - Circolo di Caravaggio",  text: `Il Circolo del Partito Democratico si è costituito a Caravaggio nel 2008, un anno dopo la sua fondazione nazionale
+  Si costituisce dalla fusione fra i militanti della Margherita e quelli dei Democratici di Sinistra, i quali, questi ultimi, detenevano parte della proprietà della Casa del Popolo. Per questo motivo è il Partito che ancora
+  abita la nostra Casa, e che ha reso possibile il mantenimento della sua vitalità anche negli anni più difficili dopo la chiusura delle attività del Circolo Arci.` 
 };
 
 let RECORDS = [];
