@@ -909,6 +909,42 @@ img{
   .badge{ max-width: 100%; white-space: normal; }
 }
 
+.fund-teaser{
+  color: var(--muted);
+  margin-top: 10px;
+  line-height: 1.55;
+}
 
+.fund-details{
+  margin-top: 10px;
+  background: linear-gradient(180deg, var(--panel), var(--panel2));
+  box-shadow: var(--shadowSoft);
+  padding: 10px 12px;
+}
+
+.fund-details summary{
+  cursor: pointer;
+  font-weight: 950;
+  color: var(--silver);
+  list-style: none;
+}
+.fund-details summary::-webkit-details-marker{ display:none; }
+
+.fund-details summary::after{
+  content: " ↴";
+  opacity: .8;
+  font-weight: 900;
+}
+
+.fund-details[open] summary::after{
+  content: " ↥";
+}
+
+.fund-text{
+  margin-top: 10px;
+  color: var(--text);
+  line-height: 1.65;
+  white-space: pre-wrap; /* mantiene a capo del testo originale */
+}
 
 
