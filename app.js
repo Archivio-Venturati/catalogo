@@ -92,6 +92,27 @@ function splitTags(s) {
   return t.split(",").map(x => x.trim()).filter(Boolean);
 }
 
+function prettyTag(s) {
+  const t = norm(s);
+  if (!t) return "";
+  return t
+    .replace(/[_-]+/g, " ")
+    .replace(/([a-zà-ù])([A-Z])/g, "$1 $2")   // PoliticaComunismo -> Politica Comunismo
+    .replace(/(\d)([A-Z])/g, "$1 $2")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function renderTags(tags) {
+  const arr = Array.isArray(tags) ? tags : splitTags(tags);
+  if (!arr.length) return "";
+  return `
+    <div class="tagwrap">
+      ${arr.map(t => `<span class="tagpill">${escapeHtml(prettyTag(t))}</span>`).join("")}
+    </div>
+  `;
+}
+
 function splitAuthors(row) {
   const keys = Object.keys(row);
   const a = [];
@@ -314,7 +335,7 @@ function renderFund(fondo) {
               <td><a href="#/libro/${encodeURIComponent(r.id)}">${escapeHtml(r.titolo)}</a></td>
               <td>${escapeHtml(r.autori.join("; "))}</td>
               <td>${escapeHtml(r.anno)}</td>
-              <td><div class="badges">${r.tags.map(t => `<span class="badge">${escapeHtml(t)}</span>`).join("")}</div></td>
+             <td class="tags-cell">${renderTags(r.tags)}</td>
               <td>${escapeHtml(r.codice)}</td>
               <td>${r.immagine ? `<img class="thumb" src="${escapeAttr(r.immagine)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ``}</td>
             </tr>
