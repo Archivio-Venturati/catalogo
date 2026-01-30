@@ -518,3 +518,15 @@ body.is-home .home-inner{
   padding: 14px;           /* padding solo ai contenuti sotto la foto */
 }
 body.is-home .footer{ display:none; }
+/* HOME full-bleed reale (niente margini laterali) */
+body.is-home .layout{
+  max-width: 100vw;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body.is-home .home-inner{
+  max-width: 100%;
+  padding-left: 14px;
+  padding-right: 14px;
+}
