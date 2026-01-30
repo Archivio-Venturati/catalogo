@@ -309,7 +309,23 @@ function renderFund(fondo) {
           ? `
             <div class="hint">${escapeHtml(info.subtitle || "")}</div>
             ${info.image ? `<img class="fund-photo" src="${escapeAttr(info.image)}" alt="" onerror="this.style.display='none'">` : ``}
-            <div class="fund-text">${escapeHtml(info.text || "")}</div>
+
+${(() => {
+  const full = (info.text || "").toString().trim();
+  const oneLine = full.replace(/\s+/g, " ");
+  const teaser = oneLine.length > 260 ? oneLine.slice(0, 260).trim() + "…" : oneLine;
+
+  return `
+    <div class="fund-teaser">${escapeHtml(teaser || "Descrizione in preparazione.")}</div>
+
+    ${full ? `
+      <details class="fund-details">
+        <summary>Storia e descrizione</summary>
+        <div class="fund-text">${escapeHtml(full)}</div>
+      </details>
+    ` : ``}
+  `;
+})()}
           `
           : `<div class="hint">Descrizione del fondo non ancora inserita.</div>`
       }
