@@ -530,3 +530,49 @@ body.is-home .home-inner{
   padding-left: 14px;
   padding-right: 14px;
 }
+/* ==========================
+   MENU SEMPRE A TENDINA
+   ========================== */
+
+.menu-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid var(--border);
+  background:#0a101a;
+  color:var(--text);
+  border-radius:0;
+  padding:10px 12px;
+  font-weight:900;
+  cursor:pointer;
+}
+
+/* nav nascosto di default */
+.topnav{
+  display:none;
+  position:absolute;
+  right:14px;
+  top:54px;
+  flex-direction:column;
+  min-width:220px;
+
+  border:1px solid var(--border);
+  background:linear-gradient(180deg,#0b111b,#090e16);
+  border-radius:0;
+  box-shadow:var(--shadow2);
+  overflow:hidden;
+  z-index:9999;
+}
+
+.topnav a{
+  padding:12px 14px;
+  color:var(--text);
+  font-weight:900;
+  border-bottom:1px solid var(--border);
+}
+.topnav a:last-child{border-bottom:0;}
+
+/* stato aperto */
+body.nav-open .topnav{
+  display:flex;
+}
