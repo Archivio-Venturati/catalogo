@@ -510,3 +510,32 @@ async function loadData() {
 }
 
 loadData();
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("menuBtn");
+  const nav = document.getElementById("topnav");
+  if (!btn || !nav) return;
+
+  function closeMenu() {
+    document.body.classList.remove("nav-open");
+    btn.setAttribute("aria-expanded", "false");
+  }
+
+  btn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const open = document.body.classList.toggle("nav-open");
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+
+  // chiudi cliccando fuori
+  document.addEventListener("click", (e) => {
+    if (!document.body.classList.contains("nav-open")) return;
+    if (nav.contains(e.target) || btn.contains(e.target)) return;
+    closeMenu();
+  });
+
+  // chiudi quando clicchi un link
+  nav.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
+
+  // chiudi quando cambi pagina (hash)
+  window.addEventListener("hashchange", closeMenu);
+});
