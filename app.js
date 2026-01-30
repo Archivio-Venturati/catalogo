@@ -339,49 +339,98 @@ function renderStoria() {
 function renderBook(id) {
   const r = RECORDS.find(x => x.id === id);
   const view = el("view");
+
   if (!r) {
     setStatus("Record non trovato.");
-    view.innerHTML = `<div class="card"><h1>Non trovato</h1><p>Il record richiesto non esiste (o il codice è cambiato).</p></div>`;
+    view.innerHTML = `
+      <div class="card">
+        <h1>Non trovato</h1>
+        <p>Il record richiesto non esiste (o il codice è cambiato).</p>
+      </div>`;
     return;
   }
 
-  // Copertina opzionale: images/libri/CODICE.jpg
+  // Tags robusti (possono essere: array, stringa, vuoti, undefined)
+  const rawTags = r.tags ?? r.tag ?? [];
+  const tags = Array.isArray(rawTags)
+    ? rawTags.filter(Boolean)
+    : (rawTags ? [rawTags] : []);
+
+  // Copertina opzionale: SOLO se hai codice
   const coverPath = r.codice ? `images/libri/${encodeURIComponent(r.codice)}.jpg` : "";
 
+  // Meta: tieni SOLO quelli sensati e non vuoti
+  const metaHtml = `
+    <div class="kv">
+      ${metaRow("Codice", r.codice)}
+      ${metaRow("Tipo", r.tipo)}
+      ${metaRow("Volume", r.volume)}
+      ${metaRow("Autore/i", r.autori?.length ? r.autori.join("; ") : "")}
+      ${metaRow("Anno", r.anno)}
+      ${metaRow("Luogo", r.luogo)}
+      ${metaRow("Editore", r.editore)}
+    </div>
+  `.trim();
+
   setStatus("");
+
   view.innerHTML = `
-    <div class="card">
-      <h1>${escapeHtml(r.titolo)}</h1>
-      
-${r.immagine ? `<img class="photo-full" src="${escapeAttr(r.immagine)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ``}
+    <div class="book">
 
-      ${coverPath ? `<img class="fund-photo" src="${escapeAttr(coverPath)}" alt="" onerror="this.style.display='none'">` : ``}
+      <header class="book-head">
+        <h1>${escapeHtml(r.titolo || "Senza titolo")}</h1>
 
-      <div class="badges" style="margin:8px 0 12px">
-        <a class="badge" href="#/fondo/${encodeURIComponent(r.fondo)}">Fondo: ${escapeHtml(r.fondo || "(n.d.)")}</a>
-        ${r.tags.map(t => `<span class="badge">${escapeHtml(t)}</span>`).join("")}
-      </div>
+        <div class="book-sub">
+          ${r.fondo ? `Fondo: <a href="#/fondo/${encodeURIComponent(r.fondo)}">${escapeHtml(r.fondo)}</a>` : ""}
+          ${r.codice ? ` · Codice: <span class="mono">${escapeHtml(r.codice)}</span>` : ""}
+          ${r.anno ? ` · Anno: <span class="mono">${escapeHtml(r.anno)}</span>` : ""}
+        </div>
 
-      <div class="meta">
-  ${metaRow("Codice", r.codice)}
-  ${metaRow("Tipo", r.tipo)}
-  ${metaRow("Volume", r.volume)}
-  ${metaRow("Autore/i", r.autori?.length ? r.autori.join("; ") : "")}
-  ${metaRow("Anno", r.anno)}
-  ${metaRow("Luogo", r.luogo)}
-  ${metaRow("Editore", r.editore)}
-</div>
+        ${tags.length ? `
+          <div class="book-tags">
+            ${tags.map(t => `<span class="tagpill" title="${escapeAttr(String(t))}">${escapeHtml(String(t))}</span>`).join("")}
+          </div>` : ``}
+      </header>
 
+      ${(r.immagine || coverPath) ? `
+        <section class="book-media">
+          ${r.immagine ? `
+            <img class="book-img"
+                 src="${escapeAttr(r.immagine)}"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.remove()">
+          ` : ``}
 
-      ${r.pdf ? `
-        <p style="margin-top:12px">
-          <a class="btn" style="display:inline-block;width:auto" href="${escapeAttr(r.pdf)}" target="_blank" rel="noopener">
-            Apri PDF
-          </a>
-        </p>
+          ${coverPath ? `
+            <img class="book-img"
+                 src="${escapeAttr(coverPath)}"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.remove()">
+          ` : ``}
+        </section>
       ` : ``}
 
-      <p style="margin-top:14px"><a href="#/fondo/${encodeURIComponent(r.fondo)}">← Torna al fondo</a></p>
+      <section class="book-meta">
+        ${metaHtml}
+      </section>
+
+      ${r.pdf ? `
+        <section class="book-actions">
+          <a class="btn btn-inline"
+             href="${escapeAttr(r.pdf)}"
+             target="_blank"
+             rel="noopener">
+            Apri PDF
+          </a>
+        </section>
+      ` : ``}
+
+      <footer class="book-footer">
+        <a href="#/fondo/${encodeURIComponent(r.fondo || "")}">← Torna al fondo</a>
+      </footer>
+
     </div>
   `;
 
