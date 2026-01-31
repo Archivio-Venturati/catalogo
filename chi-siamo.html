@@ -1,21 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>Chi siamo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chi siamo — Archivio Venturati</title>
+
+  <!-- CSS del sito (se il file si chiama davvero style.css ed è in root) -->
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Chi siamo</h1>
+  <!-- Header semplice coerente con il sito -->
+  <header class="topbar">
+    <a class="brand" href="./#/">
+      <!-- Se vuoi il logo anche qui, lascia questa riga; altrimenti puoi toglierla -->
+      <img class="logo" src="images/logo.png" alt="Archivio Venturati" />
+      <span>Archivio Venturati</span>
+    </a>
 
-  <p>
-    L’Archivio Storico-Politico “Carlo Venturati” raccoglie volumi, documenti,
-    fotografie e manifesti relativi alla storia politica e culturale della
-    sinistra a Caravaggio e nella Bassa bergamasca.
-  </p>
+    <!-- Link rapido -->
+    <nav class="topnav">
+      <a href="./#/archivio">Archivio</a>
+      <a href="./#/storia">La Casa del Popolo</a>
+      <a href="come-citare.html">Come citare</a>
+    </nav>
+  </header>
 
-  <p>
-    Il progetto nasce con finalità di conservazione, studio e divulgazione
-    culturale del patrimonio documentario.
-  </p>
+  <main class="content">
+    <div class="card prose">
+      <h1>Chi siamo</h1>
+
+      <p>
+        L’Archivio Storico-Politico “Carlo Venturati” raccoglie volumi, documenti,
+        fotografie e manifesti relativi alla storia politica e culturale della
+        sinistra a Caravaggio e nella Bassa bergamasca.
+      </p>
+
+      <p>
+        Il progetto nasce con finalità di conservazione, studio e divulgazione
+        culturale del patrimonio documentario.
+      </p>
+    </div>
+  </main>
 </body>
 </html>
