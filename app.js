@@ -455,13 +455,8 @@ function renderBook(id) {
         <div class="book-sub">
           ${r.fondo ? `Fondo: <a href="#/fondo/${encodeURIComponent(r.fondo)}">${escapeHtml(r.fondo)}</a>` : ""}
           ${r.codice ? ` · Codice: <span class="mono">${escapeHtml(r.codice)}</span>` : ""}
-          ${r.anno ? ` · Anno: <span class="mono">${escapeHtml(r.anno)}</span>` : ""}
         </div>
 
-        ${tags.length ? `
-          <div class="book-tags">
-            ${tags.map(t => `<span class="tagpill" title="${escapeAttr(String(t))}">${escapeHtml(String(t))}</span>`).join("")}
-          </div>` : ``}
       </header>
 
       ${(r.immagine || coverPath) ? `
