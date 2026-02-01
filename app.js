@@ -267,11 +267,13 @@ function renderHome() {
           <div class="p">Dalla casa del PCI alla rigenerazione di una comunità</div>
         </a>
       </div>
-      <div class="rings">
-        ${ringHtml("Patrimonio librario", libriCount, totalAll)}
-        ${ringHtml("Patrimonio documentale", docCount, totalAll)}
-        ${ringHtml("Patrimonio fotografico", fotoCount, totalAll)}
-      </div>
+    <div class="ring-panel">
+  <div class="rings">
+    ${ringHtml("Patrimonio librario", libriCount, totalAll)}
+    ${ringHtml("Patrimonio documentale", docCount, totalAll)}
+    ${ringHtml("Patrimonio fotografico", fotoCount, totalAll)}
+  </div>
+</div>
       <div class="accordion" style="margin-top:14px">
         <details open>
           <summary>Il progetto</summary>
