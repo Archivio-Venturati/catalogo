@@ -205,7 +205,7 @@ function renderHome() {
 
   const isLibro = (t) => {
     const x = (t || "").toString().trim().toLowerCase();
-    return x === "libro edito" || x === "libro autoprodotto";
+    return x === "libro edito" || x === "libro autoprodotto" || x === "periodici" || x === "studi e documentazione di ricerca";
   };
 
   const isFoto = (t) => {
