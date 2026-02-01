@@ -200,6 +200,38 @@ function renderHome() {
   const view = el("view");
 
   const total = RECORDS.length;
+    // === Patrimoni (regole richieste) ===
+  const totalAll = RECORDS.length;
+
+  const isLibro = (t) => {
+    const x = (t || "").toString().trim().toLowerCase();
+    return x === "libro edito" || x === "libro autoprodotto";
+  };
+
+  const isFoto = (t) => {
+    const x = (t || "").toString().trim().toLowerCase();
+    return x === "fotografia";
+  };
+
+  const libriCount = RECORDS.filter(r => isLibro(r.tipo)).length;
+  const fotoCount  = RECORDS.filter(r => isFoto(r.tipo)).length;
+  const docCount   = totalAll - libriCount - fotoCount; // tutto il resto
+    const ringHtml = (label, count, total, desc) => {
+    const p = total > 0 ? (count / total) : 0; // 0..1
+    const safeP = Math.max(0, Math.min(1, p));
+    return `
+      <div class="ring-card">
+        <div class="ring" style="--p:${safeP}">
+          <div class="ring-circle" aria-label="${escapeAttr(label)} ${count} su ${total}"></div>
+          <div class="ring-meta">
+            <div class="k">${escapeHtml(label)}</div>
+            <div class="v">${count}/${total}</div>
+            <div class="p">${escapeHtml(desc)}</div>
+          </div>
+        </div>
+      </div>
+    `;
+  };
   const fondiCount = FUNDS.length;
 
   const heroImg = HERO_IMAGE;
@@ -235,7 +267,11 @@ function renderHome() {
           <div class="p">Dalla casa del PCI alla rigenerazione di una comunità</div>
         </a>
       </div>
-
+      <div class="rings">
+        ${ringHtml("Patrimonio librario", libriCount, totalAll, "Tipi: “libro edito” + “libro autoprodotto”")}
+        ${ringHtml("Patrimonio documentale", docCount, totalAll, "Tutto ciò che non è libro o fotografia")}
+        ${ringHtml("Patrimonio fotografico", fotoCount, totalAll, "Tipo: “fotografia”")}
+      </div>
       <div class="accordion" style="margin-top:14px">
         <details open>
           <summary>Il progetto</summary>
@@ -277,6 +313,7 @@ function renderHome() {
       </div>
     </div>
   `;
+
 
   const c = el("count");
   if (c) c.textContent = "";
