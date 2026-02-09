@@ -1250,3 +1250,10 @@ main.content .card.prose {
   font-size: 13px;
   color: var(--muted);
 }
+.hof-img{
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* QUADRATO PERFETTO */
+  object-fit: cover;     /* riempie il quadrato tagliando il giusto */
+  margin: 10px 0;
+  background: rgba(0,0,0,.25);
+}
