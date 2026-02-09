@@ -214,10 +214,10 @@ input[type="search"]::placeholder{ color:#7c8aa3; }
 }
 .stat .j{
    text-alig: center;
-    color: var(--muted);
-  font-size:12px;
-  text-transform: uppercase;
-  letter-spacing:.08em;
+    color: var(--text);
+  font-size:15px;
+ font-weight: 900;
+   margin-bottom: 6px;
 }
 .stat .v{
   margin-top:6px;
