@@ -1,603 +1,603 @@
-"Numero,Titolo,Codice,Tipo,Volume,""Autore (Cognome, Nome)"",""Autore (Cognome, Nome) copy"",""Autore (Cognome, Nome) copy copy"",Anno di pubblicazione,Luogo,Editore,Tags,Fondo,Fondo (from Fondo),pdf,Immagine,Collocazione"
-"0,Autogestione e problemi della transizione,01.1.AAVAUT,Libro edito,,AAVV,,,1975,Venezia-Padova,Marsilio editori,""Politica,Socialismo"",Venturati,Venturati,,,"
-1,La bibbia delle famiglie,01.1.AAVBIB,Libro edito,,AAVV,,,1961,Roma,Edizioni Paoline,Religione,Venturati,Venturati,,,
-"2,Cinquant'anni di Concordato,01.1.AAVCIN,Libro edito,,AAVV,,,1979,Firenze ,La Nuova Italia,""Politica,Chiesa"",Venturati,Venturati,,,"
-"3,Crisi della DC e alternativa socialista,01.1.AAVCRI,Libro edito,,AAVV,,,1975,Venezia-Padova,Marsilio Editori,""Politica,Socialismo"",Venturati,Venturati,,,"
-4,Dall'origine della terra all'homo sapiens,01.1.AAVDAL,Libro edito,,AAVV,,,1958,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,
-5,La Ginnastica Intellettuale. Esercizi e consigli pratici per sviluppare l’intelligenza ,01.1.AAVGIN,Libro edito,,AAVV,,,1922,Milano ,Istituito Hermes Editore,Educazione,Venturati,Venturati,,,
-6,L’arte di parlare in Pubblico. Come si impara a improvvisare un discorso ,01.1.AAVLARI,Libro edito,,AAVV,,,1928,Milano ,Istituto Hermes Editore,Educazione,Venturati,Venturati,,,
-"7,L’arte di ragionare. Come si impara a ragionare e giudicare colla propria testa ,01.1.AAVLARR,Libro edito,,AAVV,,,1928,Milano ,Istituto Hermes Editore,""Educazione,Filosofia"",Venturati,Venturati,,,"
-"8,Lenin teorico e dirigente rivoluzionario,01.1.AAVLEN,Libro edito,,AAVV,,,1970,Roma,Critica Marxista,""Politica,Comunismo,Biografico"",Venturati,Venturati,,,"
-9,Manifestazione nazionale per la riforma agraria,01.1.AAVMAN,Libro edito,,AAVV,,,1961,Roma ,Stabilimento tipografico G.A.T.E,Politica,Venturati,Venturati,,,
-"10,Morte di un generale,01.1.AAVMOR,Libro edito,,AAVV,,,1982,Milano,Mondadori,""Inchiesta,Politica"",Venturati,Venturati,,,"
-"11,Parlamento Istituzioni Democrazia. Seminario di studio,01.1.AAVPAR,Libro edito,,AAVV,,,1980,Milano,Giuffrè,""Politica,Amministrazione,Giuridico"",Venturati,Venturati,,,"
-"12,programmazione e mezzogiorno,01.1.AAVPRO,Libro edito,,AAVV,,,1966,Roma,Mondoperaio,""Politica,Socialismo"",Venturati,Venturati,,,"
-13,La scelta della professione,01.1.AAVSCE,Libro edito,,AAVV,,,1978,Milano,Giuffrè,Educazione,Venturati,Venturati,,,
-"14,Il socialismo dal basso,01.1.AAVSOB,Libro edito,,AAVV,,,1976,Venezia,Marsilio editori,""Politica,Socialismo"",Venturati,Venturati,,,"
-"15,I socialisti e la cultura,01.1.AAVSOC,Libro edito,,AAVV,,,1976,Venezia-Padova,Marsilio Editori,""Politica,Socialismo"",Venturati,Venturati,,,"
-"16,Storia del Partito Socialista Italiano,01.1.AAVSTO.1,Libro edito,1,AAVV,,,1980,Padova,Marsilio Editori,""Storia,Socialismo"",Venturati,Venturati,,,"
-"17,Storia del Partito Socialista Italiano,01.1.AAVSTO.2,Libro edito,2,AAVV,,,1980,Padova,Marsilio Editori,""Storia,Socialismo"",Venturati,Venturati,,,"
-"18,Storia del Partito Socialista Italiano,01.1.AAVSTO.3,Libro edito,3,AAVV,,,1980,Padova,Marsilio Editori,""Storia,Socialismo"",Venturati,Venturati,,,"
-"19,Togliatti nella storia d'Italia,01.1.AAVTOG,Libro edito,,AAVV,,,1984,Roma,Editori Riuniti,""Storia,Biografico,Comunismo"",Venturati,Venturati,,,"
-"20,Turati giovane,01.1.AAVTUR,Libro edito,,AAVV,,,1962,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"21,Un'esperienza riformista,01.1.AAVUNE,Libro edito,,AAVV,,,1983,Milano,CREA,""Amministrazione,Politica"",Venturati,Venturati,,,"
-"22,La filosofia di Benedetto Croce e la crisi della società italiana,01.1.ABBFIL,Libro edito,,""Abbate, Michele"",,,1955,Torino,Einaudi,Filosofia,Venturati,Venturati,,,"
-"23,Cittadini in uniforme,01.1.ACCCIT,Libro edito,,""Accame, Falco"",,,1976,Cosenza,Lerici,""Politica,Amministrazione"",Venturati,Venturati,,,"
-"24,Fiat confino,01.1.ACCFIA,Libro edito,,""Accornero, Aris"",,,1959,Milano ,Edizioni Avanti!,""Storia,Economia,Politica"",Venturati,Venturati,,,"
-"25,Socialismo tricolore,01.1.ACCSOC,Libro edito,,""Accame, Giano"",,,1983,Milano,Editoriale Nuova,""Politica,Socialismo"",Venturati,Venturati,,,"
-"26,""Discorsi di Enrico De Nicola, Enrico Altavilla,  Enrico Gonzales. Scritti di Collino Pansa, Giuseppe Polillo"",01.1.AFIDIS,Libro edito,,Associazione Forense Italiana,,,1956,Milano,Giuffrè,Politica,Venturati,Venturati,,,"
-"27,Rinascita. 1944-1962,01.1.ALARIN.1,Libro edito,1,""Alatri, Paolo"",,,1966,Firenze,Landi,""Politica,Comunismo"",Venturati,Venturati,,,"
-"28,Rinascita. 1944-1962,01.1.ALARIN.2,Libro edito,2,""Alatri, Paolo"",,,1966,Firenze,Landi,""Politica,Comunismo"",Venturati,Venturati,,,"
-"29,Rinascita. 1944-1962,01.1.ALARIN.3,Libro edito,3,""Alatri, Paolo"",,,1966,Firenze,Landi,""Politica,Comunismo"",Venturati,Venturati,,,"
-"30,Una crociata per la giustizia,01.1.ALBCRO,Libro edito,,""Albanese, Angelo"",,,1980,Roma,La Piramide,""Politica,Giuridico"",Venturati,Venturati,,,"
-"31,Il problema storico dell'arretratezza economica,01.1.ALEPRO,Libro edito,,Alexander Gerschenkron,,,1965,Torino,Einaudi,""Politica,Storia,Economia"",Venturati,Venturati,,,"
-"32,Poesie e canti della resistenza palestinese,01.1.ALFPOE,Libro edito,,Al Fat'h,,,1972,Milano,Edizioni movimento studentesco,""Politica,Resistenza,Comunismo,Socialismo"",Venturati,Venturati,,,"
-"33,Venti lettere a un amico,01.1.ALLVEN,Libro edito,,""Alliluieva, Svetlana"",,,1967,Milano,Mondadori,""Biografico,Comunismo"",Venturati,Venturati,,,"
-"34,Fascismo. Inchiesta socialista sulle gesta dei fascisti in Italia,01.1.AMBFAS,Libro edito,,""Ambrosoli, Luigi"",,,1963,Milano,Edizioni Avanti!,""Inchiesta,Fascismo"",Venturati,Venturati,,,"
-"35,Né aderire né sabotare 1915-1918,01.1.AMBNÉA,Libro edito,,""Ambrosoli, Luigi"",,,1961,Milano,Edizioni Avanti!,""Storia,Grande Guerra"",Venturati,Venturati,,,"
-"36,Fascismo e movimento operaio,01.1.AMEFAS,Libro edito,,""Amendola, Giorgio"",,,1975,Roma,Editori Riuniti,""Storia,Fascismo,Operaismo,Comunismo"",Venturati,Venturati,,,"
-"37,Una scelta di vita,01.1.AMESCE,Libro edito,,""Amendola, Giorgio"",,,1976,Milano,Rizzoli,""Biografico,Comunismo"",Venturati,Venturati,,,"
-"38,Tra passione e ragione,01.1.AMETRA,Libro edito,,""Amendola, Giorgio"",,,1982,Milano,Rizzoli,""Biografico,Comunismo"",Venturati,Venturati,,,"
-"39,Un'isola,01.1.AMEUNI,Libro edito,,""Amendola, Giorgio"",,,1980,Milano,Rizzoli,""Biografico,Comunismo"",Venturati,Venturati,,,"
-"40,Rosa Luxemburg. Scritti scelti,01.1.AMOROS,Libro edito,,""Amodio, Luciano"",,,1963,Milano,Edizioni Avanti!,""Politica,Socialismo,Filosofia politica"",Venturati,Venturati,,,"
-"41,L'africa e la comunità economica europea,01.1.ANDILAF,Libro edito,,""Andreis, Mario"",,,1967,Torino,Einaudi,""Economia,Esteri"",Venturati,Venturati,,,"
-"42,Trent'anni di storia italiana (1915-1945),01.1.ANTTRE,Libro edito,,""Antonicelli, Franco"",,,1961,Torino,Einaudi,""Storia,Fascismo,Resistenza"",Venturati,Venturati,,,"
-"43,Mondo Operaio 1956-1965,01.1.ARFMON.1,Libro edito,1,""Arfé, Gaetano"",,,1974,Firenze,Landi,""Politica,Socialismo"",Venturati,Venturati,,,"
-"44,Mondo Operaio 1956-1965,01.1.ARFMON.2,Libro edito,2,Arfé. Gaetano,,,1974,Firenze,Landi,""Politica,Socialismo"",Venturati,Venturati,,,"
-"45,Storia dell'Avanti! 1896-1926,01.1.ARFSTO.I,Libro edito,I,""Arfé, Gaetano"",,,1956,Milano-Roma,Edizioni Avanti!,""Storia,Socialismo"",Venturati,Venturati,,,"
-"46,Storia dell'Avanti! 1926-1940,01.1.ARFSTO.II,Libro edito,II,""Arfé, Gaetano"",,,1958,Milano-Roma,Edizioni Avanti!,""Storia,Socialismo"",Venturati,Venturati,,,"
-"47,Stato e chiesa in Polonia,01.1.ARPSTA,Libro edito,,Associazione italiana per i rapporti culturali con la Polonia,,,1959,Roma,Conoscersi,""Politica,Chiesa,Esteri"",Venturati,Venturati,,,"
-"48,Il dramma di Graziani nelle arringhe della difesa,01.1.AUGDRA,Libro edito,,""Augenti, G.P."",""Mastino del Rio, G."",""Carnelutti, F."",1950,Bologna,Zuffi Editore,""Storia,Biografico"",Venturati,Venturati,,,"
-"49,Blasco. La riabilitazione di un militante rivoluzionario,01.1.AZZBLA,Libro edito,,""Azzaroni, Alfredo"",,,1962,Milano,Azione Comune,""Biografico,Comunismo,Resistenza"",Venturati,Venturati,,,"
-"50,La vita spiegata ai miei figli,01.1.BACVIT,Libro edito,,""Bacus-Lindroth, Anne"",,,1999,Milano,Bompiani,Educazione,Venturati,Venturati,,,"
-"51,Aritmetica pratica per le scuole medie inferiori,01.1.BAFARI,Libro edito,,""Baffi, Contardo"",,,1934,Torino,Paravia,Educazione,Venturati,Venturati,,,"
-"52,Stato e Anarchia e altri scritti,01.1.BAKSTA,Libro edito,,""Bakunin, Michail A."",,,1968,Milano,Feltrinelli,""Politica,Anarchismo"",Venturati,Venturati,,,"
-"53,Costituzione e organi dello stato,01.1.BALCOS,Libro edito,,""Balzamo, Vincenzo"",""Prosperi, Franco"",,1977,Roma,Napoleone,Giuridico,Venturati,Venturati,,,"
-"54,Diritti civili e libertà democratiche,01.1.BALDIR,Libro edito,,""Balzamo, Vincenzo "",,,1975,Padova,Marsilio Editori,Giuridico,Venturati,Venturati,,,"
-"55,Diritti civili e libertà democratiche,01.1.BALDIRbis,Libro edito,,""Balzamo, Vincenzo"",,,1975,Padova,Marsilio Editori,""Politica,Giuridico"",Venturati,Venturati,,,"
-"56,Ordine pubblico e sicurezza democratica,01.1.BALORD,Libro edito,,""Balzamo, Vincenzo"",,,1976,Firenze,La Nuova Italia,""Politica,Amministrazione,Giuridico"",Venturati,Venturati,,,"
-"57,Il capitale monopolistico,01.1.BARCAP,Libro edito,,Baranz Paul,Sweezy Paul,,1968,Torino,Einaudi,""Economia,Politica,Amministrazione"",Venturati,Venturati,,,"
-"58,Mancini,01.1.BARMAC,Libro edito,,""Barrese, Orazio"",,,1976,Milano,Feltrinelli,""Politica,Socialismo"",Venturati,Venturati,,,"
-"59,Problemi di socialismo,01.1.BASPRO,Libro edito,,""Basso, Lelio"",,,1972,Padova,Marsilio Editori,""Politica,Socialismo"",Venturati,Venturati,,,"
-"60,Socialisti e cattolici al bivio,01.1.BASSOC,Libro edito,,""Basso, Lelio"",,,1961,Manduria-Bari-Perugia,Lacaita,""Politica,Socialismo,Democrazia Cristiana"",Venturati,Venturati,,,"
-"61,Un popolo in lotta,01.1.BATPOP,Libro edito,,""Battaglia, R."",""Ramat, R."",,1961,Firenze,La Nuova Italia,Storia,Venturati,Venturati,,,"
-"62,Il Partito Socialista dalla Resistenza ad oggi,01.1.BENPAR,Libro edito,,""Benzoni, Alberto"",,,1980,Padova,Marsilio Editori,""Storia,Socialismo,Resistenza"",Venturati,Venturati,,,"
-"63,La repressione sovietica in Ungheria,01.1.BERREP,Libro edito,,""Berke, A.A."",,,1957,Milano,Mondadori,""Politica,Esteri,Comunismo"",Venturati,Venturati,,,"
-64,Ateo a 18 anni?,01.1.BETATE,Libro edito,,Bettazzi Luigi,,,1982,Milano ,Rizzoli,Religione,Venturati,Venturati,,,
-"65,Il comunismo europeo,01.1.BETCOM,Libro edito,,""Bettiza, Enzo"",,,1978,Milano,Rizzoli,""Politica,Comunismo,Esteri"",Venturati,Venturati,,,"
-"66,Lenin,01.1.BEYLEN,Libro edito,,""Bey, Essad"",,,1938,Milano,Treves,""Biografico,Comunismo,Storia,Politica,Filosofia politica"",Venturati,Venturati,,,"
-"67,Come andremo a incominciare,01.1.BIACOM,Libro edito,,""Biagi, Enzo "",""Scalfari, Eugenio"",,1981,Milano,Rizzoli,""Politica,Giornalismo"",Venturati,Venturati,,,"
-"68,Carlone. Vita di un italiano,01.1.BIGCAR,Libro edito,,""Bigiaretti, Libero"",,,1956,Milano-Roma,Edizioni Avanti!,Narrativa,Venturati,Venturati,,,"
-"69,Pertini racconta,01.1.BISPER,Libro edito,,""Bisiach, Gianni"",,,1983,Milano,Mondadori,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"70,Pertini racconta,01.1.BISPERbis,Libro edito,,""Bisiach, Gianni"",,,1983,Milano,Mondadori,""Politica,Socialismo,Storia,Resistenza"",Venturati,Venturati,,,"
-"71,Dizionario di politica,01.1.BOBDIZ,Libro edito,,""Bobbio, Norberto"",""Matteucci, Nicola"",,1976,Torino,UTET,Politica,Venturati,Venturati,,,"
-"72,Il marxismo e lo Stato,01.1.BOBMAR,Libro edito,,""Bobbio, Norberto"",Alia,,1976,Roma,Mondoperaio,""Politica,Comunismo"",Venturati,Venturati,,,"
-"73,Il marxismo e lo Stato,01.1.BOBMARbis,Libro edito,,""Bobbio, Norberto"",,,1976,Milano,Mondoperaio,""Politica,Comunismo"",Venturati,Venturati,,,"
-"74,L'Italia è Malata,01.1.BOCLIT,Libro edito,,""Bocca, Giorgio"",,,1977,Roma,L'Espresso,""Inchiesta,Politica"",Venturati,Venturati,,,"
-"75,Miracolo all'italiana,01.1.BOCMIR,Libro edito,,""Bocca, Giorgio"",,,1962,Milano,Edizioni Avanti!,""Inchiesta,Politica,Storia"",Venturati,Venturati,,,"
-"76,Mussolini socialfascista,01.1.BOCMUS,Libro edito,,""Bocca, Giorgio"",,,1983,Milano,Garzanti,""Storia,Fascismo"",Venturati,Venturati,,,"
-"77,Palmiro Togliatti,01.1.BOCPAL,Libro edito,,""Bocca, Giorgio"",,,1973,Roma-Bari,Laterza,""Biografico,Storia,Comunismo"",Venturati,Venturati,,,"
-"78,Storia della Repubblica Italiana,01.1.BOCSTO,Libro edito,,""Bocca, Giorgio"",,,1982,Milano,Rizzoli,Storia,Venturati,Venturati,,,"
-"79,Il terrorismo italiano 1970-1978,01.1.BOCTER,Libro edito,,""Bocca, Giorgio"",,,1978,Milano,Rizzoli,""Inchiesta,Terrorismo"",Venturati,Venturati,,,"
-"80,Storia delle dottrine politiche. L'assolutismo europeo,01.1.BOISTO.1,Libro edito,1,""Boiardi, Franco"",,,1979,Milano,Nuova CEI,""Politica,Filosofia politica"",Venturati,Venturati,,,"
-"81,Storia delle dottrine politiche. Rivoluzione e restauro 1781-1820,01.1.BOISTO.2,Libro edito,2,""Boiardi, Franco"",,,1979,Milano,Nuova CEI,""Politica,Filosofia politica"",Venturati,Venturati,,,"
-"82,Storia delle dottrine politiche. L'età liberale 1821-1871,01.1.BOISTO.3,Libro edito,3,""Boiardi, Franco"",,,1979,Milano,Nuova CEI,""Politica,Filosofia politica"",Venturati,Venturati,,,"
-"83,Storia delle dottrine politiche. L'età contemporanea 1872-1945,01.1.BOISTO.4,Libro edito,4,""Boiardi, Franco"",,,1980,Milano,Nuova CEI,""Politica,Filosofia politica"",Venturati,Venturati,,,"
-"84,Storia delle dottrine politiche. Colonialismo e imperialismo 1575-1945,01.1.BOISTO.5,Libro edito,5,""Boiardi, Franco"",,,1982,Milano,Nuova CEI,""Politica,Filosofia politica"",Venturati,Venturati,,,"
-"85,Le battaglie politico-ideologiche,01.1.BONBAT,Libro edito,,""Bonetti, Paolo"",,,1978,Milano,Il Mondo,Politica,Venturati,Venturati,,,"
-"86,Le battaglie economiche,01.1.BONBATbis,Libro edito,,""Bonetti, Paolo"",,,1978,Milano,Il Mondo,""Economia,Politica"",Venturati,Venturati,,,"
-"87,La cancrena,01.1.BOUCAN,Libro edito,,""Boumaza, Bechir"",""Francis, Mustapha"",,1959,Torino,Einaudi,""Inchiesta,Esteri"",Venturati,Venturati,,,"
-"88,La politica di un socialista,01.1.BRANPOL,Libro edito,,""Brandt, Willy"",,,1979,Milano,Garzanti,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"89,Marx e Engels,01.1.BRAVMAR,Libro edito,,""Bravo, Gian Maria"",,,1962,Milano,Edizioni Avanti!,""Politica,Filosofia politica,Socialismo,Comunismo"",Venturati,Venturati,,,"
-"90,Marx a Londra. La vita quotidiana negli anni dell'esilio,01.1.BRIMAR,Libro edito,,""Briggs, Asa"",,,1982,Roma,Rinascita,""Biografico,Filosofia politica,Comunismo,Socialismo"",Venturati,Venturati,,,"
-"91,La programmazione in Italia,01.1.BRIPRO,Libro edito,,""Brigida, Franco"",,,1968,Padova,Marsilio Editori,""Inchiesta,Amministrazione,Politica"",Venturati,Venturati,,,"
-"92,Socialismo libertario,01.1.CAFSOC,Libro edito,,""Caffi, Andrea"",,,1964,Milano,Azione Comune,""Politica,Socialismo"",Venturati,Venturati,,,"
-"93,Calamandrei,01.1.CALACAL.1,Libro edito,1,""Calamandrei, Piero"",""Enriques Agnoletti, Enzo"",,1958,Firenze,La Nuova Italia,""Biografico,Politica"",Venturati,Venturati,,,"
-"94,La casa di campagna,01.1.CALACAS,Libro edito,,""Calamandrei, Piero"",,,1965,Firenze,La Nuova Italia,Biografico,Venturati,Venturati,,,"
-"95,La Costituzione Italiana,01.1.CALACOS,Libro edito,,""Calamandrei, Piero"",,,1956,Milano-Roma,Edizioni Avanti!,Giuridico,Venturati,Venturati,,,"
-"96,Lettere 1915-1956 ,01.1.CALALET.1,Libro edito,1,""Calamandrei, Piero"",,,1968,Firenze,La nuova Italia,""Resistenza,Politica"",Venturati,Venturati,,,"
-"97,Lettere 1915-1956,01.1.CALALET.2,Libro edito,2,""Calamandrei, Pietro"",,,1968,Firenze,La Nuova Italia,""Resistenza,Politica"",Venturati,Venturati,,,"
-"98,Scritti e discorsi politici. Storia di dodici anni,01.1.CALASCR.1.1,Libro edito,1.1,""Calamandrei, Pietro"",,,1966,Firenze,La Nuova Italia,""Politica,Resistenza"",Venturati,Venturati,,,"
-"99,Scritti e discorsi politici. Storia di dodici anni,01.1.CALASCR.1.2,Libro edito,1.2,""Calamandrei, Pietro"",,,1966,Firenze,La Nuova Italia,""Politica,Resistenza"",Venturati,Venturati,,,"
-100,Scritti e discorsi politici. Discorsi parlamentari e politica costituzionale,01.1.CALASCR.2,Libro edito,2,Calamandrei,,,1966,Firenze,La Nuova Italia,Politica,Venturati,Venturati,,,
-"101,I nodi della pace,01.1.CALCNOD,Libro edito,,""Calchi-Novati, Gianpaolo"",,,1968,Padova,Marsilio Editori,""Politica,Esteri"",Venturati,Venturati,,,"
-"102,Si fa presto a dire fame ,01.1.CALESIF,Libro edito,,""Caleffi, Pietro "",,,1960,Novara ,Il Gallo,""Politica,Biografico,Resistenza,Socialismo"",Venturati,Venturati,,,"
-"103,Lo sviluppo italiano nel Dopoguerra,01.1.CAPESVI,Libro edito,,""Caperdoni, Enrico"",,,1968,Padova,Marsilio Editori,""Storia,Economia"",Venturati,Venturati,,,"
-"104,Atti della Costituente sull'Art. 7,01.1.CAPIATT,Libro edito,,""Capitini, Aldo"",""Lacaita, Piero"",,1959,Perugia,Lacaita,Giuridico,Venturati,Venturati,,,"
-"105,La libertà religiosa in Italia,01.1.CAPILIB,Libro edito,,""Capitini, Aldo"",""Magni, Cesare"",""Borghi, Lamberto"",1956,Firenze,La Nuova Italia,""Politica,Religione"",Venturati,Venturati,,,"
-"106,Spesa pubblica e iniziativa imprenditoriale,01.1.CARASPE,Libro edito,,""Carabba, Manin"",,,1966,Torino,Einaudi,""Economia,Amministrazione"",Venturati,Venturati,,,"
-"107,Manzoni. Ideologia e stile,01.1.CAREMAN,Libro edito,,""Caretti, Lanfranco"",,,1974,Torino,Einaudi,Letteratura,Venturati,Venturati,,,"
-"108,Il sole sorge a ponente,01.1.CARISOL,Libro edito,,""Carini, Lisli"",,,1959,Milano,Edizioni Avanti!,""Politica,Esteri,Comunismo"",Venturati,Venturati,,,"
-"109,Storia della resistenza,01.1.CARLSTO,Libro edito,,""Carli-Bellola, Renato"",,,1957,Milano-Roma,Edizioni Avanti!,""Storia,Resistenza"",Venturati,Venturati,,,"
-"110,Giolitti e l'età giolittiana,01.1.CAROGIO,Libro edito,,""Carocci, Giampiero"",,,1961,Torino,Einaudi,Storia,Venturati,Venturati,,,"
-"111,Bruno Buozzi,01.1.CASBRU,Libro edito,,""Castagno, Gino"",,,1955,Milano-Roma,Edizioni Avanti!,""Biografico,Socialismo,Resistenza"",Venturati,Venturati,,,"
-"112,Filippo Turati,01.1.CATFIL,Libro edito,,""Catalano, Franco"",,,1957,Milano-Roma,Edizioni Avanti!,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"113,La Russia contro Kruscev,01.1.CAVRUS,Libro edito,,""Cavallari, Alberto"",,,1964,Firenze,Vallecchi,""Politica,Esteri,Comunismo"",Venturati,Venturati,,,"
-"114,Trattato che istituisce la Comunità Europea,01.1.CEETRA,Libro edito,,CEE,,,1957,Bruxelles,Segretariato del Comitato Centrale per il Mercato Comune e l'Euroatom,""Giuridico,Esteri"",Venturati,Venturati,,,"
-"115,L'Italia contemporanea (1918-1948),01.1.CHALIT,Libro edito,,""Chabod, Federico"",,,1961,Torino,Einaudi,""Storia,Fascismo,Resistenza"",Venturati,Venturati,,,"
-"116,Perché il Vietnam esiste,01.1.CHEPER,Libro edito,,""Chesneaux, Jean"",,,1968,Torino,Einaudi,""Storia,Esteri"",Venturati,Venturati,,,"
-"117,Il sistema sovietico tra Stalin e Breznev,01.1.COESIS,Libro edito,,""Coen, Federico"",,,1974,Roma,Mondoperaio,""Inchiesta,Comunismo,Esteri,Politica"",Venturati,Venturati,,,"
-"118,Il sistema sovietico fra Stalin e Breznev,01.1.COESISbis,Libro edito,,""Coen, Federico"",,,1974,Roma,Mondoperaio,""Politica,Comunismo,Esteri,Inchiesta"",Venturati,Venturati,,,"
-"119,Classe operaia e ceti medi,01.1.COLACLA,Libro edito,,""Colarizi, Simona"",,,1976,Padova,Marsilio Editori,""Storia,Socialismo,Economia,Comunismo"",Venturati,Venturati,,,"
-"120,Classe operaia e ceti medi,01.1.COLACLAbis,Libro edito,,""Colarizi, Simona"",,,1980,Padova,Marsilio Editori,""Storia,Socialismo,Economia,Comunismo"",Venturati,Venturati,,,"
-"121,La Cina rivoluzionaria,01.1.COLLCIN,Libro edito,,""Collotti Pischel, Enrica"",,,1965,Torino,Einaudi,""Politica,Comunismo,Esteri"",Venturati,Venturati,,,"
-"122,Le origini ideologiche della rivoluzione cinese,01.1.COLLORI,Libro edito,,""Collotti Pischel, Enrica"",,,1958,Torino,Einaudi,""Politica,Comunismo,Esteri"",Venturati,Venturati,,,"
-"123,La costituzione del partito socialista italiano,01.1.CORCOS,Libro edito,,""Corte, Luigi"",,,1961,Milano,Edizioni Avanti!,""Storia,Socialismo"",Venturati,Venturati,,,"
-"124,I Mille giorni di Allende. L'azione del Governo di Unidad Popular in 125 documenti,01.1.CORMIL,Libro edito,,""Corossacz, Anna"",,,1975,Roma,Mondoperaio,""Politica,Socialismo"",Venturati,Venturati,,,"
-"125,La verità sul 9 settembre,01.1.CORVER,Libro edito,,""Corona, Achille"",,,1945,Roma-Milano,Edizioni Avanti!,""Inchiesta,Fascismo,Resistenza"",Venturati,Venturati,,,"
-"126,""Lo """"strappo"""""",01.1.COSSTR,Libro edito,,""Cossutta, Armando"",,,1982,Milano,Mondadori,""Politica,Comunismo"",Venturati,Venturati,,,"
-"127,I socialisti e il caso Moro,01.1.COVSOC,Libro edito,,""Covatta, Luigi"",""Baget Bozzo, Gianni"",""Vassalli, Giuliano"",1983,Roma,Il compagno,""Politica,Socialismo,Inchiesta"",Venturati,Venturati,,,"
-"128,Cento anni dopo,01.1.CRACEN,Libro edito,,""Craxi, Bettino"",,,1982,Milano,Biblioteca Rossa,""Politica,Socialismo"",Venturati,Venturati,,,"
-"129,Pace sicurezza indipendenza,01.1.CRAPAC,Libro edito,,""Craxi, Bettino"",,,1981,Roma,Il compagno,""Politica,Socialismo"",Venturati,Venturati,,,"
-"130,Un passo avanti,01.1.CRAPAS,Libro edito,,""Craxi, Bettino"",,,1981,Roma,Sugarco,""Politica,Socialismo"",Venturati,Venturati,,,"
-"131,Pluralismo o leninismo,01.1.CRAPLU,Libro edito,,""Craxi, Bettino"",,,1978,Milano,Sugarco,""Politica,Socialismo,Comunismo"",Venturati,Venturati,,,"
-"132,Prove,01.1.CRAPRO,Libro edito,,""Craxi, Bettino"",,,1980,Roma,Sugarco,""Politica,Socialismo"",Venturati,Venturati,,,"
-"133,Il rinnovamento socialista per il rinnovamento dell'Italia,01.1.CRARIN,Libro edito,,""Craxi, Bettino"",""Molaioli, Angelo"",,1981,Milano,Sezione propaganda del PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"134,Tre anni,01.1.CRATRE,Libro edito,,""Craxi, Bettino"",,,1983,Milano,SugarCo Edizioni,""Politica,Socialismo"",Venturati,Venturati,,,"
-"135,Crisi economica e condizionamenti internazionali dell'Italia,01.1.CSPCRI.1,Libro edito,1,Centro Studi di Politica Economica,,,1976,Roma,Editori Riuniti,""Economia,Esteri"",Venturati,Venturati,,,"
-"136,Crisi economica e condizionamenti internazionali dell'Italia,01.1.CSPCRI.2,Libro edito,2,Centro Studi di Politica Economica,,,1976,Roma,Editori Riuniti,""Esteri,Economia"",Venturati,Venturati,,,"
-"137,Obsolescenza delle ideologie,01.1.DAGOBS,Libro edito,,""Dagnino, Virgilio"",,,1967,Milano,Azione Comune,Politica,Venturati,Venturati,,,"
-"138,Il mestiere di morire,01.1.DAPMES,Libro edito,,""Da Pozzo, Gusti"",,,1962,Milano,Edizioni Avanti!,Politica,Venturati,Venturati,,,"
-"139,Scienza e tecnologia in Italia,01.1.DEFSCI,Libro edito,,""De Falco, Antonio"",,,1968,Padova,Marsilio Editori,Inchiesta,Venturati,Venturati,,,"
-"140,Le istituzioni fra crisi e rinnovamento,01.1.DELIST,Libro edito,,""Del Pennino, Antonio"",,,1983,Milano,PRI,Elettorale,Venturati,Venturati,,,"
-"141,""Sanità pubblica,  sicurezza sociale e programmazione economica"",01.1.DELSAN,Libro edito,,""Delogu, Severino"",,,1967,Torino,Einaudi,""Economia,Amministrazione"",Venturati,Venturati,,,"
-"142,È possibile il trapianto degli organi vitali?,01.1.DEMEPO,Libro edito,,""Demichov, Wladimir Petrowich"",,,1959,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"143,Il socialismo oggi e domani,01.1.DERASOC,Libro edito,,""D’eramo, Marco"",,,1976,Cosenza,Edistampa - Edizioni Lerici,""Politica,Socialismo"",Venturati,Venturati,,,"
-"144,Uomini e dio,01.1.DERMUOM,Libro edito,,""Der Meer, Van"",,,1955,Alba,Edizioni Paoline,""Filosofia,Chiesa"",Venturati,Venturati,,,"
-"145,Civiltà cattolica 1850-1945,01.1.DEROCIV.1,Libro edito,1,""De Rosa, Gabriele"",,,1971,Firenze,Landi,""Storia,Chiesa"",Venturati,Venturati,,,"
-"146,Civiltà cattolica 1850-1945,01.1.DEROCIV.2,Libro edito,2,""De Rosa, Gabriele"",,,1971,Firenze,Landi,""Storia,Chiesa"",Venturati,Venturati,,,"
-"147,Civiltà cattolica 1850-1945,01.1.DEROCIV.3,Libro edito,3,""De Rosa, Gabriele"",,,1971,Firenze,Landi,""Storia,Chiesa"",Venturati,Venturati,,,"
-"148,Civiltà cattolica 1850-1945,01.1.DEROCIV.4,Libro edito,4,""De Rosa, Gabriele"",,,1971,Firenze,Landi,""Storia,Chiesa"",Venturati,Venturati,,,"
-"149,5 lezioni di Francesco De Sanctis su Mazzini,01.1.DES5LE,Libro edito,,""De Sanctis, Francesco"",,,1972,Roma,Orlando,Storia,Venturati,Venturati,,,"
-"150,La grande contesa,01.1.DEUGRA,Libro edito,,""Deutscher, Isaac"",,,1960,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"151,Democrazia economica sindacato eurosocialismo,01.1.DIDDEM,Libro edito,,""Didò, Mario"",,,1983,Roma,Il Compagno,""Politica,Socialismo"",Venturati,Venturati,,,"
-"152,I socialisti e la sfida tecnologica in Italia e in europa,01.1.DIDSOC.4,Libro edito,4,""Didò, Mario"",""Manca, Enrico"",""Forte, Francesco"",1984,Roma,Il compagno,""Politica,Socialismo"",Venturati,Venturati,,,"
-"153,Una nuova politica per il 1970,01.1.DIMNUO,Libro edito,,""Di Martino, Francesco"",,,1969,Milano,Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"154,Una politica per la piena occupazione,01.1.DOLPOL,Libro edito,,""Dolci, Danilo"",,,1958,Torino,Einaudi,""Politica,Amministrazione,Economia"",Venturati,Venturati,,,"
-"155,""Dittatura,  classe politica e classe dirigente"",01.1.DORDIT,Libro edito,,""Dorso, Guido"",,,1955,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"156,L'occasione storica,01.1.DORLOC,Libro edito,,""Dorso, Guido"",,,1949,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"157,La rivoluzione meridionale,01.1.DORRIV,Libro edito,,""Dorso, Guido"",,,1955,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"158,Decentramento urbano e democrazia ,01.1.DRADEC,Libro edito,,""Dragone, Umberto"",,,1975,Milano,Feltrinelli,""Amministrazione,Politica"",Venturati,Venturati,,,"
-"159,Memorie partigiane,01.1.DUNMEM,Libro edito,,""Dunchi, Nardo"",,,1957,Firenze,La Nuova Italia,""Biografico,Resistenza"",Venturati,Venturati,,,"
-"160,Lo scrittoio del Presidente 1948-1955,01.1.EINSCR,Libro edito,,""Einaudi, Luigi"",,,1956,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"161,Marcia su Roma e dintorni,01.1.EMIMAR,Libro edito,,Emilio Lussu,,,1957,Salso Maggiore,Il Gallo,""Politica,Storia,Fascismo"",Venturati,Venturati,,,"
-162,Gli Ideali del Risorgimento e dell'Unità,01.1.ENBIDE,Libro edito,,Ente Nazionale Biblioteche Popolari e Scolastiche,,,1961,Roma,ENBPS,Storia,Venturati,Venturati,,,
-"163,Anti-Dühring,01.1.ENGANT,Libro edito,,""Engels, Friedrich"",,,1956,Roma ,Edizioni Rinascita ,""Filosofia,Politica,Comunismo,Economia"",Venturati,Venturati,,,"
-"164,Ludovico Feuerbach e il punto d'approdo della filosofia classica tedesca ,01.1.ENGLUD,Libro edito,,""Engels, Friedrich"",,,1950,Roma ,Edizioni Rinascita,""Politica,Storia,Filosofia"",Venturati,Venturati,,,"
-"165,Marx come pensatore e come uomo,01.1.ENGMAR,Libro edito,,""Engels, Friedrich"",""Lafargue, Paul"",""Liebnecht, Wilhem"",1945,Roma,L'Unità,""Biografico,Filosofia politica,Comunismo,Socialismo"",Venturati,Venturati,,,"
-"166,Scritti italiani ,01.1.ENGSCR,Libro edito,,""Engels, Friedrich"",,,1955,Cremona,Edizioni Avanti!,Comunismo,Venturati,Venturati,,,"
-"167,La situazione della classe operaia in Inghilterra,01.1.ENGSIT,Libro edito,,""Engels, Friedrich"",,,1955,Roma,Edizioni Rinascita,""Politica,Filosofia politica"",Venturati,Venturati,,,"
-"168,Comunismo e Cattolicesimo in una parrocchia di campagna,01.1.FAECOM,Libro edito,,""Faenza, Liliano"",,,1959,Milano,Feltrinelli,""Politica,Comunismo,Chiesa"",Venturati,Venturati,,,"
-"169,La Chiesa e le organizzazioni cattoliche in Italia 1945-1955,01.1.FALCHI,Libro edito,,""Falconi, Carlo"",,,1956,Torino,Einaudi,""Inchiesta,Chiesa"",Venturati,Venturati,,,"
-"170,L'altro polo della sinistra,01.1.FEDLAL,Libro edito,,""Federighi, Tiziano"",,,1973,Roma,Bulzoni,Politica,Venturati,Venturati,,,"
-"171,Crisi italiana e fatti polacchi,01.1.FINCRI,Libro edito,,""Finetti, Ugo"",,,1982,,Biblioteca Rossa,""Politica,Esteri"",Venturati,Venturati,,,"
-"172,Quaderni rossi. Lotte operaie nello sviluppo capitalistico,01.1.FOAQUA.1,Libro edito,1,""Foa, Vittorio"",,,1961,Milano,Edizioni Avanti!,""Politica,Comunismo,Operaismo"",Venturati,Venturati,,,"
-"173,Idee sociali e organizzazione operaia nella prima metà dell'800,01.1.FRANIDE,Libro edito,,""Francovich, Carlo"",,,1959,Milano-Roma,Edizioni Avanti!,""Storia,Operaismo"",Venturati,Venturati,,,"
-"174,La resistenza a Firenze,01.1.FRANRES,Libro edito,,""Francovich, Carlo"",,,1961,Firenze,La Nuova Italia,""Storia,Resistenza"",Venturati,Venturati,,,"
-"175,Il neoclassicismo e Ugo Foscolo,01.1.FRATNEO,Libro edito,,""Frattini, Alberto"",,,1965,,Cappelli,Letteratura,Venturati,Venturati,,,"
-"176,Problemi umani del macchinismo industriale,01.1.FRIPRO,Libro edito,,""Friedmann, Georges"",,,1971,Torino,Einaudi,""Politica,Economia"",Venturati,Venturati,,,"
-"177,Lo stato e il risparmio privato,01.1.FUÀSTA,Libro edito,,""Fuà, Giorgio"",,,1961,Torino,Einaudi,""Economia,Amministrazione"",Venturati,Venturati,,,"
-"178,Manuale di Preistoria,01.1.FURMAN,Libro edito,,""Furon, Raymond"",,,1961,Torino,Einaudi,""Educazione,Storia"",Venturati,Venturati,,,"
-"179,Fiori rossi al Martinetto. Il processo di Torino aprile 1944,01.1.FUSFIO,Libro edito,,""Fusi, Valdo"",,,1968,Milano,Mursia,""Storia,Resistenza"",Venturati,Venturati,,,"
-"180,Il risorgimento arabo ,01.1.GABFRIS,Libro edito,,""Gabrieli, Francesco"",,,1958,Torino,Einaudi,""Storia,Esteri"",Venturati,Venturati,,,"
-"181,Puritanesimo e libertà,01.1.GABVPUR,Libro edito,,""Gabrieli, Vittorio"",,,1956,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"182,Socialismo e nazionalizzazione,01.1.GAISOC,Libro edito,,""Gaitskell, Hugh"",,,1959,Roma,Opere Nuove,""Politica,Socialismo,Amministrazione"",Venturati,Venturati,,,"
-"183,Il nuovo stato industriale,01.1.GALBNUO,Libro edito,,""Galbraith, John K."",,,1968,Torino,Einaudi,Economia,Venturati,Venturati,,,"
-"184,Benedetto Bettino,01.1.GALLGIALBEN,Libro edito,,""Galli, Giancarlo"",,,1982,Milano,Bompiani,""Politica,Socialismo"",Venturati,Venturati,,,"
-"185,Dal bipartitismo imperfetto alla possibile alternativa,01.1.GALLGIODAL,Libro edito,,""Galli, Giorgio"",,,1975,Bologna,Il Mulino,Politica,Venturati,Venturati,,,"
-"186,Opinioni sul PCI,01.1.GALLGIOOPI,Libro edito,,""Galli, Giorgio"",,,1977,Roma,L'Espresso,""Politica,Comunismo"",Venturati,Venturati,,,"
-"187,Caravan,01.1.GALSCAR,Libro edito,,""Galsworthy, John"",,,1961,Milano,Club degli Editori,Narrativa,Venturati,Venturati,,,"
-"188,A Genova non si passa ,01.1.GANAGE,Libro edito,,Gandolfi Francesco ,,,1960,Roma,Il Gallo,""Politica,Resistenza,Socialismo"",Venturati,Venturati,,,"
-"189,Cittadini Sì e No,01.1.GARCIT,Libro edito,,""Garofalo, Anna"",,,1956,Torino,De Silva,Inchiesta,Venturati,Venturati,,,"
-"190,Cooperazione nel Mediterraneo occidentale,01.1.GASCOO,Libro edito,,""Gasteyger, Curt"",""Lamanna, Agostino"",""Aliboni, Roberto"",1972,Bologna,Il Mulino,""Politica,Esteri"",Venturati,Venturati,,,"
-"191,Una lettera al Re,01.1.GAVLET,Libro edito,,""Gavagnin, Armando"",,,1960,Milano,Edizioni Avanti!,Biografico,Venturati,Venturati,,,"
-"192,Galileo Galilei,01.1.GEYGAL,Libro edito,,""Geymonat, Ludovico"",,,1957,Torino,Einaudi,Biografico,Venturati,Venturati,,,"
-"193,L’effetto Craxi,01.1.GHILEF,Libro edito,,""Ghirelli, Antonio"",,,1982,Milano,Rizzoli,""Politica,Socialismo"",Venturati,Venturati,,,"
-"194,Conversazione con Stalin,01.1.GILCON,Libro edito,,""Gilas, Milovan"",,,1962,Milano,Feltrinelli,""Politica,Comunismo"",Venturati,Venturati,,,"
-195,Il lavoro umano,01.1.GIOLAV,Libro edito,,Giovanni Paolo II,,,1981,Roma,Logos,Politica,Venturati,Venturati,,,
-"196,Cronache sociali 1947-1951,01.1.GLICRO.1,Libro edito,1,""Glisenti, Marcella"",""Elia, Leopoldo"",,1961,Firenze,Landi,""Politica,Storia"",Venturati,Venturati,,,"
-"197,Cronache sociali 1947-1951,01.1.GLICRO.2,Libro edito,2,""Glisenti, Marcella"",""Elia, Leopoldo"",,1961,Firenze,Landi,""Politica,Storia"",Venturati,Venturati,,,"
-"198,Megalopoli ,01.1.GOTMEG.1,Libro edito,1,""Gottmann, Jean"",,,1970,Torino,Einaudi ,Economia,Venturati,Venturati,,,"
-"199,Socialismo e fascismo,01.1.GRAMSOC,Libro edito,,""Gramsci, Antonio"",,,1966,Torino,Einaudi,""Politica,Socialismo"",Venturati,Venturati,,,"
-"200,La politica esterna italiana nel dopoguerra,01.1.GRAZPOL,Libro edito,,""Graziano, Luigi"",,,1968,Padova,Marsilio Editori,""Politica,Esteri"",Venturati,Venturati,,,"
-"201,Introduzione alla riforma agraria,01.1.GRIINT,Libro edito,,""Grieco, Ruggero"",,,1949,Torino ,Einaudi ,""Politica,Economia"",Venturati,Venturati,,,"
-"202,Patrizio Peci. Io infame,01.1.GUEPAT,Libro edito,,""Guerri, Giordano Bruno"",,,1983,Milano,Mondadori,""Biografico,Comunismo,Terrorismo"",Venturati,Venturati,,,"
-"203,La società dei socialisti,01.1.GUISOC,Libro edito,,""Guiducci, Roberto"",,,1976,Milano,Rizzoli,""Politica,Socialismo"",Venturati,Venturati,,,"
-"204,Dialettica senza dogma,01.1.HAVDIA,Libro edito,,""Havemann, Robert"",,,1965,Torino,Einaudi,Filosofia,Venturati,Venturati,,,"
-"205,Albert Einstein,01.1.INFALB,Libro edito,,""Infeld, Leopold"",,,1963,Torino,Einaudi,Biografico,Venturati,Venturati,,,"
-"206,Mia madre,01.1.JACOMMIA,Libro edito,,""Jacometti, Alberto"",,,1960,Milano ,Edizioni Avanti!,Biografico,Venturati,Venturati,,,"
-"207,Canta il gallo,01.1.JACOPCAN,Libro edito,,""Jacopini, Renato"",,,1960,Milano-Roma,Edizioni Avanti!,Biografico,Venturati,Venturati,,,"
-"208,Chiesa e Stato in Italia negli ultimi cento anni,01.1.JEMCHI,Libro edito,,""Jemolo, Arturo Carlo"",,,1956,Torino ,Einaudi ,""Storia,Chiesa"",Venturati,Venturati,,,"
-"209,I partiti politici,01.1.JOCPAR,Libro edito,,""Jocteau, Gian Carlo"",,,1974,Torino,UTET,Storia,Venturati,Venturati,,,"
-"210,Mercato comune e movimento operaio in Europa ,01.1.KENMER,Libro edito,,""Kendall, Walter"",,,1965,Milano,Edizioni Azione Comune,""Politica,Economia,Operaismo"",Venturati,Venturati,,,"
-"211,""La Russia,  l'atomo e l'Occidente"",01.1.KENRUS,Libro edito,,""Kennan, George F."",,,1958,Torino,Einaudi,""Politica,Esteri"",Venturati,Venturati,,,"
-"212,Vogliamo un mondo più nuovo,01.1.KENVOG,Libro edito,,""Kennedy, R. J."",,,1968,Milano,Garzanti,""Politica,Esteri"",Venturati,Venturati,,,"
-"213,Ricchezza e potere in America,01.1.KOLKRIC,Libro edito,,""Kolko, Gabriel"",,,1964,Torino,Einaudi,""Economia,Esteri"",Venturati,Venturati,,,"
-"214,L'opposizione operaia in Russia,01.1.KOLLLOP,Libro edito,,""Kollontai, Alessandra"",,,1962,Milano,Azione Comune,""Politica,Operaismo,Comunismo"",Venturati,Venturati,,,"
-"215,Memorie di un rivoluzionario,01.1.KROMEM,Libro edito,,""Kropotkin, P.A."",,,1968,Roma,Editori Riuniti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"216,Dedicato a te cara,01.1.KVLDED,Libro edito,,""Kvlividze, Mikail"",,,1961,Milano,Edizioni Avanti!,Poesia,Venturati,Venturati,,,"
-"217,La concezione materialistica della storia,01.1.LABCON,Libro edito,,""Labriola, Antonio"",,,1965,Bari,Laterza,Filosofia,Venturati,Venturati,,,"
-"218,In memoria del Manifesto del Partito Comunista,01.1.LABINM,Libro edito,,""Labriola, Antonio"",,,1960,Milano,Edizioni Avanti!,""Politica,Comunismo"",Venturati,Venturati,,,"
-"219,Lettere a Engels,01.1.LABLET,Libro edito,,""Labriola, Antonio"",,,1949,Roma,Edizioni Rinascita,Filosofia,Venturati,Venturati,,,"
-"220,Saggio sul materialismo storico,01.1.LABSAG,Libro edito,,""Labriola, Antonio"",,,1964,Roma,Editori Riuniti,Filosofia,Venturati,Venturati,,,"
-"221,Finestre aperte a Botteghe Oscure,01.1.LAJDFIN,Libro edito,,""Lajolo, Davide"",,,1975,Milano,Rizzoli,""Politica,Comunismo"",Venturati,Venturati,,,"
-"222,Ventiquattro anni,01.1.LAJDVEN,Libro edito,,""Lajolo, Davide"",,,1981,Milano,Rizzoli,""Politica,Storia,Comunismo"",Venturati,Venturati,,,"
-"223,Gramsci un uomo sconfitto,01.1.LAJLGRA,Libro edito,,""Lajolo, Laurana"",,,1980,Milano,Rizzoli,""Politica,Comunismo"",Venturati,Venturati,,,"
-"224,Il Complesso di Nerone,01.1.LEDCOM,Libro edito,,""Ledeen, Michael A."",,,1978,Milano,Editoriale Nuova,Storia,Venturati,Venturati,,,"
-"225,Napoleone,01.1.LEFNAP,Libro edito,,""Lefebvre, Georges"",,,1960,Bari,Laterza,""Biografico,Storia"",Venturati,Venturati,,,"
-"226,La Comune di Parigi ,01.1.LENCOM.24,Libro edito,24,Lenin,,,1950,Roma,Edizioni Rinascita,""Politica,Comunismo"",Venturati,Venturati,,,"
-"227,La rivoluzione d'ottobre,01.1.LENRIV,Libro edito,,Lenin,,,1956,Roma,Edizioni Rinascita,""Politica,Comunismo"",Venturati,Venturati,,,"
-"228,Democrazia di piano,01.1.LEODEM,Libro edito,,""Leonardi, Silvio"",,,1966,Torino,Einaudi,""Economia,Comunismo"",Venturati,Venturati,,,"
-"229,Teoria e prassi dell'austromarxismo,01.1.LESTEO,Libro edito,,""Leser, Norbert"",,,1979,Milano,Edizioni Avanti!,""Politica,Comunismo"",Venturati,Venturati,,,"
-"230,Ricordi dei fratelli Rosselli,01.1.LEVRIC,Libro edito,,""Levi, Alessandro"",,,1947,Firenze,La Nuova Italia,""Biografico,Resistenza"",Venturati,Venturati,,,"
-"231,Dizionario dei fatti italiani 1861-2016,01.1.LIBDIZ,Libro edito,,""Liberali, Sandro"",,,2016,Milano,ITrePonti,Storia,Venturati,Venturati,,,"
-"232,Lettere 1915-1918,01.1.LIELET,Libro edito,,""Liebknecht, Karl"",""Luxemburg, Rosa"",,1967,Roma,Editori Riuniti,""Politica,Socialismo"",Venturati,Venturati,,,"
-"233,Competere per coesistere,01.1.LIPCOM,Libro edito,,""Lippman, Walter"",,,1959,Torino,Einaudi,""Politica,Economia"",Venturati,Venturati,,,"
-"234,Gli scopi di guerra degli Stati Uniti,01.1.LIPSCO,Libro edito,,""Lippmann, Walter"",,,1946,Torino,Einaudi,""Politica,Esteri"",Venturati,Venturati,,,"
-"235,Inchiesta sulla gioventù sovietica,01.1.LIVINC,Libro edito,,""Livi, Augusto"",,,1961,Torino,Einaudi,""Inchiesta,Comunismo,Esteri"",Venturati,Venturati,,,"
-"236,Il regno di Badoglio,01.1.LIZREG,Libro edito,,""Lizzadri, Oreste"",,,1963,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"237,Il paese sbagliato,01.1.LODPAE,Libro edito,,""Lodi, Mario"",,,1970,Torino,Einaudi,Inchiesta,Venturati,Venturati,,,"
-"238,I quaderni di Piadena,01.1.LODQUA,Libro edito,,""Lodi, Mario"",""Morandi, Giuseppe"",,1962,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"239,Socialismo e comunismo,01.1.LOMFSOC,Libro edito,,""Lombardi, Franco"",,,1945,Roma-Milano,Società Editrice Avanti!,""Socialismo,Politica"",Venturati,Venturati,,,"
-"240,L'alternativa socialista,01.1.LOMRLAL,Libro edito,,""Lombardi, Riccardo"",,,1976,Cosenza,Lerici,""Politica,Socialismo"",Venturati,Venturati,,,"
-"241,Scritti politici 1945-1963,01.1.LOMRSCR.45,Libro edito,,""Lombardi, Riccardo"",,,1978,Padova,Marsilio Editori,""Politica,Socialismo"",Venturati,Venturati,,,"
-"242,Scritti politici 1963 - 1978,01.1.LOMRSCR.63,Libro edito,,""Lombardi, Riccardo"",,,1978,Venezia,Marsilio Editori,""Politica,Socialismo"",Venturati,Venturati,,,"
-"243,I centri dirigenti del PCI nella Resistenza,01.1.LONCEN,Libro edito,,""Longo, Luigi"",,,1977,Roma,Editori Riuniti,""Storia,Comunismo"",Venturati,Venturati,,,"
-"244,Breve storia della letteratura tedesca,01.1.LUKBRE,Libro edito,,""Lukacs, Gyorgy"",,,1956,Torino,Einaudi,""Storia,Letteratura"",Venturati,Venturati,,,"
-"245,Donne come te,01.1.LUSDON,Libro edito,,""Lussu, Joyce"",,,1957,Milano-Roma,Edizioni Avanti!,Politica,Venturati,Venturati,,,"
-"246,L'accumulazione del capitale e anticritica,01.1.LUXLAC,Libro edito,,""Luxemburg, Rosa"",,,1960,Torino,Einaudi,""Politica,Filosofia politica,Comunismo,Socialismo"",Venturati,Venturati,,,"
-"247,Breve storia economica dell'Italia medievale,01.1.LUZBRE,Libro edito,,""Luzzato, Gino"",,,1965,Torino,Einaudi,""Storia,Economia"",Venturati,Venturati,,,"
-"248,lombardi,01.1.MAFLOM,Libro edito,,""Mafai, Miriam"",,,1976,Milano,Feltrinelli,""Politica,Socialismo"",Venturati,Venturati,,,"
-"249,La pelle,01.1.MALPEL,Libro edito,,""Malaparte, Curzio"",,,1949,Roma-Milano,Aria d'Italia,Narrativa,Venturati,Venturati,,,"
-"250,Riformisti e rivoluzionari,01.1.MAMRIF,Libro edito,,""Mammarella, Giuseppe"",,,1980,Padova,Marsilio Editori,Storia,Venturati,Venturati,,,"
-"251,Alternativa compromesso socialismo,01.1.MANCALT,Libro edito,,""Mancini, Giacomo"",,,1977,Cosenza,Lerici,""Politica,Socialismo"",Venturati,Venturati,,,"
-"252,Discorsi 1967 - 1971,01.1.MANCDIS,Libro edito,,""Mancini, Giacomo"",,,1971,Roma,IN.GR.ED,""Poesia,Socialismo"",Venturati,Venturati,,,"
-"253,Il mondo in mano,01.1.MANNMON,Libro edito,,""Mannocchia, Franco"",,,1973,Milano,Corriere dei ragazzi,Educazione,Venturati,Venturati,,,"
-"254,""La Confederazione Generale del Lavoro. Negli atti, nei documenti, nei congressi 1906-1926"",01.1.MARCHLCON,Libro edito,,""Marchetti, Luciana"",,,1962,Milano,Edizioni Avanti!,""Politica,Operaismo"",Venturati,Venturati,,,"
-"255,Socialismo,01.1.MARCSOC,Libro edito,,""Marchetti, Mario"",,,s.d.,Roma-Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"256,Eros e civiltà,01.1.MARCUERO,Libro edito,,""Marcuse, Herbert"",,,1964,Torino,Einaudi,Filosofia,Venturati,Venturati,,,"
-"257,L'uomo a una dimensione,01.1.MARCULUO,Libro edito,,""Marcuse, Herbert"",,,1968,Torino,Einaudi,Filosofia,Venturati,Venturati,,,"
-"258,Guerra popolare e rivoluzione in Jugoslavia,01.1.MARJGUE,Libro edito,,""Marjanovic, Jovan"",,,1962,Milano,Edizioni Avanti!,""Storia,Esteri"",Venturati,Venturati,,,"
-"259,La conquista dei poteri,01.1.MARTECON,Libro edito,,""Martinet, Gilles"",,,1976,Padova,Marsilio Editori,Politica,Venturati,Venturati,,,"
-"260,Il marxismo oggi ,01.1.MARTEMAR,Libro edito,,""Martinet, Jean-Paul"",,,1962,Firenze,La nuova Italia ,""Politica,Socialismo,Comunismo"",Venturati,Venturati,,,"
-"261,I giorni sono lunghi,01.1.MARTIGIO,Libro edito,,""Martini, Quinto"",,,1957,Milano-Roma,Edizioni Avanti!,Narrativa,Venturati,Venturati,,,"
-"262,Contro l'anarchismo,01.1.MARXCONT,Libro edito,,""Marx, Karl"",""Engels, Friedrich"",,1950,Roma ,Edizioni Rinascita,""Politica,Storia,Filosofia"",Venturati,Venturati,,,"
-"263,La concezione materialistica della storia,01.1.MARXCONC,Libro edito,,""Marx, Karl"",""Engels, Friedrich"",,1959,Roma,Editori Riuniti,Filosofia,Venturati,Venturati,,,"
-"264,Critica della Economia Politica ,01.1.MARXCRI,Libro edito,,""Marx, Karl"",,,1947,Milano ,Istituto Editoriale Italiano ,""Politica,Economia,Comunismo"",Venturati,Venturati,,,"
-"265,Ieri e Oggi,01.1.MARXIER,Libro edito,,""Marx, Karl"",,,1961,Milano,Feltrinelli ,""Politica,Storia,Comunismo"",Venturati,Venturati,,,"
-"266,Lavoro salariato e capitale,01.1.MARXLAV,Libro edito,,""Marx, Karl"",,,1945,Roma,L'Unità,""Politica,Filosofia politica"",Venturati,Venturati,,,"
-"267,Lettere a Kugelmann,01.1.MARXLET,Libro edito,,""Marx, Karl"",,,1950,Roma,Edizioni Rinascita ,""Politica,Comunismo"",Venturati,Venturati,,,"
-"268,L’ideologia tedesca ,01.1.MARXLID,Libro edito,,""Marx, Karl"",,,1947,Milano ,Istituto Editoriale Italiano ,""Politica,Filosofia politica,Comunismo"",Venturati,Venturati,,,"
-"269,Storia delle teorie economiche ,01.1.MARXSTO.1,Libro edito,1,""Marx, Karl"",,,1954,Torino,Einaudi,""Politica,Filosofia,Storia,Comunismo"",Venturati,Venturati,,,"
-"270,Storia delle dottrine economiche. David Ricardo,01.1.MARXSTO.2,Libro edito,2,""Marx, Karl"",,,1955,Torino,Einaudi,""Politica,Economia,Storia"",Venturati,Venturati,,,"
-"271,Storia delle teorie economiche ,01.1.MARXSTO.3,Libro edito,3,""Marx, Karl"",,,1958,Torino,Einaudi,""Politica,Storia,Comunismo"",Venturati,Venturati,,,"
-"272,Umanismo,01.1.MARXUMA,Libro edito,,""Marx, Karl"",,,1968,Torino ,Einaudi,""Politica,Comunismo,Filosofia"",Venturati,Venturati,,,"
-"273,Discorsi politici celebri,01.1.MASEDIS,Libro edito,,""Masera, Carlo"",,,1960,Milano,Nuova Accademia,""Politica,Storia"",Venturati,Venturati,,,"
-"274,La contestazione cinese,01.1.MASICON,Libro edito,,""Masi, Edoarda"",,,1968,Torino,Einaudi,""Comunismo,Inchiesta"",Venturati,Venturati,,,"
-"275,Gli internazionalisti. La Banda del Matese (1876-1878),01.1.MASINNT,Libro edito,,""Masini, Pier Carlo"",,,1958,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"276,Storia degli anarchici italiani da Bakunin a Malatesta,01.1.MASINSTO,Libro edito,,""Masini, Pier Carlo"",,,1969,Milano,Rizzoli,""Storia,Anarchismo"",Venturati,Venturati,,,"
-"277,Capitalismo e comunismo,01.1.MATCCAP,Libro edito,,""Matteotti, Carlo"",,,s.d.,Roma,Opere Nuove,""Politica,Comunismo"",Venturati,Venturati,,,"
-"278,Contro il fascismo,01.1.MATGCON,Libro edito,,""Matteotti, Giacomo"",,,1954,Milano-Roma,Edizioni Avanti!,""Politica,Fascismo"",Venturati,Venturati,,,"
-"279,Il Cittadino Scalfari,01.1.MAUCIT,Libro edito,,""Mauri, Claudio"",,,1983,Milano,SugarCo Edizioni,""Biografico,Giornalismo"",Venturati,Venturati,,,"
-"280,La riforma agraria ,01.1.MAZRIF,Libro edito,,Mazzoni Nino ,,,s.d.,Roma ,Società editrice Avanti!,""Storia,Politica,Socialismo"",Venturati,Venturati,,,"
-"281,Vita di Marx,01.1.MEHVIT,Libro edito,,""Mehring, Franz"",,,1972,Roma,Editori Riuniti,""Biografico,Filosofia"",Venturati,Venturati,,,"
-"282,Cosmopolitismo e Stato Nazionale,01.1.MEICOS.1,Libro edito,1,""Meinecke, Federico"",,,1930,Perugia - Venezia,La Nuova Italia,""Politica,Storia"",Venturati,Venturati,,,"
-"283,Cosmopolitismo e Stato Nazionale,01.1.MEICOS.2,Libro edito,2,""Meinecke, Federico"",,,1930,Perugia - Venezia,La Nuova Italia,""Politica,Storia"",Venturati,Venturati,,,"
-"284,Preparare l'avvenire,01.1.MENDPRE,Libro edito,,""Mendès France, Pierre"",,,1968,Milano,Etas Kompass,Politica,Venturati,Venturati,,,"
-"285,La repubblica moderna,01.1.MENDREP,Libro edito,,""Mendés France, Pierre"",,,1963,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"286,La partigiana nuda,01.1.MENEPAR,Libro edito,,""Meneghetti, Egidio"",,,1958,Milano-Roma,Edizioni Avanti!,""Poesia,Resistenza"",Venturati,Venturati,,,"
-"287,""Uomini,  animali e ancora uomini"",01.1.MENEUOM,Libro edito,,""Meneghetti, Egidio"",,,1961,Milano,Edizioni Avanti!,Filosofia,Venturati,Venturati,,,"
-"288,Lettere dalle case chiuse,01.1.MERLET,Libro edito,,""Merlin, Lina"",""Barberis, Carla"",,1955,Milano-Roma,Edizioni Avanti!,Politica,Venturati,Venturati,,,"
-"289,La clericalizzazione dello Stato,01.1.MEZCLE,Libro edito,,""Mezza, Maria Vittoria"",,,1958,Milano-Roma,Edizioni Avanti!,""Politica,Chiesa,Inchiesta"",Venturati,Venturati,,,"
-"290,""Sindacati, progresso tecnico, programmazione economica"",01.1.MOMSIN,Libro edito,,""Momigliano, Franco"",,,1966,Torino,Einaudi,Economia,Venturati,Venturati,,,"
-"291,Studi sulla rivoluzione russa,01.1.MONLRSTU,Libro edito,,""Mondolfo, Rodolfo"",,,1968,Napoli,Morano,""Storia,Esteri,Comunismo"",Venturati,Venturati,,,"
-"292,Problemi di cultura e dignità nazionale,01.1.MONLUPRO,Libro edito,,""Mondolfo, Ugo Guido"",,,1951,Roma,Opere Nuove,""Socialismo,Politica"",Venturati,Venturati,,,"
-"293,Jugoslavia oggi,01.1.MONPJUG,Libro edito,,Mondoperaio,,,1965,Milano,Mondoperaio,""Politica,Esteri"",Venturati,Venturati,,,"
-"294,Comunità e società industriale,01.1.MORAFCOM,Libro edito,,""Morandi, Franco"",,,1964,Milano,Comunità nuova,Politica,Venturati,Venturati,,,"
-"295,Democrazia diretta e ricostruzione capitalistica,01.1.MORARDEM,Libro edito,,""Morandi, Rodolfo"",,,1960,Torino,Einaudi,""Politica,Economia"",Venturati,Venturati,,,"
-"296,Lettere al fratello,01.1.MORARLET,Libro edito,,""Morandi, Rodolfo"",,,1959,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"297,Lotta di popolo,01.1.MORARLOT,Libro edito,,""Morandi, Rodolfo"",,,1958,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"298,Il partito e la classe,01.1.MORARPAR,Libro edito,,""Morandi, Rodolfo"",,,1961,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"299,Storia della grande industria in Italia,01.1.MORARSTO,Libro edito,,""Morandi, Rodolfo"",,,1959,Torino,Einaudi,Storia,Venturati,Venturati,,,"
-"300,Non vogliamo morire,01.1.MORONON,Libro edito,,""Moro, Paolo"",,,1960,Milano ,Edizioni Avanti!,""Storia,Socialismo,Politica"",Venturati,Venturati,,,"
-"301,Una regione per programma,01.1.MUSCREG,Libro edito,,""Muscarà, Calogero"",,,1968,Padova,Marsilio Editori,""Politica,Amministrazione"",Venturati,Venturati,,,"
-"302,Da Garibaldi al socialismo,01.1.MUSIDAG,Libro edito,,""Musini, Luigi"",,,1961,Milano,Edizioni Avanti!,""Politica,Storia,Socialismo"",Venturati,Venturati,,,"
-"303,Gli anni del centro sinistra,01.1.NENANN,Libro edito,,""Nenni, Pietro"",,,1981,Milano,Sugarco,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"304,I conti con la storia. Diari 1967-1971,01.1.NENCON,Libro edito,,""Nenni, Pietro"",,,1981,Milano,Sugarco,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"305,Il diciannovismo,01.1.NENDIC,Libro edito,,""Nenni, Pietro"",,,1962,Milano,Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"306,Garibaldi,01.1.NENGAR,Libro edito,,""Nenni, Pietro"",,,1961,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"307,Le prospettive del socialismo dopo la destalinizzazione,01.1.NENPRO,Libro edito,,""Nenni, Pietro"",,,1962,Torino,Einaudi,""Politica,Socialismo"",Venturati,Venturati,,,"
-"308,Il socialismo nella democrazia ,01.1.NENSOC,Libro edito,,""Nenni, Pietro "",,,1966,Firenze,Vallecchi,""Politica,Storia,Socialismo"",Venturati,Venturati,,,"
-"309,Spagna,01.1.NENSPA.62,Libro edito,,""Nenni, Pietro"",,,1962,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"310,Spagna,01.1.NENSPA.58,Libro edito,,""Nenni, Pietro"",,,1958,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"311,Taccuino 1942,01.1.NENTAC,Libro edito,,""Nenni, Pietro"",,,1955,Milano-Roma,Edizioni Avanti!,""Politica,Storia,Socialismo"",Venturati,Venturati,,,"
-"312,Tempo di guerra fredda. Diari 1943-1956,01.1.NENTEM,Libro edito,,""Nenni, Pietro"",,,1981,Milano,Sugarco,""Biografico,Esteri,Socialismo,Comunismo"",Venturati,Venturati,,,"
-"313,Il maggiore è un rosso,01.1.NITMAG,Libro edito,,""Nitti, Francesco Fausto"",,,1955,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"314,Kabulista!,01.1.NOCKAB,Libro edito,,""Nociti, Antonello"",,,1983,Milano,Rizzoli,""Politica,Comunismo"",Venturati,Venturati,,,"
-"315,Il controllo delle nascite,01.1.OLICON,Libro edito,,""Olivetti, Vittoria"",,,1957,Milano-Roma,Edizioni Avanti!,""Politica,Economia"",Venturati,Venturati,,,"
-"316,L'occupazione del potere. I democristiani '45/'75,01.1.ORFLOC,Libro edito,,""Orfei, Ruggero"",,,1976,Milano,Longanesi,""Inchiesta,Democrazia Cristiana"",Venturati,Venturati,,,"
-"317,Critica liberale 1952-1966,01.1.ORSECRI.1,Libro edito,1,""Orsello, Gian Piero"",,,1969,Firenze,Landi,""Politica,Liberalismo"",Venturati,Venturati,,,"
-"318,Critica liberale 1952-1966,01.1.ORSECRI.2,Libro edito,2,""Orsello, Gian Piero"",,,1969,Firenze,Landi,""Politica,Liberalismo"",Venturati,Venturati,,,"
-"319,Memorie di un italiano terribile,01.1.ORSIMEM,Libro edito,,""Orsini, Felice"",,,1970,Milano,Club degli Editori,Biografico,Venturati,Venturati,,,"
-"320,Da Mindszenty a Grösz,01.1.OTTDAM,Libro edito,,Ottavio Pastore,,,1952,Roma,Macchia,""Storia,Esteri"",Venturati,Venturati,,,"
-"321,Matteotti socialista,01.1.PAGMAT,Libro edito,,""Pagliuca, Anna"",,,1965,Roma,Sezione Stampa e Propaganda della Direzione del PSI,""Biografico,Socialismo,Resistenza,Fascismo"",Venturati,Venturati,,,"
-"322,Le crisi che ho vissuto,01.1.PAJCRI,Libro edito,,""Pajetta, GianCarlo"",,,1982,Roma,Editori Riuniti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"323,Il ragazzo rosso,01.1.PAJRAG,Libro edito,,""Pajetta, Giancarlo"",,,1983,Milano,Mondadori ,""Biografico,Comunismo"",Venturati,Venturati,,,"
-"324,I precursori di Lenin,01.1.PALPRE,Libro edito,,""Paléologue, Maurizio"",,,1947,Milano,Garzanti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"325,Storia della dominazione europea in Asia,01.1.PANISTO,Libro edito,,""Panikkar, Kavalam"",,,1958,Torino,Einaudi,Storia,Venturati,Venturati,,,"
-"326,Ottobre addio,01.1.PANSOTT,Libro edito,,""Pansa, Giampaolo"",,,1982,Milano,Mondadori,Politica,Venturati,Venturati,,,"
-"327,Mafia e politica. 1943-1962,01.1.PANTMAF,Libro edito,,""Pantalone, Michele"",,,1962,Torino,Einaudi,""Inchiesta,Storia"",Venturati,Venturati,,,"
-"328,Due mesi con i nazisti,01.1.PARDUE,Libro edito,,""Parri, Ferruccio"",,,1973,Roma,Carecas,""Biografico,Fascismo,Resistenza"",Venturati,Venturati,,,"
-"329,Il comunismo italiano nella seconda guerra mondiale,01.1.PCICOM,Libro edito,,PCI,,,1963,Roma,Editori Riuniti,""Storia,Comunismo"",Venturati,Venturati,,,"
-"330,""Storia, politica, organizzazione nella lotta dei comunisti italiani per un nuovo blocco storico"",01.1.PCISTO,Libro edito,,PCI,,,1972,Roma,Critica Marxista,""Politica,Comunismo"",Venturati,Venturati,,,"
-"331,Il Partito Socialista Italiano nei suoi Congressi. Volume I: 1892-1902,01.1.PEDPAR.1,Libro edito,1,""Pedone, Franco"",,,1959,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"332,Il Partito Socialista Italiano nei suoi Congressi. Volume II: 1902-1917,01.1.PEDPAR.2,Libro edito,2,""Pedone, Franco"",,,1961,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"333,Il centauro comunista,01.1.PELLCEN,Libro edito,,""Pellicani, Luciano"",,,1976,Firenze,Vallecchi,""Politica,Comunismo"",Venturati,Venturati,,,"
-"334,Gramsci e la questione comunista,01.1.PELLGRA,Libro edito,,""Pellicani, Luciano"",,,1976,Firenze,Vallecchi,""Politica,Comunismo,Storia,Filosofia politica"",Venturati,Venturati,,,"
-"335,La tragedia della classe operaia,01.1.PELMTRA,Libro edito,,""Pellicani, Michele"",,,1964,Milano,Azione Comune,""Politica,Comunismo"",Venturati,Venturati,,,"
-"336,Conversazione con Umberto Terracini,01.1.PENCON,Libro edito,,""Pendinelli, Mario"",,,1981,Milano,Rizzoli,""Politica,Comunismo"",Venturati,Venturati,,,"
-"337,Il Cittadino. Testo e commento alla Costituzione Italiana,01.1.PESCIT,Libro edito,,""Pestalozza, Luigi"",,,1958,Milano-Roma,Edizioni Avanti!,Giuridico,Venturati,Venturati,,,"
-"338,Il Cittadino. Testo e commento alla Costituzione Italiana,01.1.PESCITbis,Libro edito,,""Pestalozza, Luigi"",,,1957,Milano,Edizioni Avanti!,Politica,Venturati,Venturati,,,"
-"339,Il diritto di non tremolare,01.1.PESDIR,Libro edito,,""Pestalozza, Luigi"",,,1956,Milano-Roma,Edizioni Avanti!,Politica,Venturati,Venturati,,,"
-"340,Sulla teoria economica del socialismo,01.1.PETSUL,Libro edito,,""Petriccione, Sandro"",,,1963,Milano,Azione Comune,""Economia,Socialismo"",Venturati,Venturati,,,"
-"341,Gelli. La carriera di un eroe di questa Italia,01.1.PIAGEL,Libro edito,,""Piazzesi, Gianfranco"",,,1983,Milano,Garzanti,""Biografico,Inchiesta"",Venturati,Venturati,,,"
-"342,L'Italia nella prima guerra mondiale,01.1.PIELIT,Libro edito,,""Pieri, Piero"",,,1965,Torino,Einaudi,""Storia,Grande Guerra"",Venturati,Venturati,,,"
-"343,Moro fu vera gloria?,01.1.PIEMOR,Libro edito,,""Pietra, Italo"",,,1983,Milano,Garzanti,Inchiesta,Venturati,Venturati,,,"
-"344,Meglio rossi che morti?,01.1.PILMEG,Libro edito,,""Pillitteri, Paolo"",,,1982,Milano,SugarCo Edizioni,Politica,Venturati,Venturati,,,"
-"345,Nero su bianco,01.1.PILNER,Libro edito,,""Pillitteri, Paolo"",,,1981,Milano,SugarCo Edizioni,Biografico,Venturati,Venturati,,,"
-"346,Somalia '81. Intervista con Siad Barre,01.1.PILSOM,Libro edito,,""Pillitteri, Paolo"",,,1981,Milano,Sugarco,""Giornalismo,Esteri"",Venturati,Venturati,,,"
-"347,Il colpo di Stato del 25 luglio,01.1.PINCOL,Libro edito,,""Pintor, Giaime"",,,1974,Torino,Einaudi,""Politica,Inchiesta,Storia,Fascismo"",Venturati,Venturati,,,"
-"348,comunismo domani,01.1.PINCOM,Libro edito,,""Pinzauti, Mario"",,,1966,Milano,Azione Comune,""Politica,Comunismo"",Venturati,Venturati,,,"
-"349,Cenno storico d'Italia,01.1.PISCEN,Libro edito,,""Pisacane, Carlo"",,,1957,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"350,Dell'arte bellica in Italia,01.1.PISDEL,Libro edito,,""Pisacane, Carlo"",,,1957,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"351,Guerra combattuta in Italia negli anni 1848-49,01.1.PISGUE,Libro edito,,""Pisacane, Carlo"",,,1961,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"352,Ordinamento dell'esercito italiano,01.1.PISORD,Libro edito,,""Pisacane, Carlo"",,,1957,Milano-Roma,Edizioni Avanti!,""Amministrazione,Giuridico"",Venturati,Venturati,,,"
-"353,La rivoluzione,01.1.PISRIV,Libro edito,,""Pisacane, Carlo"",,,1957,Milano-Roma,Edizioni Avanti!,Politica,Venturati,Venturati,,,"
-354,Critone,01.1.PLACRI,Libro edito,,Platone,,,1978,Milano,Signorelli,Filosofia,Venturati,Venturati,,,
-"355,Il nazismo e lo sterminio degli Ebrei,01.1.POLNAZ,Libro edito,,""Poliakov, Léon"",,,1961,Torino,Einaudi,Storia,Venturati,Venturati,,,"
-"356,L'impresa pubblica nell'esperienza italiana,01.1.POSLIM,Libro edito,,""Posner, M.V."",""Woolf, S.J."",,1967,Torino,Einaudi,""Economia,Amministrazione"",Venturati,Venturati,,,"
-"357,Praxis ed Empirismo,01.1.PREGPRA,Libro edito,,""Preti, Giulio"",,,1957,Torino,Einaudi,Filosofia,Venturati,Venturati,,,"
-"358,Retorica e logica,01.1.PREGRET,Libro edito,,""Preti, Giulio"",,,1968,Torino,Einaudi,Filosofia,Venturati,Venturati,,,"
-"359,Discorsi per il Congresso socialista del 1968,01.1.PRELDIS,Libro edito,,""Preti, Luigi"",,,1968,Roma,SETI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"360,32° Congresso Nazionale,01.1.PSI32C,Libro edito,,PSI,,,1957,Milano-Roma,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"361,33° Congresso Nazionale. Resoconto stenografico,01.1.PSI33C,Libro edito,,PSI,,,1959,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"362,35° Congresso Nazionale. Resoconto integrale,01.1.PSI35C,Libro edito,,PSI,,,1964,Milano ,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"363,Almanacco socialista,01.1.PSIALM,Libro edito,,PSI,,,1960,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"364,almanacco socialista 1961,01.1.PSIALM.61,Libro edito,,PSI,,,1961,Milano,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"365,Conferenza Agraria Nazionale. Atti e resoconto,01.1.PSICON.58,Libro edito,,PSI,,,1958,Milano-Roma,Edizioni Avanti!,""Politica,Socialismo,Amministrazione"",Venturati,Venturati,,,"
-"366,Il Congresso Costitutivo della Federazione Giovanile Socialista,01.1.PSICON.62,Libro edito,,PSI,,,1962,Milano ,Edizioni Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"367,Il Congresso dell'Unità Socialista. Parigi 19-20 luglio 1930,01.1.PSICON.66,Libro edito,,PSI,,,1966,Milano,Critica sociale,""Politica,Socialismo"",Venturati,Venturati,,,"
-"368,Governare il cambiamento. Conferenza programmatica del PSI Rimini 1982,01.1.PSIGOV.82,Libro edito,,PSI,,,1982,Roma,Il compagno,""Politica,Socialismo"",Venturati,Venturati,,,"
-"369,Governare il cambiamento. Conferenza programmatica del PSI Rimini 1982,01.1.PSIGOV.82,Libro edito,,PSI,,,1982,Roma,Il compagno,""Politica,Socialismo"",Venturati,Venturati,,,"
-"370,La Regione Lombarda. Atti del convegno regionale del PSI,01.1.PSILREG,Libro edito,,PSI lombardo,,,1960,Milano,Edizioni Avanti!,""Politica,Socialismo,Amministrazione"",Venturati,Venturati,,,"
-"371,Resoconto stenografico del XVII Congresso Nazionale del Partito Socialista Italiano,01.1.PSIRES,Libro edito,,PSI,,,1962,Milano,Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"372,Donare. Il diario di Anna Maria,01.1.QUODON,Libro edito,,""Quoist, Michel"",,,1963,Torino,Borla,Biografico,Venturati,Venturati,,,"
-"373,Da Teheran a Yalta,01.1.RAGDAT,Libro edito,,""Ragionieri, Ernesto"",,,1965,Roma,Editori Riuniti,""Politica,Esteri,Storia"",Venturati,Venturati,,,"
-"374,Sessant'anni dopo. 28 ottobre 1922: il giorno che stravolse l'Italia,01.1.RÉPSES,Libro edito,,""Répaci, Antonino"",,,1982,Milano,Rizzoli,""Storia,Fascismo"",Venturati,Venturati,,,"
-"375,Per un'altra Italia ,01.1.REVPER,Libro edito,,""Revel, Jean-François"",,,1958,Milano ,C.M Lerici Editore,""Storia,Politica"",Venturati,Venturati,,,"
-"376,Angelo Tasca socialista,01.1.RIOANG,Libro edito,,""Riosa, Alceo"",,,1980,Padova,Marsilio Editori,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"377,Dove va l'URSS?,01.1.RIZDOV,Libro edito,,""Rizzi, Bruno"",,,1965,Milano,Azione Comune,""Politica,Esteri"",Venturati,Venturati,,,"
-"378,La scuola delle 150 ore,01.1.ROSSESCU,Libro edito,,""Rossetti Pepe, Gabriella"",,,1975,Milano,FrancoAngeli,Amministrazione,Venturati,Venturati,,,"
-"379,L'unificazione socialista,01.1.ROSSICLUN,Libro edito,,""Rossi, Cesare"",""Achilli, Fabrizio"",,1969,Milano,Palazzi,""Politica,Socialismo"",Venturati,Venturati,,,"
-"380,No al fascismo,01.1.ROSSIENOA,Libro edito,,""Rossi, Ernesto"",,,1957,Torino,Einaudi,""Politica,Fascismo"",Venturati,Venturati,,,"
-"381,Piccola storia della biologia,01.1.ROSTPIC,Libro edito,,""Rostand, Jean"",,,1949,Torino,Einaudi,Storia,Venturati,Venturati,,,"
-"382,Il contratto sociale,01.1.ROUCON,Libro edito,,""Rousseau, Jean-Jacques"",,,1958,Torino,Einaudi,Filosofia politica,Venturati,Venturati,,,"
-"383,Gesù guerrigliero dell'indipendenza,01.1.ROYGES,Libro edito,,""Roy, Raoul"",,,1979,Milano,Mursia,Politica,Venturati,Venturati,,,"
-"384,La grande impresa nella società moderna,01.1.RUFGRA,Libro edito,,""Ruffolo, Giorgio"",,,1967,Torino,Einaudi,Economia,Venturati,Venturati,,,"
-"385,Giovanni Verga,01.1.RUSGIO,Libro edito,,""Russo, Luigi"",,,1976,Roma-Bari,Laterza,""Biografico,Letteratura"",Venturati,Venturati,,,"
-"386,Il compromesso storico. Obiezioni di un comunista,01.1.SALECOM,Libro edito,,""Salerno, Michele"",,,1977,Roma,Lerici,""Politica,Comunismo"",Venturati,Venturati,,,"
-"387,Educazione. Ragione e democrazione,01.1.SALVADMEDU,Libro edito,,""Salvadori, Massimo"",,,1959,Roma,Opere Nuove,Educazione,Venturati,Venturati,,,"
-"388,Gaetano Salvemini,01.1.SALVADMGAE,Libro edito,,""Salvadori, Massimo L."",,,1963,Torino,Einaudi,Biografico,Venturati,Venturati,,,"
-"389,la boje!,01.1.SALVADRBOJ,Libro edito,,""Salvadori, Rinaldo"",,,1962,Milano,Edizioni Avanti!,Narrativa,Venturati,Venturati,,,"
-"390,Pensiero e azione del Risorgimento,01.1.SALVATPEN,Libro edito,,""Salvatorelli, Luigi"",,,1960,Torino,Einaudi,Storia,Venturati,Venturati,,,"
-"391,Stato e chiesa,01.1.SALVATSTA,Libro edito,,""Salvatorelli, Luigi"",,,1957,Bari,Laterza,""Politica,Chiesa"",Venturati,Venturati,,,"
-"392,Clericali e laici,01.1.SALVECLE,Libro edito,,""Salvemini, Gaetano"",,,1958,Milano,Parenti,""Politica,Chiesa"",Venturati,Venturati,,,"
-"393,Scritti sulla questione meridionale,01.1.SALVESCR,Libro edito,,""Salvemini, Gaetano"",,,1955,Torino,Einaudi,Politica,Venturati,Venturati,,,"
-"394,L'Italia delle regioni,01.1.SANLIT,Libro edito,,""Santarelli, Enzo"",,,1966,Roma,LDC,""Politica,Amministrazione"",Venturati,Venturati,,,"
-"395,L'economia nei paesi industrializzati,01.1.SARACLEC,Libro edito,,""Saraceno, P."",,,1970,Milano,Etas Kompass,Economia,Venturati,Venturati,,,"
-"396,Giovanni Faraboli. Apostolo di socialismo e di italianità,01.1.SARAGGIO,Libro edito,,""Saragat, Giuseppe"",,,1955,Reggio Emilia,La Giustizia,""Politica,Socialismo,Biografico"",Venturati,Venturati,,,"
-"397,Quaranta anni di lotta per la democrazia. Scritti e discorsi 1925-1965,01.1.SARAGQUA,Libro edito,,""Saragat, Giuseppe"",,,1966,Milano,Mursia,""Politica,Socialismo"",Venturati,Venturati,,,"
-"398,Socialismo democratico e socialismo totalitario. Per l'autonomia del Partito Socialista,01.1.SARAGSOD,Libro edito,,""Saragat, Giuseppe"",,,1946,Milano,Critica Sociale,""Politica,Socialismo"",Venturati,Venturati,,,"
-"399,Socialismo e libertà,01.1.SARAGSOL,Libro edito,,""Saragat, Giuseppe"",,,1945,Roma,Casa Editrice Avanti!,""Politica,Socialismo"",Venturati,Venturati,,,"
-"400,La classe operaia nella Germania Est,01.1.SARECLA,Libro edito,,""Sarel, Benno"",,,1959,Torino,Einaudi,""Inchiesta,Operaismo,Esteri"",Venturati,Venturati,,,"
-"401,Federazione Sindacale Mondiale,01.1.SASFED,Libro edito,,""Sassano, Fidia"",,,1967,Milano,Azione Comune,""Politica,Esteri"",Venturati,Venturati,,,"
-"402,Storia della letteratura francese,01.1.SAUSTO,Libro edito,,""Saunier, V. L."",,,1964,Torino,Einaudi,""Storia,Letteratura"",Venturati,Venturati,,,"
-"403,Interviste ai potenti,01.1.SCAINT,Libro edito,,""Scalfari, Eugenio"",,,1979,Milano,Mondadori,""Giornalismo,Politica"",Venturati,Venturati,,,"
-"404,L'autunno della Repubblica. La mappa del potere in Italia,01.1.SCALAU,Libro edito,,""Scalfari, Eugenio"",,,1969,Milano,Etas Kompass,""Inchiesta,Politica"",Venturati,Venturati,,,"
-"405,I Mille Giorni di John F. Kennedy,01.1.SCHMIL,Libro edito,,""Schlesinger, Arthur M."",,,1966,Milano,Rizzoli,""Storia,Esteri"",Venturati,Venturati,,,"
-"406,Il Partito Comunista nell'URSS,01.1.SCHPAR,Libro edito,,""Schlesinger, Rudolf"",,,1962,Milano,Feltrinelli,""Politica,Esteri,Comunismo"",Venturati,Venturati,,,"
-"407,Lapalma va a nord,01.1.SCILAP,Libro edito,,""Sciascia, Leonardo"",,,1982,Milano,Gammalibri,Inchiesta,Venturati,Venturati,,,"
-"408,Nero su nero,01.1.SCINER,Libro edito,,""Sciascia, Leonardo"",,,1979,Torino,Einaudi,Biografico,Venturati,Venturati,,,"
-"409,Chiesa e Stato nella storia d'Italia,01.1.SCOCHI,Libro edito,,""Scoppola, Pietro"",,,1967,Bari,Laterza,""Storia,Chiesa"",Venturati,Venturati,,,"
-"410,Dissenso politico e violenza,01.1.SEGDIS,Libro edito,,""Segre, Umberto"",,,1980,Padova,Marsilio Editori,Politica,Venturati,Venturati,,,"
-"411,Filosofia delle scienze,01.1.SELFIL,Libro edito,,""Selvaggi, Filippo"",,,1953,Roma ,Civiltà Cattolica,Filosofia,Venturati,Venturati,,,"
-"412,Un bagaglio che scotta,01.1.SENBAG,Libro edito,,""Seniga, Giulio"",,,1973,Milano,Azione Comune,Biografico,Venturati,Venturati,,,"
-"413,Israele '67,01.1.SENISR,Libro edito,,""Seniga, Giulio"",,,1967,Milano,Azione Comune,""Politica,Esteri"",Venturati,Venturati,,,"
-"414,Togliatti e Stalin,01.1.SENTOG,Libro edito,,""Seniga, Giulio"",,,1961,Roma,Sugarco,""Politica,Comunismo"",Venturati,Venturati,,,"
-"415,Il capitalismo nelle campagne (1860 -1900),01.1.SERCAP,Libro edito,,""Sereni, Emilio"",,,1948,Novara,Einaudi,""Socialismo,Politica"",Venturati,Venturati,,,"
-"416,La disputa sui partiti,01.1.SERDIS,Libro edito,,""Sernini, Michele"",,,1968,Padova ,Marsilio Editori,Politica,Venturati,Venturati,,,"
-"417,L'Italia l'è malada,01.1.SERLIT,Libro edito,,""Seroni, Adriano"",,,1955,Milano-Roma,Edizioni Avanti!,""Narrativa,Politica"",Venturati,Venturati,,,"
-"418,La sfida americana,01.1.SERSFI,Libro edito,,""Servan-Schreiber, Jean-Jacques"",,,1968,Milano,Etas Kompass,""Politica,Esteri"",Venturati,Venturati,,,"
-"419,Dizionario storico politico italiano,01.1.SESDIZ,Libro edito,,""Sestan, Ernesto"",,,1971,Firenze,Sansoni,Politica,Venturati,Venturati,,,"
-"420,La verità sull'economia cecoslovacca,01.1.SIKVER,Libro edito,,""Sik, Ota"",,,1969,Milano,Etas Kompass,""Economia,Esteri,Comunismo"",Venturati,Venturati,,,"
-"421,Quando muore un comunista,01.1.SIRQUA,Libro edito,,""Sironi, Antonio"",,,1955,Milano,Edizioni Avanti!,""Narrativa,Comunismo"",Venturati,Venturati,,,"
-"422,Eugenio Colorni,01.1.SOLEUG,Libro edito,,""Solari, Leo"",,,1980,Padova,Marsilio Editori,""Biografico,Resistenza"",Venturati,Venturati,,,"
-"423,La revisione del concordato,01.1.SPAREV,Libro edito,,""Spadolini, Giovanni"",,,1979,Firenze,Le Monnier,""Politica,Chiesa,Giuridico"",Venturati,Venturati,,,"
-"424,Problemi di storia del Partito Comunista Italiano,01.1.SPRPRO,Libro edito,,""Spriano, Paolo"",,,1971,Roma,Editori Riuniti,""Storia,Comunismo,Politica"",Venturati,Venturati,,,"
-"425,La Questione Italiana al Terzo Congresso della Internazionale Comunista,01.1.SPRQUE,Libro edito,,""Spriano, Paolo"",,,1980,Roma,Editori Riuniti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"426,I Bonaparte. Storia di una famiglia,01.1.STABON,Libro edito,,""Stacton, David"",,,1967,Milano,Club degli Editori,Storia,Venturati,Venturati,,,"
-"427,Questioni del leninismo,01.1.STAQUE,Libro edito,,""Stalin, Giuseppe"",,,1946,Mosca,Edizioni in lingue estere,""Politica,Comunismo"",Venturati,Venturati,,,"
-"428,Storia di preti e di palazzinari,01.1.STASTO,Libro edito,,""Statera, Alberto"",,,1977,Roma,L'Espresso,""Inchiesta,Chiesa"",Venturati,Venturati,,,"
-"429,Il Verdetto dei tre decenni,01.1.STEIVER,Libro edito,,""Steinberg, Julien"",,,1952,Milano,Sperling & Kupfer,Politica,Venturati,Venturati,,,"
-"430,Dialogo con Giorgio Bocca sui fantasmi d'una generazione,01.1.STERDIA,Libro edito,,""Sterpa, Egidio"",,,1978,Milano,Nuova Editoriale,Politica,Venturati,Venturati,,,"
-"431,Teoria della politica estera americana,01.1.SWETEO,Libro edito,,""Sweezy, Paul M."",""Huberman, Leo"",,1963,Torino,Einaudi,""Politica,Esteri"",Venturati,Venturati,,,"
-"432,Gaetano Salvemini nel cinquantennio liberale,01.1.TAGGAE,Libro edito,,""Tagliacozzo, Enzo"",,,1958,Firenze,La Nuova Italia,""Politica,Storia"",Venturati,Venturati,,,"
-"433,Bilancio del marxismo,01.1.TAMBIL,Libro edito,,""Tamburano, G."",""Landolfi, A."",""Galli, G."",1965,Urbino ,Cappelli,""Politica,Comunismo,Socialismo"",Venturati,Venturati,,,"
-"434,Per un partito socialista moderno,01.1.TAMPER,Libro edito,,""Tamburrano, Giuseppe"",,,1965,Milano ,Edizioni Azione Comune ,""Storia,Politica,Socialismo"",Venturati,Venturati,,,"
-"435,Nascita e avvento del fascismo ,01.1.TASNAS.1,Libro edito,1,""Tasca, Angelo"",,,1967,Bari,Laterza,""Politica,Storia,Fascismo"",Venturati,Venturati,,,"
-"436,Nascita e avvento del fascismo ,01.1.TASNAS.2,Libro edito,2,""Tasca, Angelo"",,,1967,Bari,Laterza,""Politica,Storia,Fascismo"",Venturati,Venturati,,,"
-"437,Il senso della morte e l'amore della vita nel Rinascimento,01.1.TENSEN,Libro edito,,""Tenenti, Alberto"",,,1957,Torino,Einaudi,Storia,Venturati,Venturati,,,"
-"438,Abramo Lincoln,01.1.THOABR,Libro edito,,""Thomas, Benjamin"",,,1964,Torino,Einaudi,""Biografico,Storia"",Venturati,Venturati,,,"
-"439,Viaggio in India,01.1.TODVIA,Libro edito,,""Todisco, Alfredo"",,,1962,Torino,Einaudi,Narrativa,Venturati,Venturati,,,"
-"440,Storia dell'evoluzione biologica,01.1.TOFSTO,Libro edito,,""Tofini, Paolo"",,,1960,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,"
-"441,Da Radio Milano - Libertà,01.1.TOGDAR,Libro edito,,""Togliatti, Palmiro"",,,1974,Roma,Editori Riuniti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"442,Da Salerno a Yalta. Vent'anni di lotta politica negli articoli di Rinascita,01.1.TOGDAS,Libro edito,,""Togliatti, Palmiro"",,,1984,Roma,Rinascita,""Politica,Storia,Comunismo"",Venturati,Venturati,,,"
-"443,La formazione del gruppo dirigente del Partito Comunista Italiano,01.1.TOGFOR,Libro edito,,""Togliatti, Palmiro"",,,1962,Roma,Editori Riuniti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"444,Gramsci,01.1.TOGGRA,Libro edito,,""Togliatti, Palmiro"",,,1972,Roma,Editori Riuniti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"445,Togliatti editorialista,01.1.TOGTOG,Libro edito,,""Togliatti, Palmiro"",,,1971,Roma,Editori Riuniti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"446,Con l'armata italiana in Russia,01.1.TOLCON,Libro edito,,""Tolloy, Giusto"",,,1947,Torino,De Silva,""Storia,Esteri"",Venturati,Venturati,,,"
-"447,Filippo Turati,01.1.TREEFIL,Libro edito,,""Treves, Claudio"",,,1945,Roma-Milano,Avanti!,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"448,Un socialista: Filippo Turati,01.1.TREESOC,Libro edito,,""Treves, Claudio"",,,1940,Roma,Critica Sociale,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"449,Lineamenti di una Storia del movimento operaio italiano. Dalla rivoluzione industriale alla I Internazionale,01.1.TREILIN.1,Libro edito,1,""Trevisani, Giulio"",,,1958,Milano-Roma,Edizioni Avanti!,""Storia,Operaismo"",Venturati,Venturati,,,"
-"450,Lineamenti di una Storia del movimento operaio italiano. Dalla I Internazionale a fine secolo,01.1.TREILIN.2,Libro edito,2,""Trevisani, Giulio"",,,1960,Milano-Roma,Edizioni Avanti!,""Storia,Operaismo"",Venturati,Venturati,,,"
-"451,Quaderni rossi. La fabbrica e la società,01.1.TROQUA.2,Libro edito,2,""Tronti, M."",,,1962,Milano,Istituto Morando,""Politica,Comunismo"",Venturati,Venturati,,,"
-"452,Scritti,01.1.TROSCR,Libro edito,,""Trotskij, Lev"",,,1962,Torino,Einaudi,""Politica,Comunismo"",Venturati,Venturati,,,"
-"453,Storia della rivoluzione russa 1,01.1.TROSTO.1,Libro edito,1,""Trotskij, Lev"",,,1939,Roma,Garzanti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"454,Storia della rivoluzione russa 2,01.1.TROSTO.2,Libro edito,2,""Trotskij, Lev"",,,1939,Roma,Garzanti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"455,Storia della rivoluzione russa 3,01.1.TROSTO.3,Libro edito,3,""Trotskij, Lev"",,,1939,Roma,Garzanti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"456,L'organizzazione socialista,01.1.TURLOR,Libro edito,,""Turati, Filippo"",,,1958,Roma,Opere Nuove,""Politica,Socialismo"",Venturati,Venturati,,,"
-"457,Il socialismo nel ventesimo secolo,01.1.USLSOC,Libro edito,,Unione Socialista di Londra,,,1959,Roma,Opere Nuove,""Socialismo,Politica"",Venturati,Venturati,,,"
-"458,Gli intellettuali di sinistra e la crisi del 1956,01.1.VACINT,Libro edito,,""Vacca, Giuseppe"",,,1978,Roma,Rinascita - Editori riuniti,""Politica,Comunismo"",Venturati,Venturati,,,"
-"459,Il pensiero politico contemporaneo,01.1.VALPEN,Libro edito,,""Valentini, Francesco"",,,1979,Bari,Laterza,""Politica,Filosofia politica"",Venturati,Venturati,,,"
-"460,Questioni di storia del socialismo,01.1.VALQUE,Libro edito,,""Valiani, Leo"",,,1958,Torino,Einaudi,""Storia,Socialismo"",Venturati,Venturati,,,"
-"461,La sinistra democratica in Italia,01.1.VALSIN,Libro edito,,""Valiani, Leo"",,,1977,Roma,Della Voce,Politica,Venturati,Venturati,,,"
-"462,Gli sviluppi ideologici del socialismo democratico in Italia,01.1.VALSVI,Libro edito,,""Valiani, Leo"",,,1956,Roma,Opere Nuove,""Politica,Socialismo"",Venturati,Venturati,,,"
-"463,I cinesi. In margine al contrasto Mosca-Pechino,01.1.VASCIN,Libro edito,,""Vasconi, Luciano"",,,1964,Milano,Azione Comune,""Politica,Comunismo,Esteri"",Venturati,Venturati,,,"
-"464,La proprietà socialista dello stato,01.1.VENPRO,Libro edito,,Venediktov A.V.,,,1953,Torino ,Einaudi ,""Politica,Socialismo"",Venturati,Venturati,,,"
-"465,Il processo civile avanti al Pretore,01.1.VISPRO.1,Libro edito,1,""Visco, Antonio"",,,1952,S. Maria C.V.,Schiano,Giuridico,Venturati,Venturati,,,"
-"466,Il processo civile avanti al Pretore,01.1.VISPRO.2,Libro edito,2,""Visco, Antonio"",,,1952,S. Maria C.V.,Schiano,Giuridico,Venturati,Venturati,,,"
-"467,Il processo civile avanti al Pretore,01.1.VISPRO.3,Libro edito,3,""Visco, Antonio"",,,1952,S. Maria C.V.,Schiano,Giuridico,Venturati,Venturati,,,"
-"468,Il comunismo sovietico: una nuova civiltà,01.1.WEBCOM.1,Libro edito,1,""Webb, Sidney"",""Webb, Beatrice"",,1950,Torino,Einaudi,""Politica,Comunismo,Esteri"",Venturati,Venturati,,,"
-"469,Il comunismo sovietico: una nuova civiltà,01.1.WEBCOM.2,Libro edito,2,""Webb, Sidney"",""Webb, Beatrice"",,1950,Torino,Einaudi,""Politica,Comunismo,Esteri"",Venturati,Venturati,,,"
-"470,Trotskij in esilio,01.1.WEITRO,Libro edito,,""Weiss, Peter"",,,1970,Torino,Einaudi,""Biografico,Esteri,Comunismo,Storia"",Venturati,Venturati,,,"
-"471,Leningrado,01.1.WERLEN,Libro edito,,""Werth, Alexander"",,,1947,Torino,Einaudi,""Politica,Comunismo"",Venturati,Venturati,,,"
-"472,Storia della Quarta Repubblica,01.1.WERSTO,Libro edito,,""Werth, Alexander"",,,1958,Torino,Einaudi,""Storia,Esteri"",Venturati,Venturati,,,"
-"473,I tre artefici della rivoluzione d'ottobre,01.1.WOLFTRE,Libro edito,,""Wolfe, B.D."",,,1953,Firenze,La Nuova Italia,""Storia,Esteri,Comunismo"",Venturati,Venturati,,,"
-"474,""Stelle, strisce e tricolore"",01.1.WOLLSTE,Libro edito,,""Wollemborg, Leo J."",,,1983,Milano,Mondadori,""Politica,Esteri"",Venturati,Venturati,,,"
-"475,Il lungo viaggio attraverso il fascismo,01.1.ZANLUN,Libro edito,,""Zangrandi, Ruggero"",,,1962,Milano,Feltrinelli,""Storia,Fascismo"",Venturati,Venturati,,,"
-"476,Memorie di un socialista 1905-1965,01.1.ZILMEM,Libro edito,,""Zilocchi, Carlo"",,,1967,Milano,Il Gallo,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"477,Vita del carcere di Antonio Gramsci,01.1.ZUCVIT,Libro edito,,""Zucaro, Domenico"",,,1954,Milano-Roma,Edizioni Avanti!,""Biografico,Comunismo,Storia"",Venturati,Venturati,,,"
-"478,Dalla politica di unità nazionale alla elezione di Sandro Pertini,01.2.BALDAL,Libro autoprodotto,,""Balzamo, Vincenzo"",,,1979,Milano,PSI,""Elettorale,Socialismo,Storia"",Venturati,Venturati,,,"
-"479,La riforma autonomistica delle regioni e il progetto disgregatore delle leghe,01.2.BALRIFA,Libro autoprodotto,,""Balzamo, Vincenzo"",,,1990,Brescia,PSI,""Politica,Amministrazione,Giuridico"",Venturati,Venturati,,,"
-"480,Il riformismo socialista in Italia e in Europa,01.2.BALRIFS,Libro autoprodotto,,""Balzamo, Vincenzo"",,,1989,Milano,PSI,""Politica,Socialismo,Esteri"",Venturati,Venturati,,,"
-"481,Camillo Prampolini,01.2.BARCAM,Libro autoprodotto,,""Barazzoni, Renzo"",,,1959,Reggio Emilia,Federazione reggiana del PSI,""Biografico,Socialismo"",Venturati,Venturati,,,"
-"482,Chi è e cosa ha fatto Ivan Matteo Lombardo,01.2.BIACHI,Libro autoprodotto,,""Bianchi, Umeberto"",,,1953,Milano,PSDI,""Elettorale,Socialismo,Politica"",Venturati,Venturati,,,"
-"483,I vecchi socialisti prampoliniani,01.2.BOTVEC,Libro autoprodotto,,""Bottazzi, Bartolo"",,,1945,Reggio Emilia,Federazione Prov. Socialista di Reggio Emilia,""Storia,Socialismo"",Venturati,Venturati,,,"
-"484,Per un programma minimo socialista,01.2.CREPER,Libro autoprodotto,,CREA,,,1983,Milano,CREA,""Politica,Socialismo"",Venturati,Venturati,,,"
-485,50 anni di caricatura politica nell'opera di Giuseppe Scalarini,01.2.ENT50A,Libro autoprodotto,,Ente Provinciale del Turismo - Mantova,,,1965,Mantova,Ente Provinciale del Turismo - Mantova,Giornalismo,Venturati,Venturati,,,
-486,Umberto Mannini,01.2.LUIUMB,Libro autoprodotto,,Luigina Delli,,,1978,Calenzano,Comune di Calenzano,Biografico,Venturati,Venturati,,,
-"487,Diario di Marcella,01.2.MARDIA,Libro autoprodotto,,Marcella,,,1977,,Marcella ,""Biografico,Politica"",Venturati,Venturati,,,"
-"488,Non per stato di necessità ma per scelta politica,01.2.NENNON,Libro autoprodotto,,""Nenni, Pietro"",,,1970,Roma,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"489,L'iniziativa socialista per la Valsassina e la Valvarrone,01.2.PSILIN,Libro autoprodotto,,PSI lombardo,,,1967,Milano,CeSReL,""Politica,Socialismo"",Venturati,Venturati,,,"
-"490,Note per una politica socialista,01.2.PSINOT.2,Libro autoprodotto,2,PSI,,,1976,Milano,PSI,""Periodici,Socialismo,Politica"",Venturati,Venturati,,,"
-"491,Note per una politica socialista,01.2.PSINOT.7,Libro autoprodotto,7,PSI,,,1977,Milano,PSI,""Periodici,Socialismo,Politica"",Venturati,Venturati,,,"
-"492,Note per una politica socialista,01.2.PSINOT.8,Libro autoprodotto,8,PSI,,,1977,Milano,PSI,""Periodici,Socialismo,Politica"",Venturati,Venturati,,,"
-"493,Il partito socialista struttura e organizzazione,01.2.PSIPAR,Libro autoprodotto,,PSI,,,1975,Roma,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"494,PSI-PSDI Unificati. Statuto,01.2.PSIPSI,Libro autoprodotto,,PSI-PSDI,,,1966,Roma,PSI-PSDI Unificati,""Politica,Socialismo"",Venturati,Venturati,,,"
-"495,Quaderni della sezione centrale di organizzazione. Documenti de dibattito di base,01.2.PSIQUA.2,Libro autoprodotto,2,PSI,,,1974,Roma,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"496,Quaderni della sezione centrale di organizzazione. Documenti de dibattito di base,01.2.PSIQUA.3,Libro autoprodotto,3,PSI,,,1974,Roma,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"497,Statuto del Partito Socialista Italiano,01.2.PSISTA.65,Libro autoprodotto,,PSI,,,1965,Roma,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"498,Statuto,01.2.PSISTA.sd.1,Libro autoprodotto,,PSI,,,s.d.,Roma,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"499,Statuto del Partito Socialista Italiano,01.2.PSISTA.sd.2,Libro autoprodotto,,PSI,,,s.d.,Roma,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"500,Avanti con maggior vigore nella lotta per il centro-sinistra,01.2.SARAVA,Libro autoprodotto,,""Saragat, Giuseppe"",,,1963,Roma,PSDI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"501,Le giornate della Liberazione,01.2.UFFGIO,Libro autoprodotto,,Ufficio Stampa Comune di Milano,,,1975,Milano,Ufficio Stampa Comune di Milano,""Storia,Resistenza"",Venturati,Venturati,,,"
-"502,Il Mulino,01.3.AAVMUL.1,Periodici,1,AAVV,,,1984,Bologna,Il Mulino,""Periodici,Politica"",Venturati,Venturati,,,"
-"503,Il Mulino,01.3.AAVMUL.2,Periodici,2,AAVV,,,1984,Bologna,Il Mulino,""Periodici,Politica"",Venturati,Venturati,,,"
-"504,Il Mulino,01.3.AAVMUL.3,Periodici,3,AAVV,,,1984,Bologna,Il Mulino,""Periodici,Politica"",Venturati,Venturati,,,"
-"505,Il Mulino,01.3.AAVMUL.4,Periodici,4,AAVV,,,1984,Bologna,Il Mulino,""Periodici,Politica"",Venturati,Venturati,,,"
-"506,Nuova Rivista Internazionale,01.3.AAVNUO.5,Periodici,5,AAVV,,,1965,Roma,SGRA,""Periodici,Politica"",Venturati,Venturati,,,"
-"507,Le ragioni politiche,01.3.AAVRAG.1,Periodici,1,AAVV,,,1967,Roma,Marsilio Editori,""Periodici,Politica"",Venturati,Venturati,,,"
-"508,Le ragioni politiche,01.3.AAVRAG.2\3,Periodici,2\3,AAVV,,,1967,Roma,Marsilio Editori,""Periodici,Politica"",Venturati,Venturati,,,"
-"509,Rivista storica del socialismo,01.3.AAVRIV.17,Periodici,17,AAVV,,,1962,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"510,Rivista storica del socialismo,01.3.AAVRIV.18,Periodici,18,AAVV,,,1963,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"511,Rivista storica del socialismo,01.3.AAVRIV.19,Periodici,19,AAVV,,,1963,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"512,Rivista storica del socialismo,01.3.AAVRIV.20,Periodici,20,AAVV,,,1963,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"513,Rivista storica del socialismo,01.3.AAVRIV.21,Periodici,21,AAVV,,,1964,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"514,Rivista storica del socialismo,01.3.AAVRIV.22,Periodici,22,AAVV,,,1964,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"515,Rivista storica del socialismo,01.3.AAVRIV.23,Periodici,23,AAVV,,,1964,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"516,Rivista storica del socialismo,01.3.AAVRIV.24,Periodici,24,AAVV,,,1965,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"517,Rivista storica del socialismo,01.3.AAVRIV.25\26,Periodici,25\26,AAVV,,,1965,Firenze,La Nuova Italia,""Politica,Socialismo"",Venturati,Venturati,,,"
-"518,Rivista storica del socialismo,01.3.AAVRIV.27,Periodici,27,AAVV,,,1966,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"519,Rivista storica del socialismo,01.3.AAVRIV.28,Periodici,28,AAVV,,,1966,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"520,Rivista storica del socialismo,01.3.AAVRIV.29,Periodici,29,AAVV,,,1966,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"521,Rivista storica del socialismo,01.3.AAVRIV.30,Periodici,30,AAVV,,,1967,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"522,Rivista storica del socialismo,01.3.AAVRIV.31,Periodici,31,AAVV,,,1967,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"523,Rivista storica del Socialismo. Il PSI e la grande guerra,01.3.AAVRIV.32,Periodici,32,AAVV,,,1967,Firenze,La Nuova Italia,""Periodici,Socialismo,Storia"",Venturati,Venturati,,,"
-"524,Una sinistra per la DC. I fatti del Cile,01.3.AAVSIN.2\3,Periodici,2\3,AAVV,,,1973,Monza,Quaderni di dibattito politico,""Politica,Esteri,Democrazia Cristiana"",Venturati,Venturati,,,"
-"525,Lo Spettatore Internazionale,01.3.ALISPE.7.2,Periodici,7.2,Aliboni,Sacco ,Silvestri ,1972,Bologna ,Istituto Affari Internazionali ,""Politica,Periodici,Filosofia politica"",Venturati,Venturati,,,"
-"526,Confronti,01.3.REGCON.2,Periodici,2,Regione Lombardia,,,1981,Milano,Regione Lombardia,""Periodici,Amministrazione"",Venturati,Venturati,,,"
-"527,Confronti,01.3.REGCON.2bis,Periodici,2,Regione Lombardia,,,1981,Milano,Regione Lombardia,""Periodici,Amministrazione"",Venturati,Venturati,,,"
-"528,Civitas,01.3.TAVCIV.6,Periodici,6,""Taviani, Paolo Emilio"",,,1981,Milano,Edizioni Civitas,Periodici,Venturati,Venturati,,,"
-"529,Civitas,01.3.TAVCIV.7\8,Periodici,7\8,""Taviani, Paolo Emilio"",,,1981,Milano,Edizioni Civitas,Periodici,Venturati,Venturati,,,"
-"530,Critica marxista,01.3.TORCRI.1\2,Periodici,1\2,""Tortorella, Aldo"",,,1984,Roma,Editori Riuniti,""Periodici,Comunismo"",Venturati,Venturati,,,"
-"531,Critica marxista,01.3.TORCRI.3,Periodici,3,""Tortorella, Aldo"",,,1984,Roma,Editori Riuniti,""Periodici,Comunismo"",Venturati,Venturati,,,"
-"532,Critica marxista,01.3.TORCRI.6,Periodici,6,""Tortorella, Aldo"",,,1984,Roma,Editori Riuniti,""Periodici,Comunismo"",Venturati,Venturati,,,"
-"533,Il Caffè. Problemi della socialdemocrazia,01.3.VICCAF,Periodici,,""Vicari, Gianbattista"",,,1955,Milano,Il Caffé,""Periodici,Socialismo"",Venturati,Venturati,,,"
-"534,I trasporti dalle idee ai fatti,01.4.BALTRA,Documentazione interna,,""Balzamo, Vincenzo"",,,1982,,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"535,""Per il """"Progetto Socialista"""""",01.4.CRAPER,Documentazione interna,,""Craxi, Bettino"",,,1978,Milano,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"536,41esimo congresso nazionale,01.4.PSI41E,Documentazione interna,,PSI,,,1978,Milano,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"537,""L'impegno del PSI per l'attuazione del """"progetto 80"""""",01.4.PSILIM,Documentazione interna,,PSI,,,1970,Milano,PSI,""Politica,Socialismo"",Venturati,Venturati,,,"
-"538,Soluzioni concrete a problemi reali,01.5.OLCSOL,Materiale elettorale,,""Olcese, Vittorio"",,,1983,Milano,PRI,""Elettorale,Socialismo"",Venturati,Venturati,,,"
-"539,Ricerche di storia contemporanea bergamasca,01.6.AAVRIC,Studi e documentazione di ricerca,,AAVV,,,1970,Bergamo,ISREC,""Periodici,Resistenza,Storia"",Venturati,Venturati,,,"
-"540,Ricerche di storia contemporanea bergamasca,01.6.AAVRIC.3\4,Studi e documentazione di ricerca,3\4,AAVV,,,1972,Bergamo,ISREC,""Storia,Resistenza,Periodici"",Venturati,Venturati,,,"
-"541,Studi Storici,01.6.AAVSTU.3,Studi e documentazione di ricerca,3,AAVV,,,1963,Roma,Istituto Gramsci,""Periodici,Storia"",Venturati,Venturati,,,"
-"542,In ricordo di Riccardo Bauer,01.6.ARDINR,Studi e documentazione di ricerca,,""Arduino, Mario"",""Ghezzi, Morris L."",,1982,Milano,CREA,Storia,Venturati,Venturati,,,"
-"543,L'economia sovietica nell'era di Breznev,01.6.BRELEC,Studi e documentazione di ricerca,,""Brera, Paolo"",,,1977,Milano,Centro Mondolfo,""Economia,Comunismo,Esteri"",Venturati,Venturati,,,"
-"544,Compendio statistico della Provincia di Bergamo 1965-66-67,01.6.CABCOM,Studi e documentazione di ricerca,,Camera di Commercio Industria Artigianato e Agricoltura Bergamo ,Ufficio  Provinciale di Statistica ,,1968,Bergamo ,Poligrafiche Bolis S.p.A.,""Amministrazione,Economia,Inchiesta"",Venturati,Venturati,,,"
-"545,Cento anni dopo,01.6.CRACEN,Studi e documentazione di ricerca,,""Craxi, Bettino"",,,1982,Milano,Biblioteca rossa,""Politica,Storia"",Venturati,Venturati,,,"
-"546,I movimenti pacifisti: dalle marce all'analisi agli slogans,01.6.CREMOV,Studi e documentazione di ricerca,,CREA,,,1981,Milano,CREA,""Politica,Esteri"",Venturati,Venturati,,,"
-"547,Rapporto sul Medio Oriente: Israele e gli stati arabi,01.6.DARRAP,Studi e documentazione di ricerca,,""Da Rold, Gianluigi"",""Sodano, Pier Giulio"",,1970,Milano,Associazione Sionistica Italiana,""Storia,Esteri"",Venturati,Venturati,,,"
-"548,Il movimento operaio milanese alla fine dell'ottocento,01.6.GALMOV.1,Studi e documentazione di ricerca,,""Galli, Giancarlo"",,,1971,Milano,Ufficio Stampa Comune di Milano,""Politica,Storia,Socialismo"",Venturati,Venturati,,,"
-"549,Il movimento operaio milanese all'inizio del novecento,01.6.GALMOV.2,Studi e documentazione di ricerca,,""Galli, Giancarlo"",,,1972,,Ufficio Stampa Comune di Milano,""Politica,Storia,Socialismo"",Venturati,Venturati,,,"
-"550,I socialisti per la riforma agraria ,01.6.LOCSOC,Studi e documentazione di ricerca,,Locoratolo Luigi,,,1957,Roma,Psi,""Socialismo,Politica"",Venturati,Venturati,,,"
-"551,Essenzialità dei trasporti per una civiltà di movimento,01.6.MITESS,Studi e documentazione di ricerca,,Ministero dei trasporti,,,1982,Roma,Ministero dei trasporti,""Politica,Socialismo"",Venturati,Venturati,,,"
-"552,Una strategia per i trasporti degli anni ottanta,01.6.MITSTR,Studi e documentazione di ricerca,,Ministero dei trasporti,,,1981,Roma,Ministero dei trasporti,""Politica,Socialismo"",Venturati,Venturati,,,"
-"553,Trasporti: provvedimenti d'emergenza per la sicurezza e i diritti dei cittadini,01.6.MITTRA,Studi e documentazione di ricerca,,Ministero dei trasporti,,,1982,Roma,Ministero dei trasporti,""Politica,Socialismo"",Venturati,Venturati,,,"
-"554,1892 - 1982 PSI novanta anni di storia,01.6.PSI189,Studi e documentazione di ricerca,,PSI,,,1982,Roma,PSI,""Politica,Storia,Socialismo"",Venturati,Venturati,,,"
-"555,Per un trattato di pace con la Germania per scongiurare i pericoli di guerra,01.6.SLEPER,Studi e documentazione di ricerca,,Sindacati e Lavoratori d'Europa,,,1959,Görlitz-Zgorzelec,Conferenza dei Sindacati e dei Lavoratori d'Europa,""Politica,Esteri"",Venturati,Venturati,,,"
-"556,Primo rapporto sull'inchiesta di massa sul terrorismo,01.6.SPSPRI,Studi e documentazione di ricerca,,Sezione Problemi dello Stato,,,1982,Roma,Politica ed Economia,""Inchiesta,Terrorismo"",Venturati,Venturati,,,"
-"557,Copia di verbale di Consiglio Comunale,05.4.PCI.1.A,Verbale (Copia),,Comune di Caravaggio,,,1968,Caravaggio,,""Politica,Comunismo,Caravaggio"",Crapabela,Crapabela,https://drive.google.com/file/d/1RAwwFhsYL09s-48uNUHanJ7aD9YXU_HO/view?usp=drive_link,images/PCI/Crapabela/verbale1.png,""faldone PCI, fascicolo 1"""
-"558,Trascrizione della richiesta di riammissione alla sezione da parte di Merisio,05.4.PCI.2.A,Lettera,,Privato,,,1971,Caravaggio,,""Politica, Comunismo, Caravaggio"",Crapabela,Crapabela,,images/privacy.jpg,""faldone PCI, fascicolo 2"""
-"559,Risposta al Merisio rispetto alla richiesta di riammissione al PCI,05.4.PCI.2.B,Lettera,,""Pisoni, Giuseppe"",,,1971,Caravaggio,,""Politica,Comunismo,Caravaggio"",Crapabela,Crapabela,,images/privacy.jpg,""faldone PCI, fascicolo 2"""
-"560,Risposta della sezione alla Federazione bergamasca in merito alla non candidatura di Pisoni alle provinciali del 1975,05.4.PCI.3.A,Lettera,,""Pontoglio, Mario"",""Sghirlanzoni, Angelo"",""Manzoni, Lucia"",1975,Caravaggio,,""Politica, Comunismo, Caravaggio"",Crapabela,Crapabela,https://drive.google.com/file/d/1bwKWLGUQgGwTfjrb3kJ0DIR-P16yVqPU/view?usp=drive_link,images/PCI/Crapabela/candidatura1.png,""faldone PCI, fascicolo 3"""
-"561,Lettera alla Commissione Provinciale di Controllo del PCI da quella Regionale riguardante la lettera della sezione di Caravaggio del 21/04/1975 sulla candidatura di Pisoni alle provinciali,05.4.PCI.3.B,Lettera,,""Venanzi, Mario"",,,1975,Milano,,""Politica, Comunismo, Caravaggio"",Crapabela,Crapabela,https://drive.google.com/file/d/1e9kLNEtUQvGyaQwHHw0Zp8aJJb-V9L8t/view?usp=drive_link,images/PCI/Crapabela/candidatura2.png,""faldone PCI, fascicolo 3"""
-"562,Risposta alla Commissione Regionale di Controllo del PCI da parte di quella Provinciale sulla candidatura di Pisoni,05.4.PCI.3.C,Lettera,,""Casati, Mario"",,,1978,Bergamo,,""Politica, Comunismo, Caravaggio"",Crapabela,Crapabela,https://drive.google.com/file/d/197UOtI8uTzHtvqDQs0nY0W3mu9DmAccV/view?usp=drive_link,images/PCI/Crapabela/candidatura4.png,""faldone PCI, fascicolo 3"""
-"563,Bozza di risposta alla Commissione Regionale di Controllo del PCI da parte di quella Provinciale sulla candidatura di Pisoni,05.4.PCI.3.D,Minuta,,""Casati, Mario"",,,1975,Bergamo,,""Politica, Comunismo, Caravaggio"",Crapabela,Crapabela,https://drive.google.com/file/d/11QCKvcn0pNlG6BfySL1T2UOoQBXLs-_y/view?usp=drive_link,images/PCI/Crapabela/candidatura4.png,""faldone PCI, fascicolo 3"""
-"564,Appunti per la stesura della risposta alla Federazione sulla questione della candidatura di Pisoni da parte della sezione di Caravaggio,05.4.PCI.3.E,Minuta,,Sconosciuto,,,1975,Caravaggio,,""Politica, Comunismo, Caravaggio"",Crapabela,Crapabela,https://drive.google.com/file/d/1nqZFGatHvGc0ql6M1wJvnTLtDZqCiNE0/view?usp=drive_link,images/PCI/Crapabela/candidatura5.png,""faldone PCI, fascicolo 3"""
-"565,Risposta alla Federazione di Bergamo da parte della sezione PCI di Caravaggio a seguito della questione sulla candidatura di Pisoni,05.4.PCI.3.F,Lettera,,""Pontoglio, Mario"",""Sghirlanzoni, Angelo"",""Manzoni, Lucia"",1975,Caravaggio,,""Politica, Comunismo, Caravaggio"",Crapabela,Crapabela,https://drive.google.com/file/d/1JbqbtuAe4y6cnX_qTA8lccKLrFFRYzQL/view?usp=drive_link,images/PCI/Crapabela/candidatura6.png,""faldone PCI, fascicolo 3"""
-"566,Diverbio ai seggi fra Giuseppe Pisoni (PCI) e Sen. Angelo Castelli (DC),05.8.FOT.1.A1,Fotografia,,""Pisoni, Giuseppe"",,,1976,Caravaggio,,""Politica,Caravaggio,Comunismo"",Crapabela,Crapabela,,image/PCI/Crapabela/05.8.PISDIV.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo A"""
-"567,Sen. Angelo Castelli ai seggi elettorali,05.8.FOT.1.A2,Fotografia,,""Pisoni, Giuseppe"",,,1976,Caravaggio,,""Caravaggio,Politica"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISSEN.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo A"""
-"568,Festa de L'Unità di Caravaggio,05.8.FOT.1.B1,Fotografia,1,""Pisoni, Giuseppe"",,,s.d.,Caravaggio,,""Politica,Comunismo,Caravaggio,Festa de L'Unità"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISFES.1.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo B"""
-"569,Festa de L'Unità di Caravaggio,05.8.FOT.1.B2,Fotografia,2,""Pisoni, Giuseppe"",,,s.d.,Caravaggio,,""Politica,Caravaggio,Comunismo,Festa de L'Unità"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISFES.2.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo B"""
-"570,Festa de L'Unità di Caravaggio,05.8.FOT.1.B3,Fotografia,3,""Pisoni, Giuseppe"",,,s.d.,Caravaggio,,""Caravaggio,Festa de L'Unità,Comunismo"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISFES.3.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo B"""
-"571,Manifesti elettorali a Caravaggio,05.8.FOT.1.C1,Fotografia,,""Pisoni, Giuseppe"",,,1976,Caravaggio,,""Caravaggio,Comunismo,Politica"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISMAN.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo C"""
-"572,Candidati nella lista del PCI del 1976,05.8.FOT.1.C2,Fotografia,,Sconosciuto,,,1976,Caravaggio,,""Caravaggio,Politica,Comunismo"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.SCOCAN.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo C"""
-"573,Volontari del PCI di Caravaggio ristrutturano la Casa del Popolo,05.8.FOT.1.D1,Fotografia,1,""Pisoni, Giuseppe"",,,197?,Caravaggio,,""Caravaggio,Comunismo"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISVOL.1.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo D"""
-"574,Volontari del PCI di Caravaggio ristrutturano la Casa del Popolo,05.8.FOT.1.D2,Fotografia,2,""Pisoni, Giuseppe"",,,197?,Caravaggio,,""Caravaggio,Comunismo"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISVOL.2.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo D"""
-"575,Volontari del PCI di Caravaggio ristrutturano la Casa del Popolo,05.8.FOT.1.D3,Fotografia,3,""Pisoni, Giuseppe"",,,197?,Caravaggio,,""Caravaggio,Comunismo"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISVOL.3.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo D"""
-"576,Giuseppe Pisoni durante i lavori di ristrutturazione della Casa del Popolo,05.8.FOT.1.E1,Fotografia,,Sconosciuto,,,s.d.,Caravaggio,,""Caravaggio,Comunismo"",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.SCOGIU.jpeg,""faldone fotografico, fascicolo 1, sottofascicolo E"""
-"577,Distinta per il versamento della sovrimposta comunale sul reddito dei fabbricati,08.4.SED.1.A,Ricevuta,,Privato,,,1983,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 1"""
-"578,Dichiarazione di debito da parte di Pisoni e Pavesi verso gli eredi Tadolti,08.4.SED.1.Bbis,Scrittura privata,,""Pisoni, Giuseppe"",""Pavesi, Paolo"",,1979,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 1"""
-"579,Prospetto di contabilità riferita alla sede,08.4.SED.1.C,Minuta,,""Ogliari, Domenico"",,,s.d.,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,pdf/ogliari/08.4.SED.1.C.pdf,images/PCI/ogliari/08.4.SED.1.C.png,""faldone sede, fascicolo 1"""
-"580,Comunicazione di accordo fra sezione di Caravaggio e Federazione del PCI,08.4.SED.1.D,Lettera,,""Castellozzi, Fabio"",,,1988,Bergamo,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,pdf/ogliari/08.4.SED.1.D.pdf,images/PCI/ogliari/08.4.SED.1.D.png,""faldone sede, fascicolo 1"""
-"581,Lettera raccomandata dal notaio Ferrara all'Immobiliare Stella di richiesta pagamento,08.4.SED.1.E,Lettera,,Studio Notaio Ferrara,,,1980,Treviglio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 1"""
-"582,Estratto catastale ditta Tadolti,08.4.SED.1.F,Estratto di registro,,Ufficio pubblico statale,,,s.d.,,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 1"""
-"583,Ricevuta d'affitto della sede,08.4.SED.1.H,Ricevuta,,Privato,,,s.d.,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 1"""
-"584,Concessione a Privato di apertura di una finestra,08.4.SED.2.A,Scrittura privata,,Privato,Privato,,1975,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 2"""
-"585,Comunicazione di cessione fabbricato in affitto,08.4.SED.2.B,Comunicazione,,""Ogliari, Domenico"",,,1984,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 2"""
-"586,Lettera agli eredi Tadolti riguardante privati confinanti con la sede,08.4.SED.2.C,Lettera,,Sconosciuto,,,s.d.,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 2"""
-"587,Contratto d'appalto a Pisoni & Bergamaschi,08.4.SED.3.A,Contratto,,""Ogliari, Domenico"",,,s.d.,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 3"""
-"588,Licenza di costruzione per la ristrutturazione della sede (1974),08.4.SED.3.B,Licenza,,Comune di Caravaggio,,,1974,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 3"""
-"589,Verbale di prova di carico e certificato di collaudo per le opere in c.a. eseguite nella costruzione,08.4.SED.3.C,Certificato,,Privato,,,1975,Bergamo,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 3"""
-"590,Bolla di accompagnamento di materiali edili per la ristrutturazione della sede,08.4.SED.3.D,Documento,,Privato,,,1982,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 3"""
-"591,Conversione in atto pubblico della scrittura privata per la compravendita della sede,08.4.SED.4.A,Copia atto pubblico,,Notaio Leidi,,,1983,Bergamo,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 4"""
-"592,Contratto di comodato d'uso gratuito per le sezioni di Caravaggio,08.4.SED.4.B,Contratto,,Notaio Leidi,,,1983,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 4"""
-"593,Atto costitutivo di Immobiliare Stella 80 e allegati,08.4.SED.5.A,Documentazione,,Notaio Leidi,,,1980,Treviglio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 5"""
-"594,Nomina a procuratrice ad negotia di Immobiliare Stella 80,08.4.SED.5.B,Nomina,,Notaio Leidi,,,1983,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 5"""
-"595,Domanda di attribuzione del numero del codice fiscale per Immobiliare Stella 80,08.4.SED.5.C,Modulistica,,""Ogliari, Domenico"",,,1980,Caravaggio,,""Politica,Caravaggio,Comunismo"",Ogliari,Ogliari,,images/privacy.jpg,""faldone sede, fascicolo 5"""
-"596,Voltare pagina,A01.1.SOFVOL,Libro edito,,""Sofri, Gianni"",,,1979,Torino,Stampatori,Storia,Gallavresi,Gallavresi,,,"
-"597,Busto di Emilio Gallavresi,A01.11.GAL.1,Scultura e simili,,Sconosciuto,,,s.d.,Caravaggio,,""Caravaggio,Socialismo"",Gallavresi,Gallavresi,,images/gallavresi/A01.9.BEGSCO.jpeg,"
-"598,Candidato nella lista La Tua Caravaggio,A02.8.TUA.1.A,Fotografia,1,Sconosciuto,,,2011,Caravaggio,,""Politica,Caravaggio"",Democratici,Democratici,,images/privacy.jpg,""faldone 2011, fascicolo 1"""
-"599,Evento di campagna elettorale Ambrosini Sindaca 2011,A02.8.TUA.1.B,Fotografia,1,Sconosciuto,,,2011,Caravaggio,,""Politica,Caravaggio"",Democratici,Democratici,,images/PDCaravaggio/A02.8.SCOEVE.1.jpeg,""faldone 2011, fascicolo 1"""
-"600,Evento di campagna elettorale Ambrosini Sindaca 2011,A02.8.TUA.1.C,Fotografia,2,Sconosciuto,,,2011,Caravaggio,,""Politica,Caravaggio"",Democratici,Democratici,,images/PDCaravaggio/A02.8.SCOEVE.2.jpeg,""faldone 2011, fascicolo 1"""
-"601,Il Panettiere Partigiano,A04.2.GATPAN,Libro autoprodotto,,""Gatti, Mirko"",,,2023,Caravaggio,AFU Caravaggio,""Storia,Resistenza,Caravaggio"",Stella,Stella,pdf/stella/03.2.GATPAN.pdf,,"
+Titolo,Codice,Tipo,Volume,"Autore (Cognome, Nome)","Autore (Cognome, Nome) copy","Autore (Cognome, Nome) copy copy",Anno di pubblicazione,Luogo,Editore,Tags,Fondo,Fondo (from Fondo),pdf,Immagine,Collocazione
+Autogestione e problemi della transizione,01.1.AAVAUT,Libro edito,,AAVV,,,1975,Venezia-Padova,Marsilio editori,"Politica,Socialismo",Venturati,Venturati,,,
+La bibbia delle famiglie,01.1.AAVBIB,Libro edito,,AAVV,,,1961,Roma,Edizioni Paoline,Religione,Venturati,Venturati,,,
+Cinquant'anni di Concordato,01.1.AAVCIN,Libro edito,,AAVV,,,1979,Firenze ,La Nuova Italia,"Politica,Chiesa",Venturati,Venturati,,,
+Crisi della DC e alternativa socialista,01.1.AAVCRI,Libro edito,,AAVV,,,1975,Venezia-Padova,Marsilio Editori,"Politica,Socialismo",Venturati,Venturati,,,
+Dall'origine della terra all'homo sapiens,01.1.AAVDAL,Libro edito,,AAVV,,,1958,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+La Ginnastica Intellettuale. Esercizi e consigli pratici per sviluppare l’intelligenza ,01.1.AAVGIN,Libro edito,,AAVV,,,1922,Milano ,Istituito Hermes Editore,Educazione,Venturati,Venturati,,,
+L’arte di parlare in Pubblico. Come si impara a improvvisare un discorso ,01.1.AAVLARI,Libro edito,,AAVV,,,1928,Milano ,Istituto Hermes Editore,Educazione,Venturati,Venturati,,,
+L’arte di ragionare. Come si impara a ragionare e giudicare colla propria testa ,01.1.AAVLARR,Libro edito,,AAVV,,,1928,Milano ,Istituto Hermes Editore,"Educazione,Filosofia",Venturati,Venturati,,,
+Lenin teorico e dirigente rivoluzionario,01.1.AAVLEN,Libro edito,,AAVV,,,1970,Roma,Critica Marxista,"Politica,Comunismo,Biografico",Venturati,Venturati,,,
+Manifestazione nazionale per la riforma agraria,01.1.AAVMAN,Libro edito,,AAVV,,,1961,Roma ,Stabilimento tipografico G.A.T.E,Politica,Venturati,Venturati,,,
+Morte di un generale,01.1.AAVMOR,Libro edito,,AAVV,,,1982,Milano,Mondadori,"Inchiesta,Politica",Venturati,Venturati,,,
+Parlamento Istituzioni Democrazia. Seminario di studio,01.1.AAVPAR,Libro edito,,AAVV,,,1980,Milano,Giuffrè,"Politica,Amministrazione,Giuridico",Venturati,Venturati,,,
+programmazione e mezzogiorno,01.1.AAVPRO,Libro edito,,AAVV,,,1966,Roma,Mondoperaio,"Politica,Socialismo",Venturati,Venturati,,,
+La scelta della professione,01.1.AAVSCE,Libro edito,,AAVV,,,1978,Milano,Giuffrè,Educazione,Venturati,Venturati,,,
+Il socialismo dal basso,01.1.AAVSOB,Libro edito,,AAVV,,,1976,Venezia,Marsilio editori,"Politica,Socialismo",Venturati,Venturati,,,
+I socialisti e la cultura,01.1.AAVSOC,Libro edito,,AAVV,,,1976,Venezia-Padova,Marsilio Editori,"Politica,Socialismo",Venturati,Venturati,,,
+Storia del Partito Socialista Italiano,01.1.AAVSTO.1,Libro edito,1,AAVV,,,1980,Padova,Marsilio Editori,"Storia,Socialismo",Venturati,Venturati,,,
+Storia del Partito Socialista Italiano,01.1.AAVSTO.2,Libro edito,2,AAVV,,,1980,Padova,Marsilio Editori,"Storia,Socialismo",Venturati,Venturati,,,
+Storia del Partito Socialista Italiano,01.1.AAVSTO.3,Libro edito,3,AAVV,,,1980,Padova,Marsilio Editori,"Storia,Socialismo",Venturati,Venturati,,,
+Togliatti nella storia d'Italia,01.1.AAVTOG,Libro edito,,AAVV,,,1984,Roma,Editori Riuniti,"Storia,Biografico,Comunismo",Venturati,Venturati,,,
+Turati giovane,01.1.AAVTUR,Libro edito,,AAVV,,,1962,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Un'esperienza riformista,01.1.AAVUNE,Libro edito,,AAVV,,,1983,Milano,CREA,"Amministrazione,Politica",Venturati,Venturati,,,
+La filosofia di Benedetto Croce e la crisi della società italiana,01.1.ABBFIL,Libro edito,,"Abbate, Michele",,,1955,Torino,Einaudi,Filosofia,Venturati,Venturati,,,
+Cittadini in uniforme,01.1.ACCCIT,Libro edito,,"Accame, Falco",,,1976,Cosenza,Lerici,"Politica,Amministrazione",Venturati,Venturati,,,
+Fiat confino,01.1.ACCFIA,Libro edito,,"Accornero, Aris",,,1959,Milano ,Edizioni Avanti!,"Storia,Economia,Politica",Venturati,Venturati,,,
+Socialismo tricolore,01.1.ACCSOC,Libro edito,,"Accame, Giano",,,1983,Milano,Editoriale Nuova,"Politica,Socialismo",Venturati,Venturati,,,
+"Discorsi di Enrico De Nicola, Enrico Altavilla,  Enrico Gonzales. Scritti di Collino Pansa, Giuseppe Polillo",01.1.AFIDIS,Libro edito,,Associazione Forense Italiana,,,1956,Milano,Giuffrè,Politica,Venturati,Venturati,,,
+Rinascita. 1944-1962,01.1.ALARIN.1,Libro edito,1,"Alatri, Paolo",,,1966,Firenze,Landi,"Politica,Comunismo",Venturati,Venturati,,,
+Rinascita. 1944-1962,01.1.ALARIN.2,Libro edito,2,"Alatri, Paolo",,,1966,Firenze,Landi,"Politica,Comunismo",Venturati,Venturati,,,
+Rinascita. 1944-1962,01.1.ALARIN.3,Libro edito,3,"Alatri, Paolo",,,1966,Firenze,Landi,"Politica,Comunismo",Venturati,Venturati,,,
+Una crociata per la giustizia,01.1.ALBCRO,Libro edito,,"Albanese, Angelo",,,1980,Roma,La Piramide,"Politica,Giuridico",Venturati,Venturati,,,
+Il problema storico dell'arretratezza economica,01.1.ALEPRO,Libro edito,,Alexander Gerschenkron,,,1965,Torino,Einaudi,"Politica,Storia,Economia",Venturati,Venturati,,,
+Poesie e canti della resistenza palestinese,01.1.ALFPOE,Libro edito,,Al Fat'h,,,1972,Milano,Edizioni movimento studentesco,"Politica,Resistenza,Comunismo,Socialismo",Venturati,Venturati,,,
+Venti lettere a un amico,01.1.ALLVEN,Libro edito,,"Alliluieva, Svetlana",,,1967,Milano,Mondadori,"Biografico,Comunismo",Venturati,Venturati,,,
+Fascismo. Inchiesta socialista sulle gesta dei fascisti in Italia,01.1.AMBFAS,Libro edito,,"Ambrosoli, Luigi",,,1963,Milano,Edizioni Avanti!,"Inchiesta,Fascismo",Venturati,Venturati,,,
+Né aderire né sabotare 1915-1918,01.1.AMBNÉA,Libro edito,,"Ambrosoli, Luigi",,,1961,Milano,Edizioni Avanti!,"Storia,Grande Guerra",Venturati,Venturati,,,
+Fascismo e movimento operaio,01.1.AMEFAS,Libro edito,,"Amendola, Giorgio",,,1975,Roma,Editori Riuniti,"Storia,Fascismo,Operaismo,Comunismo",Venturati,Venturati,,,
+Una scelta di vita,01.1.AMESCE,Libro edito,,"Amendola, Giorgio",,,1976,Milano,Rizzoli,"Biografico,Comunismo",Venturati,Venturati,,,
+Tra passione e ragione,01.1.AMETRA,Libro edito,,"Amendola, Giorgio",,,1982,Milano,Rizzoli,"Biografico,Comunismo",Venturati,Venturati,,,
+Un'isola,01.1.AMEUNI,Libro edito,,"Amendola, Giorgio",,,1980,Milano,Rizzoli,"Biografico,Comunismo",Venturati,Venturati,,,
+Rosa Luxemburg. Scritti scelti,01.1.AMOROS,Libro edito,,"Amodio, Luciano",,,1963,Milano,Edizioni Avanti!,"Politica,Socialismo,Filosofia politica",Venturati,Venturati,,,
+L'africa e la comunità economica europea,01.1.ANDILAF,Libro edito,,"Andreis, Mario",,,1967,Torino,Einaudi,"Economia,Esteri",Venturati,Venturati,,,
+Trent'anni di storia italiana (1915-1945),01.1.ANTTRE,Libro edito,,"Antonicelli, Franco",,,1961,Torino,Einaudi,"Storia,Fascismo,Resistenza",Venturati,Venturati,,,
+Mondo Operaio 1956-1965,01.1.ARFMON.1,Libro edito,1,"Arfé, Gaetano",,,1974,Firenze,Landi,"Politica,Socialismo",Venturati,Venturati,,,
+Mondo Operaio 1956-1965,01.1.ARFMON.2,Libro edito,2,Arfé. Gaetano,,,1974,Firenze,Landi,"Politica,Socialismo",Venturati,Venturati,,,
+Storia dell'Avanti! 1896-1926,01.1.ARFSTO.I,Libro edito,I,"Arfé, Gaetano",,,1956,Milano-Roma,Edizioni Avanti!,"Storia,Socialismo",Venturati,Venturati,,,
+Storia dell'Avanti! 1926-1940,01.1.ARFSTO.II,Libro edito,II,"Arfé, Gaetano",,,1958,Milano-Roma,Edizioni Avanti!,"Storia,Socialismo",Venturati,Venturati,,,
+Stato e chiesa in Polonia,01.1.ARPSTA,Libro edito,,Associazione italiana per i rapporti culturali con la Polonia,,,1959,Roma,Conoscersi,"Politica,Chiesa,Esteri",Venturati,Venturati,,,
+Il dramma di Graziani nelle arringhe della difesa,01.1.AUGDRA,Libro edito,,"Augenti, G.P.","Mastino del Rio, G.","Carnelutti, F.",1950,Bologna,Zuffi Editore,"Storia,Biografico",Venturati,Venturati,,,
+Blasco. La riabilitazione di un militante rivoluzionario,01.1.AZZBLA,Libro edito,,"Azzaroni, Alfredo",,,1962,Milano,Azione Comune,"Biografico,Comunismo,Resistenza",Venturati,Venturati,,,
+La vita spiegata ai miei figli,01.1.BACVIT,Libro edito,,"Bacus-Lindroth, Anne",,,1999,Milano,Bompiani,Educazione,Venturati,Venturati,,,
+Aritmetica pratica per le scuole medie inferiori,01.1.BAFARI,Libro edito,,"Baffi, Contardo",,,1934,Torino,Paravia,Educazione,Venturati,Venturati,,,
+Stato e Anarchia e altri scritti,01.1.BAKSTA,Libro edito,,"Bakunin, Michail A.",,,1968,Milano,Feltrinelli,"Politica,Anarchismo",Venturati,Venturati,,,
+Costituzione e organi dello stato,01.1.BALCOS,Libro edito,,"Balzamo, Vincenzo","Prosperi, Franco",,1977,Roma,Napoleone,Giuridico,Venturati,Venturati,,,
+Diritti civili e libertà democratiche,01.1.BALDIR,Libro edito,,"Balzamo, Vincenzo ",,,1975,Padova,Marsilio Editori,Giuridico,Venturati,Venturati,,,
+Diritti civili e libertà democratiche,01.1.BALDIRbis,Libro edito,,"Balzamo, Vincenzo",,,1975,Padova,Marsilio Editori,"Politica,Giuridico",Venturati,Venturati,,,
+Ordine pubblico e sicurezza democratica,01.1.BALORD,Libro edito,,"Balzamo, Vincenzo",,,1976,Firenze,La Nuova Italia,"Politica,Amministrazione,Giuridico",Venturati,Venturati,,,
+Il capitale monopolistico,01.1.BARCAP,Libro edito,,Baranz Paul,Sweezy Paul,,1968,Torino,Einaudi,"Economia,Politica,Amministrazione",Venturati,Venturati,,,
+Mancini,01.1.BARMAC,Libro edito,,"Barrese, Orazio",,,1976,Milano,Feltrinelli,"Politica,Socialismo",Venturati,Venturati,,,
+Problemi di socialismo,01.1.BASPRO,Libro edito,,"Basso, Lelio",,,1972,Padova,Marsilio Editori,"Politica,Socialismo",Venturati,Venturati,,,
+Socialisti e cattolici al bivio,01.1.BASSOC,Libro edito,,"Basso, Lelio",,,1961,Manduria-Bari-Perugia,Lacaita,"Politica,Socialismo,Democrazia Cristiana",Venturati,Venturati,,,
+Un popolo in lotta,01.1.BATPOP,Libro edito,,"Battaglia, R.","Ramat, R.",,1961,Firenze,La Nuova Italia,Storia,Venturati,Venturati,,,
+Il Partito Socialista dalla Resistenza ad oggi,01.1.BENPAR,Libro edito,,"Benzoni, Alberto",,,1980,Padova,Marsilio Editori,"Storia,Socialismo,Resistenza",Venturati,Venturati,,,
+La repressione sovietica in Ungheria,01.1.BERREP,Libro edito,,"Berke, A.A.",,,1957,Milano,Mondadori,"Politica,Esteri,Comunismo",Venturati,Venturati,,,
+Ateo a 18 anni?,01.1.BETATE,Libro edito,,Bettazzi Luigi,,,1982,Milano ,Rizzoli,Religione,Venturati,Venturati,,,
+Il comunismo europeo,01.1.BETCOM,Libro edito,,"Bettiza, Enzo",,,1978,Milano,Rizzoli,"Politica,Comunismo,Esteri",Venturati,Venturati,,,
+Lenin,01.1.BEYLEN,Libro edito,,"Bey, Essad",,,1938,Milano,Treves,"Biografico,Comunismo,Storia,Politica,Filosofia politica",Venturati,Venturati,,,
+Come andremo a incominciare,01.1.BIACOM,Libro edito,,"Biagi, Enzo ","Scalfari, Eugenio",,1981,Milano,Rizzoli,"Politica,Giornalismo",Venturati,Venturati,,,
+Carlone. Vita di un italiano,01.1.BIGCAR,Libro edito,,"Bigiaretti, Libero",,,1956,Milano-Roma,Edizioni Avanti!,Narrativa,Venturati,Venturati,,,
+Pertini racconta,01.1.BISPER,Libro edito,,"Bisiach, Gianni",,,1983,Milano,Mondadori,"Biografico,Socialismo",Venturati,Venturati,,,
+Pertini racconta,01.1.BISPERbis,Libro edito,,"Bisiach, Gianni",,,1983,Milano,Mondadori,"Politica,Socialismo,Storia,Resistenza",Venturati,Venturati,,,
+Dizionario di politica,01.1.BOBDIZ,Libro edito,,"Bobbio, Norberto","Matteucci, Nicola",,1976,Torino,UTET,Politica,Venturati,Venturati,,,
+Il marxismo e lo Stato,01.1.BOBMAR,Libro edito,,"Bobbio, Norberto",Alia,,1976,Roma,Mondoperaio,"Politica,Comunismo",Venturati,Venturati,,,
+Il marxismo e lo Stato,01.1.BOBMARbis,Libro edito,,"Bobbio, Norberto",,,1976,Milano,Mondoperaio,"Politica,Comunismo",Venturati,Venturati,,,
+L'Italia è Malata,01.1.BOCLIT,Libro edito,,"Bocca, Giorgio",,,1977,Roma,L'Espresso,"Inchiesta,Politica",Venturati,Venturati,,,
+Miracolo all'italiana,01.1.BOCMIR,Libro edito,,"Bocca, Giorgio",,,1962,Milano,Edizioni Avanti!,"Inchiesta,Politica,Storia",Venturati,Venturati,,,
+Mussolini socialfascista,01.1.BOCMUS,Libro edito,,"Bocca, Giorgio",,,1983,Milano,Garzanti,"Storia,Fascismo",Venturati,Venturati,,,
+Palmiro Togliatti,01.1.BOCPAL,Libro edito,,"Bocca, Giorgio",,,1973,Roma-Bari,Laterza,"Biografico,Storia,Comunismo",Venturati,Venturati,,,
+Storia della Repubblica Italiana,01.1.BOCSTO,Libro edito,,"Bocca, Giorgio",,,1982,Milano,Rizzoli,Storia,Venturati,Venturati,,,
+Il terrorismo italiano 1970-1978,01.1.BOCTER,Libro edito,,"Bocca, Giorgio",,,1978,Milano,Rizzoli,"Inchiesta,Terrorismo",Venturati,Venturati,,,
+Storia delle dottrine politiche. L'assolutismo europeo,01.1.BOISTO.1,Libro edito,1,"Boiardi, Franco",,,1979,Milano,Nuova CEI,"Politica,Filosofia politica",Venturati,Venturati,,,
+Storia delle dottrine politiche. Rivoluzione e restauro 1781-1820,01.1.BOISTO.2,Libro edito,2,"Boiardi, Franco",,,1979,Milano,Nuova CEI,"Politica,Filosofia politica",Venturati,Venturati,,,
+Storia delle dottrine politiche. L'età liberale 1821-1871,01.1.BOISTO.3,Libro edito,3,"Boiardi, Franco",,,1979,Milano,Nuova CEI,"Politica,Filosofia politica",Venturati,Venturati,,,
+Storia delle dottrine politiche. L'età contemporanea 1872-1945,01.1.BOISTO.4,Libro edito,4,"Boiardi, Franco",,,1980,Milano,Nuova CEI,"Politica,Filosofia politica",Venturati,Venturati,,,
+Storia delle dottrine politiche. Colonialismo e imperialismo 1575-1945,01.1.BOISTO.5,Libro edito,5,"Boiardi, Franco",,,1982,Milano,Nuova CEI,"Politica,Filosofia politica",Venturati,Venturati,,,
+Le battaglie politico-ideologiche,01.1.BONBAT,Libro edito,,"Bonetti, Paolo",,,1978,Milano,Il Mondo,Politica,Venturati,Venturati,,,
+Le battaglie economiche,01.1.BONBATbis,Libro edito,,"Bonetti, Paolo",,,1978,Milano,Il Mondo,"Economia,Politica",Venturati,Venturati,,,
+La cancrena,01.1.BOUCAN,Libro edito,,"Boumaza, Bechir","Francis, Mustapha",,1959,Torino,Einaudi,"Inchiesta,Esteri",Venturati,Venturati,,,
+La politica di un socialista,01.1.BRANPOL,Libro edito,,"Brandt, Willy",,,1979,Milano,Garzanti,"Biografico,Socialismo",Venturati,Venturati,,,
+Marx e Engels,01.1.BRAVMAR,Libro edito,,"Bravo, Gian Maria",,,1962,Milano,Edizioni Avanti!,"Politica,Filosofia politica,Socialismo,Comunismo",Venturati,Venturati,,,
+Marx a Londra. La vita quotidiana negli anni dell'esilio,01.1.BRIMAR,Libro edito,,"Briggs, Asa",,,1982,Roma,Rinascita,"Biografico,Filosofia politica,Comunismo,Socialismo",Venturati,Venturati,,,
+La programmazione in Italia,01.1.BRIPRO,Libro edito,,"Brigida, Franco",,,1968,Padova,Marsilio Editori,"Inchiesta,Amministrazione,Politica",Venturati,Venturati,,,
+Socialismo libertario,01.1.CAFSOC,Libro edito,,"Caffi, Andrea",,,1964,Milano,Azione Comune,"Politica,Socialismo",Venturati,Venturati,,,
+Calamandrei,01.1.CALACAL.1,Libro edito,1,"Calamandrei, Piero","Enriques Agnoletti, Enzo",,1958,Firenze,La Nuova Italia,"Biografico,Politica",Venturati,Venturati,,,
+La casa di campagna,01.1.CALACAS,Libro edito,,"Calamandrei, Piero",,,1965,Firenze,La Nuova Italia,Biografico,Venturati,Venturati,,,
+La Costituzione Italiana,01.1.CALACOS,Libro edito,,"Calamandrei, Piero",,,1956,Milano-Roma,Edizioni Avanti!,Giuridico,Venturati,Venturati,,,
+Lettere 1915-1956 ,01.1.CALALET.1,Libro edito,1,"Calamandrei, Piero",,,1968,Firenze,La nuova Italia,"Resistenza,Politica",Venturati,Venturati,,,
+Lettere 1915-1956,01.1.CALALET.2,Libro edito,2,"Calamandrei, Pietro",,,1968,Firenze,La Nuova Italia,"Resistenza,Politica",Venturati,Venturati,,,
+Scritti e discorsi politici. Storia di dodici anni,01.1.CALASCR.1.1,Libro edito,1.1,"Calamandrei, Pietro",,,1966,Firenze,La Nuova Italia,"Politica,Resistenza",Venturati,Venturati,,,
+Scritti e discorsi politici. Storia di dodici anni,01.1.CALASCR.1.2,Libro edito,1.2,"Calamandrei, Pietro",,,1966,Firenze,La Nuova Italia,"Politica,Resistenza",Venturati,Venturati,,,
+Scritti e discorsi politici. Discorsi parlamentari e politica costituzionale,01.1.CALASCR.2,Libro edito,2,Calamandrei,,,1966,Firenze,La Nuova Italia,Politica,Venturati,Venturati,,,
+I nodi della pace,01.1.CALCNOD,Libro edito,,"Calchi-Novati, Gianpaolo",,,1968,Padova,Marsilio Editori,"Politica,Esteri",Venturati,Venturati,,,
+Si fa presto a dire fame ,01.1.CALESIF,Libro edito,,"Caleffi, Pietro ",,,1960,Novara ,Il Gallo,"Politica,Biografico,Resistenza,Socialismo",Venturati,Venturati,,,
+Lo sviluppo italiano nel Dopoguerra,01.1.CAPESVI,Libro edito,,"Caperdoni, Enrico",,,1968,Padova,Marsilio Editori,"Storia,Economia",Venturati,Venturati,,,
+Atti della Costituente sull'Art. 7,01.1.CAPIATT,Libro edito,,"Capitini, Aldo","Lacaita, Piero",,1959,Perugia,Lacaita,Giuridico,Venturati,Venturati,,,
+La libertà religiosa in Italia,01.1.CAPILIB,Libro edito,,"Capitini, Aldo","Magni, Cesare","Borghi, Lamberto",1956,Firenze,La Nuova Italia,"Politica,Religione",Venturati,Venturati,,,
+Spesa pubblica e iniziativa imprenditoriale,01.1.CARASPE,Libro edito,,"Carabba, Manin",,,1966,Torino,Einaudi,"Economia,Amministrazione",Venturati,Venturati,,,
+Manzoni. Ideologia e stile,01.1.CAREMAN,Libro edito,,"Caretti, Lanfranco",,,1974,Torino,Einaudi,Letteratura,Venturati,Venturati,,,
+Il sole sorge a ponente,01.1.CARISOL,Libro edito,,"Carini, Lisli",,,1959,Milano,Edizioni Avanti!,"Politica,Esteri,Comunismo",Venturati,Venturati,,,
+Storia della resistenza,01.1.CARLSTO,Libro edito,,"Carli-Bellola, Renato",,,1957,Milano-Roma,Edizioni Avanti!,"Storia,Resistenza",Venturati,Venturati,,,
+Giolitti e l'età giolittiana,01.1.CAROGIO,Libro edito,,"Carocci, Giampiero",,,1961,Torino,Einaudi,Storia,Venturati,Venturati,,,
+Bruno Buozzi,01.1.CASBRU,Libro edito,,"Castagno, Gino",,,1955,Milano-Roma,Edizioni Avanti!,"Biografico,Socialismo,Resistenza",Venturati,Venturati,,,
+Filippo Turati,01.1.CATFIL,Libro edito,,"Catalano, Franco",,,1957,Milano-Roma,Edizioni Avanti!,"Biografico,Socialismo",Venturati,Venturati,,,
+La Russia contro Kruscev,01.1.CAVRUS,Libro edito,,"Cavallari, Alberto",,,1964,Firenze,Vallecchi,"Politica,Esteri,Comunismo",Venturati,Venturati,,,
+Trattato che istituisce la Comunità Europea,01.1.CEETRA,Libro edito,,CEE,,,1957,Bruxelles,Segretariato del Comitato Centrale per il Mercato Comune e l'Euroatom,"Giuridico,Esteri",Venturati,Venturati,,,
+L'Italia contemporanea (1918-1948),01.1.CHALIT,Libro edito,,"Chabod, Federico",,,1961,Torino,Einaudi,"Storia,Fascismo,Resistenza",Venturati,Venturati,,,
+Perché il Vietnam esiste,01.1.CHEPER,Libro edito,,"Chesneaux, Jean",,,1968,Torino,Einaudi,"Storia,Esteri",Venturati,Venturati,,,
+Il sistema sovietico tra Stalin e Breznev,01.1.COESIS,Libro edito,,"Coen, Federico",,,1974,Roma,Mondoperaio,"Inchiesta,Comunismo,Esteri,Politica",Venturati,Venturati,,,
+Il sistema sovietico fra Stalin e Breznev,01.1.COESISbis,Libro edito,,"Coen, Federico",,,1974,Roma,Mondoperaio,"Politica,Comunismo,Esteri,Inchiesta",Venturati,Venturati,,,
+Classe operaia e ceti medi,01.1.COLACLA,Libro edito,,"Colarizi, Simona",,,1976,Padova,Marsilio Editori,"Storia,Socialismo,Economia,Comunismo",Venturati,Venturati,,,
+Classe operaia e ceti medi,01.1.COLACLAbis,Libro edito,,"Colarizi, Simona",,,1980,Padova,Marsilio Editori,"Storia,Socialismo,Economia,Comunismo",Venturati,Venturati,,,
+La Cina rivoluzionaria,01.1.COLLCIN,Libro edito,,"Collotti Pischel, Enrica",,,1965,Torino,Einaudi,"Politica,Comunismo,Esteri",Venturati,Venturati,,,
+Le origini ideologiche della rivoluzione cinese,01.1.COLLORI,Libro edito,,"Collotti Pischel, Enrica",,,1958,Torino,Einaudi,"Politica,Comunismo,Esteri",Venturati,Venturati,,,
+La costituzione del partito socialista italiano,01.1.CORCOS,Libro edito,,"Corte, Luigi",,,1961,Milano,Edizioni Avanti!,"Storia,Socialismo",Venturati,Venturati,,,
+I Mille giorni di Allende. L'azione del Governo di Unidad Popular in 125 documenti,01.1.CORMIL,Libro edito,,"Corossacz, Anna",,,1975,Roma,Mondoperaio,"Politica,Socialismo",Venturati,Venturati,,,
+La verità sul 9 settembre,01.1.CORVER,Libro edito,,"Corona, Achille",,,1945,Roma-Milano,Edizioni Avanti!,"Inchiesta,Fascismo,Resistenza",Venturati,Venturati,,,
+"Lo ""strappo""",01.1.COSSTR,Libro edito,,"Cossutta, Armando",,,1982,Milano,Mondadori,"Politica,Comunismo",Venturati,Venturati,,,
+I socialisti e il caso Moro,01.1.COVSOC,Libro edito,,"Covatta, Luigi","Baget Bozzo, Gianni","Vassalli, Giuliano",1983,Roma,Il compagno,"Politica,Socialismo,Inchiesta",Venturati,Venturati,,,
+Cento anni dopo,01.1.CRACEN,Libro edito,,"Craxi, Bettino",,,1982,Milano,Biblioteca Rossa,"Politica,Socialismo",Venturati,Venturati,,,
+Pace sicurezza indipendenza,01.1.CRAPAC,Libro edito,,"Craxi, Bettino",,,1981,Roma,Il compagno,"Politica,Socialismo",Venturati,Venturati,,,
+Un passo avanti,01.1.CRAPAS,Libro edito,,"Craxi, Bettino",,,1981,Roma,Sugarco,"Politica,Socialismo",Venturati,Venturati,,,
+Pluralismo o leninismo,01.1.CRAPLU,Libro edito,,"Craxi, Bettino",,,1978,Milano,Sugarco,"Politica,Socialismo,Comunismo",Venturati,Venturati,,,
+Prove,01.1.CRAPRO,Libro edito,,"Craxi, Bettino",,,1980,Roma,Sugarco,"Politica,Socialismo",Venturati,Venturati,,,
+Il rinnovamento socialista per il rinnovamento dell'Italia,01.1.CRARIN,Libro edito,,"Craxi, Bettino","Molaioli, Angelo",,1981,Milano,Sezione propaganda del PSI,"Politica,Socialismo",Venturati,Venturati,,,
+Tre anni,01.1.CRATRE,Libro edito,,"Craxi, Bettino",,,1983,Milano,SugarCo Edizioni,"Politica,Socialismo",Venturati,Venturati,,,
+Crisi economica e condizionamenti internazionali dell'Italia,01.1.CSPCRI.1,Libro edito,1,Centro Studi di Politica Economica,,,1976,Roma,Editori Riuniti,"Economia,Esteri",Venturati,Venturati,,,
+Crisi economica e condizionamenti internazionali dell'Italia,01.1.CSPCRI.2,Libro edito,2,Centro Studi di Politica Economica,,,1976,Roma,Editori Riuniti,"Esteri,Economia",Venturati,Venturati,,,
+Obsolescenza delle ideologie,01.1.DAGOBS,Libro edito,,"Dagnino, Virgilio",,,1967,Milano,Azione Comune,Politica,Venturati,Venturati,,,
+Il mestiere di morire,01.1.DAPMES,Libro edito,,"Da Pozzo, Gusti",,,1962,Milano,Edizioni Avanti!,Politica,Venturati,Venturati,,,
+Scienza e tecnologia in Italia,01.1.DEFSCI,Libro edito,,"De Falco, Antonio",,,1968,Padova,Marsilio Editori,Inchiesta,Venturati,Venturati,,,
+Le istituzioni fra crisi e rinnovamento,01.1.DELIST,Libro edito,,"Del Pennino, Antonio",,,1983,Milano,PRI,Elettorale,Venturati,Venturati,,,
+"Sanità pubblica,  sicurezza sociale e programmazione economica",01.1.DELSAN,Libro edito,,"Delogu, Severino",,,1967,Torino,Einaudi,"Economia,Amministrazione",Venturati,Venturati,,,
+È possibile il trapianto degli organi vitali?,01.1.DEMEPO,Libro edito,,"Demichov, Wladimir Petrowich",,,1959,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Il socialismo oggi e domani,01.1.DERASOC,Libro edito,,"D’eramo, Marco",,,1976,Cosenza,Edistampa - Edizioni Lerici,"Politica,Socialismo",Venturati,Venturati,,,
+Uomini e dio,01.1.DERMUOM,Libro edito,,"Der Meer, Van",,,1955,Alba,Edizioni Paoline,"Filosofia,Chiesa",Venturati,Venturati,,,
+Civiltà cattolica 1850-1945,01.1.DEROCIV.1,Libro edito,1,"De Rosa, Gabriele",,,1971,Firenze,Landi,"Storia,Chiesa",Venturati,Venturati,,,
+Civiltà cattolica 1850-1945,01.1.DEROCIV.2,Libro edito,2,"De Rosa, Gabriele",,,1971,Firenze,Landi,"Storia,Chiesa",Venturati,Venturati,,,
+Civiltà cattolica 1850-1945,01.1.DEROCIV.3,Libro edito,3,"De Rosa, Gabriele",,,1971,Firenze,Landi,"Storia,Chiesa",Venturati,Venturati,,,
+Civiltà cattolica 1850-1945,01.1.DEROCIV.4,Libro edito,4,"De Rosa, Gabriele",,,1971,Firenze,Landi,"Storia,Chiesa",Venturati,Venturati,,,
+5 lezioni di Francesco De Sanctis su Mazzini,01.1.DES5LE,Libro edito,,"De Sanctis, Francesco",,,1972,Roma,Orlando,Storia,Venturati,Venturati,,,
+La grande contesa,01.1.DEUGRA,Libro edito,,"Deutscher, Isaac",,,1960,Torino,Einaudi,Politica,Venturati,Venturati,,,
+Democrazia economica sindacato eurosocialismo,01.1.DIDDEM,Libro edito,,"Didò, Mario",,,1983,Roma,Il Compagno,"Politica,Socialismo",Venturati,Venturati,,,
+I socialisti e la sfida tecnologica in Italia e in europa,01.1.DIDSOC.4,Libro edito,4,"Didò, Mario","Manca, Enrico","Forte, Francesco",1984,Roma,Il compagno,"Politica,Socialismo",Venturati,Venturati,,,
+Una nuova politica per il 1970,01.1.DIMNUO,Libro edito,,"Di Martino, Francesco",,,1969,Milano,Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Una politica per la piena occupazione,01.1.DOLPOL,Libro edito,,"Dolci, Danilo",,,1958,Torino,Einaudi,"Politica,Amministrazione,Economia",Venturati,Venturati,,,
+"Dittatura,  classe politica e classe dirigente",01.1.DORDIT,Libro edito,,"Dorso, Guido",,,1955,Torino,Einaudi,Politica,Venturati,Venturati,,,
+L'occasione storica,01.1.DORLOC,Libro edito,,"Dorso, Guido",,,1949,Torino,Einaudi,Politica,Venturati,Venturati,,,
+La rivoluzione meridionale,01.1.DORRIV,Libro edito,,"Dorso, Guido",,,1955,Torino,Einaudi,Politica,Venturati,Venturati,,,
+Decentramento urbano e democrazia ,01.1.DRADEC,Libro edito,,"Dragone, Umberto",,,1975,Milano,Feltrinelli,"Amministrazione,Politica",Venturati,Venturati,,,
+Memorie partigiane,01.1.DUNMEM,Libro edito,,"Dunchi, Nardo",,,1957,Firenze,La Nuova Italia,"Biografico,Resistenza",Venturati,Venturati,,,
+Lo scrittoio del Presidente 1948-1955,01.1.EINSCR,Libro edito,,"Einaudi, Luigi",,,1956,Torino,Einaudi,Politica,Venturati,Venturati,,,
+Marcia su Roma e dintorni,01.1.EMIMAR,Libro edito,,Emilio Lussu,,,1957,Salso Maggiore,Il Gallo,"Politica,Storia,Fascismo",Venturati,Venturati,,,
+Gli Ideali del Risorgimento e dell'Unità,01.1.ENBIDE,Libro edito,,Ente Nazionale Biblioteche Popolari e Scolastiche,,,1961,Roma,ENBPS,Storia,Venturati,Venturati,,,
+Anti-Dühring,01.1.ENGANT,Libro edito,,"Engels, Friedrich",,,1956,Roma ,Edizioni Rinascita ,"Filosofia,Politica,Comunismo,Economia",Venturati,Venturati,,,
+Ludovico Feuerbach e il punto d'approdo della filosofia classica tedesca ,01.1.ENGLUD,Libro edito,,"Engels, Friedrich",,,1950,Roma ,Edizioni Rinascita,"Politica,Storia,Filosofia",Venturati,Venturati,,,
+Marx come pensatore e come uomo,01.1.ENGMAR,Libro edito,,"Engels, Friedrich","Lafargue, Paul","Liebnecht, Wilhem",1945,Roma,L'Unità,"Biografico,Filosofia politica,Comunismo,Socialismo",Venturati,Venturati,,,
+Scritti italiani ,01.1.ENGSCR,Libro edito,,"Engels, Friedrich",,,1955,Cremona,Edizioni Avanti!,Comunismo,Venturati,Venturati,,,
+La situazione della classe operaia in Inghilterra,01.1.ENGSIT,Libro edito,,"Engels, Friedrich",,,1955,Roma,Edizioni Rinascita,"Politica,Filosofia politica",Venturati,Venturati,,,
+Comunismo e Cattolicesimo in una parrocchia di campagna,01.1.FAECOM,Libro edito,,"Faenza, Liliano",,,1959,Milano,Feltrinelli,"Politica,Comunismo,Chiesa",Venturati,Venturati,,,
+La Chiesa e le organizzazioni cattoliche in Italia 1945-1955,01.1.FALCHI,Libro edito,,"Falconi, Carlo",,,1956,Torino,Einaudi,"Inchiesta,Chiesa",Venturati,Venturati,,,
+L'altro polo della sinistra,01.1.FEDLAL,Libro edito,,"Federighi, Tiziano",,,1973,Roma,Bulzoni,Politica,Venturati,Venturati,,,
+Crisi italiana e fatti polacchi,01.1.FINCRI,Libro edito,,"Finetti, Ugo",,,1982,,Biblioteca Rossa,"Politica,Esteri",Venturati,Venturati,,,
+Quaderni rossi. Lotte operaie nello sviluppo capitalistico,01.1.FOAQUA.1,Libro edito,1,"Foa, Vittorio",,,1961,Milano,Edizioni Avanti!,"Politica,Comunismo,Operaismo",Venturati,Venturati,,,
+Idee sociali e organizzazione operaia nella prima metà dell'800,01.1.FRANIDE,Libro edito,,"Francovich, Carlo",,,1959,Milano-Roma,Edizioni Avanti!,"Storia,Operaismo",Venturati,Venturati,,,
+La resistenza a Firenze,01.1.FRANRES,Libro edito,,"Francovich, Carlo",,,1961,Firenze,La Nuova Italia,"Storia,Resistenza",Venturati,Venturati,,,
+Il neoclassicismo e Ugo Foscolo,01.1.FRATNEO,Libro edito,,"Frattini, Alberto",,,1965,,Cappelli,Letteratura,Venturati,Venturati,,,
+Problemi umani del macchinismo industriale,01.1.FRIPRO,Libro edito,,"Friedmann, Georges",,,1971,Torino,Einaudi,"Politica,Economia",Venturati,Venturati,,,
+Lo stato e il risparmio privato,01.1.FUÀSTA,Libro edito,,"Fuà, Giorgio",,,1961,Torino,Einaudi,"Economia,Amministrazione",Venturati,Venturati,,,
+Manuale di Preistoria,01.1.FURMAN,Libro edito,,"Furon, Raymond",,,1961,Torino,Einaudi,"Educazione,Storia",Venturati,Venturati,,,
+Fiori rossi al Martinetto. Il processo di Torino aprile 1944,01.1.FUSFIO,Libro edito,,"Fusi, Valdo",,,1968,Milano,Mursia,"Storia,Resistenza",Venturati,Venturati,,,
+Il risorgimento arabo ,01.1.GABFRIS,Libro edito,,"Gabrieli, Francesco",,,1958,Torino,Einaudi,"Storia,Esteri",Venturati,Venturati,,,
+Puritanesimo e libertà,01.1.GABVPUR,Libro edito,,"Gabrieli, Vittorio",,,1956,Torino,Einaudi,Politica,Venturati,Venturati,,,
+Socialismo e nazionalizzazione,01.1.GAISOC,Libro edito,,"Gaitskell, Hugh",,,1959,Roma,Opere Nuove,"Politica,Socialismo,Amministrazione",Venturati,Venturati,,,
+Il nuovo stato industriale,01.1.GALBNUO,Libro edito,,"Galbraith, John K.",,,1968,Torino,Einaudi,Economia,Venturati,Venturati,,,
+Benedetto Bettino,01.1.GALLGIALBEN,Libro edito,,"Galli, Giancarlo",,,1982,Milano,Bompiani,"Politica,Socialismo",Venturati,Venturati,,,
+Dal bipartitismo imperfetto alla possibile alternativa,01.1.GALLGIODAL,Libro edito,,"Galli, Giorgio",,,1975,Bologna,Il Mulino,Politica,Venturati,Venturati,,,
+Opinioni sul PCI,01.1.GALLGIOOPI,Libro edito,,"Galli, Giorgio",,,1977,Roma,L'Espresso,"Politica,Comunismo",Venturati,Venturati,,,
+Caravan,01.1.GALSCAR,Libro edito,,"Galsworthy, John",,,1961,Milano,Club degli Editori,Narrativa,Venturati,Venturati,,,
+A Genova non si passa ,01.1.GANAGE,Libro edito,,Gandolfi Francesco ,,,1960,Roma,Il Gallo,"Politica,Resistenza,Socialismo",Venturati,Venturati,,,
+Cittadini Sì e No,01.1.GARCIT,Libro edito,,"Garofalo, Anna",,,1956,Torino,De Silva,Inchiesta,Venturati,Venturati,,,
+Cooperazione nel Mediterraneo occidentale,01.1.GASCOO,Libro edito,,"Gasteyger, Curt","Lamanna, Agostino","Aliboni, Roberto",1972,Bologna,Il Mulino,"Politica,Esteri",Venturati,Venturati,,,
+Una lettera al Re,01.1.GAVLET,Libro edito,,"Gavagnin, Armando",,,1960,Milano,Edizioni Avanti!,Biografico,Venturati,Venturati,,,
+Galileo Galilei,01.1.GEYGAL,Libro edito,,"Geymonat, Ludovico",,,1957,Torino,Einaudi,Biografico,Venturati,Venturati,,,
+L’effetto Craxi,01.1.GHILEF,Libro edito,,"Ghirelli, Antonio",,,1982,Milano,Rizzoli,"Politica,Socialismo",Venturati,Venturati,,,
+Conversazione con Stalin,01.1.GILCON,Libro edito,,"Gilas, Milovan",,,1962,Milano,Feltrinelli,"Politica,Comunismo",Venturati,Venturati,,,
+Il lavoro umano,01.1.GIOLAV,Libro edito,,Giovanni Paolo II,,,1981,Roma,Logos,Politica,Venturati,Venturati,,,
+Cronache sociali 1947-1951,01.1.GLICRO.1,Libro edito,1,"Glisenti, Marcella","Elia, Leopoldo",,1961,Firenze,Landi,"Politica,Storia",Venturati,Venturati,,,
+Cronache sociali 1947-1951,01.1.GLICRO.2,Libro edito,2,"Glisenti, Marcella","Elia, Leopoldo",,1961,Firenze,Landi,"Politica,Storia",Venturati,Venturati,,,
+Megalopoli ,01.1.GOTMEG.1,Libro edito,1,"Gottmann, Jean",,,1970,Torino,Einaudi ,Economia,Venturati,Venturati,,,
+Socialismo e fascismo,01.1.GRAMSOC,Libro edito,,"Gramsci, Antonio",,,1966,Torino,Einaudi,"Politica,Socialismo",Venturati,Venturati,,,
+La politica esterna italiana nel dopoguerra,01.1.GRAZPOL,Libro edito,,"Graziano, Luigi",,,1968,Padova,Marsilio Editori,"Politica,Esteri",Venturati,Venturati,,,
+Introduzione alla riforma agraria,01.1.GRIINT,Libro edito,,"Grieco, Ruggero",,,1949,Torino ,Einaudi ,"Politica,Economia",Venturati,Venturati,,,
+Patrizio Peci. Io infame,01.1.GUEPAT,Libro edito,,"Guerri, Giordano Bruno",,,1983,Milano,Mondadori,"Biografico,Comunismo,Terrorismo",Venturati,Venturati,,,
+La società dei socialisti,01.1.GUISOC,Libro edito,,"Guiducci, Roberto",,,1976,Milano,Rizzoli,"Politica,Socialismo",Venturati,Venturati,,,
+Dialettica senza dogma,01.1.HAVDIA,Libro edito,,"Havemann, Robert",,,1965,Torino,Einaudi,Filosofia,Venturati,Venturati,,,
+Albert Einstein,01.1.INFALB,Libro edito,,"Infeld, Leopold",,,1963,Torino,Einaudi,Biografico,Venturati,Venturati,,,
+Mia madre,01.1.JACOMMIA,Libro edito,,"Jacometti, Alberto",,,1960,Milano ,Edizioni Avanti!,Biografico,Venturati,Venturati,,,
+Canta il gallo,01.1.JACOPCAN,Libro edito,,"Jacopini, Renato",,,1960,Milano-Roma,Edizioni Avanti!,Biografico,Venturati,Venturati,,,
+Chiesa e Stato in Italia negli ultimi cento anni,01.1.JEMCHI,Libro edito,,"Jemolo, Arturo Carlo",,,1956,Torino ,Einaudi ,"Storia,Chiesa",Venturati,Venturati,,,
+I partiti politici,01.1.JOCPAR,Libro edito,,"Jocteau, Gian Carlo",,,1974,Torino,UTET,Storia,Venturati,Venturati,,,
+Mercato comune e movimento operaio in Europa ,01.1.KENMER,Libro edito,,"Kendall, Walter",,,1965,Milano,Edizioni Azione Comune,"Politica,Economia,Operaismo",Venturati,Venturati,,,
+"La Russia,  l'atomo e l'Occidente",01.1.KENRUS,Libro edito,,"Kennan, George F.",,,1958,Torino,Einaudi,"Politica,Esteri",Venturati,Venturati,,,
+Vogliamo un mondo più nuovo,01.1.KENVOG,Libro edito,,"Kennedy, R. J.",,,1968,Milano,Garzanti,"Politica,Esteri",Venturati,Venturati,,,
+Ricchezza e potere in America,01.1.KOLKRIC,Libro edito,,"Kolko, Gabriel",,,1964,Torino,Einaudi,"Economia,Esteri",Venturati,Venturati,,,
+L'opposizione operaia in Russia,01.1.KOLLLOP,Libro edito,,"Kollontai, Alessandra",,,1962,Milano,Azione Comune,"Politica,Operaismo,Comunismo",Venturati,Venturati,,,
+Memorie di un rivoluzionario,01.1.KROMEM,Libro edito,,"Kropotkin, P.A.",,,1968,Roma,Editori Riuniti,"Politica,Comunismo",Venturati,Venturati,,,
+Dedicato a te cara,01.1.KVLDED,Libro edito,,"Kvlividze, Mikail",,,1961,Milano,Edizioni Avanti!,Poesia,Venturati,Venturati,,,
+La concezione materialistica della storia,01.1.LABCON,Libro edito,,"Labriola, Antonio",,,1965,Bari,Laterza,Filosofia,Venturati,Venturati,,,
+In memoria del Manifesto del Partito Comunista,01.1.LABINM,Libro edito,,"Labriola, Antonio",,,1960,Milano,Edizioni Avanti!,"Politica,Comunismo",Venturati,Venturati,,,
+Lettere a Engels,01.1.LABLET,Libro edito,,"Labriola, Antonio",,,1949,Roma,Edizioni Rinascita,Filosofia,Venturati,Venturati,,,
+Saggio sul materialismo storico,01.1.LABSAG,Libro edito,,"Labriola, Antonio",,,1964,Roma,Editori Riuniti,Filosofia,Venturati,Venturati,,,
+Finestre aperte a Botteghe Oscure,01.1.LAJDFIN,Libro edito,,"Lajolo, Davide",,,1975,Milano,Rizzoli,"Politica,Comunismo",Venturati,Venturati,,,
+Ventiquattro anni,01.1.LAJDVEN,Libro edito,,"Lajolo, Davide",,,1981,Milano,Rizzoli,"Politica,Storia,Comunismo",Venturati,Venturati,,,
+Gramsci un uomo sconfitto,01.1.LAJLGRA,Libro edito,,"Lajolo, Laurana",,,1980,Milano,Rizzoli,"Politica,Comunismo",Venturati,Venturati,,,
+Il Complesso di Nerone,01.1.LEDCOM,Libro edito,,"Ledeen, Michael A.",,,1978,Milano,Editoriale Nuova,Storia,Venturati,Venturati,,,
+Napoleone,01.1.LEFNAP,Libro edito,,"Lefebvre, Georges",,,1960,Bari,Laterza,"Biografico,Storia",Venturati,Venturati,,,
+La Comune di Parigi ,01.1.LENCOM.24,Libro edito,24,Lenin,,,1950,Roma,Edizioni Rinascita,"Politica,Comunismo",Venturati,Venturati,,,
+La rivoluzione d'ottobre,01.1.LENRIV,Libro edito,,Lenin,,,1956,Roma,Edizioni Rinascita,"Politica,Comunismo",Venturati,Venturati,,,
+Democrazia di piano,01.1.LEODEM,Libro edito,,"Leonardi, Silvio",,,1966,Torino,Einaudi,"Economia,Comunismo",Venturati,Venturati,,,
+Teoria e prassi dell'austromarxismo,01.1.LESTEO,Libro edito,,"Leser, Norbert",,,1979,Milano,Edizioni Avanti!,"Politica,Comunismo",Venturati,Venturati,,,
+Ricordi dei fratelli Rosselli,01.1.LEVRIC,Libro edito,,"Levi, Alessandro",,,1947,Firenze,La Nuova Italia,"Biografico,Resistenza",Venturati,Venturati,,,
+Dizionario dei fatti italiani 1861-2016,01.1.LIBDIZ,Libro edito,,"Liberali, Sandro",,,2016,Milano,ITrePonti,Storia,Venturati,Venturati,,,
+Lettere 1915-1918,01.1.LIELET,Libro edito,,"Liebknecht, Karl","Luxemburg, Rosa",,1967,Roma,Editori Riuniti,"Politica,Socialismo",Venturati,Venturati,,,
+Competere per coesistere,01.1.LIPCOM,Libro edito,,"Lippman, Walter",,,1959,Torino,Einaudi,"Politica,Economia",Venturati,Venturati,,,
+Gli scopi di guerra degli Stati Uniti,01.1.LIPSCO,Libro edito,,"Lippmann, Walter",,,1946,Torino,Einaudi,"Politica,Esteri",Venturati,Venturati,,,
+Inchiesta sulla gioventù sovietica,01.1.LIVINC,Libro edito,,"Livi, Augusto",,,1961,Torino,Einaudi,"Inchiesta,Comunismo,Esteri",Venturati,Venturati,,,
+Il regno di Badoglio,01.1.LIZREG,Libro edito,,"Lizzadri, Oreste",,,1963,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Il paese sbagliato,01.1.LODPAE,Libro edito,,"Lodi, Mario",,,1970,Torino,Einaudi,Inchiesta,Venturati,Venturati,,,
+I quaderni di Piadena,01.1.LODQUA,Libro edito,,"Lodi, Mario","Morandi, Giuseppe",,1962,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Socialismo e comunismo,01.1.LOMFSOC,Libro edito,,"Lombardi, Franco",,,1945,Roma-Milano,Società Editrice Avanti!,"Socialismo,Politica",Venturati,Venturati,,,
+L'alternativa socialista,01.1.LOMRLAL,Libro edito,,"Lombardi, Riccardo",,,1976,Cosenza,Lerici,"Politica,Socialismo",Venturati,Venturati,,,
+Scritti politici 1945-1963,01.1.LOMRSCR.45,Libro edito,,"Lombardi, Riccardo",,,1978,Padova,Marsilio Editori,"Politica,Socialismo",Venturati,Venturati,,,
+Scritti politici 1963 - 1978,01.1.LOMRSCR.63,Libro edito,,"Lombardi, Riccardo",,,1978,Venezia,Marsilio Editori,"Politica,Socialismo",Venturati,Venturati,,,
+I centri dirigenti del PCI nella Resistenza,01.1.LONCEN,Libro edito,,"Longo, Luigi",,,1977,Roma,Editori Riuniti,"Storia,Comunismo",Venturati,Venturati,,,
+Breve storia della letteratura tedesca,01.1.LUKBRE,Libro edito,,"Lukacs, Gyorgy",,,1956,Torino,Einaudi,"Storia,Letteratura",Venturati,Venturati,,,
+Donne come te,01.1.LUSDON,Libro edito,,"Lussu, Joyce",,,1957,Milano-Roma,Edizioni Avanti!,Politica,Venturati,Venturati,,,
+L'accumulazione del capitale e anticritica,01.1.LUXLAC,Libro edito,,"Luxemburg, Rosa",,,1960,Torino,Einaudi,"Politica,Filosofia politica,Comunismo,Socialismo",Venturati,Venturati,,,
+Breve storia economica dell'Italia medievale,01.1.LUZBRE,Libro edito,,"Luzzato, Gino",,,1965,Torino,Einaudi,"Storia,Economia",Venturati,Venturati,,,
+lombardi,01.1.MAFLOM,Libro edito,,"Mafai, Miriam",,,1976,Milano,Feltrinelli,"Politica,Socialismo",Venturati,Venturati,,,
+La pelle,01.1.MALPEL,Libro edito,,"Malaparte, Curzio",,,1949,Roma-Milano,Aria d'Italia,Narrativa,Venturati,Venturati,,,
+Riformisti e rivoluzionari,01.1.MAMRIF,Libro edito,,"Mammarella, Giuseppe",,,1980,Padova,Marsilio Editori,Storia,Venturati,Venturati,,,
+Alternativa compromesso socialismo,01.1.MANCALT,Libro edito,,"Mancini, Giacomo",,,1977,Cosenza,Lerici,"Politica,Socialismo",Venturati,Venturati,,,
+Discorsi 1967 - 1971,01.1.MANCDIS,Libro edito,,"Mancini, Giacomo",,,1971,Roma,IN.GR.ED,"Poesia,Socialismo",Venturati,Venturati,,,
+Il mondo in mano,01.1.MANNMON,Libro edito,,"Mannocchia, Franco",,,1973,Milano,Corriere dei ragazzi,Educazione,Venturati,Venturati,,,
+"La Confederazione Generale del Lavoro. Negli atti, nei documenti, nei congressi 1906-1926",01.1.MARCHLCON,Libro edito,,"Marchetti, Luciana",,,1962,Milano,Edizioni Avanti!,"Politica,Operaismo",Venturati,Venturati,,,
+Socialismo,01.1.MARCSOC,Libro edito,,"Marchetti, Mario",,,s.d.,Roma-Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Eros e civiltà,01.1.MARCUERO,Libro edito,,"Marcuse, Herbert",,,1964,Torino,Einaudi,Filosofia,Venturati,Venturati,,,
+L'uomo a una dimensione,01.1.MARCULUO,Libro edito,,"Marcuse, Herbert",,,1968,Torino,Einaudi,Filosofia,Venturati,Venturati,,,
+Guerra popolare e rivoluzione in Jugoslavia,01.1.MARJGUE,Libro edito,,"Marjanovic, Jovan",,,1962,Milano,Edizioni Avanti!,"Storia,Esteri",Venturati,Venturati,,,
+La conquista dei poteri,01.1.MARTECON,Libro edito,,"Martinet, Gilles",,,1976,Padova,Marsilio Editori,Politica,Venturati,Venturati,,,
+Il marxismo oggi ,01.1.MARTEMAR,Libro edito,,"Martinet, Jean-Paul",,,1962,Firenze,La nuova Italia ,"Politica,Socialismo,Comunismo",Venturati,Venturati,,,
+I giorni sono lunghi,01.1.MARTIGIO,Libro edito,,"Martini, Quinto",,,1957,Milano-Roma,Edizioni Avanti!,Narrativa,Venturati,Venturati,,,
+Contro l'anarchismo,01.1.MARXCONT,Libro edito,,"Marx, Karl","Engels, Friedrich",,1950,Roma ,Edizioni Rinascita,"Politica,Storia,Filosofia",Venturati,Venturati,,,
+La concezione materialistica della storia,01.1.MARXCONC,Libro edito,,"Marx, Karl","Engels, Friedrich",,1959,Roma,Editori Riuniti,Filosofia,Venturati,Venturati,,,
+Critica della Economia Politica ,01.1.MARXCRI,Libro edito,,"Marx, Karl",,,1947,Milano ,Istituto Editoriale Italiano ,"Politica,Economia,Comunismo",Venturati,Venturati,,,
+Ieri e Oggi,01.1.MARXIER,Libro edito,,"Marx, Karl",,,1961,Milano,Feltrinelli ,"Politica,Storia,Comunismo",Venturati,Venturati,,,
+Lavoro salariato e capitale,01.1.MARXLAV,Libro edito,,"Marx, Karl",,,1945,Roma,L'Unità,"Politica,Filosofia politica",Venturati,Venturati,,,
+Lettere a Kugelmann,01.1.MARXLET,Libro edito,,"Marx, Karl",,,1950,Roma,Edizioni Rinascita ,"Politica,Comunismo",Venturati,Venturati,,,
+L’ideologia tedesca ,01.1.MARXLID,Libro edito,,"Marx, Karl",,,1947,Milano ,Istituto Editoriale Italiano ,"Politica,Filosofia politica,Comunismo",Venturati,Venturati,,,
+Storia delle teorie economiche ,01.1.MARXSTO.1,Libro edito,1,"Marx, Karl",,,1954,Torino,Einaudi,"Politica,Filosofia,Storia,Comunismo",Venturati,Venturati,,,
+Storia delle dottrine economiche. David Ricardo,01.1.MARXSTO.2,Libro edito,2,"Marx, Karl",,,1955,Torino,Einaudi,"Politica,Economia,Storia",Venturati,Venturati,,,
+Storia delle teorie economiche ,01.1.MARXSTO.3,Libro edito,3,"Marx, Karl",,,1958,Torino,Einaudi,"Politica,Storia,Comunismo",Venturati,Venturati,,,
+Umanismo,01.1.MARXUMA,Libro edito,,"Marx, Karl",,,1968,Torino ,Einaudi,"Politica,Comunismo,Filosofia",Venturati,Venturati,,,
+Discorsi politici celebri,01.1.MASEDIS,Libro edito,,"Masera, Carlo",,,1960,Milano,Nuova Accademia,"Politica,Storia",Venturati,Venturati,,,
+La contestazione cinese,01.1.MASICON,Libro edito,,"Masi, Edoarda",,,1968,Torino,Einaudi,"Comunismo,Inchiesta",Venturati,Venturati,,,
+Gli internazionalisti. La Banda del Matese (1876-1878),01.1.MASINNT,Libro edito,,"Masini, Pier Carlo",,,1958,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Storia degli anarchici italiani da Bakunin a Malatesta,01.1.MASINSTO,Libro edito,,"Masini, Pier Carlo",,,1969,Milano,Rizzoli,"Storia,Anarchismo",Venturati,Venturati,,,
+Capitalismo e comunismo,01.1.MATCCAP,Libro edito,,"Matteotti, Carlo",,,s.d.,Roma,Opere Nuove,"Politica,Comunismo",Venturati,Venturati,,,
+Contro il fascismo,01.1.MATGCON,Libro edito,,"Matteotti, Giacomo",,,1954,Milano-Roma,Edizioni Avanti!,"Politica,Fascismo",Venturati,Venturati,,,
+Il Cittadino Scalfari,01.1.MAUCIT,Libro edito,,"Mauri, Claudio",,,1983,Milano,SugarCo Edizioni,"Biografico,Giornalismo",Venturati,Venturati,,,
+La riforma agraria ,01.1.MAZRIF,Libro edito,,Mazzoni Nino ,,,s.d.,Roma ,Società editrice Avanti!,"Storia,Politica,Socialismo",Venturati,Venturati,,,
+Vita di Marx,01.1.MEHVIT,Libro edito,,"Mehring, Franz",,,1972,Roma,Editori Riuniti,"Biografico,Filosofia",Venturati,Venturati,,,
+Cosmopolitismo e Stato Nazionale,01.1.MEICOS.1,Libro edito,1,"Meinecke, Federico",,,1930,Perugia - Venezia,La Nuova Italia,"Politica,Storia",Venturati,Venturati,,,
+Cosmopolitismo e Stato Nazionale,01.1.MEICOS.2,Libro edito,2,"Meinecke, Federico",,,1930,Perugia - Venezia,La Nuova Italia,"Politica,Storia",Venturati,Venturati,,,
+Preparare l'avvenire,01.1.MENDPRE,Libro edito,,"Mendès France, Pierre",,,1968,Milano,Etas Kompass,Politica,Venturati,Venturati,,,
+La repubblica moderna,01.1.MENDREP,Libro edito,,"Mendés France, Pierre",,,1963,Torino,Einaudi,Politica,Venturati,Venturati,,,
+La partigiana nuda,01.1.MENEPAR,Libro edito,,"Meneghetti, Egidio",,,1958,Milano-Roma,Edizioni Avanti!,"Poesia,Resistenza",Venturati,Venturati,,,
+"Uomini,  animali e ancora uomini",01.1.MENEUOM,Libro edito,,"Meneghetti, Egidio",,,1961,Milano,Edizioni Avanti!,Filosofia,Venturati,Venturati,,,
+Lettere dalle case chiuse,01.1.MERLET,Libro edito,,"Merlin, Lina","Barberis, Carla",,1955,Milano-Roma,Edizioni Avanti!,Politica,Venturati,Venturati,,,
+La clericalizzazione dello Stato,01.1.MEZCLE,Libro edito,,"Mezza, Maria Vittoria",,,1958,Milano-Roma,Edizioni Avanti!,"Politica,Chiesa,Inchiesta",Venturati,Venturati,,,
+"Sindacati, progresso tecnico, programmazione economica",01.1.MOMSIN,Libro edito,,"Momigliano, Franco",,,1966,Torino,Einaudi,Economia,Venturati,Venturati,,,
+Studi sulla rivoluzione russa,01.1.MONLRSTU,Libro edito,,"Mondolfo, Rodolfo",,,1968,Napoli,Morano,"Storia,Esteri,Comunismo",Venturati,Venturati,,,
+Problemi di cultura e dignità nazionale,01.1.MONLUPRO,Libro edito,,"Mondolfo, Ugo Guido",,,1951,Roma,Opere Nuove,"Socialismo,Politica",Venturati,Venturati,,,
+Jugoslavia oggi,01.1.MONPJUG,Libro edito,,Mondoperaio,,,1965,Milano,Mondoperaio,"Politica,Esteri",Venturati,Venturati,,,
+Comunità e società industriale,01.1.MORAFCOM,Libro edito,,"Morandi, Franco",,,1964,Milano,Comunità nuova,Politica,Venturati,Venturati,,,
+Democrazia diretta e ricostruzione capitalistica,01.1.MORARDEM,Libro edito,,"Morandi, Rodolfo",,,1960,Torino,Einaudi,"Politica,Economia",Venturati,Venturati,,,
+Lettere al fratello,01.1.MORARLET,Libro edito,,"Morandi, Rodolfo",,,1959,Torino,Einaudi,Politica,Venturati,Venturati,,,
+Lotta di popolo,01.1.MORARLOT,Libro edito,,"Morandi, Rodolfo",,,1958,Torino,Einaudi,Politica,Venturati,Venturati,,,
+Il partito e la classe,01.1.MORARPAR,Libro edito,,"Morandi, Rodolfo",,,1961,Torino,Einaudi,Politica,Venturati,Venturati,,,
+Storia della grande industria in Italia,01.1.MORARSTO,Libro edito,,"Morandi, Rodolfo",,,1959,Torino,Einaudi,Storia,Venturati,Venturati,,,
+Non vogliamo morire,01.1.MORONON,Libro edito,,"Moro, Paolo",,,1960,Milano ,Edizioni Avanti!,"Storia,Socialismo,Politica",Venturati,Venturati,,,
+Una regione per programma,01.1.MUSCREG,Libro edito,,"Muscarà, Calogero",,,1968,Padova,Marsilio Editori,"Politica,Amministrazione",Venturati,Venturati,,,
+Da Garibaldi al socialismo,01.1.MUSIDAG,Libro edito,,"Musini, Luigi",,,1961,Milano,Edizioni Avanti!,"Politica,Storia,Socialismo",Venturati,Venturati,,,
+Gli anni del centro sinistra,01.1.NENANN,Libro edito,,"Nenni, Pietro",,,1981,Milano,Sugarco,"Biografico,Socialismo",Venturati,Venturati,,,
+I conti con la storia. Diari 1967-1971,01.1.NENCON,Libro edito,,"Nenni, Pietro",,,1981,Milano,Sugarco,"Biografico,Socialismo",Venturati,Venturati,,,
+Il diciannovismo,01.1.NENDIC,Libro edito,,"Nenni, Pietro",,,1962,Milano,Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Garibaldi,01.1.NENGAR,Libro edito,,"Nenni, Pietro",,,1961,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Le prospettive del socialismo dopo la destalinizzazione,01.1.NENPRO,Libro edito,,"Nenni, Pietro",,,1962,Torino,Einaudi,"Politica,Socialismo",Venturati,Venturati,,,
+Il socialismo nella democrazia ,01.1.NENSOC,Libro edito,,"Nenni, Pietro ",,,1966,Firenze,Vallecchi,"Politica,Storia,Socialismo",Venturati,Venturati,,,
+Spagna,01.1.NENSPA.62,Libro edito,,"Nenni, Pietro",,,1962,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Spagna,01.1.NENSPA.58,Libro edito,,"Nenni, Pietro",,,1958,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Taccuino 1942,01.1.NENTAC,Libro edito,,"Nenni, Pietro",,,1955,Milano-Roma,Edizioni Avanti!,"Politica,Storia,Socialismo",Venturati,Venturati,,,
+Tempo di guerra fredda. Diari 1943-1956,01.1.NENTEM,Libro edito,,"Nenni, Pietro",,,1981,Milano,Sugarco,"Biografico,Esteri,Socialismo,Comunismo",Venturati,Venturati,,,
+Il maggiore è un rosso,01.1.NITMAG,Libro edito,,"Nitti, Francesco Fausto",,,1955,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Kabulista!,01.1.NOCKAB,Libro edito,,"Nociti, Antonello",,,1983,Milano,Rizzoli,"Politica,Comunismo",Venturati,Venturati,,,
+Il controllo delle nascite,01.1.OLICON,Libro edito,,"Olivetti, Vittoria",,,1957,Milano-Roma,Edizioni Avanti!,"Politica,Economia",Venturati,Venturati,,,
+L'occupazione del potere. I democristiani '45/'75,01.1.ORFLOC,Libro edito,,"Orfei, Ruggero",,,1976,Milano,Longanesi,"Inchiesta,Democrazia Cristiana",Venturati,Venturati,,,
+Critica liberale 1952-1966,01.1.ORSECRI.1,Libro edito,1,"Orsello, Gian Piero",,,1969,Firenze,Landi,"Politica,Liberalismo",Venturati,Venturati,,,
+Critica liberale 1952-1966,01.1.ORSECRI.2,Libro edito,2,"Orsello, Gian Piero",,,1969,Firenze,Landi,"Politica,Liberalismo",Venturati,Venturati,,,
+Memorie di un italiano terribile,01.1.ORSIMEM,Libro edito,,"Orsini, Felice",,,1970,Milano,Club degli Editori,Biografico,Venturati,Venturati,,,
+Da Mindszenty a Grösz,01.1.OTTDAM,Libro edito,,Ottavio Pastore,,,1952,Roma,Macchia,"Storia,Esteri",Venturati,Venturati,,,
+Matteotti socialista,01.1.PAGMAT,Libro edito,,"Pagliuca, Anna",,,1965,Roma,Sezione Stampa e Propaganda della Direzione del PSI,"Biografico,Socialismo,Resistenza,Fascismo",Venturati,Venturati,,,
+Le crisi che ho vissuto,01.1.PAJCRI,Libro edito,,"Pajetta, GianCarlo",,,1982,Roma,Editori Riuniti,"Politica,Comunismo",Venturati,Venturati,,,
+Il ragazzo rosso,01.1.PAJRAG,Libro edito,,"Pajetta, Giancarlo",,,1983,Milano,Mondadori ,"Biografico,Comunismo",Venturati,Venturati,,,
+I precursori di Lenin,01.1.PALPRE,Libro edito,,"Paléologue, Maurizio",,,1947,Milano,Garzanti,"Politica,Comunismo",Venturati,Venturati,,,
+Storia della dominazione europea in Asia,01.1.PANISTO,Libro edito,,"Panikkar, Kavalam",,,1958,Torino,Einaudi,Storia,Venturati,Venturati,,,
+Ottobre addio,01.1.PANSOTT,Libro edito,,"Pansa, Giampaolo",,,1982,Milano,Mondadori,Politica,Venturati,Venturati,,,
+Mafia e politica. 1943-1962,01.1.PANTMAF,Libro edito,,"Pantalone, Michele",,,1962,Torino,Einaudi,"Inchiesta,Storia",Venturati,Venturati,,,
+Due mesi con i nazisti,01.1.PARDUE,Libro edito,,"Parri, Ferruccio",,,1973,Roma,Carecas,"Biografico,Fascismo,Resistenza",Venturati,Venturati,,,
+Il comunismo italiano nella seconda guerra mondiale,01.1.PCICOM,Libro edito,,PCI,,,1963,Roma,Editori Riuniti,"Storia,Comunismo",Venturati,Venturati,,,
+"Storia, politica, organizzazione nella lotta dei comunisti italiani per un nuovo blocco storico",01.1.PCISTO,Libro edito,,PCI,,,1972,Roma,Critica Marxista,"Politica,Comunismo",Venturati,Venturati,,,
+Il Partito Socialista Italiano nei suoi Congressi. Volume I: 1892-1902,01.1.PEDPAR.1,Libro edito,1,"Pedone, Franco",,,1959,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Il Partito Socialista Italiano nei suoi Congressi. Volume II: 1902-1917,01.1.PEDPAR.2,Libro edito,2,"Pedone, Franco",,,1961,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Il centauro comunista,01.1.PELLCEN,Libro edito,,"Pellicani, Luciano",,,1976,Firenze,Vallecchi,"Politica,Comunismo",Venturati,Venturati,,,
+Gramsci e la questione comunista,01.1.PELLGRA,Libro edito,,"Pellicani, Luciano",,,1976,Firenze,Vallecchi,"Politica,Comunismo,Storia,Filosofia politica",Venturati,Venturati,,,
+La tragedia della classe operaia,01.1.PELMTRA,Libro edito,,"Pellicani, Michele",,,1964,Milano,Azione Comune,"Politica,Comunismo",Venturati,Venturati,,,
+Conversazione con Umberto Terracini,01.1.PENCON,Libro edito,,"Pendinelli, Mario",,,1981,Milano,Rizzoli,"Politica,Comunismo",Venturati,Venturati,,,
+Il Cittadino. Testo e commento alla Costituzione Italiana,01.1.PESCIT,Libro edito,,"Pestalozza, Luigi",,,1958,Milano-Roma,Edizioni Avanti!,Giuridico,Venturati,Venturati,,,
+Il Cittadino. Testo e commento alla Costituzione Italiana,01.1.PESCITbis,Libro edito,,"Pestalozza, Luigi",,,1957,Milano,Edizioni Avanti!,Politica,Venturati,Venturati,,,
+Il diritto di non tremolare,01.1.PESDIR,Libro edito,,"Pestalozza, Luigi",,,1956,Milano-Roma,Edizioni Avanti!,Politica,Venturati,Venturati,,,
+Sulla teoria economica del socialismo,01.1.PETSUL,Libro edito,,"Petriccione, Sandro",,,1963,Milano,Azione Comune,"Economia,Socialismo",Venturati,Venturati,,,
+Gelli. La carriera di un eroe di questa Italia,01.1.PIAGEL,Libro edito,,"Piazzesi, Gianfranco",,,1983,Milano,Garzanti,"Biografico,Inchiesta",Venturati,Venturati,,,
+L'Italia nella prima guerra mondiale,01.1.PIELIT,Libro edito,,"Pieri, Piero",,,1965,Torino,Einaudi,"Storia,Grande Guerra",Venturati,Venturati,,,
+Moro fu vera gloria?,01.1.PIEMOR,Libro edito,,"Pietra, Italo",,,1983,Milano,Garzanti,Inchiesta,Venturati,Venturati,,,
+Meglio rossi che morti?,01.1.PILMEG,Libro edito,,"Pillitteri, Paolo",,,1982,Milano,SugarCo Edizioni,Politica,Venturati,Venturati,,,
+Nero su bianco,01.1.PILNER,Libro edito,,"Pillitteri, Paolo",,,1981,Milano,SugarCo Edizioni,Biografico,Venturati,Venturati,,,
+Somalia '81. Intervista con Siad Barre,01.1.PILSOM,Libro edito,,"Pillitteri, Paolo",,,1981,Milano,Sugarco,"Giornalismo,Esteri",Venturati,Venturati,,,
+Il colpo di Stato del 25 luglio,01.1.PINCOL,Libro edito,,"Pintor, Giaime",,,1974,Torino,Einaudi,"Politica,Inchiesta,Storia,Fascismo",Venturati,Venturati,,,
+comunismo domani,01.1.PINCOM,Libro edito,,"Pinzauti, Mario",,,1966,Milano,Azione Comune,"Politica,Comunismo",Venturati,Venturati,,,
+Cenno storico d'Italia,01.1.PISCEN,Libro edito,,"Pisacane, Carlo",,,1957,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Dell'arte bellica in Italia,01.1.PISDEL,Libro edito,,"Pisacane, Carlo",,,1957,Milano-Roma,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Guerra combattuta in Italia negli anni 1848-49,01.1.PISGUE,Libro edito,,"Pisacane, Carlo",,,1961,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Ordinamento dell'esercito italiano,01.1.PISORD,Libro edito,,"Pisacane, Carlo",,,1957,Milano-Roma,Edizioni Avanti!,"Amministrazione,Giuridico",Venturati,Venturati,,,
+La rivoluzione,01.1.PISRIV,Libro edito,,"Pisacane, Carlo",,,1957,Milano-Roma,Edizioni Avanti!,Politica,Venturati,Venturati,,,
+Critone,01.1.PLACRI,Libro edito,,Platone,,,1978,Milano,Signorelli,Filosofia,Venturati,Venturati,,,
+Il nazismo e lo sterminio degli Ebrei,01.1.POLNAZ,Libro edito,,"Poliakov, Léon",,,1961,Torino,Einaudi,Storia,Venturati,Venturati,,,
+L'impresa pubblica nell'esperienza italiana,01.1.POSLIM,Libro edito,,"Posner, M.V.","Woolf, S.J.",,1967,Torino,Einaudi,"Economia,Amministrazione",Venturati,Venturati,,,
+Praxis ed Empirismo,01.1.PREGPRA,Libro edito,,"Preti, Giulio",,,1957,Torino,Einaudi,Filosofia,Venturati,Venturati,,,
+Retorica e logica,01.1.PREGRET,Libro edito,,"Preti, Giulio",,,1968,Torino,Einaudi,Filosofia,Venturati,Venturati,,,
+Discorsi per il Congresso socialista del 1968,01.1.PRELDIS,Libro edito,,"Preti, Luigi",,,1968,Roma,SETI,"Politica,Socialismo",Venturati,Venturati,,,
+32° Congresso Nazionale,01.1.PSI32C,Libro edito,,PSI,,,1957,Milano-Roma,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+33° Congresso Nazionale. Resoconto stenografico,01.1.PSI33C,Libro edito,,PSI,,,1959,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+35° Congresso Nazionale. Resoconto integrale,01.1.PSI35C,Libro edito,,PSI,,,1964,Milano ,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Almanacco socialista,01.1.PSIALM,Libro edito,,PSI,,,1960,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+almanacco socialista 1961,01.1.PSIALM.61,Libro edito,,PSI,,,1961,Milano,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Conferenza Agraria Nazionale. Atti e resoconto,01.1.PSICON.58,Libro edito,,PSI,,,1958,Milano-Roma,Edizioni Avanti!,"Politica,Socialismo,Amministrazione",Venturati,Venturati,,,
+Il Congresso Costitutivo della Federazione Giovanile Socialista,01.1.PSICON.62,Libro edito,,PSI,,,1962,Milano ,Edizioni Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Il Congresso dell'Unità Socialista. Parigi 19-20 luglio 1930,01.1.PSICON.66,Libro edito,,PSI,,,1966,Milano,Critica sociale,"Politica,Socialismo",Venturati,Venturati,,,
+Governare il cambiamento. Conferenza programmatica del PSI Rimini 1982,01.1.PSIGOV.82,Libro edito,,PSI,,,1982,Roma,Il compagno,"Politica,Socialismo",Venturati,Venturati,,,
+Governare il cambiamento. Conferenza programmatica del PSI Rimini 1982,01.1.PSIGOV.82,Libro edito,,PSI,,,1982,Roma,Il compagno,"Politica,Socialismo",Venturati,Venturati,,,
+La Regione Lombarda. Atti del convegno regionale del PSI,01.1.PSILREG,Libro edito,,PSI lombardo,,,1960,Milano,Edizioni Avanti!,"Politica,Socialismo,Amministrazione",Venturati,Venturati,,,
+Resoconto stenografico del XVII Congresso Nazionale del Partito Socialista Italiano,01.1.PSIRES,Libro edito,,PSI,,,1962,Milano,Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+Donare. Il diario di Anna Maria,01.1.QUODON,Libro edito,,"Quoist, Michel",,,1963,Torino,Borla,Biografico,Venturati,Venturati,,,
+Da Teheran a Yalta,01.1.RAGDAT,Libro edito,,"Ragionieri, Ernesto",,,1965,Roma,Editori Riuniti,"Politica,Esteri,Storia",Venturati,Venturati,,,
+Sessant'anni dopo. 28 ottobre 1922: il giorno che stravolse l'Italia,01.1.RÉPSES,Libro edito,,"Répaci, Antonino",,,1982,Milano,Rizzoli,"Storia,Fascismo",Venturati,Venturati,,,
+Per un'altra Italia ,01.1.REVPER,Libro edito,,"Revel, Jean-François",,,1958,Milano ,C.M Lerici Editore,"Storia,Politica",Venturati,Venturati,,,
+Angelo Tasca socialista,01.1.RIOANG,Libro edito,,"Riosa, Alceo",,,1980,Padova,Marsilio Editori,"Biografico,Socialismo",Venturati,Venturati,,,
+Dove va l'URSS?,01.1.RIZDOV,Libro edito,,"Rizzi, Bruno",,,1965,Milano,Azione Comune,"Politica,Esteri",Venturati,Venturati,,,
+La scuola delle 150 ore,01.1.ROSSESCU,Libro edito,,"Rossetti Pepe, Gabriella",,,1975,Milano,FrancoAngeli,Amministrazione,Venturati,Venturati,,,
+L'unificazione socialista,01.1.ROSSICLUN,Libro edito,,"Rossi, Cesare","Achilli, Fabrizio",,1969,Milano,Palazzi,"Politica,Socialismo",Venturati,Venturati,,,
+No al fascismo,01.1.ROSSIENOA,Libro edito,,"Rossi, Ernesto",,,1957,Torino,Einaudi,"Politica,Fascismo",Venturati,Venturati,,,
+Piccola storia della biologia,01.1.ROSTPIC,Libro edito,,"Rostand, Jean",,,1949,Torino,Einaudi,Storia,Venturati,Venturati,,,
+Il contratto sociale,01.1.ROUCON,Libro edito,,"Rousseau, Jean-Jacques",,,1958,Torino,Einaudi,Filosofia politica,Venturati,Venturati,,,
+Gesù guerrigliero dell'indipendenza,01.1.ROYGES,Libro edito,,"Roy, Raoul",,,1979,Milano,Mursia,Politica,Venturati,Venturati,,,
+La grande impresa nella società moderna,01.1.RUFGRA,Libro edito,,"Ruffolo, Giorgio",,,1967,Torino,Einaudi,Economia,Venturati,Venturati,,,
+Giovanni Verga,01.1.RUSGIO,Libro edito,,"Russo, Luigi",,,1976,Roma-Bari,Laterza,"Biografico,Letteratura",Venturati,Venturati,,,
+Il compromesso storico. Obiezioni di un comunista,01.1.SALECOM,Libro edito,,"Salerno, Michele",,,1977,Roma,Lerici,"Politica,Comunismo",Venturati,Venturati,,,
+Educazione. Ragione e democrazione,01.1.SALVADMEDU,Libro edito,,"Salvadori, Massimo",,,1959,Roma,Opere Nuove,Educazione,Venturati,Venturati,,,
+Gaetano Salvemini,01.1.SALVADMGAE,Libro edito,,"Salvadori, Massimo L.",,,1963,Torino,Einaudi,Biografico,Venturati,Venturati,,,
+la boje!,01.1.SALVADRBOJ,Libro edito,,"Salvadori, Rinaldo",,,1962,Milano,Edizioni Avanti!,Narrativa,Venturati,Venturati,,,
+Pensiero e azione del Risorgimento,01.1.SALVATPEN,Libro edito,,"Salvatorelli, Luigi",,,1960,Torino,Einaudi,Storia,Venturati,Venturati,,,
+Stato e chiesa,01.1.SALVATSTA,Libro edito,,"Salvatorelli, Luigi",,,1957,Bari,Laterza,"Politica,Chiesa",Venturati,Venturati,,,
+Clericali e laici,01.1.SALVECLE,Libro edito,,"Salvemini, Gaetano",,,1958,Milano,Parenti,"Politica,Chiesa",Venturati,Venturati,,,
+Scritti sulla questione meridionale,01.1.SALVESCR,Libro edito,,"Salvemini, Gaetano",,,1955,Torino,Einaudi,Politica,Venturati,Venturati,,,
+L'Italia delle regioni,01.1.SANLIT,Libro edito,,"Santarelli, Enzo",,,1966,Roma,LDC,"Politica,Amministrazione",Venturati,Venturati,,,
+L'economia nei paesi industrializzati,01.1.SARACLEC,Libro edito,,"Saraceno, P.",,,1970,Milano,Etas Kompass,Economia,Venturati,Venturati,,,
+Giovanni Faraboli. Apostolo di socialismo e di italianità,01.1.SARAGGIO,Libro edito,,"Saragat, Giuseppe",,,1955,Reggio Emilia,La Giustizia,"Politica,Socialismo,Biografico",Venturati,Venturati,,,
+Quaranta anni di lotta per la democrazia. Scritti e discorsi 1925-1965,01.1.SARAGQUA,Libro edito,,"Saragat, Giuseppe",,,1966,Milano,Mursia,"Politica,Socialismo",Venturati,Venturati,,,
+Socialismo democratico e socialismo totalitario. Per l'autonomia del Partito Socialista,01.1.SARAGSOD,Libro edito,,"Saragat, Giuseppe",,,1946,Milano,Critica Sociale,"Politica,Socialismo",Venturati,Venturati,,,
+Socialismo e libertà,01.1.SARAGSOL,Libro edito,,"Saragat, Giuseppe",,,1945,Roma,Casa Editrice Avanti!,"Politica,Socialismo",Venturati,Venturati,,,
+La classe operaia nella Germania Est,01.1.SARECLA,Libro edito,,"Sarel, Benno",,,1959,Torino,Einaudi,"Inchiesta,Operaismo,Esteri",Venturati,Venturati,,,
+Federazione Sindacale Mondiale,01.1.SASFED,Libro edito,,"Sassano, Fidia",,,1967,Milano,Azione Comune,"Politica,Esteri",Venturati,Venturati,,,
+Storia della letteratura francese,01.1.SAUSTO,Libro edito,,"Saunier, V. L.",,,1964,Torino,Einaudi,"Storia,Letteratura",Venturati,Venturati,,,
+Interviste ai potenti,01.1.SCAINT,Libro edito,,"Scalfari, Eugenio",,,1979,Milano,Mondadori,"Giornalismo,Politica",Venturati,Venturati,,,
+L'autunno della Repubblica. La mappa del potere in Italia,01.1.SCALAU,Libro edito,,"Scalfari, Eugenio",,,1969,Milano,Etas Kompass,"Inchiesta,Politica",Venturati,Venturati,,,
+I Mille Giorni di John F. Kennedy,01.1.SCHMIL,Libro edito,,"Schlesinger, Arthur M.",,,1966,Milano,Rizzoli,"Storia,Esteri",Venturati,Venturati,,,
+Il Partito Comunista nell'URSS,01.1.SCHPAR,Libro edito,,"Schlesinger, Rudolf",,,1962,Milano,Feltrinelli,"Politica,Esteri,Comunismo",Venturati,Venturati,,,
+Lapalma va a nord,01.1.SCILAP,Libro edito,,"Sciascia, Leonardo",,,1982,Milano,Gammalibri,Inchiesta,Venturati,Venturati,,,
+Nero su nero,01.1.SCINER,Libro edito,,"Sciascia, Leonardo",,,1979,Torino,Einaudi,Biografico,Venturati,Venturati,,,
+Chiesa e Stato nella storia d'Italia,01.1.SCOCHI,Libro edito,,"Scoppola, Pietro",,,1967,Bari,Laterza,"Storia,Chiesa",Venturati,Venturati,,,
+Dissenso politico e violenza,01.1.SEGDIS,Libro edito,,"Segre, Umberto",,,1980,Padova,Marsilio Editori,Politica,Venturati,Venturati,,,
+Filosofia delle scienze,01.1.SELFIL,Libro edito,,"Selvaggi, Filippo",,,1953,Roma ,Civiltà Cattolica,Filosofia,Venturati,Venturati,,,
+Un bagaglio che scotta,01.1.SENBAG,Libro edito,,"Seniga, Giulio",,,1973,Milano,Azione Comune,Biografico,Venturati,Venturati,,,
+Israele '67,01.1.SENISR,Libro edito,,"Seniga, Giulio",,,1967,Milano,Azione Comune,"Politica,Esteri",Venturati,Venturati,,,
+Togliatti e Stalin,01.1.SENTOG,Libro edito,,"Seniga, Giulio",,,1961,Roma,Sugarco,"Politica,Comunismo",Venturati,Venturati,,,
+Il capitalismo nelle campagne (1860 -1900),01.1.SERCAP,Libro edito,,"Sereni, Emilio",,,1948,Novara,Einaudi,"Socialismo,Politica",Venturati,Venturati,,,
+La disputa sui partiti,01.1.SERDIS,Libro edito,,"Sernini, Michele",,,1968,Padova ,Marsilio Editori,Politica,Venturati,Venturati,,,
+L'Italia l'è malada,01.1.SERLIT,Libro edito,,"Seroni, Adriano",,,1955,Milano-Roma,Edizioni Avanti!,"Narrativa,Politica",Venturati,Venturati,,,
+La sfida americana,01.1.SERSFI,Libro edito,,"Servan-Schreiber, Jean-Jacques",,,1968,Milano,Etas Kompass,"Politica,Esteri",Venturati,Venturati,,,
+Dizionario storico politico italiano,01.1.SESDIZ,Libro edito,,"Sestan, Ernesto",,,1971,Firenze,Sansoni,Politica,Venturati,Venturati,,,
+La verità sull'economia cecoslovacca,01.1.SIKVER,Libro edito,,"Sik, Ota",,,1969,Milano,Etas Kompass,"Economia,Esteri,Comunismo",Venturati,Venturati,,,
+Quando muore un comunista,01.1.SIRQUA,Libro edito,,"Sironi, Antonio",,,1955,Milano,Edizioni Avanti!,"Narrativa,Comunismo",Venturati,Venturati,,,
+Eugenio Colorni,01.1.SOLEUG,Libro edito,,"Solari, Leo",,,1980,Padova,Marsilio Editori,"Biografico,Resistenza",Venturati,Venturati,,,
+La revisione del concordato,01.1.SPAREV,Libro edito,,"Spadolini, Giovanni",,,1979,Firenze,Le Monnier,"Politica,Chiesa,Giuridico",Venturati,Venturati,,,
+Problemi di storia del Partito Comunista Italiano,01.1.SPRPRO,Libro edito,,"Spriano, Paolo",,,1971,Roma,Editori Riuniti,"Storia,Comunismo,Politica",Venturati,Venturati,,,
+La Questione Italiana al Terzo Congresso della Internazionale Comunista,01.1.SPRQUE,Libro edito,,"Spriano, Paolo",,,1980,Roma,Editori Riuniti,"Politica,Comunismo",Venturati,Venturati,,,
+I Bonaparte. Storia di una famiglia,01.1.STABON,Libro edito,,"Stacton, David",,,1967,Milano,Club degli Editori,Storia,Venturati,Venturati,,,
+Questioni del leninismo,01.1.STAQUE,Libro edito,,"Stalin, Giuseppe",,,1946,Mosca,Edizioni in lingue estere,"Politica,Comunismo",Venturati,Venturati,,,
+Storia di preti e di palazzinari,01.1.STASTO,Libro edito,,"Statera, Alberto",,,1977,Roma,L'Espresso,"Inchiesta,Chiesa",Venturati,Venturati,,,
+Il Verdetto dei tre decenni,01.1.STEIVER,Libro edito,,"Steinberg, Julien",,,1952,Milano,Sperling & Kupfer,Politica,Venturati,Venturati,,,
+Dialogo con Giorgio Bocca sui fantasmi d'una generazione,01.1.STERDIA,Libro edito,,"Sterpa, Egidio",,,1978,Milano,Nuova Editoriale,Politica,Venturati,Venturati,,,
+Teoria della politica estera americana,01.1.SWETEO,Libro edito,,"Sweezy, Paul M.","Huberman, Leo",,1963,Torino,Einaudi,"Politica,Esteri",Venturati,Venturati,,,
+Gaetano Salvemini nel cinquantennio liberale,01.1.TAGGAE,Libro edito,,"Tagliacozzo, Enzo",,,1958,Firenze,La Nuova Italia,"Politica,Storia",Venturati,Venturati,,,
+Bilancio del marxismo,01.1.TAMBIL,Libro edito,,"Tamburano, G.","Landolfi, A.","Galli, G.",1965,Urbino ,Cappelli,"Politica,Comunismo,Socialismo",Venturati,Venturati,,,
+Per un partito socialista moderno,01.1.TAMPER,Libro edito,,"Tamburrano, Giuseppe",,,1965,Milano ,Edizioni Azione Comune ,"Storia,Politica,Socialismo",Venturati,Venturati,,,
+Nascita e avvento del fascismo ,01.1.TASNAS.1,Libro edito,1,"Tasca, Angelo",,,1967,Bari,Laterza,"Politica,Storia,Fascismo",Venturati,Venturati,,,
+Nascita e avvento del fascismo ,01.1.TASNAS.2,Libro edito,2,"Tasca, Angelo",,,1967,Bari,Laterza,"Politica,Storia,Fascismo",Venturati,Venturati,,,
+Il senso della morte e l'amore della vita nel Rinascimento,01.1.TENSEN,Libro edito,,"Tenenti, Alberto",,,1957,Torino,Einaudi,Storia,Venturati,Venturati,,,
+Abramo Lincoln,01.1.THOABR,Libro edito,,"Thomas, Benjamin",,,1964,Torino,Einaudi,"Biografico,Storia",Venturati,Venturati,,,
+Viaggio in India,01.1.TODVIA,Libro edito,,"Todisco, Alfredo",,,1962,Torino,Einaudi,Narrativa,Venturati,Venturati,,,
+Storia dell'evoluzione biologica,01.1.TOFSTO,Libro edito,,"Tofini, Paolo",,,1960,Milano,Edizioni Avanti!,Storia,Venturati,Venturati,,,
+Da Radio Milano - Libertà,01.1.TOGDAR,Libro edito,,"Togliatti, Palmiro",,,1974,Roma,Editori Riuniti,"Politica,Comunismo",Venturati,Venturati,,,
+Da Salerno a Yalta. Vent'anni di lotta politica negli articoli di Rinascita,01.1.TOGDAS,Libro edito,,"Togliatti, Palmiro",,,1984,Roma,Rinascita,"Politica,Storia,Comunismo",Venturati,Venturati,,,
+La formazione del gruppo dirigente del Partito Comunista Italiano,01.1.TOGFOR,Libro edito,,"Togliatti, Palmiro",,,1962,Roma,Editori Riuniti,"Politica,Comunismo",Venturati,Venturati,,,
+Gramsci,01.1.TOGGRA,Libro edito,,"Togliatti, Palmiro",,,1972,Roma,Editori Riuniti,"Politica,Comunismo",Venturati,Venturati,,,
+Togliatti editorialista,01.1.TOGTOG,Libro edito,,"Togliatti, Palmiro",,,1971,Roma,Editori Riuniti,"Politica,Comunismo",Venturati,Venturati,,,
+Con l'armata italiana in Russia,01.1.TOLCON,Libro edito,,"Tolloy, Giusto",,,1947,Torino,De Silva,"Storia,Esteri",Venturati,Venturati,,,
+Filippo Turati,01.1.TREEFIL,Libro edito,,"Treves, Claudio",,,1945,Roma-Milano,Avanti!,"Biografico,Socialismo",Venturati,Venturati,,,
+Un socialista: Filippo Turati,01.1.TREESOC,Libro edito,,"Treves, Claudio",,,1940,Roma,Critica Sociale,"Biografico,Socialismo",Venturati,Venturati,,,
+Lineamenti di una Storia del movimento operaio italiano. Dalla rivoluzione industriale alla I Internazionale,01.1.TREILIN.1,Libro edito,1,"Trevisani, Giulio",,,1958,Milano-Roma,Edizioni Avanti!,"Storia,Operaismo",Venturati,Venturati,,,
+Lineamenti di una Storia del movimento operaio italiano. Dalla I Internazionale a fine secolo,01.1.TREILIN.2,Libro edito,2,"Trevisani, Giulio",,,1960,Milano-Roma,Edizioni Avanti!,"Storia,Operaismo",Venturati,Venturati,,,
+Quaderni rossi. La fabbrica e la società,01.1.TROQUA.2,Libro edito,2,"Tronti, M.",,,1962,Milano,Istituto Morando,"Politica,Comunismo",Venturati,Venturati,,,
+Scritti,01.1.TROSCR,Libro edito,,"Trotskij, Lev",,,1962,Torino,Einaudi,"Politica,Comunismo",Venturati,Venturati,,,
+Storia della rivoluzione russa 1,01.1.TROSTO.1,Libro edito,1,"Trotskij, Lev",,,1939,Roma,Garzanti,"Politica,Comunismo",Venturati,Venturati,,,
+Storia della rivoluzione russa 2,01.1.TROSTO.2,Libro edito,2,"Trotskij, Lev",,,1939,Roma,Garzanti,"Politica,Comunismo",Venturati,Venturati,,,
+Storia della rivoluzione russa 3,01.1.TROSTO.3,Libro edito,3,"Trotskij, Lev",,,1939,Roma,Garzanti,"Politica,Comunismo",Venturati,Venturati,,,
+L'organizzazione socialista,01.1.TURLOR,Libro edito,,"Turati, Filippo",,,1958,Roma,Opere Nuove,"Politica,Socialismo",Venturati,Venturati,,,
+Il socialismo nel ventesimo secolo,01.1.USLSOC,Libro edito,,Unione Socialista di Londra,,,1959,Roma,Opere Nuove,"Socialismo,Politica",Venturati,Venturati,,,
+Gli intellettuali di sinistra e la crisi del 1956,01.1.VACINT,Libro edito,,"Vacca, Giuseppe",,,1978,Roma,Rinascita - Editori riuniti,"Politica,Comunismo",Venturati,Venturati,,,
+Il pensiero politico contemporaneo,01.1.VALPEN,Libro edito,,"Valentini, Francesco",,,1979,Bari,Laterza,"Politica,Filosofia politica",Venturati,Venturati,,,
+Questioni di storia del socialismo,01.1.VALQUE,Libro edito,,"Valiani, Leo",,,1958,Torino,Einaudi,"Storia,Socialismo",Venturati,Venturati,,,
+La sinistra democratica in Italia,01.1.VALSIN,Libro edito,,"Valiani, Leo",,,1977,Roma,Della Voce,Politica,Venturati,Venturati,,,
+Gli sviluppi ideologici del socialismo democratico in Italia,01.1.VALSVI,Libro edito,,"Valiani, Leo",,,1956,Roma,Opere Nuove,"Politica,Socialismo",Venturati,Venturati,,,
+I cinesi. In margine al contrasto Mosca-Pechino,01.1.VASCIN,Libro edito,,"Vasconi, Luciano",,,1964,Milano,Azione Comune,"Politica,Comunismo,Esteri",Venturati,Venturati,,,
+La proprietà socialista dello stato,01.1.VENPRO,Libro edito,,Venediktov A.V.,,,1953,Torino ,Einaudi ,"Politica,Socialismo",Venturati,Venturati,,,
+Il processo civile avanti al Pretore,01.1.VISPRO.1,Libro edito,1,"Visco, Antonio",,,1952,S. Maria C.V.,Schiano,Giuridico,Venturati,Venturati,,,
+Il processo civile avanti al Pretore,01.1.VISPRO.2,Libro edito,2,"Visco, Antonio",,,1952,S. Maria C.V.,Schiano,Giuridico,Venturati,Venturati,,,
+Il processo civile avanti al Pretore,01.1.VISPRO.3,Libro edito,3,"Visco, Antonio",,,1952,S. Maria C.V.,Schiano,Giuridico,Venturati,Venturati,,,
+Il comunismo sovietico: una nuova civiltà,01.1.WEBCOM.1,Libro edito,1,"Webb, Sidney","Webb, Beatrice",,1950,Torino,Einaudi,"Politica,Comunismo,Esteri",Venturati,Venturati,,,
+Il comunismo sovietico: una nuova civiltà,01.1.WEBCOM.2,Libro edito,2,"Webb, Sidney","Webb, Beatrice",,1950,Torino,Einaudi,"Politica,Comunismo,Esteri",Venturati,Venturati,,,
+Trotskij in esilio,01.1.WEITRO,Libro edito,,"Weiss, Peter",,,1970,Torino,Einaudi,"Biografico,Esteri,Comunismo,Storia",Venturati,Venturati,,,
+Leningrado,01.1.WERLEN,Libro edito,,"Werth, Alexander",,,1947,Torino,Einaudi,"Politica,Comunismo",Venturati,Venturati,,,
+Storia della Quarta Repubblica,01.1.WERSTO,Libro edito,,"Werth, Alexander",,,1958,Torino,Einaudi,"Storia,Esteri",Venturati,Venturati,,,
+I tre artefici della rivoluzione d'ottobre,01.1.WOLFTRE,Libro edito,,"Wolfe, B.D.",,,1953,Firenze,La Nuova Italia,"Storia,Esteri,Comunismo",Venturati,Venturati,,,
+"Stelle, strisce e tricolore",01.1.WOLLSTE,Libro edito,,"Wollemborg, Leo J.",,,1983,Milano,Mondadori,"Politica,Esteri",Venturati,Venturati,,,
+Il lungo viaggio attraverso il fascismo,01.1.ZANLUN,Libro edito,,"Zangrandi, Ruggero",,,1962,Milano,Feltrinelli,"Storia,Fascismo",Venturati,Venturati,,,
+Memorie di un socialista 1905-1965,01.1.ZILMEM,Libro edito,,"Zilocchi, Carlo",,,1967,Milano,Il Gallo,"Biografico,Socialismo",Venturati,Venturati,,,
+Vita del carcere di Antonio Gramsci,01.1.ZUCVIT,Libro edito,,"Zucaro, Domenico",,,1954,Milano-Roma,Edizioni Avanti!,"Biografico,Comunismo,Storia",Venturati,Venturati,,,
+Dalla politica di unità nazionale alla elezione di Sandro Pertini,01.2.BALDAL,Libro autoprodotto,,"Balzamo, Vincenzo",,,1979,Milano,PSI,"Elettorale,Socialismo,Storia",Venturati,Venturati,,,
+La riforma autonomistica delle regioni e il progetto disgregatore delle leghe,01.2.BALRIFA,Libro autoprodotto,,"Balzamo, Vincenzo",,,1990,Brescia,PSI,"Politica,Amministrazione,Giuridico",Venturati,Venturati,,,
+Il riformismo socialista in Italia e in Europa,01.2.BALRIFS,Libro autoprodotto,,"Balzamo, Vincenzo",,,1989,Milano,PSI,"Politica,Socialismo,Esteri",Venturati,Venturati,,,
+Camillo Prampolini,01.2.BARCAM,Libro autoprodotto,,"Barazzoni, Renzo",,,1959,Reggio Emilia,Federazione reggiana del PSI,"Biografico,Socialismo",Venturati,Venturati,,,
+Chi è e cosa ha fatto Ivan Matteo Lombardo,01.2.BIACHI,Libro autoprodotto,,"Bianchi, Umeberto",,,1953,Milano,PSDI,"Elettorale,Socialismo,Politica",Venturati,Venturati,,,
+I vecchi socialisti prampoliniani,01.2.BOTVEC,Libro autoprodotto,,"Bottazzi, Bartolo",,,1945,Reggio Emilia,Federazione Prov. Socialista di Reggio Emilia,"Storia,Socialismo",Venturati,Venturati,,,
+Per un programma minimo socialista,01.2.CREPER,Libro autoprodotto,,CREA,,,1983,Milano,CREA,"Politica,Socialismo",Venturati,Venturati,,,
+50 anni di caricatura politica nell'opera di Giuseppe Scalarini,01.2.ENT50A,Libro autoprodotto,,Ente Provinciale del Turismo - Mantova,,,1965,Mantova,Ente Provinciale del Turismo - Mantova,Giornalismo,Venturati,Venturati,,,
+Umberto Mannini,01.2.LUIUMB,Libro autoprodotto,,Luigina Delli,,,1978,Calenzano,Comune di Calenzano,Biografico,Venturati,Venturati,,,
+Diario di Marcella,01.2.MARDIA,Libro autoprodotto,,Marcella,,,1977,,Marcella ,"Biografico,Politica",Venturati,Venturati,,,
+Non per stato di necessità ma per scelta politica,01.2.NENNON,Libro autoprodotto,,"Nenni, Pietro",,,1970,Roma,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+L'iniziativa socialista per la Valsassina e la Valvarrone,01.2.PSILIN,Libro autoprodotto,,PSI lombardo,,,1967,Milano,CeSReL,"Politica,Socialismo",Venturati,Venturati,,,
+Note per una politica socialista,01.2.PSINOT.2,Libro autoprodotto,2,PSI,,,1976,Milano,PSI,"Periodici,Socialismo,Politica",Venturati,Venturati,,,
+Note per una politica socialista,01.2.PSINOT.7,Libro autoprodotto,7,PSI,,,1977,Milano,PSI,"Periodici,Socialismo,Politica",Venturati,Venturati,,,
+Note per una politica socialista,01.2.PSINOT.8,Libro autoprodotto,8,PSI,,,1977,Milano,PSI,"Periodici,Socialismo,Politica",Venturati,Venturati,,,
+Il partito socialista struttura e organizzazione,01.2.PSIPAR,Libro autoprodotto,,PSI,,,1975,Roma,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+PSI-PSDI Unificati. Statuto,01.2.PSIPSI,Libro autoprodotto,,PSI-PSDI,,,1966,Roma,PSI-PSDI Unificati,"Politica,Socialismo",Venturati,Venturati,,,
+Quaderni della sezione centrale di organizzazione. Documenti de dibattito di base,01.2.PSIQUA.2,Libro autoprodotto,2,PSI,,,1974,Roma,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+Quaderni della sezione centrale di organizzazione. Documenti de dibattito di base,01.2.PSIQUA.3,Libro autoprodotto,3,PSI,,,1974,Roma,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+Statuto del Partito Socialista Italiano,01.2.PSISTA.65,Libro autoprodotto,,PSI,,,1965,Roma,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+Statuto,01.2.PSISTA.sd.1,Libro autoprodotto,,PSI,,,s.d.,Roma,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+Statuto del Partito Socialista Italiano,01.2.PSISTA.sd.2,Libro autoprodotto,,PSI,,,s.d.,Roma,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+Avanti con maggior vigore nella lotta per il centro-sinistra,01.2.SARAVA,Libro autoprodotto,,"Saragat, Giuseppe",,,1963,Roma,PSDI,"Politica,Socialismo",Venturati,Venturati,,,
+Le giornate della Liberazione,01.2.UFFGIO,Libro autoprodotto,,Ufficio Stampa Comune di Milano,,,1975,Milano,Ufficio Stampa Comune di Milano,"Storia,Resistenza",Venturati,Venturati,,,
+Il Mulino,01.3.AAVMUL.1,Periodici,1,AAVV,,,1984,Bologna,Il Mulino,"Periodici,Politica",Venturati,Venturati,,,
+Il Mulino,01.3.AAVMUL.2,Periodici,2,AAVV,,,1984,Bologna,Il Mulino,"Periodici,Politica",Venturati,Venturati,,,
+Il Mulino,01.3.AAVMUL.3,Periodici,3,AAVV,,,1984,Bologna,Il Mulino,"Periodici,Politica",Venturati,Venturati,,,
+Il Mulino,01.3.AAVMUL.4,Periodici,4,AAVV,,,1984,Bologna,Il Mulino,"Periodici,Politica",Venturati,Venturati,,,
+Nuova Rivista Internazionale,01.3.AAVNUO.5,Periodici,5,AAVV,,,1965,Roma,SGRA,"Periodici,Politica",Venturati,Venturati,,,
+Le ragioni politiche,01.3.AAVRAG.1,Periodici,1,AAVV,,,1967,Roma,Marsilio Editori,"Periodici,Politica",Venturati,Venturati,,,
+Le ragioni politiche,01.3.AAVRAG.2\3,Periodici,2\3,AAVV,,,1967,Roma,Marsilio Editori,"Periodici,Politica",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.17,Periodici,17,AAVV,,,1962,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.18,Periodici,18,AAVV,,,1963,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.19,Periodici,19,AAVV,,,1963,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.20,Periodici,20,AAVV,,,1963,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.21,Periodici,21,AAVV,,,1964,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.22,Periodici,22,AAVV,,,1964,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.23,Periodici,23,AAVV,,,1964,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.24,Periodici,24,AAVV,,,1965,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.25\26,Periodici,25\26,AAVV,,,1965,Firenze,La Nuova Italia,"Politica,Socialismo",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.27,Periodici,27,AAVV,,,1966,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.28,Periodici,28,AAVV,,,1966,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.29,Periodici,29,AAVV,,,1966,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.30,Periodici,30,AAVV,,,1967,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del socialismo,01.3.AAVRIV.31,Periodici,31,AAVV,,,1967,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Rivista storica del Socialismo. Il PSI e la grande guerra,01.3.AAVRIV.32,Periodici,32,AAVV,,,1967,Firenze,La Nuova Italia,"Periodici,Socialismo,Storia",Venturati,Venturati,,,
+Una sinistra per la DC. I fatti del Cile,01.3.AAVSIN.2\3,Periodici,2\3,AAVV,,,1973,Monza,Quaderni di dibattito politico,"Politica,Esteri,Democrazia Cristiana",Venturati,Venturati,,,
+Lo Spettatore Internazionale,01.3.ALISPE.7.2,Periodici,7.2,Aliboni,Sacco ,Silvestri ,1972,Bologna ,Istituto Affari Internazionali ,"Politica,Periodici,Filosofia politica",Venturati,Venturati,,,
+Confronti,01.3.REGCON.2,Periodici,2,Regione Lombardia,,,1981,Milano,Regione Lombardia,"Periodici,Amministrazione",Venturati,Venturati,,,
+Confronti,01.3.REGCON.2bis,Periodici,2,Regione Lombardia,,,1981,Milano,Regione Lombardia,"Periodici,Amministrazione",Venturati,Venturati,,,
+Civitas,01.3.TAVCIV.6,Periodici,6,"Taviani, Paolo Emilio",,,1981,Milano,Edizioni Civitas,Periodici,Venturati,Venturati,,,
+Civitas,01.3.TAVCIV.7\8,Periodici,7\8,"Taviani, Paolo Emilio",,,1981,Milano,Edizioni Civitas,Periodici,Venturati,Venturati,,,
+Critica marxista,01.3.TORCRI.1\2,Periodici,1\2,"Tortorella, Aldo",,,1984,Roma,Editori Riuniti,"Periodici,Comunismo",Venturati,Venturati,,,
+Critica marxista,01.3.TORCRI.3,Periodici,3,"Tortorella, Aldo",,,1984,Roma,Editori Riuniti,"Periodici,Comunismo",Venturati,Venturati,,,
+Critica marxista,01.3.TORCRI.6,Periodici,6,"Tortorella, Aldo",,,1984,Roma,Editori Riuniti,"Periodici,Comunismo",Venturati,Venturati,,,
+Il Caffè. Problemi della socialdemocrazia,01.3.VICCAF,Periodici,,"Vicari, Gianbattista",,,1955,Milano,Il Caffé,"Periodici,Socialismo",Venturati,Venturati,,,
+I trasporti dalle idee ai fatti,01.4.BALTRA,Documentazione interna,,"Balzamo, Vincenzo",,,1982,,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+"Per il ""Progetto Socialista""",01.4.CRAPER,Documentazione interna,,"Craxi, Bettino",,,1978,Milano,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+41esimo congresso nazionale,01.4.PSI41E,Documentazione interna,,PSI,,,1978,Milano,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+"L'impegno del PSI per l'attuazione del ""progetto 80""",01.4.PSILIM,Documentazione interna,,PSI,,,1970,Milano,PSI,"Politica,Socialismo",Venturati,Venturati,,,
+Soluzioni concrete a problemi reali,01.5.OLCSOL,Materiale elettorale,,"Olcese, Vittorio",,,1983,Milano,PRI,"Elettorale,Socialismo",Venturati,Venturati,,,
+Ricerche di storia contemporanea bergamasca,01.6.AAVRIC,Studi e documentazione di ricerca,,AAVV,,,1970,Bergamo,ISREC,"Periodici,Resistenza,Storia",Venturati,Venturati,,,
+Ricerche di storia contemporanea bergamasca,01.6.AAVRIC.3\4,Studi e documentazione di ricerca,3\4,AAVV,,,1972,Bergamo,ISREC,"Storia,Resistenza,Periodici",Venturati,Venturati,,,
+Studi Storici,01.6.AAVSTU.3,Studi e documentazione di ricerca,3,AAVV,,,1963,Roma,Istituto Gramsci,"Periodici,Storia",Venturati,Venturati,,,
+In ricordo di Riccardo Bauer,01.6.ARDINR,Studi e documentazione di ricerca,,"Arduino, Mario","Ghezzi, Morris L.",,1982,Milano,CREA,Storia,Venturati,Venturati,,,
+L'economia sovietica nell'era di Breznev,01.6.BRELEC,Studi e documentazione di ricerca,,"Brera, Paolo",,,1977,Milano,Centro Mondolfo,"Economia,Comunismo,Esteri",Venturati,Venturati,,,
+Compendio statistico della Provincia di Bergamo 1965-66-67,01.6.CABCOM,Studi e documentazione di ricerca,,Camera di Commercio Industria Artigianato e Agricoltura Bergamo ,Ufficio  Provinciale di Statistica ,,1968,Bergamo ,Poligrafiche Bolis S.p.A.,"Amministrazione,Economia,Inchiesta",Venturati,Venturati,,,
+Cento anni dopo,01.6.CRACEN,Studi e documentazione di ricerca,,"Craxi, Bettino",,,1982,Milano,Biblioteca rossa,"Politica,Storia",Venturati,Venturati,,,
+I movimenti pacifisti: dalle marce all'analisi agli slogans,01.6.CREMOV,Studi e documentazione di ricerca,,CREA,,,1981,Milano,CREA,"Politica,Esteri",Venturati,Venturati,,,
+Rapporto sul Medio Oriente: Israele e gli stati arabi,01.6.DARRAP,Studi e documentazione di ricerca,,"Da Rold, Gianluigi","Sodano, Pier Giulio",,1970,Milano,Associazione Sionistica Italiana,"Storia,Esteri",Venturati,Venturati,,,
+Il movimento operaio milanese alla fine dell'ottocento,01.6.GALMOV.1,Studi e documentazione di ricerca,,"Galli, Giancarlo",,,1971,Milano,Ufficio Stampa Comune di Milano,"Politica,Storia,Socialismo",Venturati,Venturati,,,
+Il movimento operaio milanese all'inizio del novecento,01.6.GALMOV.2,Studi e documentazione di ricerca,,"Galli, Giancarlo",,,1972,,Ufficio Stampa Comune di Milano,"Politica,Storia,Socialismo",Venturati,Venturati,,,
+I socialisti per la riforma agraria ,01.6.LOCSOC,Studi e documentazione di ricerca,,Locoratolo Luigi,,,1957,Roma,Psi,"Socialismo,Politica",Venturati,Venturati,,,
+Essenzialità dei trasporti per una civiltà di movimento,01.6.MITESS,Studi e documentazione di ricerca,,Ministero dei trasporti,,,1982,Roma,Ministero dei trasporti,"Politica,Socialismo",Venturati,Venturati,,,
+Una strategia per i trasporti degli anni ottanta,01.6.MITSTR,Studi e documentazione di ricerca,,Ministero dei trasporti,,,1981,Roma,Ministero dei trasporti,"Politica,Socialismo",Venturati,Venturati,,,
+Trasporti: provvedimenti d'emergenza per la sicurezza e i diritti dei cittadini,01.6.MITTRA,Studi e documentazione di ricerca,,Ministero dei trasporti,,,1982,Roma,Ministero dei trasporti,"Politica,Socialismo",Venturati,Venturati,,,
+1892 - 1982 PSI novanta anni di storia,01.6.PSI189,Studi e documentazione di ricerca,,PSI,,,1982,Roma,PSI,"Politica,Storia,Socialismo",Venturati,Venturati,,,
+Per un trattato di pace con la Germania per scongiurare i pericoli di guerra,01.6.SLEPER,Studi e documentazione di ricerca,,Sindacati e Lavoratori d'Europa,,,1959,Görlitz-Zgorzelec,Conferenza dei Sindacati e dei Lavoratori d'Europa,"Politica,Esteri",Venturati,Venturati,,,
+Primo rapporto sull'inchiesta di massa sul terrorismo,01.6.SPSPRI,Studi e documentazione di ricerca,,Sezione Problemi dello Stato,,,1982,Roma,Politica ed Economia,"Inchiesta,Terrorismo",Venturati,Venturati,,,
+Copia di verbale di Consiglio Comunale,05.4.PCI.1.A,Verbale (Copia),,Comune di Caravaggio,,,1968,Caravaggio,,"Politica,Comunismo,Caravaggio",Crapabela,Crapabela,https://drive.google.com/file/d/1RAwwFhsYL09s-48uNUHanJ7aD9YXU_HO/view?usp=drive_link,images/PCI/Crapabela/verbale1.png,"faldone PCI, fascicolo 1"
+Trascrizione della richiesta di riammissione alla sezione da parte di Merisio,05.4.PCI.2.A,Lettera,,Privato,,,1971,Caravaggio,,"Politica, Comunismo, Caravaggio",Crapabela,Crapabela,,images/privacy.jpg,"faldone PCI, fascicolo 2"
+Risposta al Merisio rispetto alla richiesta di riammissione al PCI,05.4.PCI.2.B,Lettera,,"Pisoni, Giuseppe",,,1971,Caravaggio,,"Politica,Comunismo,Caravaggio",Crapabela,Crapabela,,images/privacy.jpg,"faldone PCI, fascicolo 2"
+Risposta della sezione alla Federazione bergamasca in merito alla non candidatura di Pisoni alle provinciali del 1975,05.4.PCI.3.A,Lettera,,"Pontoglio, Mario","Sghirlanzoni, Angelo","Manzoni, Lucia",1975,Caravaggio,,"Politica, Comunismo, Caravaggio",Crapabela,Crapabela,https://drive.google.com/file/d/1bwKWLGUQgGwTfjrb3kJ0DIR-P16yVqPU/view?usp=drive_link,images/PCI/Crapabela/candidatura1.png,"faldone PCI, fascicolo 3"
+Lettera alla Commissione Provinciale di Controllo del PCI da quella Regionale riguardante la lettera della sezione di Caravaggio del 21/04/1975 sulla candidatura di Pisoni alle provinciali,05.4.PCI.3.B,Lettera,,"Venanzi, Mario",,,1975,Milano,,"Politica, Comunismo, Caravaggio",Crapabela,Crapabela,https://drive.google.com/file/d/1e9kLNEtUQvGyaQwHHw0Zp8aJJb-V9L8t/view?usp=drive_link,images/PCI/Crapabela/candidatura2.png,"faldone PCI, fascicolo 3"
+Risposta alla Commissione Regionale di Controllo del PCI da parte di quella Provinciale sulla candidatura di Pisoni,05.4.PCI.3.C,Lettera,,"Casati, Mario",,,1978,Bergamo,,"Politica, Comunismo, Caravaggio",Crapabela,Crapabela,https://drive.google.com/file/d/197UOtI8uTzHtvqDQs0nY0W3mu9DmAccV/view?usp=drive_link,images/PCI/Crapabela/candidatura4.png,"faldone PCI, fascicolo 3"
+Bozza di risposta alla Commissione Regionale di Controllo del PCI da parte di quella Provinciale sulla candidatura di Pisoni,05.4.PCI.3.D,Minuta,,"Casati, Mario",,,1975,Bergamo,,"Politica, Comunismo, Caravaggio",Crapabela,Crapabela,https://drive.google.com/file/d/11QCKvcn0pNlG6BfySL1T2UOoQBXLs-_y/view?usp=drive_link,images/PCI/Crapabela/candidatura4.png,"faldone PCI, fascicolo 3"
+Appunti per la stesura della risposta alla Federazione sulla questione della candidatura di Pisoni da parte della sezione di Caravaggio,05.4.PCI.3.E,Minuta,,Sconosciuto,,,1975,Caravaggio,,"Politica, Comunismo, Caravaggio",Crapabela,Crapabela,https://drive.google.com/file/d/1nqZFGatHvGc0ql6M1wJvnTLtDZqCiNE0/view?usp=drive_link,images/PCI/Crapabela/candidatura5.png,"faldone PCI, fascicolo 3"
+Risposta alla Federazione di Bergamo da parte della sezione PCI di Caravaggio a seguito della questione sulla candidatura di Pisoni,05.4.PCI.3.F,Lettera,,"Pontoglio, Mario","Sghirlanzoni, Angelo","Manzoni, Lucia",1975,Caravaggio,,"Politica, Comunismo, Caravaggio",Crapabela,Crapabela,https://drive.google.com/file/d/1JbqbtuAe4y6cnX_qTA8lccKLrFFRYzQL/view?usp=drive_link,images/PCI/Crapabela/candidatura6.png,"faldone PCI, fascicolo 3"
+Diverbio ai seggi fra Giuseppe Pisoni (PCI) e Sen. Angelo Castelli (DC),05.8.FOT.1.A1,Fotografia,,"Pisoni, Giuseppe",,,1976,Caravaggio,,"Politica,Caravaggio,Comunismo",Crapabela,Crapabela,,image/PCI/Crapabela/05.8.PISDIV.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo A"
+Sen. Angelo Castelli ai seggi elettorali,05.8.FOT.1.A2,Fotografia,,"Pisoni, Giuseppe",,,1976,Caravaggio,,"Caravaggio,Politica",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISSEN.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo A"
+Festa de L'Unità di Caravaggio,05.8.FOT.1.B1,Fotografia,1,"Pisoni, Giuseppe",,,s.d.,Caravaggio,,"Politica,Comunismo,Caravaggio,Festa de L'Unità",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISFES.1.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo B"
+Festa de L'Unità di Caravaggio,05.8.FOT.1.B2,Fotografia,2,"Pisoni, Giuseppe",,,s.d.,Caravaggio,,"Politica,Caravaggio,Comunismo,Festa de L'Unità",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISFES.2.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo B"
+Festa de L'Unità di Caravaggio,05.8.FOT.1.B3,Fotografia,3,"Pisoni, Giuseppe",,,s.d.,Caravaggio,,"Caravaggio,Festa de L'Unità,Comunismo",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISFES.3.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo B"
+Manifesti elettorali a Caravaggio,05.8.FOT.1.C1,Fotografia,,"Pisoni, Giuseppe",,,1976,Caravaggio,,"Caravaggio,Comunismo,Politica",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISMAN.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo C"
+Candidati nella lista del PCI del 1976,05.8.FOT.1.C2,Fotografia,,Sconosciuto,,,1976,Caravaggio,,"Caravaggio,Politica,Comunismo",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.SCOCAN.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo C"
+Volontari del PCI di Caravaggio ristrutturano la Casa del Popolo,05.8.FOT.1.D1,Fotografia,1,"Pisoni, Giuseppe",,,197?,Caravaggio,,"Caravaggio,Comunismo",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISVOL.1.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo D"
+Volontari del PCI di Caravaggio ristrutturano la Casa del Popolo,05.8.FOT.1.D2,Fotografia,2,"Pisoni, Giuseppe",,,197?,Caravaggio,,"Caravaggio,Comunismo",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISVOL.2.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo D"
+Volontari del PCI di Caravaggio ristrutturano la Casa del Popolo,05.8.FOT.1.D3,Fotografia,3,"Pisoni, Giuseppe",,,197?,Caravaggio,,"Caravaggio,Comunismo",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.PISVOL.3.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo D"
+Giuseppe Pisoni durante i lavori di ristrutturazione della Casa del Popolo,05.8.FOT.1.E1,Fotografia,,Sconosciuto,,,s.d.,Caravaggio,,"Caravaggio,Comunismo",Crapabela,Crapabela,,images/PCI/Crapabela/05.8.SCOGIU.jpeg,"faldone fotografico, fascicolo 1, sottofascicolo E"
+Distinta per il versamento della sovrimposta comunale sul reddito dei fabbricati,08.4.SED.1.A,Ricevuta,,Privato,,,1983,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 1"
+Dichiarazione di debito da parte di Pisoni e Pavesi verso gli eredi Tadolti,08.4.SED.1.Bbis,Scrittura privata,,"Pisoni, Giuseppe","Pavesi, Paolo",,1979,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 1"
+Prospetto di contabilità riferita alla sede,08.4.SED.1.C,Minuta,,"Ogliari, Domenico",,,s.d.,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,pdf/ogliari/08.4.SED.1.C.pdf,images/PCI/ogliari/08.4.SED.1.C.png,"faldone sede, fascicolo 1"
+Comunicazione di accordo fra sezione di Caravaggio e Federazione del PCI,08.4.SED.1.D,Lettera,,"Castellozzi, Fabio",,,1988,Bergamo,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,pdf/ogliari/08.4.SED.1.D.pdf,images/PCI/ogliari/08.4.SED.1.D.png,"faldone sede, fascicolo 1"
+Lettera raccomandata dal notaio Ferrara all'Immobiliare Stella di richiesta pagamento,08.4.SED.1.E,Lettera,,Studio Notaio Ferrara,,,1980,Treviglio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 1"
+Estratto catastale ditta Tadolti,08.4.SED.1.F,Estratto di registro,,Ufficio pubblico statale,,,s.d.,,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 1"
+Ricevuta d'affitto della sede,08.4.SED.1.H,Ricevuta,,Privato,,,s.d.,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 1"
+Concessione a Privato di apertura di una finestra,08.4.SED.2.A,Scrittura privata,,Privato,Privato,,1975,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 2"
+Comunicazione di cessione fabbricato in affitto,08.4.SED.2.B,Comunicazione,,"Ogliari, Domenico",,,1984,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 2"
+Lettera agli eredi Tadolti riguardante privati confinanti con la sede,08.4.SED.2.C,Lettera,,Sconosciuto,,,s.d.,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 2"
+Contratto d'appalto a Pisoni & Bergamaschi,08.4.SED.3.A,Contratto,,"Ogliari, Domenico",,,s.d.,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 3"
+Licenza di costruzione per la ristrutturazione della sede (1974),08.4.SED.3.B,Licenza,,Comune di Caravaggio,,,1974,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 3"
+Verbale di prova di carico e certificato di collaudo per le opere in c.a. eseguite nella costruzione,08.4.SED.3.C,Certificato,,Privato,,,1975,Bergamo,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 3"
+Bolla di accompagnamento di materiali edili per la ristrutturazione della sede,08.4.SED.3.D,Documento,,Privato,,,1982,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 3"
+Conversione in atto pubblico della scrittura privata per la compravendita della sede,08.4.SED.4.A,Copia atto pubblico,,Notaio Leidi,,,1983,Bergamo,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 4"
+Contratto di comodato d'uso gratuito per le sezioni di Caravaggio,08.4.SED.4.B,Contratto,,Notaio Leidi,,,1983,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 4"
+Atto costitutivo di Immobiliare Stella 80 e allegati,08.4.SED.5.A,Documentazione,,Notaio Leidi,,,1980,Treviglio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 5"
+Nomina a procuratrice ad negotia di Immobiliare Stella 80,08.4.SED.5.B,Nomina,,Notaio Leidi,,,1983,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 5"
+Domanda di attribuzione del numero del codice fiscale per Immobiliare Stella 80,08.4.SED.5.C,Modulistica,,"Ogliari, Domenico",,,1980,Caravaggio,,"Politica,Caravaggio,Comunismo",Ogliari,Ogliari,,images/privacy.jpg,"faldone sede, fascicolo 5"
+Voltare pagina,A01.1.SOFVOL,Libro edito,,"Sofri, Gianni",,,1979,Torino,Stampatori,Storia,Gallavresi,Gallavresi,,,
+Busto di Emilio Gallavresi,A01.11.GAL.1,Scultura e simili,,Sconosciuto,,,s.d.,Caravaggio,,"Caravaggio,Socialismo",Gallavresi,Gallavresi,,images/gallavresi/A01.9.BEGSCO.jpeg,
+Candidato nella lista La Tua Caravaggio,A02.8.TUA.1.A,Fotografia,1,Sconosciuto,,,2011,Caravaggio,,"Politica,Caravaggio",Democratici,Democratici,,images/privacy.jpg,"faldone 2011, fascicolo 1"
+Evento di campagna elettorale Ambrosini Sindaca 2011,A02.8.TUA.1.B,Fotografia,1,Sconosciuto,,,2011,Caravaggio,,"Politica,Caravaggio",Democratici,Democratici,,images/PDCaravaggio/A02.8.SCOEVE.1.jpeg,"faldone 2011, fascicolo 1"
+Evento di campagna elettorale Ambrosini Sindaca 2011,A02.8.TUA.1.C,Fotografia,2,Sconosciuto,,,2011,Caravaggio,,"Politica,Caravaggio",Democratici,Democratici,,images/PDCaravaggio/A02.8.SCOEVE.2.jpeg,"faldone 2011, fascicolo 1"
+Il Panettiere Partigiano,A04.2.GATPAN,Libro autoprodotto,,"Gatti, Mirko",,,2023,Caravaggio,AFU Caravaggio,"Storia,Resistenza,Caravaggio",Stella,Stella,pdf/stella/03.2.GATPAN.pdf,,
