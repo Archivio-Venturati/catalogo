@@ -1250,7 +1250,7 @@ main.content .card.prose {
   background: rgba(0,0,0,.25);
 }
 /* ==========================
-   TIMELINE (stabile, scenografica)
+   TIMELINE (pulita + full-bleed foto)
    ========================== */
 
 .timeline{
@@ -1326,44 +1326,27 @@ main.content .card.prose {
   box-shadow: 0 0 0 6px rgba(170,210,255,.12), 0 14px 40px rgba(0,0,0,.6);
 }
 
-/* alterna sinistra/destra */
+/* alternanza: blocco (testo + foto) */
 .tl-item:nth-child(odd) .tl-block{ grid-column: 1; }
 .tl-item:nth-child(even) .tl-block{ grid-column: 3; }
 
-/* card */
+.tl-block{
+  display: grid;
+  gap: 0; /* testo e foto attaccati */
+}
+
+/* card SOLO testo */
 .tl-card{
   position: relative;
-  padding: 0;              /* niente padding generale */
-  overflow: hidden;        /* serve per lo zoom “dentro” */
   background: linear-gradient(180deg, rgba(18,26,40,.76), rgba(14,20,32,.84));
   box-shadow: 0 24px 60px rgba(0,0,0,.55);
-
-  /* stato iniziale per reveal */
   transform: translateY(26px);
   opacity: 0;
   filter: blur(6px);
   transition: transform .75s ease, opacity .75s ease, filter .75s ease;
 }
 
-/* padding solo al testo */
-.tl-content{
-  padding: 14px;
-}
-
-/* watermark anno: lo leggiamo dal data-year sulla card (JS lo setta) */
-.tl-card::before{
-  content: attr(data-year);
-  position: absolute;
-  right: -12px;
-  top: -26px;
-  font-size: 96px;
-  font-weight: 950;
-  letter-spacing: .04em;
-  color: rgba(210,230,255,.08);
-  pointer-events: none;
-  user-select: none;
-  transform: rotate(-6deg);
-}
+.tl-content{ padding: 14px; }
 
 .tl-year{
   font-weight: 950;
@@ -1388,23 +1371,43 @@ main.content .card.prose {
   line-height: 1.55;
 }
 
-/* media */
-.tl-media{
-  margin: 0;
+/* reveal del testo */
+.tl-item.show .tl-card{
+  transform: translateY(0);
+  opacity: 1;
+  filter: blur(0);
 }
 
-/* gallery 1+2 */
+/* ===== FOTO FULL-BLEED FINO AL BORDO SCHERMO (MA TAGLIATE SULLA LINEA) ===== */
+.tl-media{
+  margin: 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden; /* zoom dentro */
+}
+
+/* taglio a metà: sx/dx */
+.tl-item:nth-child(odd) .tl-media{ clip-path: inset(0 50% 0 0); }
+.tl-item:nth-child(even) .tl-media{ clip-path: inset(0 0 0 50%); }
+
+/* gallery: 1+2 */
 .tl-gallery{
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
-
-  /* scegli qui: 0 per full-bleed totale, oppure 14px se vuoi respiro */
+  gap: 0;
   padding: 0;
+  background: transparent;
 }
 
-.tl-gallery .tl-img{
+.tl-gallery.single{
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.tl-img{
   width: 100%;
   height: 100%;
   display: block;
@@ -1412,43 +1415,28 @@ main.content .card.prose {
   border-radius: 0;
 }
 
-/* la grande occupa due righe */
-.tl-gallery .tl-img.big{
+.tl-img.big{
   grid-column: 1;
   grid-row: 1 / span 2;
-  min-height: 360px;
+  min-height: 420px;
 }
 
-/* le due piccole */
-.tl-gallery .tl-img.small{
-  min-height: 175px;
+.tl-gallery.single .tl-img.big{
+  grid-row: auto;
+  min-height: 520px;
 }
 
-/* zoom + parallax (una sola transform, niente doppioni) */
-.tl-media img, .tl-gallery .tl-img{
+.tl-img.small{ min-height: 250px; }
+
+/* zoom + parallax (una sola transform) */
+.tl-media img{
   transform: translateY(var(--py, 0px)) scale(var(--zoom, 1.08));
   transition: transform 900ms ease;
   will-change: transform;
-  filter: contrast(1.05) saturate(.95) brightness(.90);
+  filter: none; /* “nude”, come chiedi */
 }
 
-/* quando entra in viewport */
-.tl-item.show .tl-card{
-  transform: translateY(0);
-  opacity: 1;
-  filter: blur(0);
-}
-
-.tl-item.show .tl-media img,
-.tl-item.show .tl-gallery .tl-img{
-  --zoom: 1;
-}
-
-/* ritardo leggero sulle immagini */
-.tl-item .tl-media img,
-.tl-item .tl-gallery .tl-img{
-  transition-delay: 120ms;
-}
+.tl-item.show .tl-media img{ --zoom: 1; }
 
 /* mobile */
 @media (max-width: 900px){
@@ -1458,45 +1446,20 @@ main.content .card.prose {
     gap: 12px;
   }
   .tl-dot{ grid-column: 1; justify-self: center; }
-  .tl-card{ grid-column: 2 !important; }
+  .tl-block{ grid-column: 2 !important; }
+
+  /* su mobile: niente taglio metà (sennò è stretto) */
+  .tl-media{
+    width: 100%;
+    left: auto;
+    transform: none;
+    clip-path: none !important;
+  }
 
   .tl-gallery{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    gap: 10px;
   }
-  .tl-gallery .tl-img.big{ grid-row: auto; min-height: 260px; }
-  .tl-gallery .tl-img.small{ min-height: 200px; }
+  .tl-img.big{ grid-row: auto; min-height: 320px; }
+  .tl-img.small{ min-height: 260px; }
 }
-.tl-gallery:has(.tl-img:only-child){
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-}
-.tl-gallery:has(.tl-img:only-child) .tl-img.big{
-  grid-row: auto;
-  min-height: 420px;
-}
-.tl-block{
-  display: grid;
-  gap: 0;            /* testo e foto attaccati */
-}
-.tl-media{ margin: 0; }
-
-.tl-gallery{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0;          /* niente spazi tra foto */
-  padding: 0;      /* niente bordo interno */
-}
-
-.tl-gallery .tl-img{
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  border-radius: 0;
-}
-.tl-gallery{ gap:2px; background: rgba(0,0,0,.55); }
-.tl-media img{ filter: none; }
-.tl-media{ overflow: hidden; }
