@@ -1329,8 +1329,8 @@ main.content .card.prose {
 }
 
 /* alterna sinistra/destra */
-.tl-item:nth-child(odd) .tl-card{ grid-column: 1; }
-.tl-item:nth-child(even) .tl-card{ grid-column: 3; }
+.tl-item:nth-child(odd) .tl-block{ grid-column: 1; }
+.tl-item:nth-child(even) .tl-block{ grid-column: 3; }
 
 /* card */
 .tl-card{
@@ -1478,3 +1478,27 @@ main.content .card.prose {
   grid-row: auto;
   min-height: 420px;
 }
+.tl-block{
+  display: grid;
+  gap: 0;            /* testo e foto attaccati */
+}
+.tl-media{ margin: 0; }
+
+.tl-gallery{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0;          /* niente spazi tra foto */
+  padding: 0;      /* niente bordo interno */
+}
+
+.tl-gallery .tl-img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
+}
+.tl-gallery{ gap:2px; background: rgba(0,0,0,.55); }
+.tl-media img{ filter: none; }
+.tl-media{ overflow: hidden; }
