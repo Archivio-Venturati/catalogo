@@ -1431,20 +1431,53 @@ main.content .card.prose {
 
 .tl-item.show .tl-media img{ --zoom: 1; }
 
-/* mobile */
+/* ==========================
+   MOBILE
+   ========================== */
 @media (max-width: 900px){
-  .tl-line{ left: 18px; transform:none; }
+
+  /* linea tutta a sinistra */
+  .tl-line{
+    left: 18px;
+    transform: none;
+  }
+
+  /* griglia a due colonne: linea | contenuto */
   .tl-item{
     grid-template-columns: 36px 1fr;
     gap: 12px;
   }
-  .tl-dot{ grid-column: 1; justify-self: center; }
-  .tl-block{ grid-column: 2 !important; }
 
+  /* pallino sulla linea */
+  .tl-dot{
+    grid-column: 1;
+    justify-self: center;
+  }
+
+  /* TUTTO il contenuto sempre a destra */
+  .tl-block{
+    grid-column: 2 !important;
+  }
+
+  /* niente alternanza su mobile */
+  .tl-item:nth-child(odd) .tl-block,
+  .tl-item:nth-child(even) .tl-block{
+    grid-column: 2 !important;
+  }
+
+  /* gallery a colonna singola */
   .tl-gallery{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    gap: 0;
   }
-  .tl-img.big{ grid-row: auto; min-height: 320px; }
-  .tl-img.small{ min-height: 260px; }
+
+  .tl-img.big{
+    grid-row: auto;
+    min-height: 320px;
+  }
+
+  .tl-img.small{
+    min-height: 260px;
+  }
 }
