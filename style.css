@@ -1251,3 +1251,105 @@ main.content .card.prose {
   margin: 10px 0;
   background: rgba(0,0,0,.25);
 }
+.story{
+  padding: 40px 0 120px;
+  background: radial-gradient(1200px 800px at 50% 20%, rgba(90,130,200,.18), transparent 60%),
+              radial-gradient(900px 600px at 20% 40%, rgba(180,220,255,.10), transparent 60%),
+              var(--bg);
+}
+
+.story-wrap{
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 2600px; /* deve circa matchare il viewBox height */
+}
+
+.story-path{
+  position:absolute;
+  inset: 0;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+  z-index: 1;
+}
+
+.story-path path{
+  fill:none;
+  stroke: rgba(170,210,255,.55);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,.35));
+}
+
+/* contenitore items */
+.story-items{
+  position: relative;
+  z-index: 2;
+}
+
+/* l’item è solo un anchor “posizionato” dal JS */
+.s-item{
+  position:absolute;
+  width: min(420px, 86vw);
+  transform: translate(-50%, -50%); /* centrato sul punto del path */
+  opacity: 0;
+  filter: blur(6px);
+  transition: opacity .7s ease, transform .7s ease, filter .7s ease;
+}
+
+/* animazione entrata */
+.s-item.show{
+  opacity:1;
+  filter: blur(0);
+}
+
+/* card */
+.s-card{
+  background: linear-gradient(180deg, rgba(18,26,40,.76), rgba(14,20,32,.84));
+  box-shadow: 0 24px 60px rgba(0,0,0,.55);
+  padding: 14px;
+}
+
+/* anno “istituzionale” */
+.s-year{
+  font-weight: 950;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgba(210,230,255,.85);
+  margin-bottom: 8px;
+}
+
+/* titolo e testo */
+.s-card h3{
+  margin: 0 0 8px;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.s-card p{
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+/* immagine scenografica */
+.s-card img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display:block;
+  filter: contrast(1.05) saturate(.95) brightness(.90);
+}
+
+/* mobile: path più semplice (sotto ti dico anche come) */
+@media (max-width: 900px){
+  .story-wrap{ max-width: 94vw; }
+  .s-item{ width: min(520px, 92vw); }
+  .s-card img{ height: 200px; }
+}
