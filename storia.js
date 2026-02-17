@@ -2,7 +2,9 @@
   const svg = document.querySelector(".story-path");
   const path = document.querySelector("#path");
   const items = Array.from(document.querySelectorAll(".s-item"));
-
+items.forEach((el, i) => {
+  if (i % 4 === 0) el.classList.add("xl"); // 0,4,8,12...
+});
   if (!svg || !path || !items.length) return;
 
   // helper: punto lungo il path
@@ -86,6 +88,7 @@ items.forEach(el => {
   }
 
   // init
+  spotlight();
   placeItems();
   drawPathOnScroll();
   parallax();
@@ -98,8 +101,24 @@ items.forEach(el => {
   });
 
   // scroll
-  window.addEventListener("scroll", () => {
-    drawPathOnScroll();
-    parallax();
-  }, { passive: true });
-})();
+window.addEventListener("scroll", () => {
+  drawPathOnScroll();
+  parallax();
+  spotlight();
+}, { passive: true });
+const story = document.querySelector(".story");
+
+function spotlight(){
+  if (!story) return;
+  const r = story.getBoundingClientRect();
+  const vh = window.innerHeight;
+
+  // y%: segue il centro viewport dentro la sezione
+  const y = ((vh * 0.45) - r.top) / r.height; // 0..1 approx
+  const clampY = Math.max(0.05, Math.min(0.95, y));
+
+  // x%: leggero “wandering” alternato, così non è statico
+  const wander = Math.sin((window.scrollY || 0) * 0.002) * 10; // -10..10
+  story.style.setProperty("--spot-x", `${50 + wander}%`);
+  story.style.setProperty("--spot-y", `${clampY * 100}%`);
+}
