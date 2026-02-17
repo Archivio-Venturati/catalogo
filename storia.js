@@ -7,7 +7,11 @@
 
   // helper: punto lungo il path
   const total = path.getTotalLength();
-
+items.forEach(el => {
+  const year = el.getAttribute("data-year") || "";
+  const card = el.querySelector(".s-card");
+  if (card) card.setAttribute("data-year", year);
+});
   function placeItems() {
     const box = svg.getBoundingClientRect();
 
