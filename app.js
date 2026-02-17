@@ -349,7 +349,7 @@ function startRingAnimations(root = document) {
       return;
     }
 
-    const duration = 900; // ms
+    const duration = 1500; // ms
     const start = performance.now();
     const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
 
