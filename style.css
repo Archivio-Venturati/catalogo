@@ -1377,3 +1377,28 @@ main.content .card.prose {
   position: relative;
   z-index: 1; /* testo e img sopra al watermark */
 }
+.story{
+  position: relative;
+  overflow: hidden;
+}
+
+.story::before{
+  content:"";
+  position:absolute;
+  inset:-200px;
+  background: radial-gradient(
+    480px 360px at var(--spot-x, 50%) var(--spot-y, 20%),
+    rgba(170,210,255,.14),
+    transparent 60%
+  );
+  pointer-events:none;
+  z-index: 0;
+  transition: background-position .06s linear;
+}
+
+.story-wrap,
+.story-path,
+.story-items{
+  position: relative;
+  z-index: 1;
+}
