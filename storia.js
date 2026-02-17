@@ -28,7 +28,9 @@ items.forEach(el => {
       // alternanza + irregolarità controllata
       const side = (i % 2 === 0) ? -1 : 1;
       const jitter = (i % 3 === 0) ? 40 : (i % 3 === 1 ? 10 : 70);
-      const offsetX = side * (160 + jitter);    // quanto si stacca dalla linea
+      const isXL = el.classList.contains("xl");
+const base = isXL ? 220 : 160;
+const offsetX = side * (base + jitter);
       const offsetY = (i % 2 === 0) ? -10 : 10; // micro variaz.
 
       // coordinate in px rispetto al contenitore
