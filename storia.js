@@ -28,7 +28,7 @@
 
       const k = ((r.top + r.height/2) - vh/2) / (vh/2); // ~ -1..1
       const y = Math.max(-12, Math.min(12, -k * 10));
-      img.style.transform = `translateY(${y}px)`;
+      img.style.setProperty("--py", `${y}px`);
     });
   }
 
