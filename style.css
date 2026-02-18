@@ -1550,7 +1550,7 @@ main.content .card.prose {
    ========================== */
 
 :root{
-  --tl-media-shift: 0px;   /* quanto vuoi sfalsare (prova 30/44/60) */
+  --tl-media-shift: 80px;   /* quanto vuoi sfalsare (prova 30/44/60) */
 }
 
 /* blocco: card sopra, foto sotto */
