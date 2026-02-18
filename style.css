@@ -1598,7 +1598,7 @@ transform: none !important;
   
 /* Alza il blocco sotto (card + foto insieme) */
 .tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
-  transform: translateY(calc(var(--tl-shift) * -20));
+  transform: translateY(calc(var(--tl-shift) * -3));
 }
 
 /* Card e foto attaccate */
