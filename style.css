@@ -153,7 +153,7 @@ input[type="search"]::placeholder{ color:#7c8aa3; }
   min-height:70vh;
   box-shadow: var(--shadow);
 }
-
+ 
 .status{
   color: var(--muted);
   margin-bottom:10px;
