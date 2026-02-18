@@ -1251,6 +1251,7 @@ main.content .card.prose {
 }
 /* ==========================
    TIMELINE (pulita + foto full-width di colonna)
+   + EMBED (Casa del Popolo)
    ========================== */
 
 :root{
@@ -1298,7 +1299,7 @@ main.content .card.prose {
 .tl-line{
   position: absolute;
   left: 50%;
-  top: 120px;
+  top: 120px;              /* default: pagina timeline completa */
   bottom: 0;
   width: 2px;
   transform: translateX(-50%);
@@ -1312,6 +1313,12 @@ main.content .card.prose {
   z-index: 1; /* linea sotto al dot */
 }
 
+/* EMBED: dentro pagine tipo Casa del Popolo (senza header timeline sopra) */
+.tl-wrap.tl-embed .tl-line{
+  top: 0;                  /* linea parte sopra al primo pallino */
+  bottom: 0;
+}
+
 /* item */
 .tl-item{
   position: relative;
@@ -1319,6 +1326,11 @@ main.content .card.prose {
   grid-template-columns: 1fr 60px 1fr;
   align-items: start;
   padding: 22px 0;
+}
+
+/* EMBED: meno aria tra eventi */
+.tl-wrap.tl-embed .tl-item{
+  padding: 12px 0;
 }
 
 .tl-dot{
@@ -1354,6 +1366,11 @@ main.content .card.prose {
   gap: 0; /* testo e foto attaccati */
   position: relative;
   z-index: 2; /* sopra la linea */
+}
+
+/* EMBED: sfalsamento leggero (non scacchiera enorme) */
+.tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
+  transform: translateY(18px);
 }
 
 /* card SOLO testo */
@@ -1412,7 +1429,7 @@ main.content .card.prose {
   gap: 0;
   padding: 0;
   background: transparent;
-  height: var(--media-h); /* ALTEZZA COSTANTE */
+  height: var(--media-h); /* default (timeline “storia”) */
 }
 
 .tl-img{
@@ -1427,6 +1444,12 @@ main.content .card.prose {
 .tl-gallery.layout-1{
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+}
+
+/* EMBED: 1 foto QUADRATA */
+.tl-wrap.tl-embed .tl-gallery.layout-1{
+  height: auto;         /* annulla height fissa */
+  aspect-ratio: 1 / 1;  /* quadrato vero */
 }
 
 /* 2 FOTO: una sopra l’altra */
@@ -1448,6 +1471,11 @@ main.content .card.prose {
 
 .tl-gallery.layout-3 .small{
   grid-column: 2;
+}
+
+/* EMBED: se lasci big per errore, non “spara” l’altezza */
+.tl-wrap.tl-embed .tl-img.big{
+  min-height: 0;
 }
 
 /* zoom + parallax */
@@ -1487,6 +1515,11 @@ main.content .card.prose {
   .tl-item:nth-child(odd) .tl-block,
   .tl-item:nth-child(even) .tl-block{
     grid-column: 2 !important;
+  }
+
+  /* EMBED: niente sfalsamento su mobile */
+  .tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
+    transform: none;
   }
 
   /* altezza media un po’ più bassa */
