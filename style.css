@@ -1585,7 +1585,7 @@ main.content .card.prose {
    ========================== */
 
 :root{
-  --tl-shift: 60px; /* regola qui quanto vuoi alzare */
+  --tl-shift: 200px; /* regola qui quanto vuoi alzare */
 }
 
 .tl-wrap.tl-embed .tl-item:nth-child(odd) .tl-block{
@@ -1598,7 +1598,7 @@ transform: none !important;
   
 /* Alza il blocco sotto (card + foto insieme) */
 .tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
-  transform: translateY(calc(var(--tl-shift) * -1));
+  transform: translateY(calc(var(--tl-shift) * -20));
 }
 
 /* Card e foto attaccate */
