@@ -1590,9 +1590,13 @@ main.content .card.prose {
 
 /* NON toccare il primo */
 .tl-wrap.tl-embed .tl-item:nth-child(odd) .tl-block{
-  transform: none;
+  transform: translateY(calc(var(--tl-shift) * -1));
 }
-
+.tl-wrap.tl-embed .tl-item:nth-child(2) .tl-block{
+transform: none !important;
+  margin-top: 0 !important;
+  {
+  
 /* Alza il blocco sotto (card + foto insieme) */
 .tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
   transform: translateY(calc(var(--tl-shift) * -1));
