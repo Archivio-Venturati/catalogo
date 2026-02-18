@@ -1250,14 +1250,17 @@ main.content .card.prose {
   background: rgba(0,0,0,.25);
 }
 /* ==========================
-   TIMELINE (base)
+   TIMELINE (base) + TIMELINE EMBED (Casa del Popolo)
    ========================== */
 
 :root{
-  --media-h: 520px;        /* usato dalle timeline "normali" (non embed) */
+  --media-h: 520px;        /* altezza foto nella pagina timeline “piena” */
   --media-h-mobile: 420px;
+  --tl-gap: 12px;          /* distanza minima dal centro */
+  --tl-block-max: 520px;   /* larghezza max blocco per non “allargare” a scacchiera */
 }
 
+/* --- contenitore (se lo usi nella pagina storia) --- */
 .timeline{
   padding: 44px 0 120px;
   background:
@@ -1294,7 +1297,7 @@ main.content .card.prose {
   line-height: 1.6;
 }
 
-/* linea */
+/* linea centrale (base) */
 .tl-line{
   position: absolute;
   left: 50%;
@@ -1321,6 +1324,7 @@ main.content .card.prose {
   padding: 22px 0;
 }
 
+/* dot */
 .tl-dot{
   grid-column: 2;
   justify-self: center;
@@ -1335,7 +1339,7 @@ main.content .card.prose {
   z-index: 2;
 }
 
-/* DOT acceso quando entra */
+/* dot “acceso” quando entra */
 .tl-item.show .tl-dot{
   background: rgba(210,230,255,.95);
   box-shadow:
@@ -1345,16 +1349,22 @@ main.content .card.prose {
   transform: scale(1.08);
 }
 
-/* alternanza standard */
-.tl-item:nth-child(odd) .tl-block{ grid-column: 1; }
+/* alternanza (base): blocco a sx/dx */
+.tl-item:nth-child(odd)  .tl-block{ grid-column: 1; }
 .tl-item:nth-child(even) .tl-block{ grid-column: 3; }
 
+/* blocco: NON deve occupare tutta la colonna (altrimenti “scacchiera larga”) */
 .tl-block{
   display: grid;
   gap: 0;
   position: relative;
   z-index: 2;
+  max-width: var(--tl-block-max);
 }
+
+/* avvicina alla linea */
+.tl-item:nth-child(odd)  .tl-block{ justify-self: end;  padding-right: var(--tl-gap); }
+.tl-item:nth-child(even) .tl-block{ justify-self: start; padding-left:  var(--tl-gap); }
 
 /* card testo */
 .tl-card{
@@ -1366,7 +1376,6 @@ main.content .card.prose {
   filter: blur(6px);
   transition: transform .75s ease, opacity .75s ease, filter .75s ease;
 }
-
 .tl-content{ padding: 14px; }
 
 .tl-year{
@@ -1392,7 +1401,6 @@ main.content .card.prose {
   line-height: 1.55;
 }
 
-/* reveal */
 .tl-item.show .tl-card{
   transform: translateY(0);
   opacity: 1;
@@ -1406,20 +1414,14 @@ main.content .card.prose {
   overflow: hidden;
 }
 
-/* gallery base (per timeline "normali") */
+/* gallery base (per pagina storia) */
 .tl-gallery{
   display: grid;
   gap: 0;
   padding: 0;
   background: transparent;
-}
-
-/* altezza costante SOLO quando serve (2 e 3 foto) */
-.tl-gallery.layout-2,
-.tl-gallery.layout-3{
   height: var(--media-h);
 }
-
 
 .tl-img{
   width: 100%;
@@ -1429,10 +1431,9 @@ main.content .card.prose {
   border-radius: 0;
 }
 
-/* layout base */
+/* layout (se ti servono ancora nella pagina storia) */
 .tl-gallery.layout-1{ grid-template-columns: 1fr; grid-template-rows: 1fr; }
 .tl-gallery.layout-2{ grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
-
 .tl-gallery.layout-3{
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -1450,11 +1451,53 @@ main.content .card.prose {
 .tl-item.show .tl-media img{ --zoom: 1; }
 
 /* ==========================
-   MOBILE base
+   TIMELINE EMBED (Casa del Popolo)
+   Usa: <div class="tl-wrap tl-embed"> ... </div>
+   Requisiti: 1 foto per evento, QUADRATA, line top sopra primo dot, sfalsamento leggero
+   ========================== */
+
+/* la linea deve partire sopra il primo pallino */
+.tl-wrap.tl-embed .tl-line{
+  top: 0;           /* <— questo è quello che volevi */
+  bottom: 0;
+}
+
+/* meno spazio tra eventi */
+.tl-wrap.tl-embed .tl-item{
+  padding: 10px 0;
+}
+
+/* sfalsamento leggero (solo desktop) */
+.tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
+  transform: translateY(16px);
+}
+
+/* FOTO QUADRATA VERA (layout-1) */
+.tl-wrap.tl-embed .tl-gallery{
+  height: auto !important;      /* <— ammazza l’altezza fissa */
+}
+
+.tl-wrap.tl-embed .tl-gallery.layout-1{
+  aspect-ratio: 1 / 1;          /* <— quadrato vero */
+  width: 100%;
+}
+
+.tl-wrap.tl-embed .tl-gallery.layout-1 .tl-img{
+  width: 100%;
+  height: 100% !important;      /* <— forza l’immagine a riempire il quadrato */
+  object-fit: cover;
+  display: block;
+}
+
+/* ==========================
+   MOBILE: linea a sinistra, tutto a destra, niente alternanza/sfalsamento
    ========================== */
 @media (max-width: 900px){
 
-  .tl-line{ left: 18px; transform: none; }
+  .tl-line{
+    left: 18px;
+    transform: none;
+  }
 
   .tl-item{
     grid-template-columns: 36px 1fr;
@@ -1466,98 +1509,27 @@ main.content .card.prose {
     justify-self: center;
   }
 
-  .tl-block{ grid-column: 2 !important; }
-
-  .tl-item:nth-child(odd) .tl-block,
-  .tl-item:nth-child(even) .tl-block{
+  /* tutto a destra */
+  .tl-block{
     grid-column: 2 !important;
+    justify-self: stretch;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
   }
 
-  .tl-gallery.layout-2,
-.tl-gallery.layout-3{
-  height: var(--media-h-mobile);
-}
-
-
-  .tl-gallery.layout-3{
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
-  }
-  .tl-gallery.layout-3 .big{
-    grid-column: 1 / span 2;
-    grid-row: 1;
-  }
-  .tl-gallery.layout-3 .small{ grid-row: 2; }
-}
-
-/* ==========================
-   TIMELINE EMBED (Casa del Popolo)
-   Metti class="tl-wrap tl-embed" nel wrapper
-   ========================== */
-
-/* linea: parte sopra il primo pallino (JS setta --line-top) */
-.tl-wrap.tl-embed .tl-line{
-  top: var(--line-top, 0px);
-  bottom: 0;
-}
-
-/* meno aria tra eventi */
-.tl-wrap.tl-embed .tl-item{
-  padding: 10px 0;
-  grid-template-columns: minmax(0,1fr) 44px minmax(0,1fr);
-}
-
-/* blocchi più vicini alla linea (no scacchiera larga) */
-.tl-wrap.tl-embed .tl-item:nth-child(odd) .tl-block{
-  justify-self: end;
-  margin-right: 10px;
-}
-.tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
-  justify-self: start;
-  margin-left: 10px;
-}
-
-/* sfalsamento leggero SOLO desktop */
-.tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
-  transform: translateY(16px);
-}
-@media (max-width: 900px){
+  /* niente sfalsamento su mobile */
   .tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
     transform: none;
   }
-}
 
-/* SOLO 1 foto per evento: se ne metti 2+ te le nasconde */
-.tl-wrap.tl-embed .tl-gallery > img:nth-child(n+2){
-  display: none;
-}
+  /* altezza base gallery (se usata) */
+  .tl-gallery{
+    height: var(--media-h-mobile);
+  }
 
-/* FOTO QUADRATA VERA (1:1) — annulla height fissa della gallery base */
-.tl-wrap.tl-embed .tl-gallery{
-  height: auto !important;
-  aspect-ratio: 1 / 1;
+  /* ma embed resta quadrato */
+  .tl-wrap.tl-embed .tl-gallery{
+    height: auto !important;
+  }
 }
-.tl-wrap.tl-embed .tl-img{
-  width: 100%;
-  height: 100% !important;
-  object-fit: cover;
-  display: block;
-}
-
-/* su mobile: linea a sinistra, tutto a destra (già coerente col base) */
-@media (max-width: 900px){
-  .tl-wrap.tl-embed .tl-line{ left: 18px; transform: none; }
-  .tl-wrap.tl-embed .tl-item{ grid-template-columns: 36px 1fr; gap: 12px; }
-  .tl-wrap.tl-embed .tl-dot{ grid-column: 1; }
-  .tl-wrap.tl-embed .tl-block{ grid-column: 2 !important; margin: 0 !important; }
-}
-/* 1 FOTO: quadrato vero */
-.tl-gallery.layout-1{
-  aspect-ratio: 1 / 1;
-}
-.tl-gallery.layout-1 .tl-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
