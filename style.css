@@ -1344,7 +1344,7 @@ main.content .card.prose {
 
 /* alternanza base */
 .tl-item:nth-child(odd) .tl-block{ grid-column: 1; }
-.tl-item:nth-child(even) .tl-block{ grid-column: 1; }
+.tl-item:nth-child(even) .tl-block{ grid-column: 3; }
 
 /* card testo */
 .tl-card{
@@ -1444,13 +1444,6 @@ main.content .card.prose {
 
   .tl-gallery{ height: var(--media-h-mobile); }
 
-  .tl-gallery.layout-3{
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
-  }
-  .tl-gallery.layout-3 .big{ grid-column: 1 / span 2; grid-row: 1; }
-  .tl-gallery.layout-3 .small{ grid-row: 2; }
-}
 
 /* ==========================
    TIMELINE (embed)
