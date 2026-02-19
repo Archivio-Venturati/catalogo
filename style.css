@@ -1545,13 +1545,6 @@ main.content .card.prose {
     transform: none;
   }
 }
-/* ==========================
-   TL EMBED: foto alternate + sfalsate
-   ========================== */
-
-:root{
-  --tl-media-shift: 80px;   /* quanto vuoi sfalsare (prova 30/44/60) */
-}
 
 /* blocco: card sopra, foto sotto */
 .tl-wrap.tl-embed .tl-block{
@@ -1579,11 +1572,6 @@ main.content .card.prose {
   object-fit: cover;
   display: block;
 }
-
-/* ==========================
-   TL EMBED – sfalsamento giusto
-   ========================== */
-
 
 .tl-wrap.tl-embed .tl-item:nth-child(odd) .tl-block{
   transform: translateY(-60px);
