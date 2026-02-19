@@ -822,9 +822,7 @@ const hasQuery = forceAll || !!(q || a || t);
   const c = el("count");
   if (c) c.textContent = "";
 }
-// Storia //
-<script>
-(() => {
+//STORIA//
   const panel = document.getElementById('htlPanel');
   const tabs = Array.from(document.querySelectorAll('.htl-dot[role="tab"]'));
 
