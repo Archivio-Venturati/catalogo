@@ -1557,7 +1557,7 @@ main.content .card.prose {
   object-fit: cover;
   display: block;
 }
-
+ 
 /* MOBILE: il gruppo torna a colonna */
 @media (max-width: 900px){
   .tl-wrap.tl-embed{
