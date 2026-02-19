@@ -1564,3 +1564,8 @@ main.content .card.prose {
 
 /* compensa: altrimenti rischi sovrapposizione col titolo sopra la timeline */
 .tl-wrap.tl-embed{ padding-top: 60px; }
+
+.tl-wrap.tl-embed .tl-item:nth-child(2) .tl-block{
+  transform: none !important; 
+  margin-top: 0 !important; 
+}
