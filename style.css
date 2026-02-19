@@ -1294,7 +1294,7 @@ main.content .card.prose {
   line-height: 1.6;
 }
 
-/* linea centrale */
+/* linea centrale (base) */
 .tl-line{
   position: absolute;
   left: 50%;
@@ -1312,7 +1312,7 @@ main.content .card.prose {
   z-index: 1;
 }
 
-/* item */
+/* item (base: singola riga evento) */
 .tl-item{
   position: relative;
   display: grid;
@@ -1415,10 +1415,7 @@ main.content .card.prose {
 }
 
 /* layout base */
-.tl-gallery.layout-1{
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
+.tl-gallery.layout-1{ grid-template-columns: 1fr; grid-template-rows: 1fr; }
 
 /* zoom + parallax */
 .tl-media img{
@@ -1429,7 +1426,10 @@ main.content .card.prose {
 }
 .tl-item.show .tl-media img{ --zoom: 1; }
 
-/* mobile base */
+
+/* ==========================
+   MOBILE (base)
+   ========================== */
 @media (max-width: 900px){
   .tl-line{ left: 18px; transform: none; }
 
@@ -1450,84 +1450,146 @@ main.content .card.prose {
   .tl-gallery{ height: var(--media-h-mobile); }
 }
 
+
 /* ==========================
-   TIMELINE (embed)
+   TIMELINE (embed) — GRUPPO UNICO (pos 1/2/3)
+   Richiede HTML:
+   <div class="tl-group">
+     <div class="tl-line"></div>
+     <article class="tl-item" data-pos="1">...</article>
+     <article class="tl-item" data-pos="2">...</article>
+     <article class="tl-item" data-pos="3">...</article>
+   </div>
    ========================== */
 
-/* 1) linea: parte sopra il primo pallino */
-.tl-wrap.tl-embed .tl-line{
-  top: calc(12px + 18px + 7px);
+.tl-wrap.tl-embed{
+  /* MANOPOLE: cambia solo questi 3 valori */
+  --pos1-y: 0px;     /* item data-pos="1" */
+  --pos2-y: 120px;   /* item data-pos="2" */
+  --pos3-y: 260px;   /* item data-pos="3" */
+
+  /* spazio sopra se alzi parecchio */
+  padding-top: 60px;
+}
+
+/* il gruppo crea la “riga” comune */
+.tl-wrap.tl-embed .tl-group{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr var(--tl-gutter) 1fr;
+  align-items: start;
+  padding: 12px 0 80px;
+}
+
+/* linea centrale del gruppo */
+.tl-wrap.tl-embed .tl-group .tl-line{
+  position: absolute;
+  left: 50%;
+  top: calc(12px + 18px + 7px); /* parte sopra il primo pallino */
   bottom: 0;
+  width: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    180deg,
+    rgba(210,230,255,.12),
+    rgba(170,210,255,.55),
+    rgba(210,230,255,.10)
+  );
+  filter: drop-shadow(0 10px 26px rgba(0,0,0,.35));
   z-index: 1;
 }
 
-/* 2) meno aria tra eventi */
-.tl-wrap.tl-embed .tl-item{
-  padding: 12px 0;
+/* gli item nel gruppo non sono “righe verticali”: stanno nello stesso cluster */
+.tl-wrap.tl-embed .tl-group .tl-item{
+  display: block;
+  padding: 0;
+  z-index: 2;
 }
 
-/* 3) blocchi più vicini alla linea */
-.tl-wrap.tl-embed .tl-block{
-  max-width: var(--tl-block-w);
-  display: grid;
-  gap: 0; /* card e foto attaccate */
-}
-
-.tl-wrap.tl-embed .tl-item:nth-child(odd) .tl-block{
-  justify-self: end;
-  margin-right: 10px;
-}
-
-.tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
+/* posizionamento: 1 e 3 a destra, 2 a sinistra (cambia se vuoi) */
+.tl-wrap.tl-embed .tl-group .tl-item[data-pos="1"],
+.tl-wrap.tl-embed .tl-group .tl-item[data-pos="3"]{
+  grid-column: 3;
   justify-self: start;
   margin-left: 10px;
 }
 
-/* 4) FOTO: quadrato 1:1 */
-.tl-wrap.tl-embed .tl-media{
+.tl-wrap.tl-embed .tl-group .tl-item[data-pos="2"]{
+  grid-column: 1;
+  justify-self: end;
+  margin-right: 10px;
+}
+
+/* pallino sul centro (uno per item) */
+.tl-wrap.tl-embed .tl-group .tl-item .tl-dot{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 18px;
+  margin: 0;
+  z-index: 3;
+}
+
+/* blocco (card sopra, foto sotto) */
+.tl-wrap.tl-embed .tl-group .tl-block{
+  max-width: var(--tl-block-w);
+  display: grid;
+  gap: 0;
+}
+
+/* ALTEZZE (manopole) */
+.tl-wrap.tl-embed .tl-group .tl-item[data-pos="1"] .tl-block{ margin-top: var(--pos1-y); }
+.tl-wrap.tl-embed .tl-group .tl-item[data-pos="2"] .tl-block{ margin-top: var(--pos2-y); }
+.tl-wrap.tl-embed .tl-group .tl-item[data-pos="3"] .tl-block{ margin-top: var(--pos3-y); }
+
+/* foto quadrata */
+.tl-wrap.tl-embed .tl-group .tl-media{
   width: 100%;
   aspect-ratio: 1 / 1;
   background: rgba(255,255,255,.06);
   overflow: hidden;
 }
 
-.tl-wrap.tl-embed .tl-media .tl-gallery{
-  height: 100% !important;
-}
-
-.tl-wrap.tl-embed .tl-media .tl-img{
+.tl-wrap.tl-embed .tl-group .tl-media .tl-gallery{ height: 100% !important; }
+.tl-wrap.tl-embed .tl-group .tl-media .tl-img{
   width: 100%;
   height: 100% !important;
   object-fit: cover;
   display: block;
 }
 
-/* 6) mobile: embed */
+/* MOBILE: il gruppo torna a colonna */
 @media (max-width: 900px){
-  .tl-wrap.tl-embed .tl-line{
+  .tl-wrap.tl-embed{
+    --pos1-y: 0px;
+    --pos2-y: 0px;
+    --pos3-y: 0px;
+    padding-top: 0;
+  }
+
+  .tl-wrap.tl-embed .tl-group{
+    grid-template-columns: 36px 1fr;
+    gap: 12px;
+    padding: 12px 0 40px;
+  }
+
+  .tl-wrap.tl-embed .tl-group .tl-line{
+    left: 18px;
+    transform: none;
+    top: 0;
+  }
+
+  .tl-wrap.tl-embed .tl-group .tl-item[data-pos="1"],
+  .tl-wrap.tl-embed .tl-group .tl-item[data-pos="2"],
+  .tl-wrap.tl-embed .tl-group .tl-item[data-pos="3"]{
+    grid-column: 2;
+    justify-self: stretch;
+    margin: 0;
+  }
+
+  .tl-wrap.tl-embed .tl-group .tl-item .tl-dot{
     left: 18px;
     transform: none;
   }
-
-  .tl-wrap.tl-embed .tl-item{
-    grid-template-columns: 36px 1fr;
-    gap: 12px;
-  }
-
-  .tl-wrap.tl-embed .tl-dot{ grid-column: 1; }
-  .tl-wrap.tl-embed .tl-block{ grid-column: 2 !important; }
-
-  .tl-wrap.tl-embed .tl-item:nth-child(odd) .tl-block,
-  .tl-wrap.tl-embed .tl-item:nth-child(even) .tl-block{
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
-/* compensa sopra la timeline */
-.tl-wrap.tl-embed{ padding-top: 60px; }
-
-/* alza SOLO il primo item (ATTENZIONE: è nth-child(1) della wrap) */
-.tl-wrap.tl-embed .tl-item:nth-child(1) .tl-block{
-  margin-top: -220px;
-}
