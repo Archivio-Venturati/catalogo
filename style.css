@@ -1256,7 +1256,6 @@ main.content .card.prose {
   --media-h-mobile: 420px;
   --tl-gutter: 56px;        /* colonna centrale (linea + pallino) */
   --tl-block-w: 420px;      /* larghezza blocchi desktop (testo+foto) */
-  --tl-offset: 18px;        /* sfalsamento leggero (solo embed desktop) */
 }
 
 .timeline{
@@ -1295,7 +1294,6 @@ main.content .card.prose {
   line-height: 1.6;
 }
 
-/* linea centrale (base: versione "pagina storia") */
 .tl-line{
   position: absolute;
   left: 50%;
@@ -1313,7 +1311,6 @@ main.content .card.prose {
   z-index: 1;
 }
 
-/* item */
 .tl-item{
   position: relative;
   display: grid;
@@ -1336,7 +1333,6 @@ main.content .card.prose {
   z-index: 2;
 }
 
-/* DOT “si accende” quando l’item entra */
 .tl-item.show .tl-dot{
   background: rgba(210,230,255,.95);
   box-shadow:
@@ -1349,13 +1345,6 @@ main.content .card.prose {
 /* alternanza base */
 .tl-item:nth-child(odd) .tl-block{ grid-column: 1; }
 .tl-item:nth-child(even) .tl-block{ grid-column: 3; }
-
-.tl-block{
-  display: grid;
-  gap: 0;
-  position: relative;
-  z-index: 2;
-}
 
 /* card testo */
 .tl-card{
