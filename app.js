@@ -823,41 +823,34 @@ const hasQuery = forceAll || !!(q || a || t);
   if (c) c.textContent = "";
 }
 // Storia //
+<script>
 (() => {
-  const items = Array.from(document.querySelectorAll(".tl-item"));
-  if (!items.length) return;
+  const panel = document.getElementById('htlPanel');
+  const tabs = Array.from(document.querySelectorAll('.htl-dot[role="tab"]'));
 
-  // watermark anno
-  items.forEach(el => {
-    const y = el.getAttribute("data-year") || "";
-    const card = el.querySelector(".tl-card");
-    if (card) card.setAttribute("data-year", y);
-  });
-
-  // reveal
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) e.target.classList.add("show");
-    });
-  }, { threshold: 0.22 });
-
-  items.forEach(el => io.observe(el));
-
-  // parallax leggero sulle immagini
-  function parallax(){
-    const vh = window.innerHeight;
-    items.forEach(el => {
-      const r = el.getBoundingClientRect();
-      const img = el.querySelector(".tl-media img");
-      if (!img) return;
-
-      const k = ((r.top + r.height/2) - vh/2) / (vh/2); // ~ -1..1
-      const y = Math.max(-12, Math.min(12, -k * 10));
-      img.style.setProperty("--py", `${y}px`);
-    });
+  function render(id){
+    const tpl = document.getElementById(id);
+    if (!tpl) return;
+    panel.innerHTML = "";
+    panel.appendChild(tpl.content.cloneNode(true));
   }
 
-  parallax();
-  window.addEventListener("scroll", parallax, { passive: true });
-  window.addEventListener("resize", parallax);
+  function selectTab(tab){
+    tabs.forEach(t => t.setAttribute('aria-selected', 'false'));
+    tab.setAttribute('aria-selected', 'true');
+    render(tab.dataset.id);
+  }
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => selectTab(tab));
+    tab.addEventListener('keydown', (e) => {
+      const i = tabs.indexOf(tab);
+      if (e.key === 'ArrowRight') { e.preventDefault(); selectTab(tabs[(i+1) % tabs.length]); tabs[(i+1) % tabs.length].focus(); }
+      if (e.key === 'ArrowLeft')  { e.preventDefault(); selectTab(tabs[(i-1 + tabs.length) % tabs.length]); tabs[(i-1 + tabs.length) % tabs.length].focus(); }
+    });
+  });
+
+  // init: prima tab
+  if (tabs[0]) render(tabs[0].dataset.id);
 })();
+</script>
