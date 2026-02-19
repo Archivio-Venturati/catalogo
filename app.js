@@ -823,31 +823,53 @@ const hasQuery = forceAll || !!(q || a || t);
   if (c) c.textContent = "";
 }
 //STORIA//
-  const panel = document.getElementById('htlPanel');
+document.addEventListener("DOMContentLoaded", () => {
+  const panel = document.getElementById("htlPanel");
+  const inner = document.getElementById("htlInner");
+  const closeBtn = document.getElementById("htlClose");
   const tabs = Array.from(document.querySelectorAll('.htl-dot[role="tab"]'));
+
+  if (!panel || !inner || !closeBtn || tabs.length === 0) return;
+
+  function alignForIndex(i){
+    if (i === 0) return "left";
+    if (i === 1) return "center";
+    return "right";
+  }
 
   function render(id){
     const tpl = document.getElementById(id);
     if (!tpl) return;
-    panel.innerHTML = "";
-    panel.appendChild(tpl.content.cloneNode(true));
+
+    inner.innerHTML = "";
+    inner.appendChild(tpl.content.cloneNode(true));
+
+    closeBtn.style.display = "inline-flex";
+    panel.hidden = false;
   }
 
   function selectTab(tab){
-    tabs.forEach(t => t.setAttribute('aria-selected', 'false'));
-    tab.setAttribute('aria-selected', 'true');
+    tabs.forEach(t => t.setAttribute("aria-selected", "false"));
+    tab.setAttribute("aria-selected", "true");
+
+    const i = tabs.indexOf(tab);
+    panel.dataset.align = alignForIndex(i);
+
     render(tab.dataset.id);
   }
 
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => selectTab(tab));
-    tab.addEventListener('keydown', (e) => {
-      const i = tabs.indexOf(tab);
-      if (e.key === 'ArrowRight') { e.preventDefault(); selectTab(tabs[(i+1) % tabs.length]); tabs[(i+1) % tabs.length].focus(); }
-      if (e.key === 'ArrowLeft')  { e.preventDefault(); selectTab(tabs[(i-1 + tabs.length) % tabs.length]); tabs[(i-1 + tabs.length) % tabs.length].focus(); }
-    });
+  // click tabs
+  tabs.forEach(tab => tab.addEventListener("click", () => selectTab(tab)));
+
+  // chiudi
+  closeBtn.addEventListener("click", () => {
+    inner.innerHTML = "";
+    closeBtn.style.display = "none";
+    panel.hidden = true;
+    tabs.forEach(t => t.setAttribute("aria-selected", "false"));
   });
 
-  // init: prima tab
-  if (tabs[0]) render(tabs[0].dataset.id);
-
+  // init: aperto sul primo
+  panel.hidden = false;
+  selectTab(tabs[0]);
+});
