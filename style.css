@@ -1257,8 +1257,8 @@ main.content .card.prose {
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-align-items: stretch;          /* IMPORTANT: per l'allineamento */
-  padding: 10px 8px 6px;
+  align-items: end;          /* i bottoni “cadono” in basso */
+  padding: 6px 8px 0;        /* ZERO padding sotto */
 }
 
 .htl-bar::before{
@@ -1266,9 +1266,8 @@ align-items: stretch;          /* IMPORTANT: per l'allineamento */
   position: absolute;
   left: 12px;
   right: 12px;
-  top: 50%;
+  bottom: 10px;              /* regola questo: 8–14px */
   height: 2px;
-  transform: translateY(-50%);
   background: linear-gradient(90deg,
     rgba(210,230,255,.12),
     rgba(170,210,255,.55),
@@ -1287,17 +1286,17 @@ align-items: stretch;          /* IMPORTANT: per l'allineamento */
   cursor: pointer;
   z-index: 2;
   width: 140px;
-  height: 44px;
+  height: 32px;              /* prima era troppo */
 }
 
 .htl-dot::before{
   content: "";
   position: absolute;
-  top: 50%;
   left: 50%;
+  bottom: 4px;               /* regola insieme a bottom della linea */
   width: 14px;
   height: 14px;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   border-radius: 999px;
   background: rgba(210,230,255,.95);
   box-shadow: 0 0 0 6px rgba(170,210,255,.06), 0 14px 40px rgba(0,0,0,.35);
@@ -1325,7 +1324,7 @@ align-items: stretch;          /* IMPORTANT: per l'allineamento */
 
 /* PANEL */
 .htl-panel{
-  margin-top: 2px;
+  margin-top: 0;
   position: relative;
 }
 
