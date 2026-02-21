@@ -1330,7 +1330,7 @@ main.content .card.prose {
 
 /* wrapper interno card: ~1/3 */
 .htl-inner{
-  width: min(420px, calc(100% - 24px));
+  width: min(320px, calc(100% - 24px));
 }
 
 .htl-panel[data-align="left"]  .htl-inner{
