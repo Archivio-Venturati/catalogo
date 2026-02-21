@@ -823,14 +823,13 @@ const hasQuery = forceAll || !!(q || a || t);
   if (c) c.textContent = "";
 }
 //STORIA//
-// STORIA — timeline orizzontale con card + chiusura + graffa SVG
+//STORIA//
 document.addEventListener("DOMContentLoaded", () => {
-  const panel  = document.getElementById("htlPanel");
-  const inner  = document.getElementById("htlInner");
-  const bridge = document.getElementById("htlBridge");
-  const tabs   = Array.from(document.querySelectorAll('.htl-dot[role="tab"]'));
+  const panel = document.getElementById("htlPanel");
+  const inner = document.getElementById("htlInner");
+  const tabs = Array.from(document.querySelectorAll('.htl-dot[role="tab"]'));
 
-  if (!panel || !inner || !bridge || tabs.length === 0) return;
+  if (!panel || !inner || tabs.length === 0) return;
 
   function alignForIndex(i){
     if (i === 0) return "left";
@@ -838,63 +837,14 @@ document.addEventListener("DOMContentLoaded", () => {
     return "right";
   }
 
-  function drawBridge(tabEl){
-    // disegna una "graffa" curva dal centro del dot al bordo alto della card
-    const card = inner.querySelector(".htl-card");
-    if (!card) return;
-
-    const tabRect   = tabEl.getBoundingClientRect();
-    const panelRect = panel.getBoundingClientRect();
-    const cardRect  = card.getBoundingClientRect();
-
-    const dotX = (tabRect.left + tabRect.width / 2) - panelRect.left;
-    const dotY = (tabRect.top + 14) - panelRect.top;         // circa centro del dot
-
-    const cardTopY = (cardRect.top) - panelRect.top;
-    const cardX = (cardRect.left + cardRect.width / 2) - panelRect.left;
-
-    // area svg
-    const w = panelRect.width;
-    const h = Math.max(140, Math.min(240, cardTopY + 40));
-    bridge.setAttribute("viewBox", `0 0 ${w} ${h}`);
-    bridge.setAttribute("width", w);
-    bridge.setAttribute("height", h);
-
-    // path “brace”: due curve che si stringono sul dot e si aprono verso la card
-    const y0 = Math.max(10, dotY);
-    const y1 = Math.max(y0 + 30, Math.min(h - 10, cardTopY + 6)); // arriva appena sopra la card
-
-    const midY = (y0 + y1) / 2;
-
-    const c1x = dotX;
-    const c2x = (dotX + cardX) / 2;
-
-    const path = `
-      M ${dotX} ${y0}
-      C ${dotX} ${y0 + 18}, ${c2x} ${midY - 18}, ${cardX} ${midY}
-      C ${c2x} ${midY + 18}, ${dotX} ${y1 - 18}, ${dotX} ${y1}
-    `.trim();
-
-    bridge.innerHTML = `
-      <path d="${path}"
-        fill="none"
-        stroke="rgba(210,230,255,.65)"
-        stroke-width="3"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        filter="drop-shadow(0 10px 18px rgba(0,0,0,.45))"
-      />
-    `;
+  function close(){
+    inner.innerHTML = "";
+    panel.hidden = true;
+    tabs.forEach(t => t.setAttribute("aria-selected", "false"));
   }
 
-  function openTab(tab){
-    tabs.forEach(t => t.setAttribute("aria-selected", "false"));
-    tab.setAttribute("aria-selected", "true");
-
-    const i = tabs.indexOf(tab);
-    panel.dataset.align = alignForIndex(i);
-
-    const tpl = document.getElementById(tab.dataset.id);
+  function render(id){
+    const tpl = document.getElementById(id);
     if (!tpl) return;
 
     inner.innerHTML = "";
@@ -902,38 +852,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
     panel.hidden = false;
 
-    // wire close button inside card
-    const closeBtn = inner.querySelector("#htlClose");
+    const closeBtn = inner.querySelector(".htl-close");
     if (closeBtn){
       closeBtn.addEventListener("click", (e) => {
         e.stopPropagation();
         close();
       }, { once: true });
     }
-
-    // disegna graffa dopo layout
-    requestAnimationFrame(() => drawBridge(tab));
   }
 
-  function close(){
-    inner.innerHTML = "";
-    bridge.innerHTML = "";
-    panel.hidden = true;
+  function selectTab(tab){
+    const already = (tab.getAttribute("aria-selected") === "true" && !panel.hidden);
+
+    // toggle: riclic su stesso pallino -> chiudi
+    if (already) return close();
+
     tabs.forEach(t => t.setAttribute("aria-selected", "false"));
+    tab.setAttribute("aria-selected", "true");
+
+    const i = tabs.indexOf(tab);
+    panel.dataset.align = alignForIndex(i);
+
+    render(tab.dataset.id);
   }
 
-  // click sui pallini
+  // click tabs
   tabs.forEach(tab => tab.addEventListener("click", (e) => {
     e.stopPropagation();
-    // toggle: se clicchi lo stesso tab, chiude
-    if (tab.getAttribute("aria-selected") === "true" && !panel.hidden){
-      close();
-    } else {
-      openTab(tab);
-    }
+    selectTab(tab);
   }));
 
-  // click fuori chiude (ma non sui tab)
+  // click fuori card -> chiudi (ma non sui tab)
   document.addEventListener("click", (e) => {
     if (panel.hidden) return;
     const clickedInside = panel.contains(e.target);
@@ -941,13 +890,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!clickedInside && !clickedOnTab) close();
   });
 
-  // ridisegna su resize (sennò si sfasa)
-  window.addEventListener("resize", () => {
-    if (panel.hidden) return;
-    const active = tabs.find(t => t.getAttribute("aria-selected") === "true");
-    if (active) drawBridge(active);
-  });
-
   // init: aperto sul primo
-  openTab(tabs[0]);
+  panel.hidden = false;
+  selectTab(tabs[0]);
 });
