@@ -1312,7 +1312,7 @@ main.content .card.prose {
 .htl-year{
   position: absolute;
   left: 50%;
-  top: -6px;
+  top: -8px;
   transform: translateX(-50%);
   font-weight: 950;
   letter-spacing: .10em;
@@ -1324,7 +1324,7 @@ main.content .card.prose {
 
 /* PANEL */
 .htl-panel{
-  margin-top: 0px;
+  margin-top: 6px;
   position: relative;
 }
 
