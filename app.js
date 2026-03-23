@@ -92,10 +92,11 @@ function getThumbUrl(r) {
   const url = norm(r.immagine);
   if (!url) return "";
 
-  const hasPrivacy = norm(r.disclaimer).toLowerCase().includes("privacy");
-  if (!hasPrivacy) return url;
+  if (url.includes("e_pixelate_faces")) {
+    return "images/fotoprivacy.png";
+  }
 
-  return "images/fotoprivacy.png";
+  return url;
 }
 function splitTags(s) {
   const t = norm(s);
