@@ -95,7 +95,7 @@ function getThumbUrl(r) {
   const hasPrivacy = norm(r.disclaimer).toLowerCase().includes("privacy");
   if (!hasPrivacy) return url;
 
-  return "images/privacy.jpg";
+  return "images/fotoprivacy.png";
 }
 function splitTags(s) {
   const t = norm(s);
