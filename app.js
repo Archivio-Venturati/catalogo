@@ -93,9 +93,9 @@ function getThumbUrl(r) {
   const hasPrivacy = norm(r.disclaimer).toLowerCase().includes("privacy");
   if (!hasPrivacy) return url;
 
-  if (url.includes("e_pixelate_faces:20")) {
+  if (url.includes("e_pixelate_faces:50")) {
     return url
-      .replace("e_pixelate_faces:20/", "e_pixelate_faces:300/")
+      .replace("e_pixelate_faces:50/", "e_pixelate_faces:300/")
       .replace("/upload/", "/upload/c_fill,w_120,h_120,g_auto/");
   }
 
