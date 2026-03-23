@@ -86,7 +86,24 @@ function escapeHtml(s) {
     .replaceAll("'", "&#039;");
 }
 function escapeAttr(s) { return escapeHtml(s); }
+function getThumbUrl(r) {
+  const url = norm(r.immagine);
+  if (!url) return "";
 
+  const hasPrivacy = norm(r.disclaimer).toLowerCase().includes("privacy");
+  if (!hasPrivacy) return url;
+
+  if (url.includes("e_pixelate_faces:20")) {
+    return url
+      .replace("e_pixelate_faces:20/", "e_pixelate_faces:80/")
+      .replace("/upload/", "/upload/c_fill,w_120,h_120,g_auto/");
+  }
+
+  return url.replace(
+    "/upload/",
+    "/upload/c_fill,w_120,h_120,g_auto/e_pixelate_faces:80/"
+  );
+}
 function splitTags(s) {
   const t = norm(s);
   if (!t) return [];
@@ -448,7 +465,7 @@ ${(() => {
               <td>${escapeHtml(r.anno)}</td>
              <td class="tags-cell">${renderTags(r.tags)}</td>
               <td>${escapeHtml(r.codice)}</td>
-              <td>${r.immagine ? `<img class="thumb" src="${escapeAttr(r.immagine)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ``}</td>
+              <td>${r.immagine ? `<img class="thumb" src="${escapeAttr(getThumbUrl(r))}" alt="" loading="lazy" onerror="this.style.display='none'">` : ``}</td>
             </tr>
           `).join("")}
         </tbody>
