@@ -95,13 +95,13 @@ function getThumbUrl(r) {
 
   if (url.includes("e_pixelate_faces:20")) {
     return url
-      .replace("e_pixelate_faces:20/", "e_pixelate_faces:80/")
+      .replace("e_pixelate_faces:20/", "e_pixelate_faces:140/")
       .replace("/upload/", "/upload/c_fill,w_120,h_120,g_auto/");
   }
 
   return url.replace(
     "/upload/",
-    "/upload/c_fill,w_120,h_120,g_auto/e_pixelate_faces:80/"
+    "/upload/c_fill,w_120,h_120,g_auto/e_pixelate_faces:140/"
   );
 }
 function splitTags(s) {
