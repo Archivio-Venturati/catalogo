@@ -43,6 +43,7 @@ Struttura del fondo:
       
       `},
   "Stuani":   { subtitle: "Fondo Stuani",   text: `Scrivi qui la descrizione.` },
+  "Arci":   { subtitle: "Fondo del Circolo Arci",   text: `Il Circolo Arci di Caravaggio viene fondato nel 1985 su impulso politico della sezione locale del PCI. Da allora è stato punto di riferimento culturale per la Città di Caravaggio, soprattutto grazie allo storico Presidente Carlo Proverbio che l'ha guidato per quasi quarant'anni fino al 2024. Dopo anni di stagnazione a causa della chiusura del bar e tesseramenti che superavano di poco la soglia di legge per rimanere aperti, prima con Mirko Gatti, e poi ora con Ilaria Bena, il Circolo è stato rivitalizzato attraverso il progetto Arci Stella, contando attualmente oltre 200 iscritte e iscritti. Il fondo è composto soprattutto da materiale fotografico e documentazione interna di gestione del Circolo.` },
   "Rossoni":  { subtitle: "Fondo Rossoni",  text: `Scrivi qui la descrizione.` },
   "Crapabela":  { subtitle: "Fondo Crapabela",  text: `Giuseppe Pisoni (1935-2021), detto "Crapabela", è stato segretario politico del Partito Comunista Italiano - Sezione di Caravaggio negli anni Settanta. È fra i principali dirigenti del gruppo che decise di acquistare l'ex fabbrica di cappelli di proprietà degli eredi di Francesco Tadolti in via Fermo Stella. Saranno, dunque, lui e Paolo Pavesi ad assumersi la proprietà della Casa del Popolo con una scrittura privata nel 1968, dato che la sezione non ha personalità giuridica.  
 Il fondo è costituito soprattutto di documentazione interna ed esterna del Partito Comunista Italiano - Sezione di Caravaggio e da materiale fotografico.` },
@@ -323,9 +324,10 @@ function renderHome() {
           <summary>Disclaimer</summary>
           <div class="acc-body">
             L'Archivio raccoglie anche materiale fotografico rinvenuto alla Casa del Popolo o donato da privati afferenti a realtà politiche.
-            Si tratta di immagini di momenti di vita politica. Abbiamo deciso di caricare tutte le immagini che raffigurano certamente momenti di vita politica
-            <i>collettiva</i>, mentre per quelle raffiguranti un primo piano che non abbiamo a che fare con materiale elettorale abbiamo lasciato solo i metadati.
-            Tuttavia, se qualcuno volesse oscurare una fotografia che lo ritrae, non esiti a contattarci.
+            Si tratta di immagini di momenti di vita politica. Abbiamo deciso di caricare le immagini che raffigurano momenti di vita politica
+            <i>collettiva</i> senza oscurare le persone che ne avessero avuto ruolo organizzativo. Diverse immagini, però, hanno i volti oscurati per proteggere la privacy di chi per un momento della
+            sua vita ha fatto parte della storia della Casa del Popolo, ma ora ha preso strade differenti. Se qualcuno volesse consultare per fini di ricerca o personali, non esiti a contattarci.
+            Allo stesso modo, se qualcuno volesse oscurare una fotografia che lo ritrae, non esiti a contattarci.
             Immagini e documenti sono pubblicati ai soli fini di documentazione storica e culturale
           </div>
         </details>
