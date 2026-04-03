@@ -593,57 +593,7 @@ if (isFaldoneView) {
     </table>
   `;
 }
-  view.innerHTML = `
-    <div class="card">
-      <h1>${escapeHtml(key)}</h1>
 
-      ${
-        info
-          ? `
-            <div class="hint">${escapeHtml(info.subtitle || "")}</div>
-            ${info.image ? `<img class="fund-photo" src="${escapeAttr(info.image)}" alt="" onerror="this.style.display='none'">` : ``}
-
-${(() => {
-  const full = (info.text || "").toString().trim();
-
-  return full ? `
-    <details class="fund-details">
-      <summary>Storia e descrizione</summary>
-      <div class="fund-text">${escapeHtml(full)}</div>
-    </details>
-  ` : ``;
-})()}
-          `
-          : `<div class="hint">Descrizione del fondo non ancora inserita.</div>`
-      }
-
-      <div class="hint" style="margin-top:12px">
-        Clicca un titolo per aprire la scheda. Usa filtri e ricerca a sinistra.
-      </div>
-
-
-view.innerHTML += `
-  <div style="margin-top:14px">
-
-    <div class="faldoni-grid">
-      ${Object.entries(groups).map(([name, list]) => `
-        <a class="faldone-card" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(name)}">
-          <div class="name">${escapeHtml(name)}</div>
-          <div class="desc">${list.length} record</div>
-        </a>
-      `).join("")}
-    </div>
-
-    <div style="margin-top:12px">
-      <a class="btn" href="#/fondo/${encodeURIComponent(key)}?all=1">
-        Mostra tutti i record
-      </a>
-    </div>
-
-  </div>
-`;
-          </div>
-  `;
 
   const c = el("count");
   if (c) c.textContent = `${inFund.length} nel fondo “${key}”`;
