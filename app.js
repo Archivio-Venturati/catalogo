@@ -174,7 +174,26 @@ function prettyTag(s) {
     .replace(/\s+/g, " ")
     .trim();
 }
+function getFaldone(r) {
+  const c = (r.collocazione || "").toLowerCase();
 
+  if (!c) return "Senza collocazione";
+
+  // prendi solo la prima parte prima della virgola
+  let base = c.split(",")[0].trim();
+
+  // pulizia parole inutili
+  base = base
+    .replace("faldone fotografico", "Fotografico")
+    .replace("faldone", "")
+    .replace("cartella", "")
+    .replace("busta", "")
+    .trim();
+
+  if (!base) return "Altro";
+
+  return base.charAt(0).toUpperCase() + base.slice(1);
+}
 function renderTags(tags) {
   const arr = Array.isArray(tags) ? tags : splitTags(tags);
   if (!arr.length) return "";
@@ -465,14 +484,52 @@ function renderFund(fondo) {
   const key = (fondo || "").trim();
 
   const inFund = RECORDS.filter(r => r.fondo === key);
-  const filtered = applyFilters(inFund)
+  const params = new URLSearchParams(location.hash.split("?")[1] || "");
+const faldoneParam = params.get("faldone");
+const showAll = params.get("all");
+  let filtered = applyFilters(inFund);
+
+if (faldoneParam) {
+  filtered = filtered.filter(r => getFaldone(r) === faldoneParam);
+}
   .slice()
   .sort((a, b) => (a.codice || "").localeCompare(b.codice || "", "it", { numeric: true }));
 
   const info = FUND_INFO[key];
 
   setStatus(`Fondo: ${key} — ${filtered.length}/${inFund.length} record`);
-
+const isFaldoneView = faldoneParam || showAll;
+  if (!isFaldoneView) {
+  // faldoni grid
+}
+  if (isFaldoneView) {
+  view.innerHTML += `
+    <table class="grid" style="margin-top:12px">
+      <thead>
+        <tr>
+          <th>Titolo</th>
+          <th>Autore</th>
+          <th>Anno</th>
+          <th>Tag</th>
+          <th>Codice</th>
+          <th>Foto</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${filtered.map(r => `
+          <tr>
+            <td><a href="#/libro/${encodeURIComponent(r.id)}">${escapeHtml(r.titolo)}</a></td>
+            <td>${escapeHtml(r.autori.join("; "))}</td>
+            <td>${escapeHtml(r.anno)}</td>
+            <td class="tags-cell">${renderTags(r.tags)}</td>
+            <td>${escapeHtml(r.codice)}</td>
+            <td>${r.immagine ? `<img class="thumb" src="${getThumbUrl(r)}">` : ""}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  `;
+}
   view.innerHTML = `
     <div class="card">
       <h1>${escapeHtml(key)}</h1>
@@ -500,32 +557,35 @@ ${(() => {
       <div class="hint" style="margin-top:12px">
         Clicca un titolo per aprire la scheda. Usa filtri e ricerca a sinistra.
       </div>
+// raggruppa per faldoni
+const groups = {};
+for (const r of filtered) {
+  const f = getFaldone(r);
+  if (!groups[f]) groups[f] = [];
+  groups[f].push(r);
+}
 
-      <table class="grid" style="margin-top:12px">
-        <thead>
-          <tr>
-            <th>Titolo</th>
-            <th>Autore</th>
-            <th>Anno</th>
-            <th>Tag</th>
-            <th>Codice</th>
-            <th>Foto</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${filtered.map(r => `
-            <tr>
-              <td><a href="#/libro/${encodeURIComponent(r.id)}">${escapeHtml(r.titolo)}</a></td>
-              <td>${escapeHtml(r.autori.join("; "))}</td>
-              <td>${escapeHtml(r.anno)}</td>
-             <td class="tags-cell">${renderTags(r.tags)}</td>
-              <td>${escapeHtml(r.codice)}</td>
-              <td>${r.immagine ? `<img class="thumb" src="${escapeAttr(getThumbUrl(r))}" alt="" loading="lazy" onerror="this.style.display='none'">` : ``}</td>
-            </tr>
-          `).join("")}
-        </tbody>
-      </table>
+view.innerHTML += `
+  <div style="margin-top:14px">
+
+    <div class="faldoni-grid">
+      ${Object.entries(groups).map(([name, list]) => `
+        <a class="faldone-card" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(name)}">
+          <div class="name">${escapeHtml(name)}</div>
+          <div class="desc">${list.length} record</div>
+        </a>
+      `).join("")}
     </div>
+
+    <div style="margin-top:12px">
+      <a class="btn" href="#/fondo/${encodeURIComponent(key)}?all=1">
+        Mostra tutti i record
+      </a>
+    </div>
+
+  </div>
+`;
+          </div>
   `;
 
   const c = el("count");
