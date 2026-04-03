@@ -175,26 +175,7 @@ function prettyTag(s) {
     .trim();
 }
 function getFaldone(r) {
-  const c = (r.collocazione || "").toLowerCase();
-
-  if (!c) return "Senza collocazione";
-
-  let base = c.split(",")[0].trim();
-
-  base = base
-    .replace("faldone fotografico", "fotografico")
-    .replace("faldone", "")
-    .replace("cartella", "")
-    .replace("busta", "")
-    .trim();
-
-  if (!base) return "Altro";
-
-  if (base === "pci") base = "PCI";
-
-  const name = base.charAt(0).toUpperCase() + base.slice(1);
-
-  return `Faldone ${name}`;
+  return norm(r.faldone) || "Senza faldone";
 }
 function renderTags(tags) {
   const arr = Array.isArray(tags) ? tags : splitTags(tags);
@@ -812,6 +793,7 @@ async function loadData() {
     const luogo   = norm(row.luogo ?? row.Luogo ?? row["Luogo"]);
     const editore = norm(row.editore ?? row.Editore ?? row["Editore"]);
  const collocazione = norm(row.collocazione ?? row.Collocazione ?? row["Collocazione"]);
+    const faldone = norm(row.faldone ?? row.Faldone ?? row["Faldone"]);
     const disclaimer = norm(row.disclaimer ?? row.Disclaimer ?? row["Disclaimer"]);
     const fondo = norm(row.fondo ?? row.Fondo ?? row["Fondo"] ?? row["Fondo (from Fondo)"]);
 
@@ -825,7 +807,7 @@ async function loadData() {
 
     const id = codice || ("row-" + Math.random().toString(36).slice(2));
 
-    return { id, titolo, codice, tipo, volume, autori, anno, luogo, editore, tags, fondo, pdf, immagine, collocazione, disclaimer };
+    return { id, titolo, codice, tipo, volume, autori, anno, luogo, editore, tags, fondo, pdf, immagine, collocazione,faldone, disclaimer };
   }).filter(r => r.titolo || r.codice);
 
   buildIndex();
