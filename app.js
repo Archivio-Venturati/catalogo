@@ -702,10 +702,8 @@ function renderBook(id) {
 
 function parseRoute() {
   const h = location.hash || "#/";
-  const parts = h.replace(/^#\//, "").split("/").filter(Boolean);
-
-  // ✅ strip querystring dal primo segmento (archivio?all=1 -> archivio)
-  if (parts[0]) parts[0] = parts[0].split("?")[0];
+  const [pathPart] = h.replace(/^#\//, "").split("?");
+  const parts = pathPart.split("/").filter(Boolean);
 
   if (parts.length === 0) return { name: "home" };
   if (parts[0] === "fondo") return { name: "fondo", fondo: decodeURIComponent(parts.slice(1).join("/")) };
