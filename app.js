@@ -515,9 +515,7 @@ for (const r of filtered) {
   if (!groups[f]) groups[f] = [];
   groups[f].push(r);
 }
-const pageTitle = faldoneParam
-  ? `${key} - faldone ${faldoneParam}`
-  : key;
+
 // HTML BASE (SEMPRE PRIMA)
 view.innerHTML = `
   <div class="card">
