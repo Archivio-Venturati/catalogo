@@ -504,7 +504,7 @@ filtered = filtered
   setStatus(`Fondo: ${key} — ${filtered.length}/${inFund.length} record`);
 const isFaldoneView = faldoneParam || showAll;
 const pageTitle = faldoneParam
-  ? `${key} - faldone ${faldoneParam}`
+  ? `${key} - ${faldoneParam}`
   : showAll
     ? `${key} - tutti i record`
     : key;
