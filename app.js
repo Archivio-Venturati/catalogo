@@ -275,6 +275,9 @@ function getScopedRecords() {
 function buildScopedFilters() {
   const list = getScopedRecords();
 
+  const currentAuthor = norm(el("authorFilter")?.value);
+  const currentTag = norm(el("tagFilter")?.value);
+
   const authorSet = new Set();
   const tagSet = new Set();
 
@@ -293,12 +296,24 @@ function buildScopedFilters() {
     aSel.innerHTML =
       `<option value="">(tutti)</option>` +
       authors.map(a => `<option value="${escapeAttr(a)}">${escapeHtml(a)}</option>`).join("");
+
+    if (currentAuthor && authors.includes(currentAuthor)) {
+      aSel.value = currentAuthor;
+    } else {
+      aSel.value = "";
+    }
   }
 
   if (tSel) {
     tSel.innerHTML =
       `<option value="">(tutti)</option>` +
       tags.map(t => `<option value="${escapeAttr(t)}">${escapeHtml(t)}</option>`).join("");
+
+    if (currentTag && tags.includes(currentTag)) {
+      tSel.value = currentTag;
+    } else {
+      tSel.value = "";
+    }
   }
 }
 function applyFilters(list = getScopedRecords()) {
