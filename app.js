@@ -179,12 +179,10 @@ function getFaldone(r) {
 
   if (!c) return "Senza collocazione";
 
-  // prendi solo la prima parte prima della virgola
   let base = c.split(",")[0].trim();
 
-  // pulizia parole inutili
   base = base
-    .replace("faldone fotografico", "Fotografico")
+    .replace("faldone fotografico", "fotografico")
     .replace("faldone", "")
     .replace("cartella", "")
     .replace("busta", "")
@@ -192,7 +190,11 @@ function getFaldone(r) {
 
   if (!base) return "Altro";
 
-  return base.charAt(0).toUpperCase() + base.slice(1);
+  if (base === "pci") base = "PCI";
+
+  const name = base.charAt(0).toUpperCase() + base.slice(1);
+
+  return `Faldone ${name}`;
 }
 function renderTags(tags) {
   const arr = Array.isArray(tags) ? tags : splitTags(tags);
