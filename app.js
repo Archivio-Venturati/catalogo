@@ -61,7 +61,7 @@ Struttura del fondo:
   "Stuani":   { subtitle: "Fondo Stuani",   text: `Scrivi qui la descrizione.` },
   "Arci":   { subtitle: "Fondo del Circolo Arci",   text: `Il Circolo Arci di Caravaggio viene fondato nel 1985 su impulso politico della sezione locale del PCI. Da allora è stato punto di riferimento culturale per la Città di Caravaggio, soprattutto grazie allo storico Presidente Carlo Proverbio che l'ha guidato per quasi quarant'anni fino al 2024. Dopo anni di stagnazione a causa della chiusura del bar e tesseramenti che superavano di poco la soglia di legge per rimanere aperti, prima con Mirko Gatti, e poi ora con Ilaria Bena, il Circolo è stato rivitalizzato attraverso il progetto Arci Stella, contando attualmente oltre 200 iscritte e iscritti. Il fondo è composto soprattutto da materiale fotografico e documentazione interna di gestione del Circolo.
   Struttura del fondo:
-  I. Faldone fotografico "Gite" (1968-1985)
+  I. Faldone fotografico "Gite"
       1. fascicolo "Valeggio sul Mincio"
       2. fascicolo "Lago d'Iseo"
       3. fascicolo "Piacentino"
