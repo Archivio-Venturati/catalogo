@@ -26,12 +26,28 @@ Il Circolo socialista, attivo fino ai primi anni '10 del 2000, è intitolato all
   "Stella": {
     subtitle: "Fondo Stella",
     text: `Si tratta del fondo che contiene i materiali rinvenuti nella Casa del Popolo e che non possono essere connessi direttamente all'attività dell'ultima associazione politica in funzione, ovvero il Partito Democratico. Dunque, la distinzione fra ciò che è conservato in questo fondo e quello dei Democratici è meramente tematico, in quanto come origine rimandano alla medesima realtà e struttura. È costituito dal lascito delle diverse organizzazioni politiche che l'hanno animata, ovvero Partito Comunista Italiano, Partito Democratico della Sinistra e Democratici di Sinistra.
-Nella maggior parte è costituito da documentazione interna e organizzativa o materiale elettorale, ma anche da libri editi di vario genere. L'intitolazione a Fermo Stella ricalca molte di quelle fatte a realtà che hanno animato la Casa del Popolo (Radio Stella, Spazio Stella, Arci Stella), connotate dal riferimento alla via antistante la Casa.`
+Nella maggior parte è costituito da documentazione interna e organizzativa o materiale elettorale, ma anche da libri editi di vario genere. L'intitolazione a Fermo Stella ricalca molte di quelle fatte a realtà che hanno animato la Casa del Popolo (Radio Stella, Spazio Stella, Arci Stella), connotate dal riferimento alla via antistante la Casa.
+Struttura del fondo:
+  I. Faldone "Materiale Elettorale"
+    1. fascicolo "Lega Nord"
+    2. fascicolo "Rifondazione Comunista"
+    3. fascicolo "Altri partiti"
+    4. fascicolo "Varie"`
   },
 
   "Castelli": { subtitle: "Fondo Castelli", text: `Scrivi qui la descrizione.` },
   "Manzoni": { subtitle: "Fondo Manzoni", text: `Lucia Manzoni è stata segretaria cittadina del Partito Comunista Italiano - Sezione di Caravaggio, ma soprattuto ha avuto un ruolo importante per la comunità comunista come presidente della Cooperativa Radio Stella.
-  Il fondo è costituito in larghissima parte da materiale fotografico riguardante i funerali dell'Onorevole Achille Stuani del 1976.` },
+  Il fondo è costituito in larghissima parte da materiale fotografico riguardante i funerali dell'Onorevole Achille Stuani del 1976.
+  Struttura del fondo:
+  I. Faldone fotografico "Stuani"
+      1. fascicolo "Funerali di Stuani"
+      2. fascicolo "Funerali di Stuani-bis"
+      3. fascicolo "Funerali di Stuani-tris"
+      4. fascicolo "Torneo di calcio"
+      5. fascicolo "Funerali di Stuani-quatris"
+      6. fascicolo "Funerali di Stuani-cinquis"
+      7. fascicolo "Manifestazioni"
+      ` },
   "Ogliari": { subtitle: "Fondo Ogliari", text: `Domenico Ogliari è stato per anni un importante dirigente del Partito Comunista Italiano - sezione di Caravaggio. Ha ricoperto, principalmente, mansioni di contabilità, come la tesoreria del Partito e la gestione dell'Immobiliare Stella 80, una delle realtà che hanno avuto la proprietà della Casa del Popolo. È, quindi, tra le persone che hanno avuto un ruolo fondamentale nel mantenere questo sogno vivo.
 Il fondo è costituito principalmente di materiale interno dell'organizzazione comunista e riferito alla gestione della sede.
 Struttura del fondo:
@@ -43,10 +59,45 @@ Struttura del fondo:
       
       `},
   "Stuani":   { subtitle: "Fondo Stuani",   text: `Scrivi qui la descrizione.` },
-  "Arci":   { subtitle: "Fondo del Circolo Arci",   text: `Il Circolo Arci di Caravaggio viene fondato nel 1985 su impulso politico della sezione locale del PCI. Da allora è stato punto di riferimento culturale per la Città di Caravaggio, soprattutto grazie allo storico Presidente Carlo Proverbio che l'ha guidato per quasi quarant'anni fino al 2024. Dopo anni di stagnazione a causa della chiusura del bar e tesseramenti che superavano di poco la soglia di legge per rimanere aperti, prima con Mirko Gatti, e poi ora con Ilaria Bena, il Circolo è stato rivitalizzato attraverso il progetto Arci Stella, contando attualmente oltre 200 iscritte e iscritti. Il fondo è composto soprattutto da materiale fotografico e documentazione interna di gestione del Circolo.` },
+  "Arci":   { subtitle: "Fondo del Circolo Arci",   text: `Il Circolo Arci di Caravaggio viene fondato nel 1985 su impulso politico della sezione locale del PCI. Da allora è stato punto di riferimento culturale per la Città di Caravaggio, soprattutto grazie allo storico Presidente Carlo Proverbio che l'ha guidato per quasi quarant'anni fino al 2024. Dopo anni di stagnazione a causa della chiusura del bar e tesseramenti che superavano di poco la soglia di legge per rimanere aperti, prima con Mirko Gatti, e poi ora con Ilaria Bena, il Circolo è stato rivitalizzato attraverso il progetto Arci Stella, contando attualmente oltre 200 iscritte e iscritti. Il fondo è composto soprattutto da materiale fotografico e documentazione interna di gestione del Circolo.
+  Struttura del fondo:
+  I. Faldone fotografico "Gite" (1968-1985)
+      1. fascicolo "Valeggio sul Mincio"
+      2. fascicolo "Lago d'Iseo"
+      3. fascicolo "Piacentino"
+      4. fascicolo "Po"
+      5. fascicolo "Lago Maggiore"
+      6. fascicolo "Sirmione"
+      7. fascicolo "Pranzo sociale"
+      8. fascicolo "Astigiano"
+      9. fascicolo "Piacentino-bis"
+      10. fascicolo "Varie"
+  II. Faldone fotografico "Sede"
+      1. fascicolo "Esterno"
+      2. fascicolo "Ristrutturazione"
+      ` },
   "Rossoni":  { subtitle: "Fondo Rossoni",  text: `Scrivi qui la descrizione.` },
   "Crapabela":  { subtitle: "Fondo Crapabela",  text: `Giuseppe Pisoni (1935-2021), detto "Crapabela", è stato segretario politico del Partito Comunista Italiano - Sezione di Caravaggio negli anni Settanta. È fra i principali dirigenti del gruppo che decise di acquistare l'ex fabbrica di cappelli di proprietà degli eredi di Francesco Tadolti in via Fermo Stella. Saranno, dunque, lui e Paolo Pavesi ad assumersi la proprietà della Casa del Popolo con una scrittura privata nel 1968, dato che la sezione non ha personalità giuridica.  
-Il fondo è costituito soprattutto di documentazione interna ed esterna del Partito Comunista Italiano - Sezione di Caravaggio e da materiale fotografico.` },
+Il fondo è costituito soprattutto di documentazione interna ed esterna del Partito Comunista Italiano - Sezione di Caravaggio e da materiale fotografico.
+Struttura del fondo:
+  I. Faldone "PCI"
+      1. fascicolo "Documentazione del Consiglio Comunale"
+      2. fascicolo "Vita comunista"
+      3. fascicolo "Candidatura di Pisoni alle provinciali"
+      4. fascicolo "Attività politico-amministrative"
+      5. fascicolo "Caso Gambirasio"
+      6. fascicolo "Alleanze amministrative"
+      7. fascicolo "Documentazione interna del Partito"
+      8. fascicolo "Varie"
+  II. Faldone "Fotografico"
+      1. fascicolo "Ristrutturazione"
+      2. fascicolo "Varie"
+      3. fascicolo "Scontro Pisoni-Castelli"
+      4. fascicolo "Manifesti"
+      5. fascicolo "Persone"
+      6. fascicolo "Festa de L'Unità"
+      7. fascicolo "Provini"
+` },
   "Democratici":  { subtitle: "Fondo del Partito Democratico - Circolo di Caravaggio",  text: `Il fondo è fra quelli più eterogenei in possesso dell'Archivio. È costituito per la maggior parte da materiale fotografico, documentazione organizzativa, documentazione elettorale ed estratti di giornali. 
   
 Il Circolo del Partito Democratico si è costituito a Caravaggio nel 2008, un anno dopo la sua fondazione nazionale. Si costituisce dalla fusione fra i militanti della Margherita e quelli dei Democratici di Sinistra, i quali, questi ultimi, detenevano parte della proprietà della Casa del Popolo. Per questo motivo è il Partito che ancora abita la nostra Casa, e che ha reso possibile il mantenimento della sua vitalità anche negli anni più difficili dopo la chiusura delle attività del Circolo Arci. 
@@ -62,7 +113,15 @@ Diverse Segretarie e Segretari si sono succeduti negli anni:
   - 2014-2018, Mara Carminati;
   - 2018-2021, Juri Cattelani;
   - 2021-2022, Mirko Gatti;
-  - 2022- , Mirko Gatti.`}
+  - 2022- , Mirko Gatti.
+  Struttura del fondo:
+  I. Faldone "Rassegna Stampa" 
+      1. fascicolo "Stuani"
+      2. fascicolo "Carminati"
+      3. fascicolo "Cattelani"
+      4. fascicolo "Gatti"
+  II. Faldone "Elezioni del 2011"
+      1. fascicolo fotografico`}
 };
 
 let RECORDS = [];
