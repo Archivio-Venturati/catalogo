@@ -272,6 +272,35 @@ function getScopedRecords() {
 
   return RECORDS;
 }
+function buildScopedFilters() {
+  const list = getScopedRecords();
+
+  const authorSet = new Set();
+  const tagSet = new Set();
+
+  for (const r of list) {
+    for (const a of r.autori) authorSet.add(a);
+    for (const t of r.tags) tagSet.add(t);
+  }
+
+  const authors = [...authorSet].sort((a, b) => a.localeCompare(b, "it"));
+  const tags = [...tagSet].sort((a, b) => a.localeCompare(b, "it"));
+
+  const aSel = el("authorFilter");
+  const tSel = el("tagFilter");
+
+  if (aSel) {
+    aSel.innerHTML =
+      `<option value="">(tutti)</option>` +
+      authors.map(a => `<option value="${escapeAttr(a)}">${escapeHtml(a)}</option>`).join("");
+  }
+
+  if (tSel) {
+    tSel.innerHTML =
+      `<option value="">(tutti)</option>` +
+      tags.map(t => `<option value="${escapeAttr(t)}">${escapeHtml(t)}</option>`).join("");
+  }
+}
 function applyFilters(list = getScopedRecords()) {
   const { q, author, tag } = currentFilters();
   return list.filter(r => {
@@ -725,6 +754,7 @@ function parseRoute() {
 
 function render() {
   const route = parseRoute();
+  buildScopedFilters();
 
   // HOME: layout senza sidebar
   document.body.classList.toggle("is-home", route.name === "home");
