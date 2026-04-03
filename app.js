@@ -255,8 +255,24 @@ function currentFilters() {
     tag: norm(el("tagFilter")?.value),
   };
 }
+function getScopedRecords() {
+  const route = parseRoute();
+  const params = new URLSearchParams(location.hash.split("?")[1] || "");
 
-function applyFilters(list) {
+  if (route.name === "fondo") {
+    let list = RECORDS.filter(r => r.fondo === route.fondo);
+
+    const faldoneParam = params.get("faldone");
+    if (faldoneParam) {
+      list = list.filter(r => getFaldone(r) === faldoneParam);
+    }
+
+    return list;
+  }
+
+  return RECORDS;
+}
+function applyFilters(list = getScopedRecords()) {
   const { q, author, tag } = currentFilters();
   return list.filter(r => {
     if (author && !r.autori.includes(author)) return false;
@@ -271,6 +287,7 @@ function applyFilters(list) {
     return true;
   });
 }
+
 
 /* HOME: mostra fondi + (se filtri/ricerca attivi) risultati globali */
 /* HOME: vetrina (niente tabelloni). La ricerca resta nella sidebar e porta ai fondi/libri. */
