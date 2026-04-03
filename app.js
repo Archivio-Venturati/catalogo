@@ -487,11 +487,13 @@ function renderFund(fondo) {
   const params = new URLSearchParams(location.hash.split("?")[1] || "");
 const faldoneParam = params.get("faldone");
 const showAll = params.get("all");
-  let filtered = applyFilters(inFund);
+let filtered = applyFilters(inFund);
 
 if (faldoneParam) {
   filtered = filtered.filter(r => getFaldone(r) === faldoneParam);
 }
+
+filtered = filtered
   .slice()
   .sort((a, b) => (a.codice || "").localeCompare(b.codice || "", "it", { numeric: true }));
 
@@ -499,10 +501,71 @@ if (faldoneParam) {
 
   setStatus(`Fondo: ${key} — ${filtered.length}/${inFund.length} record`);
 const isFaldoneView = faldoneParam || showAll;
-  if (!isFaldoneView) {
-  // faldoni grid
+
+// raggruppa per faldoni (SEMPRЕ fuori dal template)
+const groups = {};
+for (const r of filtered) {
+  const f = getFaldone(r);
+  if (!groups[f]) groups[f] = [];
+  groups[f].push(r);
 }
-  if (isFaldoneView) {
+
+// HTML BASE (SEMPRE PRIMA)
+view.innerHTML = `
+  <div class="card">
+    <h1>${escapeHtml(key)}</h1>
+
+    ${
+      info
+        ? `
+          <div class="hint">${escapeHtml(info.subtitle || "")}</div>
+          ${info.image ? `<img class="fund-photo" src="${escapeAttr(info.image)}" alt="" onerror="this.style.display='none'">` : ``}
+
+          ${(() => {
+            const full = (info.text || "").toString().trim();
+            return full ? `
+              <details class="fund-details">
+                <summary>Storia e descrizione</summary>
+                <div class="fund-text">${escapeHtml(full)}</div>
+              </details>
+            ` : ``;
+          })()}
+        `
+        : `<div class="hint">Descrizione del fondo non ancora inserita.</div>`
+    }
+
+    <div class="hint" style="margin-top:12px">
+      Clicca un titolo per aprire la scheda. Usa filtri e ricerca a sinistra.
+    </div>
+  </div>
+`;
+
+// 👉 SE NON sei dentro faldone → mostra faldoni
+if (!isFaldoneView) {
+  view.innerHTML += `
+    <div style="margin-top:14px">
+
+      <div class="faldoni-grid">
+        ${Object.entries(groups).map(([name, list]) => `
+          <a class="faldone-card" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(name)}">
+            <div class="name">${escapeHtml(name)}</div>
+            <div class="desc">${list.length} record</div>
+          </a>
+        `).join("")}
+      </div>
+
+      <div style="margin-top:12px">
+        <a class="btn" href="#/fondo/${encodeURIComponent(key)}?all=1">
+          Mostra tutti i record
+        </a>
+      </div>
+
+    </div>
+  `;
+}
+
+// 👉 SE sei dentro faldone → mostra tabella (IDENTICA a prima)
+if (isFaldoneView) {
   view.innerHTML += `
     <table class="grid" style="margin-top:12px">
       <thead>
@@ -557,13 +620,7 @@ ${(() => {
       <div class="hint" style="margin-top:12px">
         Clicca un titolo per aprire la scheda. Usa filtri e ricerca a sinistra.
       </div>
-// raggruppa per faldoni
-const groups = {};
-for (const r of filtered) {
-  const f = getFaldone(r);
-  if (!groups[f]) groups[f] = [];
-  groups[f].push(r);
-}
+
 
 view.innerHTML += `
   <div style="margin-top:14px">
