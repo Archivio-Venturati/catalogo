@@ -1469,3 +1469,36 @@ main.content .card.prose {
 .htl-dot[aria-selected="true"]::before{
   animation: none;
 }
+.faldoni-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+}
+
+@media (max-width: 980px){
+  .faldoni-grid{ grid-template-columns: 1fr; }
+}
+
+.faldone-card{
+  display:block;
+  padding:12px;
+  background: linear-gradient(180deg, #101a2a, #0b111b);
+  box-shadow: var(--shadowSoft);
+  text-decoration:none;
+  color: var(--text);
+}
+
+.faldone-card:hover{
+  filter:brightness(1.06);
+}
+
+.faldone-card .name{
+  font-weight:950;
+  color: var(--silver);
+}
+
+.faldone-card .desc{
+  margin-top:6px;
+  font-size:13px;
+  color: var(--muted);
+}
