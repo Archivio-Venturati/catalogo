@@ -59,7 +59,9 @@ Struttura del fondo:
       
       `},
   "Stuani":   { subtitle: "Fondo Stuani",   text: `Scrivi qui la descrizione.` },
-  "Arci":   { subtitle: "Fondo del Circolo Arci",   text: `Il Circolo Arci di Caravaggio viene fondato nel 1985 su impulso politico della sezione locale del PCI. Da allora è stato punto di riferimento culturale per la Città di Caravaggio, soprattutto grazie allo storico Presidente Carlo Proverbio che l'ha guidato per quasi quarant'anni fino al 2024. Dopo anni di stagnazione a causa della chiusura del bar e tesseramenti che superavano di poco la soglia di legge per rimanere aperti, prima con Mirko Gatti, e poi ora con Ilaria Bena, il Circolo è stato rivitalizzato attraverso il progetto Arci Stella, contando attualmente oltre 200 iscritte e iscritti. Il fondo è composto soprattutto da materiale fotografico e documentazione interna di gestione del Circolo.
+  "Arci":   { subtitle: "Fondo del Circolo Arci",   
+             image: "images/arcistella.jpeg",
+             text: `Il Circolo Arci di Caravaggio viene fondato nel 1985 su impulso politico della sezione locale del PCI. Da allora è stato punto di riferimento culturale per la Città di Caravaggio, soprattutto grazie allo storico Presidente Carlo Proverbio che l'ha guidato per quasi quarant'anni fino al 2024. Dopo anni di stagnazione a causa della chiusura del bar e tesseramenti che superavano di poco la soglia di legge per rimanere aperti, prima con Mirko Gatti, e poi ora con Ilaria Bena, il Circolo è stato rivitalizzato attraverso il progetto Arci Stella, contando attualmente oltre 200 iscritte e iscritti. Il fondo è composto soprattutto da materiale fotografico e documentazione interna di gestione del Circolo.
   Struttura del fondo:
   I. Faldone fotografico "Gite"
       1. fascicolo "Valeggio sul Mincio"
@@ -77,7 +79,9 @@ Struttura del fondo:
       2. fascicolo "Ristrutturazione"
       ` },
   "Rossoni":  { subtitle: "Fondo Rossoni",  text: `Scrivi qui la descrizione.` },
-  "Crapabela":  { subtitle: "Fondo Crapabela",  text: `Giuseppe Pisoni (1935-2021), detto "Crapabela", è stato segretario politico del Partito Comunista Italiano - Sezione di Caravaggio negli anni Settanta. È fra i principali dirigenti del gruppo che decise di acquistare l'ex fabbrica di cappelli di proprietà degli eredi di Francesco Tadolti in via Fermo Stella. Saranno, dunque, lui e Paolo Pavesi ad assumersi la proprietà della Casa del Popolo con una scrittura privata nel 1968, dato che la sezione non ha personalità giuridica.  
+  "Crapabela":  { subtitle: "Fondo Crapabela",  
+                 image: "images/05.8.FOT.5.B.jpg",
+                 text: `Giuseppe Pisoni (1935-2021), detto "Crapabela", è stato segretario politico del Partito Comunista Italiano - Sezione di Caravaggio negli anni Settanta. È fra i principali dirigenti del gruppo che decise di acquistare l'ex fabbrica di cappelli di proprietà degli eredi di Francesco Tadolti in via Fermo Stella. Saranno, dunque, lui e Paolo Pavesi ad assumersi la proprietà della Casa del Popolo con una scrittura privata nel 1968, dato che la sezione non ha personalità giuridica.  
 Il fondo è costituito soprattutto di documentazione interna ed esterna del Partito Comunista Italiano - Sezione di Caravaggio e da materiale fotografico.
 Struttura del fondo:
   I. Faldone "PCI"
@@ -98,7 +102,9 @@ Struttura del fondo:
       6. fascicolo "Festa de L'Unità"
       7. fascicolo "Provini"
 ` },
-  "Democratici":  { subtitle: "Fondo del Partito Democratico - Circolo di Caravaggio",  text: `Il fondo è fra quelli più eterogenei in possesso dell'Archivio. È costituito per la maggior parte da materiale fotografico, documentazione organizzativa, documentazione elettorale ed estratti di giornali. 
+  "Democratici":  { subtitle: "Fondo del Partito Democratico - Circolo di Caravaggio",  
+                    image: "images/PD.jpeg",
+                   text: `Il fondo è fra quelli più eterogenei in possesso dell'Archivio. È costituito per la maggior parte da materiale fotografico, documentazione organizzativa, documentazione elettorale ed estratti di giornali. 
   
 Il Circolo del Partito Democratico si è costituito a Caravaggio nel 2008, un anno dopo la sua fondazione nazionale. Si costituisce dalla fusione fra i militanti della Margherita e quelli dei Democratici di Sinistra, i quali, questi ultimi, detenevano parte della proprietà della Casa del Popolo. Per questo motivo è il Partito che ancora abita la nostra Casa, e che ha reso possibile il mantenimento della sua vitalità anche negli anni più difficili dopo la chiusura delle attività del Circolo Arci. 
 Politicamente, ha rappresentato il polo opposto rispetto all'egemonia leghista in Caravaggio durante gli anni del decennio delle Giunte Prevedini (2008-2016), in cui ha sostenuto una lista civica nel 2011, la Tua Caravaggio con Cristina Ambrosini Candidata Sindaca. Negli anni seguenti, il Circolo vive momenti complicati fino al Commissariamento dovuto alle dimissioni della Segretaria Silvia Stuani.
