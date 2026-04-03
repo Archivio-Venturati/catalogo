@@ -501,7 +501,11 @@ filtered = filtered
 
   setStatus(`Fondo: ${key} — ${filtered.length}/${inFund.length} record`);
 const isFaldoneView = faldoneParam || showAll;
-
+const pageTitle = faldoneParam
+  ? `${key} - faldone ${faldoneParam}`
+  : showAll
+    ? `${key} - tutti i record`
+    : key;
 // raggruppa per faldoni (SEMPRЕ fuori dal template)
 const groups = {};
 for (const r of filtered) {
@@ -509,11 +513,13 @@ for (const r of filtered) {
   if (!groups[f]) groups[f] = [];
   groups[f].push(r);
 }
-
+const pageTitle = faldoneParam
+  ? `${key} - faldone ${faldoneParam}`
+  : key;
 // HTML BASE (SEMPRE PRIMA)
 view.innerHTML = `
   <div class="card">
-    <h1>${escapeHtml(key)}</h1>
+    <h1>${escapeHtml(pageTitle)}</h1>
 
     ${
       info
@@ -554,7 +560,7 @@ if (!isFaldoneView) {
         `).join("")}
       </div>
 
-      <div style="margin-top:12px">
+      <div style="margin-top:24px">
         <a class="btn" href="#/fondo/${encodeURIComponent(key)}?all=1">
           Mostra tutti i record
         </a>
@@ -566,6 +572,13 @@ if (!isFaldoneView) {
 
 // 👉 SE sei dentro faldone → mostra tabella (IDENTICA a prima)
 if (isFaldoneView) {
+  view.innerHTML += `
+  <div style="margin-top:12px">
+    <a class="btn" href="#/fondo/${encodeURIComponent(key)}">
+      ← Torna al fondo
+    </a>
+  </div>
+`;
   view.innerHTML += `
     <table class="grid" style="margin-top:12px">
       <thead>
