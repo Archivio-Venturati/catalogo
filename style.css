@@ -1308,7 +1308,7 @@ main.content .card.prose {
   min-width: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(360px, .85fr);
+  grid-template-columns: minmax(0, 1fr) minmax(420px, 1fr);
   align-items: stretch;
   background: linear-gradient(180deg, rgba(10,19,34,.96), rgba(7,14,26,.98));
   box-shadow: 0 20px 55px rgba(0,0,0,.35);
@@ -1332,19 +1332,15 @@ main.content .card.prose {
 }
 
 .story-slide__title{
-  margin: 0 0 16px;
-  font-size: clamp(36px, 4.2vw, 64px);
-  line-height: .98;
-  color: var(--text);
-  text-wrap: balance;
+  margin: 0 0 14px;
+  font-size: clamp(28px, 2.6vw, 40px);
+  line-height: 1.1;
 }
 
 .story-slide__text{
-  margin: 0;
-  max-width: 28ch;
-  font-size: clamp(18px, 1.45vw, 22px);
-  line-height: 1.58;
-  color: var(--muted);
+  max-width: none;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .story-slide__media{
