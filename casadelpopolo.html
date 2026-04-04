@@ -40,119 +40,98 @@
         venisse depositata e la proprietà venisse assunta dal PCI caravaggino, il 30 novembre 1982. 
       </p>
 </section>
-        <section class="htl" data-count="3" aria-label="Timeline orizzontale">
-  <div class="htl-bar" role="tablist" aria-label="Date">
-    <button class="htl-dot" role="tab" aria-selected="true" data-id="e1968" type="button">
-      <span class="htl-year">1968</span>
-       <span class="htl-label">L'aquisto</span>
+<section class="story-slider" data-slider>
+  <div class="story-slider__nav" role="tablist" aria-label="Tappe della Casa del Popolo">
+    <button class="story-step is-active" type="button" role="tab" aria-selected="true"
+      data-date="31 marzo 1968"
+      data-title="Il PCI di Caravaggio trova una nuova sede"
+      data-text="Dopo aver girato diversi locali in Città, Pisoni e Pavesi acquistano la vecchia fabbrica Tadolti per dare una nuova sede al PCI – Sezione di Caravaggio. L'immagine è presa da Banfi et al. (2023), p. 89."
+      data-image="images/tadolti.png"
+      data-image-alt="La vecchia fabbrica Tadolti">
+      <span class="story-step__year">1968</span>
+      <span class="story-step__label">L'acquisto</span>
     </button>
-    <button class="htl-dot" role="tab" aria-selected="false" data-id="e1974" type="button">
-      <span class="htl-year">1974</span>
-      <span class="htl-label">L'inizio dei lavori</span>
+
+    <button class="story-step" type="button" role="tab" aria-selected="false"
+      data-date="5 novembre 1974"
+      data-title="Inizio della ristrutturazione"
+      data-text="Con l'ausilio di alcuni professionisti, volontarie e volontari della sezione comunista di Caravaggio iniziano i lavori per la ristrutturazione della vecchia fabbrica di cappelli. Questi lavori dureranno anni, portando al rifacimento di buona parte dello stabile. Si susseguiranno diversi progetti, adeguandosi alle continue esigenze che la comunità caravaggina esprimerà di volta in volta."
+      data-image="https://res.cloudinary.com/dlygg64d1/image/upload/v1770934092/05.8.FOT.1.D_paztng.jpg"
+      data-image-alt="Lavori di ristrutturazione della Casa del Popolo">
+      <span class="story-step__year">1974</span>
+      <span class="story-step__label">L'inizio dei lavori</span>
     </button>
-    <button class="htl-dot" role="tab" aria-selected="false" data-id="e1975" type="button">
-      <span class="htl-year">1975</span>
-      <span class="htl-label">L'onda comunista</span>
+
+    <button class="story-step" type="button" role="tab" aria-selected="false"
+      data-date="15 giugno 1975"
+      data-title="La vittoria alle comunali"
+      data-text="Dopo un governo democristiano continuativo dal 1951, una «giunta democratica di sinistra» si forma dopo la vittoria di PSI e PCI alle elezioni comunali. Giuseppe Pisoni è assessore all'urbanistica e ai lavori pubblici."
+      data-image="https://res.cloudinary.com/dlygg64d1/image/upload/v1770937648/05.8.FOT.4.D1_umcoys.jpg"
+      data-image-alt="Manifestazione politica degli anni Settanta">
+      <span class="story-step__year">1975</span>
+      <span class="story-step__label">L'onda comunista</span>
     </button>
   </div>
 
-  <div class="htl-panel" aria-live="polite" hidden>
-     <!-- card wrapper (si allinea sx/centro/dx) -->
-    <div class="htl-inner"></div>
-  </div>
-
-  <template id="e1968">
-    <article class="htl-card">
-      <button class="htl-close" type="button" aria-label="Chiudi">×</button>
-      <div class="htl-text">
-        <div class="htl-kicker">31 marzo 1968</div>
-        <h3>Il PCI di Caravaggio trova una nuova sede</h3>
-        <p>Dopo aver girato diversi locali in Città, Pisoni e Pavesi acquistano la vecchia fabbrica Tadolti per dare una nuova sede al PCI - Sezione di Caravaggio. <br>L'immagine è presa da Banfi et al. (2023), p.89</p>
+  <article class="story-panel" aria-live="polite">
+    <div class="story-panel__copy">
+      <div class="story-panel__date"></div>
+      <h2 class="story-panel__title"></h2>
+      <p class="story-panel__text"></p>
+      <div class="story-panel__controls">
+        <button type="button" class="story-control" data-prev>←</button>
+        <button type="button" class="story-control" data-next>→</button>
       </div>
-      <figure class="htl-media">
-        <img src="images/tadolti.png" alt="">
-      </figure>
-    </article>
-  </template>
-
-  <template id="e1974">
-    <article class="htl-card">
-      <button class="htl-close" type="button" aria-label="Chiudi">×</button>
-      <div class="htl-text">
-        <div class="htl-kicker">5 novembre 1974</div>
-        <h3>Inizio della ristrutturazione</h3>
-        <p>Con l'ausilio di alcuni professionisti, volontarie e volontari della sezione comunista di Caravaggio iniziano i lavori per la ristrutturazione della vecchia fabbrica di cappelli. Questi lavori dureranno anni, portando al rifacimento di buona parte dello stabile. Si susseguiranno diversi progetti, adeguandosi alle continue esigenze che la comunità caravaggina esprimerà di volta in volta.</p>
-      </div>
-      <figure class="htl-media">
-        <img src="https://res.cloudinary.com/dlygg64d1/image/upload/v1770934092/05.8.FOT.1.D_paztng.jpg" alt="">
-      </figure>
-    </article>
-  </template>
-
-  <template id="e1975">
-    <article class="htl-card">
-      <button class="htl-close" type="button" aria-label="Chiudi">×</button>
-      <div class="htl-text">
-        <div class="htl-kicker">15 giugno 1975</div>
-        <h3>La vittoria alle comunali</h3>
-        <p>Dopo un governo democristiano continuativo dal 1951, una «giunta democratica di sinistra» si forma dopo la vittoria di PSI e PCI alle elezioni comunali. Giuseppe Pisoni è assessore all'urbanistica e ai lavori pubblici.</p>
-      </div>
-      <figure class="htl-media">
-        <img src="https://res.cloudinary.com/dlygg64d1/image/upload/v1770937648/05.8.FOT.4.D1_umcoys.jpg" alt="">
-      </figure>
-    </article>
-  </template>
-        </section>
+    </div>
+    <figure class="story-panel__media">
+      <img class="story-panel__image" src="" alt="">
+    </figure>
+  </article>
+</section>
       <section>
              <p>
         Durante gli anni che seguono i lavori di rifunzionalizzazione della sede, la famiglia della Casa del Popolo si allarga nuove realtà. Il Partito Comista di Caravaggio, infatti, ha sempre tenuto una strategia politica poco ortodossa, spesso fondendosi e perdendosi per ritorvarsi nel tessuto comunitario della Città. È in quest'ottica che vengono fondati sia Radio Stella che il Circolo ARCI. 
       </p>
 </section>
-          <section class="htl" data-count="2" aria-label="Timeline orizzontale">
-  <div class="htl-bar" role="tablist" aria-label="Date">
-    <button class="htl-dot" role="tab" aria-selected="true" data-id="e1977" type="button">
-      <span class="htl-year">1977</span>
-       <span class="htl-label">Radio Stella</span>
+          <section class="story-slider" data-slider>
+  <div class="story-slider__nav" role="tablist" aria-label="Tappe delle realtà nate nella Casa del Popolo">
+    <button class="story-step is-active" type="button" role="tab" aria-selected="true"
+      data-date="1977"
+      data-title="«La voce dei compagni»"
+      data-text="Viene aperta Radio Stella nei locali che successivamente ospiteranno l'appartamento del custode. È la prima emittente radiofonica locale gestita direttamente da una cooperativa di stampo comunista in provincia di Bergamo."
+      data-image="images/radiostella.png"
+      data-image-alt="Radio Stella">
+      <span class="story-step__year">1977</span>
+      <span class="story-step__label">Radio Stella</span>
     </button>
-    <button class="htl-dot" role="tab" aria-selected="false" data-id="e1985" type="button">
-      <span class="htl-year">1985</span>
-      <span class="htl-label">Circolo ARCI</span>
+
+    <button class="story-step" type="button" role="tab" aria-selected="false"
+      data-date="1985"
+      data-title="Per il «prestigio politico»"
+      data-text="Dal 1984 il Partito Comunista stava progettando di dare impulso a un Circolo ARCI che vivesse le mura della Casa del Popolo. Un anno dopo si ha l'apertura di questo, con centinaia di socie e soci il solo primo anno. Fin da subito, al Circolo ARCI, sebbene abbia avuto impulso da un partito politico, è lasciata totale autonomia per realizzare la propria missione culturale al servizio della città."
+      data-image=""
+      data-image-alt=""
+      data-placeholder="ARCI">
+      <span class="story-step__year">1985</span>
+      <span class="story-step__label">Circolo ARCI</span>
     </button>
   </div>
 
-  <div class="htl-panel" aria-live="polite" hidden>
-     <!-- card wrapper (si allinea sx/centro/dx) -->
-    <div class="htl-inner"></div>
-  </div>
-
-  <template id="e1985">
-    <article class="htl-card">
-      <button class="htl-close" type="button" aria-label="Chiudi">×</button>
-      <div class="htl-text">
-        <div class="htl-kicker"></div>
-        <h3>Per il «prestigio politico»</h3>
-        <p>Dal 1984 il Partito Comunista stava progettando di dare impulso a un Circolo Arci che vivesse le mura della Casa del Popolo. Un anno dopo si ha l'apertura di questo, con centinaia di socie e soci il solo primo anno. Fin da subito, al Circolo Arci, sebbene abbia avuto impulso da un partito politico, è lasciata totale autonomia per realizzare la propria missione culturale al servizio della Città, che anche a quel tempo era sentita carente di luoghi di aggregazione e opportunità di crescita</p>
+  <article class="story-panel" aria-live="polite">
+    <div class="story-panel__copy">
+      <div class="story-panel__date"></div>
+      <h2 class="story-panel__title"></h2>
+      <p class="story-panel__text"></p>
+      <div class="story-panel__controls">
+        <button type="button" class="story-control" data-prev>←</button>
+        <button type="button" class="story-control" data-next>→</button>
       </div>
-      <figure class="htl-media">
-        <img src="" alt="">
-      </figure>
-    </article>
-  </template>
-
-  <template id="e1977">
-    <article class="htl-card">
-      <button class="htl-close" type="button" aria-label="Chiudi">×</button>
-      <div class="htl-text">
-        <div class="htl-kicker">1977</div>
-        <h3>«La voce dei compagni»</h3>
-        <p>Viene aperta Radio Stella nei locali che successivamente ospiteranno l'appartamento del custode. È la prima emittente radiofonica locale gestita direttamente da una coperativa di stampo comunista in provincia di Bergamo</p>
-      </div>
-      <figure class="htl-media">
-        <img src="images/radiostella.png" alt="">
-      </figure>
-    </article>
-  </template>
-
+    </div>
+    <figure class="story-panel__media is-empty">
+      <img class="story-panel__image" src="" alt="">
+      <div class="story-panel__placeholder">ARCI</div>
+    </figure>
+  </article>
 </section>
 
     </div>
