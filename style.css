@@ -1480,20 +1480,3 @@ main.content .card.prose {
   max-width: 100%;
   margin: 18px auto 28px;
 }
-.story-strip,
-.story-track,
-.story-slide,
-.story-slide__copy,
-.story-slide__media{
-  min-width: 0;
-}
-
-.story-slide__title,
-.story-slide__text{
-  overflow-wrap: anywhere;
-}
-
-.story-slide img{
-  display: block;
-  max-width: 100%;
-}
