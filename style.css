@@ -1590,9 +1590,10 @@ html, body{
 }
 .story-dots{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
-  margin-top: 12px;
+  margin-bottom: 14px;
+  padding-left: 4px;
 }
 
 .story-dot{
@@ -1606,4 +1607,21 @@ html, body{
 .story-dot.is-active{
   background: rgba(255,255,255,.9);
   transform: scale(1.3);
+}
+@media (max-width: 980px){
+  .story-dots{
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+.story-dot{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.2);
+}
+
+.story-dot.is-active{
+  background: rgba(255,255,255,.9);
+  transform: scale(1.4);
 }
