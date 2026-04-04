@@ -1027,89 +1027,63 @@ const hasQuery = forceAll || !!(q || a || t);
   if (c) c.textContent = "";
 }
 (function(){
-  function initStorySlider(root){
-    const steps = Array.from(root.querySelectorAll('.story-step'));
-    const dateEl = root.querySelector('.story-panel__date');
-    const titleEl = root.querySelector('.story-panel__title');
-    const textEl = root.querySelector('.story-panel__text');
-    const mediaEl = root.querySelector('.story-panel__media');
-    const imageEl = root.querySelector('.story-panel__image');
-    const placeholderEl = root.querySelector('.story-panel__placeholder');
-    const prevBtn = root.querySelector('[data-prev]');
-    const nextBtn = root.querySelector('[data-next]');
+  function initStoryStrip(strip){
+    const track = strip.querySelector('.story-track');
+    const slides = Array.from(strip.querySelectorAll('.story-slide'));
+    const prev = strip.querySelector('[data-story-prev]');
+    const next = strip.querySelector('[data-story-next]');
     let index = 0;
     let wheelLock = false;
 
-    if (!steps.length) return;
+    if (!track || !slides.length) return;
 
-    function paint(step){
-      steps.forEach((btn, i) => {
-        const active = btn === step;
-        btn.classList.toggle('is-active', active);
-        btn.setAttribute('aria-selected', active ? 'true' : 'false');
-        if (active) index = i;
+    function updateActive(i, behavior = 'smooth'){
+      index = Math.max(0, Math.min(i, slides.length - 1));
+
+      slides.forEach((slide, slideIndex) => {
+        slide.classList.toggle('is-active', slideIndex === index);
       });
 
-      dateEl.textContent = step.dataset.date || '';
-      titleEl.textContent = step.dataset.title || '';
-      textEl.textContent = step.dataset.text || '';
+      const offset = slides[index].offsetLeft;
+      track.scrollTo({ left: offset, behavior });
+    }
 
-      const src = step.dataset.image || '';
-      const alt = step.dataset.imageAlt || '';
-      const ph = step.dataset.placeholder || 'Immagine';
+    prev?.addEventListener('click', () => updateActive(index - 1));
+    next?.addEventListener('click', () => updateActive(index + 1));
 
-      if (src){
-        imageEl.src = src;
-        imageEl.alt = alt;
-        mediaEl.classList.remove('is-placeholder', 'is-empty');
-        if (placeholderEl) placeholderEl.textContent = ph;
-      } else {
-        imageEl.removeAttribute('src');
-        imageEl.alt = '';
-        mediaEl.classList.remove('is-empty');
-        mediaEl.classList.add('is-placeholder');
-        if (placeholderEl) placeholderEl.textContent = ph;
+    track.addEventListener('scroll', () => {
+      if (window.innerWidth <= 980) {
+        const current = Math.round(track.scrollLeft / slides[0].offsetWidth);
+        slides.forEach((slide, slideIndex) => {
+          slide.classList.toggle('is-active', slideIndex === current);
+        });
       }
-
-      step.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' });
-    }
-
-    function go(nextIndex){
-      const safe = (nextIndex + steps.length) % steps.length;
-      paint(steps[safe]);
-    }
-
-    steps.forEach((step, i) => {
-      step.addEventListener('click', () => go(i));
     });
 
-    prevBtn?.addEventListener('click', () => go(index - 1));
-    nextBtn?.addEventListener('click', () => go(index + 1));
-
-    root.addEventListener('wheel', (event) => {
+    strip.addEventListener('wheel', (event) => {
       if (window.innerWidth <= 980) return;
-      if (Math.abs(event.deltaY) < 12 || wheelLock) return;
+      if (Math.abs(event.deltaY) < 10 || wheelLock) return;
+
       event.preventDefault();
       wheelLock = true;
-      go(index + (event.deltaY > 0 ? 1 : -1));
-      setTimeout(() => { wheelLock = false; }, 350);
+
+      if (event.deltaY > 0) {
+        updateActive(index + 1);
+      } else {
+        updateActive(index - 1);
+      }
+
+      setTimeout(() => {
+        wheelLock = false;
+      }, 420);
     }, { passive: false });
 
-    root.addEventListener('keydown', (event) => {
-      if (event.key === 'ArrowDown' || event.key === 'ArrowRight') {
-        event.preventDefault();
-        go(index + 1);
-      }
-      if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') {
-        event.preventDefault();
-        go(index - 1);
-      }
-    });
+    window.addEventListener('resize', () => updateActive(index, 'auto'));
 
-    paint(steps[0]);
+    updateActive(0, 'auto');
   }
 
   document.addEventListener('DOMContentLoaded', function(){
-    document.querySelectorAll('[data-slider]').forEach(initStorySlider);
+    document.querySelectorAll('[data-story-strip]').forEach(initStoryStrip);
   });
 })();
