@@ -1287,9 +1287,9 @@ main.content .card.prose {
 
 .story-page{
   width: 100%;
-  max-width: none !important;
-  margin: 0;
-  padding: 18px;
+  max-width: 1080px !important;
+  margin: 0 auto;
+  padding: 18px 24px;
 }
 
 .story-strip{
@@ -1455,4 +1455,10 @@ main.content .card.prose {
   .story-arrows{
     display: none;
   }
+}
+.story-strip{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 18px auto 28px;
 }
