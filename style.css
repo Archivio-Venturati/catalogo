@@ -1588,3 +1588,22 @@ main.content .card.prose {
 html, body{
   overflow-x: hidden;
 }
+.story-dots{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.story-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.25);
+  transition: all .2s ease;
+}
+
+.story-dot.is-active{
+  background: rgba(255,255,255,.9);
+  transform: scale(1.3);
+}
