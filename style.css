@@ -1480,3 +1480,103 @@ main.content .card.prose {
   max-width: 100%;
   margin: 18px auto 28px;
 }
+/* FIX SOLO MOBILE */
+@media (max-width: 980px){
+
+  .story-page{
+    padding: 10px !important;
+    overflow-x: hidden !important;
+  }
+
+  .story-strip{
+    width: 100% !important;
+    margin: 16px 0 22px !important;
+    overflow: hidden !important;
+  }
+
+  .story-track{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 0 !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .story-track::-webkit-scrollbar{
+    display: none;
+  }
+
+  .story-slide{
+    flex: 0 0 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .story-slide__copy{
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  .story-slide__date{
+    font-size: 12px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .story-slide__title{
+    font-size: 24px !important;
+    line-height: 1.08 !important;
+    margin: 0 0 12px !important;
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    hyphens: auto;
+  }
+
+  .story-slide__text{
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    hyphens: auto;
+  }
+
+  .story-slide__media,
+  .story-slide__media--empty{
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    aspect-ratio: 1 / 1 !important;
+    overflow: hidden !important;
+  }
+
+  .story-slide__media img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  .story-slide__placeholder{
+    font-size: 44px !important;
+  }
+
+  .story-arrows{
+    display: none !important;
+  }
+}
+html, body{
+  overflow-x: hidden;
+}
