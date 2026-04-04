@@ -1576,6 +1576,14 @@ main.content .card.prose {
   .story-arrows{
     display: none !important;
   }
+  .story-slide__media,
+.story-slide__media--empty{
+  margin: 0 auto !important;
+}
+
+.story-slide__media img{
+  margin: 0 auto !important;
+}
 }
 html, body{
   overflow-x: hidden;
