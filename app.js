@@ -1030,18 +1030,33 @@ const hasQuery = forceAll || !!(q || a || t);
   function initStoryStrip(strip){
     const track = strip.querySelector('.story-track');
     const slides = Array.from(strip.querySelectorAll('.story-slide'));
+    const dotsWrap = strip.querySelector('.story-dots');
     const prev = strip.querySelector('[data-story-prev]');
     const next = strip.querySelector('[data-story-next]');
+    let dots = [];
     let index = 0;
     let wheelLock = false;
 
     if (!track || !slides.length) return;
+
+    if (dotsWrap){
+      dotsWrap.innerHTML = slides.map(() => `<button type="button" class="story-dot" aria-label="Vai alla slide"></button>`).join('');
+      dots = Array.from(dotsWrap.querySelectorAll('.story-dot'));
+
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => updateActive(i));
+      });
+    }
 
     function updateActive(i, behavior = 'smooth'){
       index = Math.max(0, Math.min(i, slides.length - 1));
 
       slides.forEach((slide, slideIndex) => {
         slide.classList.toggle('is-active', slideIndex === index);
+      });
+
+      dots.forEach((dot, dotIndex) => {
+        dot.classList.toggle('is-active', dotIndex === index);
       });
 
       const offset = slides[index].offsetLeft;
@@ -1054,9 +1069,16 @@ const hasQuery = forceAll || !!(q || a || t);
     track.addEventListener('scroll', () => {
       if (window.innerWidth <= 980) {
         const current = Math.round(track.scrollLeft / slides[0].offsetWidth);
+
         slides.forEach((slide, slideIndex) => {
           slide.classList.toggle('is-active', slideIndex === current);
         });
+
+        dots.forEach((dot, dotIndex) => {
+          dot.classList.toggle('is-active', dotIndex === current);
+        });
+
+        index = current;
       }
     });
 
