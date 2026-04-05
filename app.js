@@ -131,7 +131,11 @@ Diverse Segretarie e Segretari si sono succeduti negli anni:
       3. fascicolo "Cattelani"
       4. fascicolo "Gatti"
   II. Faldone "Elezioni del 2011"
-      1. fascicolo fotografico`}
+      1. fascicolo fotografico
+  III. Faldone "Materiali elettorali altri partiti"
+      1. fascicolo "Gatti"
+  IV. Faldone "Gatti"
+      1. fascicolo "caso Tura"`}
 };
 
 let RECORDS = [];
