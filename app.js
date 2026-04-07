@@ -368,7 +368,92 @@ function applyFilters(list = getScopedRecords()) {
   });
 }
 
+function getSortState() {
+  const params = new URLSearchParams(location.hash.split("?")[1] || "");
+  return {
+    key: params.get("sort") || "codice",
+    dir: params.get("dir") || "asc"
+  };
+}
 
+function setSort(key) {
+  const hash = location.hash || "#/";
+  const [pathPart, queryString = ""] = hash.split("?");
+  const params = new URLSearchParams(queryString);
+
+  const currentKey = params.get("sort") || "codice";
+  const currentDir = params.get("dir") || "asc";
+
+  let nextDir = "asc";
+  if (currentKey === key) {
+    nextDir = currentDir === "asc" ? "desc" : "asc";
+  }
+
+  params.set("sort", key);
+  params.set("dir", nextDir);
+
+  location.hash = `${pathPart}?${params.toString()}`;
+}
+
+function compareValues(av, bv, dir = "asc") {
+  const a = (av ?? "").toString().trim();
+  const b = (bv ?? "").toString().trim();
+  const factor = dir === "desc" ? -1 : 1;
+  return a.localeCompare(b, "it", { numeric: true, sensitivity: "base" }) * factor;
+}
+
+function sortRecords(list) {
+  const { key, dir } = getSortState();
+  const arr = list.slice();
+
+  arr.sort((a, b) => {
+    if (key === "titolo") {
+      return compareValues(a.titolo, b.titolo, dir);
+    }
+
+    if (key === "autore") {
+      return compareValues(
+        (a.autori && a.autori[0]) || "",
+        (b.autori && b.autori[0]) || "",
+        dir
+      );
+    }
+
+    if (key === "anno") {
+      return compareValues(a.anno, b.anno, dir);
+    }
+
+    if (key === "fondo") {
+      return compareValues(a.fondo, b.fondo, dir);
+    }
+
+    return compareValues(a.codice, b.codice, dir);
+  });
+
+  return arr;
+}
+
+function sortArrow(key) {
+  const state = getSortState();
+  if (state.key !== key) return "";
+  return state.dir === "asc" ? " ↑" : " ↓";
+}
+
+function sortButton(label, key) {
+  const state = getSortState();
+  const active = state.key === key;
+
+  return `
+    <button
+      type="button"
+      class="sort-btn${active ? " is-active" : ""}"
+      data-sort-key="${escapeAttr(key)}"
+      aria-label="Ordina per ${escapeAttr(label)}"
+    >
+      ${escapeHtml(label)}${sortArrow(key)}
+    </button>
+  `;
+}
 /* HOME: mostra fondi + (se filtri/ricerca attivi) risultati globali */
 /* HOME: vetrina (niente tabelloni). La ricerca resta nella sidebar e porta ai fondi/libri. */
 function renderHome() {
@@ -564,9 +649,7 @@ if (faldoneParam) {
   filtered = filtered.filter(r => getFaldone(r) === faldoneParam);
 }
 
-filtered = filtered
-  .slice()
-  .sort((a, b) => (a.codice || "").localeCompare(b.codice || "", "it", { numeric: true }));
+filtered = sortRecords(filtered);
 
   const info = FUND_INFO[key];
 
@@ -650,26 +733,26 @@ if (isFaldoneView) {
 `;
   view.innerHTML += `
     <table class="grid" style="margin-top:12px">
-      <thead>
-        <tr>
-          <th>Titolo</th>
-          <th>Autore</th>
-          <th>Anno</th>
-          <th>Codice</th>
-          <th>Foto</th>
-        </tr>
-      </thead>
+     <thead>
+  <tr>
+    <th>${sortButton("Titolo", "titolo")}</th>
+    <th>${sortButton("Autore", "autore")}</th>
+    <th>${sortButton("Anno", "anno")}</th>
+    <th>${sortButton("Codice", "codice")}</th>
+    <th>Foto</th>
+  </tr>
+</thead>
       <tbody>
-        ${filtered.map(r => `
-          <tr>
-            <td><a href="#/libro/${encodeURIComponent(r.id)}">${escapeHtml(r.titolo)}</a></td>
-            <td>${escapeHtml(r.autori.join("; "))}</td>
-            <td>${escapeHtml(r.anno)}</td>
-            <td>${escapeHtml(r.codice)}</td>
-            <td>${r.immagine ? `<img class="thumb" src="${getThumbUrl(r)}">` : ""}</td>
-          </tr>
-        `).join("")}
-      </tbody>
+  ${filtered.map(r => `
+    <tr>
+      <td><a href="#/libro/${encodeURIComponent(r.id)}">${escapeHtml(r.titolo)}</a></td>
+      <td>${escapeHtml(r.autori.join("; "))}</td>
+      <td>${escapeHtml(r.anno)}</td>
+      <td>${escapeHtml(r.codice)}</td>
+      <td>${r.immagine ? `<img class="thumb" src="${getThumbUrl(r)}">` : ""}</td>
+    </tr>
+  `).join("")}
+</tbody>
     </table>
   `;
 }
@@ -833,7 +916,11 @@ function wireEvents() {
     if (el("topQ")) el("topQ").value = el("q").value;
     render();
   });
-
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-sort-key]");
+  if (!btn) return;
+  setSort(btn.dataset.sortKey);
+});
   el("clearFilters")?.addEventListener("click", () => {
     if (el("q")) el("q").value = "";
     if (el("topQ")) el("topQ").value = "";
@@ -949,9 +1036,7 @@ const params = new URLSearchParams(location.hash.split("?")[1] || "");
 const tipo = params.get("tipo");
 const hasQuery = forceAll || !!(q || a || t || tipo);
 
-  const filtered = applyFilters(RECORDS)
-  .slice()
-  .sort((a, b) => (a.codice || "").localeCompare(b.codice || "", "it", { numeric: true }));
+ const filtered = sortRecords(applyFilters(RECORDS));
 
   // conteggio per fondo
   const counts = new Map();
@@ -1013,25 +1098,27 @@ const hasQuery = forceAll || !!(q || a || t || tipo);
   ` : `
     <table class="grid">
       <thead>
-        <tr>
-          <th>Titolo</th>
-          <th>Autore</th>
-          <th>Anno</th>
-          <th>Fondo</th>
-          <th>Foto</th>
-        </tr>
-      </thead>
+  <tr>
+    <th>${sortButton("Titolo", "titolo")}</th>
+    <th>${sortButton("Autore", "autore")}</th>
+    <th>${sortButton("Anno", "anno")}</th>
+    <th>${sortButton("Fondo", "fondo")}</th>
+    <th>${sortButton("Codice", "codice")}</th>
+    <th>Foto</th>
+  </tr>
+</thead>
       <tbody>
-        ${filtered.slice(0, 250).map(r => `
-          <tr>
-            <td><a href="#/libro/${encodeURIComponent(r.id)}">${escapeHtml(r.titolo)}</a></td>
-            <td>${escapeHtml((r.autori || []).join("; "))}</td>
-            <td>${escapeHtml(r.anno || "")}</td>
-            <td><a href="#/fondo/${encodeURIComponent(r.fondo)}">${escapeHtml(r.fondo || "")}</a></td>
-            <td>${r.immagine ? `<img class="thumb" src="${getThumbUrl(r)}">` : ""}</td>
-          </tr>
-        `).join("")}
-      </tbody>
+  ${filtered.slice(0, 250).map(r => `
+    <tr>
+      <td><a href="#/libro/${encodeURIComponent(r.id)}">${escapeHtml(r.titolo)}</a></td>
+      <td>${escapeHtml((r.autori || []).join("; "))}</td>
+      <td>${escapeHtml(r.anno || "")}</td>
+      <td><a href="#/fondo/${encodeURIComponent(r.fondo)}">${escapeHtml(r.fondo || "")}</a></td>
+      <td>${escapeHtml(r.codice || "")}</td>
+      <td>${r.immagine ? `<img class="thumb" src="${getThumbUrl(r)}">` : ""}</td>
+    </tr>
+  `).join("")}
+</tbody>
     </table>
     ${filtered.length > 250 ? `<div class="hint" style="margin-top:10px">Mostro solo i primi 250 risultati. Raffina la ricerca.</div>` : ``}
   `}
