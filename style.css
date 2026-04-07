@@ -1626,3 +1626,23 @@ html, body{
   background: rgba(255,255,255,.9);
   transform: scale(1.4);
 }
+.sort-btn{
+  appearance:none;
+  border:0;
+  background:none;
+  color:var(--muted);
+  font:inherit;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  cursor:pointer;
+  padding:0;
+}
+
+.sort-btn:hover{
+  color:var(--text);
+}
+
+.sort-btn.is-active{
+  color:var(--text);
+}
