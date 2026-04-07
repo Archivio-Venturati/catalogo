@@ -348,6 +348,7 @@ function applyFilters(list = getScopedRecords()) {
         r.titolo, r.codice, r.tipo, r.anno, r.luogo, r.editore, r.fondo,
         ...r.autori, ...r.tags
       ].join(" ").toLowerCase();
+
       if (!hay.includes(q)) return false;
     }
 
@@ -433,9 +434,9 @@ const ringHtml = (label, count, total, desc, link) => {
       </div>
     <div class="ring-panel">
   <div class="rings">
-  ${ringHtml("Patrimonio librario", libriCount, totalAll, "", "#/archivio?tipo=libro")}
-${ringHtml("Patrimonio documentale", docCount, totalAll, "", "#/archivio?tipo=documento")}
-${ringHtml("Patrimonio fotografico", fotoCount, totalAll, "", "#/archivio?tipo=foto")}
+${ringHtml("Patrimonio librario", libriCount, totalAll, "", "#/archivio?tipo=libro&all=1")}
+${ringHtml("Patrimonio documentale", docCount, totalAll, "", "#/archivio?tipo=documento&all=1")}
+${ringHtml("Patrimonio fotografico", fotoCount, totalAll, "", "#/archivio?tipo=foto&all=1")}
   </div>
 </div>
       <div class="accordion" style="margin-top:14px">
