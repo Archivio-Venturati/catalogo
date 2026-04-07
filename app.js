@@ -945,7 +945,9 @@ function renderArchivio() {
   const a = (el("authorFilter")?.value || "").trim();
   const t = (el("tagFilter")?.value || "").trim();
   const forceAll = location.hash.includes("?all=1");
-const hasQuery = forceAll || !!(q || a || t);
+const params = new URLSearchParams(location.hash.split("?")[1] || "");
+const tipo = params.get("tipo");
+const hasQuery = forceAll || !!(q || a || t || tipo);
 
   const filtered = applyFilters(RECORDS)
   .slice()
