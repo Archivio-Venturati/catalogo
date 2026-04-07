@@ -332,9 +332,17 @@ function buildScopedFilters() {
 }
 function applyFilters(list = getScopedRecords()) {
   const { q, author, tag } = currentFilters();
+  const params = new URLSearchParams(location.hash.split("?")[1] || "");
+  const tipo = params.get("tipo");
+
   return list.filter(r => {
+    if (tipo === "libro" && !isLibro(r.tipo)) return false;
+    if (tipo === "foto" && !isFoto(r.tipo)) return false;
+    if (tipo === "documento" && (isLibro(r.tipo) || isFoto(r.tipo))) return false;
+
     if (author && !r.autori.includes(author)) return false;
     if (tag && !r.tags.includes(tag)) return false;
+
     if (q) {
       const hay = [
         r.titolo, r.codice, r.tipo, r.anno, r.luogo, r.editore, r.fondo,
@@ -342,6 +350,7 @@ function applyFilters(list = getScopedRecords()) {
       ].join(" ").toLowerCase();
       if (!hay.includes(q)) return false;
     }
+
     return true;
   });
 }
@@ -370,22 +379,23 @@ function renderHome() {
   const libriCount = RECORDS.filter(r => isLibro(r.tipo)).length;
   const fotoCount  = RECORDS.filter(r => isFoto(r.tipo)).length;
   const docCount   = totalAll - libriCount - fotoCount; // tutto il resto
-    const ringHtml = (label, count, total, desc) => {
-    const p = total > 0 ? (count / total) : 0; // 0..1
-    const safeP = Math.max(0, Math.min(1, p));
-    return `
-      <div class="ring-card">
-        <div class="ring" data-p="${safeP}" style="--p:0">
-          <div class="ring-circle" aria-label="${escapeAttr(label)} ${count} su ${total}"></div>
-          <div class="ring-meta">
-            <div class="k">${escapeHtml(label)}</div>
-            <div class="v">${count}/${total}</div>
-            <div class="p">${escapeHtml(desc)}</div>
-          </div>
+const ringHtml = (label, count, total, desc, link) => {
+  const p = total > 0 ? (count / total) : 0;
+  const safeP = Math.max(0, Math.min(1, p));
+
+  return `
+    <a href="${link}" class="ring-card" style="text-decoration:none; color:inherit">
+      <div class="ring" data-p="${safeP}" style="--p:0">
+        <div class="ring-circle" aria-label="${escapeAttr(label)} ${count} su ${total}"></div>
+        <div class="ring-meta">
+          <div class="k">${escapeHtml(label)}</div>
+          <div class="v">${count}/${total}</div>
+          <div class="p">${escapeHtml(desc)}</div>
         </div>
       </div>
-    `;
-  };
+    </a>
+  `;
+};
   const fondiCount = FUNDS.length;
 
   const heroImg = HERO_IMAGE;
@@ -423,9 +433,9 @@ function renderHome() {
       </div>
     <div class="ring-panel">
   <div class="rings">
-    ${ringHtml("Patrimonio librario", libriCount, totalAll)}
-    ${ringHtml("Patrimonio documentale", docCount, totalAll)}
-    ${ringHtml("Patrimonio fotografico", fotoCount, totalAll)}
+  ${ringHtml("Patrimonio librario", libriCount, totalAll, "", "#/archivio?tipo=libro")}
+${ringHtml("Patrimonio documentale", docCount, totalAll, "", "#/archivio?tipo=documento")}
+${ringHtml("Patrimonio fotografico", fotoCount, totalAll, "", "#/archivio?tipo=foto")}
   </div>
 </div>
       <div class="accordion" style="margin-top:14px">
