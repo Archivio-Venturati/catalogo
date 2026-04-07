@@ -330,6 +330,18 @@ function buildScopedFilters() {
     }
   }
 }
+function isLibro(t) {
+  const x = (t || "").toString().trim().toLowerCase();
+  return x === "libro edito"
+    || x === "libro autoprodotto"
+    || x === "periodici"
+    || x === "studi e documentazione di ricerca";
+}
+
+function isFoto(t) {
+  const x = (t || "").toString().trim().toLowerCase();
+  return x === "fotografia";
+}
 function applyFilters(list = getScopedRecords()) {
   const { q, author, tag } = currentFilters();
   const params = new URLSearchParams(location.hash.split("?")[1] || "");
@@ -366,16 +378,6 @@ function renderHome() {
   const total = RECORDS.length;
     // === Patrimoni (regole richieste) ===
   const totalAll = RECORDS.length;
-
-  const isLibro = (t) => {
-    const x = (t || "").toString().trim().toLowerCase();
-    return x === "libro edito" || x === "libro autoprodotto" || x === "periodici" || x === "studi e documentazione di ricerca";
-  };
-
-  const isFoto = (t) => {
-    const x = (t || "").toString().trim().toLowerCase();
-    return x === "fotografia";
-  };
 
   const libriCount = RECORDS.filter(r => isLibro(r.tipo)).length;
   const fotoCount  = RECORDS.filter(r => isFoto(r.tipo)).length;
