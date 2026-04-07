@@ -655,7 +655,6 @@ if (isFaldoneView) {
           <th>Titolo</th>
           <th>Autore</th>
           <th>Anno</th>
-          <th>Tag</th>
           <th>Codice</th>
           <th>Foto</th>
         </tr>
@@ -666,7 +665,6 @@ if (isFaldoneView) {
             <td><a href="#/libro/${encodeURIComponent(r.id)}">${escapeHtml(r.titolo)}</a></td>
             <td>${escapeHtml(r.autori.join("; "))}</td>
             <td>${escapeHtml(r.anno)}</td>
-            <td class="tags-cell">${renderTags(r.tags)}</td>
             <td>${escapeHtml(r.codice)}</td>
             <td>${r.immagine ? `<img class="thumb" src="${getThumbUrl(r)}">` : ""}</td>
           </tr>
