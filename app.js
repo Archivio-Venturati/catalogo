@@ -36,14 +36,38 @@ Struttura del fondo:
     1. fascicolo "Lega Nord"
     2. fascicolo "Rifondazione Comunista"
     3. fascicolo "Altri partiti"
-    4. fascicolo "Varie"`
+    4. fascicolo "Varie"
+  II. Faldone "Gestione interna"
+    1. fascicolo "Convocazioni del Comitato Direttivo"
+    2. fascicolo "Verbali del Comitato Direttivo"
+    3. fascicolo "Festa de L'Unità"
+    4. fascicolo "Corrispondenza"
+    5. fascicolo "Gestione ordinaria"
+  III. Faldone "Amministrazione"
+    1. fascicolo "Scuola Libera di Masano"
+    3. fascicolo "Attività amministrativa generale"
+    4. fascicolo "Attività amministrativa sovralocale"
+  IV. Faldone "Elezioni del 2001"
+    1. fascicolo "Materiale de L'Ulivo per Caravaggio"
+    2. fascicolo "Burocrazia"
+    3. fascicolo "Documenti interni"`
   },
 
+  "PCI - Caravaggio": { subtitle: "Fondo del Partito Comunista Italiano - Sezione di Caravaggio", text: `Si tratta del fondo che raccoglie i documenti prodotto dalla sezione caravaggina del PCI, ritrovati durante la risitemazione della Casa del Popolo.
+  
+  Struttura del fondo: 
+    I. Faldone 'Propaganda'
+      1. fascicolo 'Coordinamento donne del PCI'` },
   "Castelli": { subtitle: "Fondo Castelli", text: `Scrivi qui la descrizione.` },
+   "PDS - Caravaggio": { subtitle: "Fondo del Partito Democratico della Sinistra", text: `Nato a seguito della svolta della Bolognina (1991), il PDS raccogliere l'eredità del Partito Comunista, di cui mantiene il simbolo nel logo. Il fondo è stato costituito raccogliendo la documentazione lasciata in sede dalla sezione caravaggina e recuperata durante i lavori di ristrutturazione.
+   Struttura del fondo:
+     I. Faldone "Elezioni del 1993"
+        1. fascicolo "Politica caravaggina"
+        2. fascicolo "materiale elettorale"` },
   "Manzoni": { subtitle: "Fondo 'Lucia Manzoni'", text: `Lucia Manzoni è stata segretaria cittadina del Partito Comunista Italiano - Sezione di Caravaggio, ma soprattuto ha avuto un ruolo importante per la comunità comunista come presidente della Cooperativa Radio Stella.
   Il fondo è costituito in larghissima parte da materiale fotografico riguardante i funerali dell'Onorevole Achille Stuani del 1976.
   Struttura del fondo:
-  I. Faldone fotografico "Stuani"
+  I. Faldone fotografico "Funerali di Stuani"
       1. fascicolo "Funerali di Stuani"
       2. fascicolo "Funerali di Stuani-bis"
       3. fascicolo "Funerali di Stuani-tris"
@@ -55,7 +79,7 @@ Struttura del fondo:
   "Ogliari": { subtitle: "Fondo 'Domenico Ogliari'", text: `Domenico Ogliari è stato per anni un importante dirigente del Partito Comunista Italiano - sezione di Caravaggio. Ha ricoperto, principalmente, mansioni di contabilità, come la tesoreria del Partito e la gestione dell'Immobiliare Stella 80, una delle realtà che hanno avuto la proprietà della Casa del Popolo. È, quindi, tra le persone che hanno avuto un ruolo fondamentale nel mantenere questo sogno vivo.
 Il fondo è costituito principalmente di materiale interno dell'organizzazione comunista e riferito alla gestione della sede.
 Struttura del fondo:
-  I. Faldone "Sede" (1968-1985)
+  I. Faldone "Sezione" (1968-1985)
       1. fascicolo "Gestione sede. Varie"
       2. fascicolo "Documentazioni di privati. Varie"
       3. fascicolo "Documentazione tecnica riguardante la ristrutturazione della Casa del Popolo"
@@ -78,7 +102,7 @@ Struttura del fondo:
       8. fascicolo "Astigiano"
       9. fascicolo "Piacentino-bis"
       10. fascicolo "Varie"
-  II. Faldone fotografico "Sede"
+  II. Faldone fotografico "Sede Sociale"
       1. fascicolo "Esterno"
       2. fascicolo "Ristrutturazione"
       ` },
@@ -110,32 +134,18 @@ Struttura del fondo:
                     image: "images/PD.jpeg",
                    text: `Il fondo è fra quelli più eterogenei in possesso dell'Archivio. È costituito per la maggior parte da materiale fotografico, documentazione organizzativa, documentazione elettorale ed estratti di giornali. 
   
-Il Circolo del Partito Democratico si è costituito a Caravaggio nel 2008, un anno dopo la sua fondazione nazionale. Si costituisce dalla fusione fra i militanti della Margherita e quelli dei Democratici di Sinistra, i quali, questi ultimi, detenevano parte della proprietà della Casa del Popolo. Per questo motivo è il Partito che ancora abita la nostra Casa, e che ha reso possibile il mantenimento della sua vitalità anche negli anni più difficili dopo la chiusura delle attività del Circolo Arci. 
-Politicamente, ha rappresentato il polo opposto rispetto all'egemonia leghista in Caravaggio durante gli anni del decennio delle Giunte Prevedini (2008-2016), in cui ha sostenuto una lista civica nel 2011, la Tua Caravaggio con Cristina Ambrosini Candidata Sindaca. Negli anni seguenti, il Circolo vive momenti complicati fino al Commissariamento dovuto alle dimissioni della Segretaria Silvia Stuani.
-Nel 2016, a seguito del superamento del tetto dei 15.000 abitanti, il Circolo ha avuto la possibilità di presentare una lista con il proprio simbolo. Quelle elezioni hanno visto la vittoria del civico Claudio Bolandrini con il PD divenuto partito di maggioranza relativa fra le liste collegate a lui. 
-Gli anni del primo mandato hanno visto il Partito protagonista con la Segretaria Mara Carminati Assessore alle Politiche Giovanili e Pari Opportunità e Ivan Legramandi al Sociale. Il Sindaco diviene Consigliere Provinciale con la lista Civici e Democratici per la Bergamasca a trazione PD. A seguito di uno scandalo giornalistico, il Sindaco ritira le deleghe alla Segretaria nel 2018, incrinando il rapporto fra il Circolo e la Giunta. A seguito delle dimissioni da Partito da parte di Legramandi, il primo mandato si chiude senza tesserati in Giunta. 
-Nel 2021 il Circolo, guidato dal Segretario Juri Cattelani, rappresentando una parte del Circolo scontenta dell'operato della Segretaria precedente, appoggia di nuovo la candidatura di Bolandrini a Sindaco. Tuttavia, il PD raccoglie solo il 14% dei consensi, uscendone come la lista meno votata della coalizione di centro sinistra. A seguito delle elezioni, Cattelani è nominato Assessore alla Cultura, Turismo e Attività Produttive, non rinnovando la tessera. 
-Nel secondo mandato, dunque, il PD non avrà rappresentanti in Giunta. Solo per un anno, l'Assessore Marco Cremonesi all'Ambiente e PNRR si tessera, nonostante fosse capolista di una lista civica. Le successive elezioni provinciali vedono Bolandrini non confermato dopo due mandati.
-A seguito della decisione del Sindaco di candidarsi con la lista Civici Moderati a trazione Forza Italia in provincia, i rapporti con il Circolo guidato da Mirko Gatti si incrinano fino alla spaccatura decisa nel 2025, a seguito di accordi politici non mantenuti dall'Amministrazione.
-Diverse Segretarie e Segretari si sono succeduti negli anni: 
-  - 2008-2011, Mirko Grassi;
-  - 2011-2014, Silvia Stuani;
-  - 2014-2018, Mara Carminati;
-  - 2018-2021, Juri Cattelani;
-  - 2021-2022, Mirko Gatti;
-  - 2022- , Mirko Gatti.
+Il Circolo del Partito Democratico si è costituito a Caravaggio nel 2008, un anno dopo la sua fondazione nazionale. Si costituisce dalla fusione fra i militanti della Margherita e quelli dei Democratici di Sinistra, i quali, questi ultimi, detenevano parte della proprietà della Casa del Popolo. 
+Diverse Segretarie e Segretari si sono succeduti negli anni, dando il nome ai faldoni.
   Struttura del fondo:
-  I. Faldone "Rassegna Stampa" 
-      1. fascicolo "Stuani"
-      2. fascicolo "Carminati"
-      3. fascicolo "Cattelani"
-      4. fascicolo "Gatti"
-  II. Faldone "Elezioni del 2011"
+  I. Faldone "Mirko Grassi" (2008-2009)
+  II. Faldone "Silvia Stuani" (2009-2013) 
+  III. Faldone "Elezioni del 2011"
       1. fascicolo fotografico
-  III. Faldone "Materiali elettorali altri partiti"
-      1. fascicolo "Gatti"
-  IV. Faldone "Gatti"
-      1. fascicolo "caso Tura"`}
+  IV. Faldone "Mara Carminati" (2013-2018) 
+  V. Faldone "Juri Cattelani" (2018-2021)
+  VI. Faldone "Mirko Gatti" (2021-
+      1. fascicolo "caso Tura"
+      2. fascicolo "materiale elettorale di altri partiti"`}
 };
 
 let RECORDS = [];
