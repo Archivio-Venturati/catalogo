@@ -138,11 +138,20 @@ Il Circolo del Partito Democratico si è costituito a Caravaggio nel 2008, un an
 Diverse Segretarie e Segretari si sono succeduti negli anni, dando il nome ai faldoni.
   Struttura del fondo:
   I. Faldone "Mirko Grassi" (2008-2009)
-  II. Faldone "Silvia Stuani" (2009-2013) 
+  II. Faldone "Silvia Stuani" (2009-2013)
+    1. fascicolo "Rassegna stampa"
+    2. fascicolo "Propaganda"
+    3. fascicolo "Corrispondenza"
+    4. fascicolo "Varie"
+    5. fascicolo "Elezioni del 2011"
   III. Faldone "Elezioni del 2011"
       1. fascicolo fotografico
-  IV. Faldone "Mara Carminati" (2013-2018) 
+  IV. Faldone "Mara Carminati" (2013-2018)
+    1. fascicolo "Varie"
+    2. fascicolo "Elezioni del 2016"
   V. Faldone "Juri Cattelani" (2018-2021)
+    1. fascicolo "Elezioni del 2021"
+    2. fascicolo "Varie"
   VI. Faldone "Mirko Gatti" (2021-
       1. fascicolo "caso Tura"
       2. fascicolo "materiale elettorale di altri partiti"`}
