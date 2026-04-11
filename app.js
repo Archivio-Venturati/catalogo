@@ -2,7 +2,7 @@ const DATA_FILE = "Archivio.csv";
 const HERO_IMAGE = "images/PCI/Crapabela/05.8.PISFES.jpg";
 
 const FUND_INFO = {
-  "Venturati": {
+  "01 - Venturati": {
     subtitle: "Fondo 'Carlo Venturati'",
     image: "images/carlo_venturati.jpg",
     text: `Carlo Venturati nacque a Caravaggio il 21 luglio 1921.
@@ -14,7 +14,7 @@ Morì in Spagna, improvvisamente, l’11 maggio 1984, durante una breve vacanza.
 Il fondo è stato donato dalla famiglia di Carlo Venturati. Il fondo è il più consistente posseduto dall'Archivio che, infatti, è intitolato a Venturati in quanto si tratta del primo vero fondo acquisito. È costituito per la maggior parte di opere edite di stampo politico e filosofico-politico, soprattutto sul tema del socialismo italiano.`
   },
 
-  "PSI - Sezione 'Emilio Gallavresi'": {
+  "A03 - PSI - Sezione 'Emilio Gallavresi'": {
     subtitle: "Fondo del Partito Socialista Italiano - Sezione 'Emilio Gallavresi' di Caravaggio",
     image: "images/circuli.jpeg",
     text: `Il fondo Gallavresi rappresenta il lascito alla Casa del Popolo da parte della Cooperativa dei Lavoratori di Caravaggio e del Circolo "Gallavresi" di Caravaggio del Partito Socialista Italiano. 
@@ -23,12 +23,12 @@ Nel Novecento, fu soprattutto grazie alla costruzione nel 1956 e gestione del Ci
 Il Circolo socialista, attivo fino ai primi anni '10 del 2000, è intitolato all'Onorevole Emilio Gallavresi (1856-1931), figura di spicco del socialismo italiano e deputato con il PSI per due legislature. La sua famiglia fu proprietaria dell'attuale Palazzo Comunale.`
   },
 
-  "AFU - Caravaggio": {
+  "A07 - AFU - Caravaggio": {
     subtitle: "Fondo di Amici della Festa de L'Unità di Caravaggio",
     text: `Si tratta del fondo che contiene i materiali rinvenuti nella Casa del Popolo e che non possono essere connessi direttamente all'attività di una unica associazione politica.
 Nella maggior parte è costituito da documentazione interna e organizzativa o materiale elettorale, ma anche da libri editi di vario genere. Il riferimento nel nome del fondo è all'associazione che attualmente detiene parte della proprietà della Casa del Popolo e gestisce direttamente l'Archivio, Amici della Festa de L'Unità di Caravaggio, fondata nel 2007 per conservare la memoria della tradizione comunista.`
  },
-"DS - Caravaggio": {
+"A04 - DS - Unità di Base di Caravaggio": {
     subtitle: "Fondo dei Democratici di Sinistra - Unità di Base di Caravaggio",
     text:`Si tratta del fondo che conserva la documentazione dell'Unità di Base dei Democratici di Sinistra attiva a Caravaggio. Il partito è stato fondato nel 1998 ed è rimasto attivo fino al 2007, quando è confluito insieme alla Margherita nel Partito Democratico. È stato il principale partito di opposizione alla giunta leghista di Pirovano, dal 1997 al 2006.
 Struttura del fondo:
@@ -53,18 +53,18 @@ Struttura del fondo:
     3. fascicolo "Documenti interni"`
   },
 
-  "PCI - Caravaggio": { subtitle: "Fondo del Partito Comunista Italiano - Sezione di Caravaggio", text: `Si tratta del fondo che raccoglie i documenti prodotto dalla sezione caravaggina del PCI, ritrovati durante la risitemazione della Casa del Popolo.
+  "A01 - PCI - Sezione di Caravaggio": { subtitle: "Fondo del Partito Comunista Italiano - Sezione di Caravaggio", text: `Si tratta del fondo che raccoglie i documenti prodotto dalla sezione caravaggina del PCI, ritrovati durante la risitemazione della Casa del Popolo.
   
   Struttura del fondo: 
     I. Faldone 'Propaganda'
       1. fascicolo 'Coordinamento donne del PCI'` },
   "Castelli": { subtitle: "Fondo Castelli", text: `Scrivi qui la descrizione.` },
-   "PDS - Caravaggio": { subtitle: "Fondo del Partito Democratico della Sinistra", text: `Nato a seguito della svolta della Bolognina (1991), il PDS raccogliere l'eredità del Partito Comunista, di cui mantiene il simbolo nel logo. Il fondo è stato costituito raccogliendo la documentazione lasciata in sede dalla sezione caravaggina e recuperata durante i lavori di ristrutturazione.
+   "A06 - PDS - Sezione di Caravaggio": { subtitle: "Fondo del Partito Democratico della Sinistra", text: `Nato a seguito della svolta della Bolognina (1991), il PDS raccogliere l'eredità del Partito Comunista, di cui mantiene il simbolo nel logo. Il fondo è stato costituito raccogliendo la documentazione lasciata in sede dalla sezione caravaggina e recuperata durante i lavori di ristrutturazione.
    Struttura del fondo:
      I. Faldone "Elezioni del 1993"
         1. fascicolo "Politica caravaggina"
-        2. fascicolo "materiale elettorale"` },
-  "Manzoni": { subtitle: "Fondo 'Lucia Manzoni'", text: `Lucia Manzoni è stata segretaria cittadina del Partito Comunista Italiano - Sezione di Caravaggio, ma soprattuto ha avuto un ruolo importante per la comunità comunista come presidente della Cooperativa Radio Stella.
+        2. fascicolo "Materiale elettorale"` },
+  "10 - Manzoni": { subtitle: "Fondo 'Lucia Manzoni'", text: `Lucia Manzoni è stata segretaria cittadina del Partito Comunista Italiano - Sezione di Caravaggio, ma soprattuto ha avuto un ruolo importante per la comunità comunista come presidente della Cooperativa Radio Stella.
   Il fondo è costituito in larghissima parte da materiale fotografico riguardante i funerali dell'Onorevole Achille Stuani del 1976.
   Struttura del fondo:
   I. Faldone fotografico "Funerali di Stuani"
@@ -76,7 +76,7 @@ Struttura del fondo:
       6. fascicolo "Funerali di Stuani-cinquis"
       7. fascicolo "Manifestazioni"
       ` },
-  "Ogliari": { subtitle: "Fondo 'Domenico Ogliari'", text: `Domenico Ogliari è stato per anni un importante dirigente del Partito Comunista Italiano - sezione di Caravaggio. Ha ricoperto, principalmente, mansioni di contabilità, come la tesoreria del Partito e la gestione dell'Immobiliare Stella 80, una delle realtà che hanno avuto la proprietà della Casa del Popolo. È, quindi, tra le persone che hanno avuto un ruolo fondamentale nel mantenere questo sogno vivo.
+  "08 - Ogliari": { subtitle: "Fondo 'Domenico Ogliari'", text: `Domenico Ogliari è stato per anni un importante dirigente del Partito Comunista Italiano - sezione di Caravaggio. Ha ricoperto, principalmente, mansioni di contabilità, come la tesoreria del Partito e la gestione dell'Immobiliare Stella 80, una delle realtà che hanno avuto la proprietà della Casa del Popolo. È, quindi, tra le persone che hanno avuto un ruolo fondamentale nel mantenere questo sogno vivo.
 Il fondo è costituito principalmente di materiale interno dell'organizzazione comunista e riferito alla gestione della sede.
 Struttura del fondo:
   I. Faldone "Sezione" (1968-1985)
@@ -87,7 +87,7 @@ Struttura del fondo:
       
       `},
   "Stuani":   { subtitle: "Fondo 'Achille Stuani'",   text: `Scrivi qui la descrizione.` },
-  "Arci - Caravaggio":   { subtitle: "Fondo del Circolo Arci di Caravaggio",   
+  "A05 - Circolo Arci di Caravaggio":   { subtitle: "Fondo del Circolo Arci di Caravaggio",   
              image: "images/arcistella.jpeg",
              text: `Il Circolo Arci di Caravaggio viene fondato nel 1985 su impulso politico della sezione locale del PCI. Da allora è stato punto di riferimento culturale per la Città di Caravaggio, soprattutto grazie allo storico Presidente Carlo Proverbio che l'ha guidato per quasi quarant'anni fino al 2024. Dopo anni di stagnazione a causa della chiusura del bar e tesseramenti che superavano di poco la soglia di legge per rimanere aperti, prima con Mirko Gatti, e poi ora con Ilaria Bena, il Circolo è stato rivitalizzato attraverso il progetto Arci Stella, contando attualmente oltre 200 iscritte e iscritti. Il fondo è composto soprattutto da materiale fotografico e documentazione interna di gestione del Circolo.
   Struttura del fondo:
@@ -107,7 +107,7 @@ Struttura del fondo:
       2. fascicolo "Ristrutturazione"
       ` },
   "Rossoni":  { subtitle: "Fondo Francesco Rossoni",  text: `Scrivi qui la descrizione.` },
-  "Crapabela":  { subtitle: "Fondo 'Giuseppe Crapabela Pisoni'",  
+  "05 - Crapabela":  { subtitle: "Fondo 'Giuseppe Crapabela Pisoni'",  
                  image: "images/05.8.FOT.5.B.jpg",
                  text: `Giuseppe Pisoni (1935-2021), detto "Crapabela", è stato segretario politico del Partito Comunista Italiano - Sezione di Caravaggio negli anni Settanta. È fra i principali dirigenti del gruppo che decise di acquistare l'ex fabbrica di cappelli di proprietà degli eredi di Francesco Tadolti in via Fermo Stella. Saranno, dunque, lui e Paolo Pavesi ad assumersi la proprietà della Casa del Popolo con una scrittura privata nel 1968, dato che la sezione non ha personalità giuridica.  
 Il fondo è costituito soprattutto di documentazione interna ed esterna del Partito Comunista Italiano - Sezione di Caravaggio e da materiale fotografico.
@@ -130,7 +130,7 @@ Struttura del fondo:
       6. fascicolo "Festa de L'Unità"
       7. fascicolo "Provini"
 ` },
-  "PD - Circolo di Caravaggio":  { subtitle: "Fondo del Partito Democratico - Circolo di Caravaggio",  
+  "A02 - PD - Circolo di Caravaggio":  { subtitle: "Fondo del Partito Democratico - Circolo di Caravaggio",  
                     image: "images/PD.jpeg",
                    text: `Il fondo è fra quelli più eterogenei in possesso dell'Archivio. È costituito per la maggior parte da materiale fotografico, documentazione organizzativa, documentazione elettorale ed estratti di giornali. 
   
