@@ -1333,7 +1333,7 @@ main.content .card.prose {
 
 .story-slide__title{
   margin: 0 0 14px;
-  font-size: clamp(28px, 2.6vw, 40px);
+  font-size: clamp(20px, 2.6vw, 24px);
   line-height: 1.1;
 }
 
