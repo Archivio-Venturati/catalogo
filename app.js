@@ -14,7 +14,7 @@ Morì in Spagna, improvvisamente, l’11 maggio 1984, durante una breve vacanza.
 Il fondo è stato donato dalla famiglia di Carlo Venturati. Il fondo è il più consistente posseduto dall'Archivio che, infatti, è intitolato a Venturati in quanto si tratta del primo vero fondo acquisito. È costituito per la maggior parte di opere edite di stampo politico e filosofico-politico, soprattutto sul tema del socialismo italiano.`
   },
 "04 - Rossoni":  { subtitle: "Fondo Francesco Rossoni", 
-                  image: "https://res.cloudinary.com/dlygg64d1/image/upload/v1774119629/A02.8.TUA.1.ZZZE_ejwom7.jpg"
+                  image: "https://res.cloudinary.com/dlygg64d1/image/upload/v1774119629/A02.8.TUA.1.ZZZE_ejwom7.jpg",
                   text: `Francesco Rossoni (1940-2024) è stato un importante dirigente della Sezione del PCI di Caravaggio fin in gioventù. Ha ricoperto ruoli come segretario di sottosezione e responsabile della Festa dell'Unità. È fra i pochi che hanno vissuto tutti i cambiamenti della Casa del Popolo, passando attraverso tutti i partiti figli del PCI.
 Il fondo è composto da patrimonio librario donato dalla sua famiglia, che, come lui, continua ad essere punto di riferimento della Casa.` },
  "03 - Castelli":  { subtitle: "Fondo Angelo Castelli", 
