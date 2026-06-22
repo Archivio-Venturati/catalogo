@@ -20,7 +20,7 @@ Il fondo è composto da patrimonio librario donato dalla sua famiglia, che, come
  "03 - Castelli":  { subtitle: "Fondo Angelo Castelli", 
                     image: "images/Castelli.jpg",
                     text: `Angelo Castelli (1928-2017) è stato il Sindaco di Caravaggio per oltre 30 anni (1956-1976, 1978-1983, 1988-1991), imponendosi come il principale rappresentante della Democrazia Cristiana. È stato Deputato della Repubblica Italiana dal 1968 al 1976 e Senatore dal 1976 al 1987. Sono memorabili i suoi scontri, anche legali, con Stuani prima, e Pisoni poi.
- Il fondo è composto da materiale librario quasi esclusivamente di stampo politico, donato dalla figlia alla Casa del Popolo.` },
+                    Il fondo è composto da materiale librario quasi esclusivamente di stampo politico, donato dalla figlia alla Casa del Popolo.` },
   
   "A03 - PSI - Sezione 'Emilio Gallavresi'": {
     subtitle: "Fondo del Partito Socialista Italiano - Sezione 'Emilio Gallavresi' di Caravaggio",
