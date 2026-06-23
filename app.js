@@ -129,6 +129,7 @@ Struttura del fondo:
       6. fascicolo "Alleanze amministrative"
       7. fascicolo "Documentazione interna del Partito"
       8. fascicolo "Varie"
+      9. fascicolo "Sede"
   II. Faldone "Fotografico"
       1. fascicolo "Ristrutturazione"
       2. fascicolo "Varie"
