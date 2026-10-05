@@ -672,7 +672,6 @@ if (faldoneParam && !bustaParam && !showAll) {
     `;
   }
 }
-  }
 
 // 👉 Se siamo dentro una busta, oppure abbiamo chiesto tutti i record → mostra tabella
 if (bustaParam || showAll) {
