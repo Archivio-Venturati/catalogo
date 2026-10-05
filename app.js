@@ -57,6 +57,9 @@ function prettyTag(s) {
 function getFaldone(r) {
   return norm(r.faldone) || "Senza faldone";
 }
+function getBusta(r) {
+  return norm(r.busta) || "Senza busta";
+}
 function renderTags(tags) {
   const arr = Array.isArray(tags) ? tags : splitTags(tags);
   if (!arr.length) return "";
@@ -142,16 +145,21 @@ function getScopedRecords() {
   const route = parseRoute();
   const params = new URLSearchParams(location.hash.split("?")[1] || "");
 
-  if (route.name === "fondo") {
-    let list = RECORDS.filter(r => r.fondo === route.fondo);
+if (route.name === "fondo") {
+  let list = RECORDS.filter(r => r.fondo === route.fondo);
 
-    const faldoneParam = params.get("faldone");
-    if (faldoneParam) {
-      list = list.filter(r => getFaldone(r) === faldoneParam);
-    }
-
-    return list;
+  const faldoneParam = params.get("faldone");
+  if (faldoneParam) {
+    list = list.filter(r => getFaldone(r) === faldoneParam);
   }
+
+  const bustaParam = params.get("busta");
+  if (bustaParam) {
+    list = list.filter(r => getBusta(r) === bustaParam);
+  }
+
+  return list;
+}
 
   return RECORDS;
 }
@@ -226,9 +234,19 @@ function applyFilters(list = getScopedRecords()) {
 
     if (q) {
       const hay = [
-        r.titolo, r.codice, r.tipo, r.anno, r.luogo, r.editore, r.fondo,
-        ...r.autori, ...r.tags
-      ].join(" ").toLowerCase();
+  r.titolo,
+  r.codice,
+  r.codiceBibliografico,
+  r.tipo,
+  r.anno,
+  r.luogo,
+  r.editore,
+  r.fondo,
+  r.faldone,
+  r.busta,
+  ...r.autori,
+  ...r.tags
+].join(" ").toLowerCase();
 
       if (!hay.includes(q)) return false;
     }
@@ -511,30 +529,49 @@ function renderFund(fondo) {
   const inFund = RECORDS.filter(r => r.fondo === key);
   const params = new URLSearchParams(location.hash.split("?")[1] || "");
 const faldoneParam = params.get("faldone");
+const bustaParam = params.get("busta");
 const showAll = params.get("all");
+
 let filtered = applyFilters(inFund);
 
 if (faldoneParam) {
   filtered = filtered.filter(r => getFaldone(r) === faldoneParam);
 }
 
+if (bustaParam) {
+  filtered = filtered.filter(r => getBusta(r) === bustaParam);
+}
+
 filtered = sortRecords(filtered);
 
-  const info = FUND_INFO[key];
+const info = FUND_INFO[key];
 
-  setStatus(`Fondo: ${key} — ${filtered.length}/${inFund.length} record`);
-const isFaldoneView = faldoneParam || showAll;
-const pageTitle = faldoneParam
-  ? `${key} - ${faldoneParam}`
-  : showAll
-    ? `${key} - tutti i record`
-    : key;
+const isBustaView = !!bustaParam || !!showAll;
+const isFaldoneView = !!faldoneParam || !!showAll;
+const pageTitle = bustaParam
+  ? `${key} - ${faldoneParam} - ${bustaParam}`
+  : faldoneParam
+    ? `${key} - ${faldoneParam}`
+    : showAll
+      ? `${key} - tutti i record`
+      : key;
 // raggruppa per faldoni (SEMPRЕ fuori dal template)
+// Raggruppa per faldoni quando siamo nel fondo
 const groups = {};
 for (const r of filtered) {
   const f = getFaldone(r);
   if (!groups[f]) groups[f] = [];
   groups[f].push(r);
+}
+
+// Raggruppa per buste quando siamo dentro un faldone
+const bustaGroups = {};
+if (faldoneParam) {
+  for (const r of filtered) {
+    const b = getBusta(r);
+    if (!bustaGroups[b]) bustaGroups[b] = [];
+    bustaGroups[b].push(r);
+  }
 }
 
 // HTML BASE (SEMPRE PRIMA)
@@ -569,8 +606,8 @@ view.innerHTML = `
   </div>
 `;
 
-// 👉 SE NON sei dentro faldone → mostra faldoni
-if (!isFaldoneView) {
+// 👉 Fondo → mostra faldoni
+if (!faldoneParam && !showAll) {
   view.innerHTML += `
     <div style="margin-top:14px">
 
@@ -593,13 +630,51 @@ if (!isFaldoneView) {
   `;
 }
 
-// 👉 SE sei dentro faldone → mostra tabella (IDENTICA a prima)
-if (isFaldoneView) {
+// 👉 Fondo → Faldone → mostra buste
+if (faldoneParam && !bustaParam && !showAll) {
+  view.innerHTML += `
+    <div style="margin-top:14px">
+
+      <div style="margin-bottom:12px">
+        <a class="btn" href="#/fondo/${encodeURIComponent(key)}">
+          ← Torna al fondo
+        </a>
+      </div>
+
+      <div class="faldoni-grid">
+        ${Object.entries(bustaGroups).map(([name, list]) => `
+          <a class="faldone-card" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(faldoneParam)}&busta=${encodeURIComponent(name)}">
+            <div class="name">${escapeHtml(name)}</div>
+            <div class="desc">${list.length} record</div>
+          </a>
+        `).join("")}
+      </div>
+
+      <div style="margin-top:24px">
+        <a class="btn" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(faldoneParam)}&all=1">
+          Mostra tutti i record del faldone
+        </a>
+      </div>
+
+    </div>
+  `;
+}
+
+// 👉 Se siamo dentro una busta, oppure abbiamo chiesto tutti i record → mostra tabella
+if (bustaParam || showAll) {
   view.innerHTML += `
   <div style="margin-top:12px">
-    <a class="btn" href="#/fondo/${encodeURIComponent(key)}">
-      ← Torna al fondo
-    </a>
+   <a class="btn" href="${
+  bustaParam
+    ? `#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(faldoneParam)}`
+    : `#/fondo/${encodeURIComponent(key)}`
+}">
+  ← ${
+    bustaParam
+      ? "Torna al faldone"
+      : "Torna al fondo"
+  }
+</a>
   </div>
 `;
   view.innerHTML += `
@@ -661,8 +736,9 @@ function renderBook(id) {
   // Meta: tieni SOLO quelli sensati e non vuoti
   const metaHtml = `
     <div class="kv">
-      ${metaRow("Codice", r.codice)}
-      ${metaRow("Tipo", r.tipo)}
+     ${metaRow("Codice", r.codice)}
+${metaRow("Codice bibliografico", r.codiceBibliografico)}
+${metaRow("Tipo", r.tipo)}
       ${metaRow("Volume", r.volume)}
       ${metaRow("Autore/i", r.autori?.length ? r.autori.join("; ") : "")}
       ${metaRow("Anno", r.anno)}
@@ -684,6 +760,7 @@ function renderBook(id) {
         <div class="book-sub">
           ${r.fondo ? `Fondo: <a href="#/fondo/${encodeURIComponent(r.fondo)}">${escapeHtml(r.fondo)}</a>` : ""}
           ${r.codice ? ` · Codice: <span class="mono">${escapeHtml(r.codice)}</span>` : ""}
+       ${r.codiceBibliografico ? ` · Codice bibliografico: <span class="mono">${escapeHtml(r.codiceBibliografico)}</span>` : ""}
         </div>
 
       </header>
@@ -849,8 +926,15 @@ const parsedFunds = Papa.parse(fundCsv, {
   RECORDS = rows.map(row => {
     const titolo  = norm(row.titolo ?? row.Titolo ?? row["Titolo"]);
     const immagine = norm(row.immagine ?? row.Immagine ?? row.foto ?? row.Foto ?? row.Media ?? row.media ?? "")
-    const codice  = norm(row.codice ?? row.Codice ?? row["Codice"]);
-    const tipo    = norm(row.tipo ?? row.Tipo ?? row["Tipo"]);
+   const codice  = norm(row.codice ?? row.Codice ?? row["Codice"]);
+  const codiceBibliografico = norm(
+  row["Codice bibliografico"] ??
+  row.codiceBibliografico ??
+  row["codice bibliografico"] ??
+  row.codice_bibliografico ??
+  ""
+);
+const tipo    = norm(row.tipo ?? row.Tipo ?? row["Tipo"]);
     const volume  = norm(row.volume ?? row.Volume ?? row["Volume"]);
 
     const anno = norm(
@@ -860,9 +944,10 @@ const parsedFunds = Papa.parse(fundCsv, {
 
     const luogo   = norm(row.luogo ?? row.Luogo ?? row["Luogo"]);
     const editore = norm(row.editore ?? row.Editore ?? row["Editore"]);
- const collocazione = norm(row.collocazione ?? row.Collocazione ?? row["Collocazione"]);
-    const faldone = norm(row.faldone ?? row.Faldone ?? row["Faldone"]);
-    const disclaimer = norm(row.disclaimer ?? row.Disclaimer ?? row["Disclaimer"]);
+const collocazione = norm(row.collocazione ?? row.Collocazione ?? row["Collocazione"]);
+const faldone = norm(row.faldone ?? row.Faldone ?? row["Faldone"]);
+const busta = norm(row.busta ?? row.Busta ?? row["Busta"]);
+const disclaimer = norm(row.disclaimer ?? row.Disclaimer ?? row["Disclaimer"]);
     const fondo = norm(row.fondo ?? row.Fondo ?? row["Fondo"] ?? row["Fondo (from Fondo)"]);
 
     const tagRaw = row.tag ?? row.tags ?? row.Tags ?? row["Tags"] ?? "";
@@ -875,7 +960,26 @@ const parsedFunds = Papa.parse(fundCsv, {
 
     const id = codice || ("row-" + Math.random().toString(36).slice(2));
 
-    return { id, titolo, codice, tipo, volume, autori, anno, luogo, editore, tags, fondo, pdf, immagine, collocazione,faldone, disclaimer };
+    return {
+  id,
+  titolo,
+  codice,
+  codiceBibliografico,
+  tipo,
+  volume,
+  autori,
+  anno,
+  luogo,
+  editore,
+  tags,
+  fondo,
+  pdf,
+  immagine,
+  collocazione,
+  faldone,
+  busta,
+  disclaimer
+};
   }).filter(r => r.titolo || r.codice);
 FUND_INFO = {};
 
