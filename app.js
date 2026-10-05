@@ -530,7 +530,7 @@ function renderFund(fondo) {
   const params = new URLSearchParams(location.hash.split("?")[1] || "");
 const faldoneParam = params.get("faldone");
 const bustaParam = params.get("busta");
-const showAll = params.get("all");
+let showAll = params.get("all");
 
 let filtered = applyFilters(inFund);
 
@@ -631,34 +631,48 @@ if (!faldoneParam && !showAll) {
 }
 
 // 👉 Fondo → Faldone → mostra buste
+// 👉 Fondo → Faldone → mostra buste SOLO se esistono
 if (faldoneParam && !bustaParam && !showAll) {
-  view.innerHTML += `
-    <div style="margin-top:14px">
 
-      <div style="margin-bottom:12px">
-        <a class="btn" href="#/fondo/${encodeURIComponent(key)}">
-          ← Torna al fondo
-        </a>
-      </div>
+  const hasRealBuste = Object.keys(bustaGroups).some(
+    b => b !== "Senza busta"
+  );
 
-      <div class="faldoni-grid">
-        ${Object.entries(bustaGroups).map(([name, list]) => `
-          <a class="faldone-card" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(faldoneParam)}&busta=${encodeURIComponent(name)}">
-            <div class="name">${escapeHtml(name)}</div>
-            <div class="desc">${list.length} record</div>
+  // Se non ci sono buste, mostra direttamente i record
+  if (!hasRealBuste) {
+    showAll = true;
+  } else {
+    view.innerHTML += `
+      <div style="margin-top:14px">
+
+        <div style="margin-bottom:12px">
+          <a class="btn" href="#/fondo/${encodeURIComponent(key)}">
+            ← Torna al fondo
           </a>
-        `).join("")}
-      </div>
+        </div>
 
-      <div style="margin-top:24px">
-        <a class="btn" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(faldoneParam)}&all=1">
-          Mostra tutti i record del faldone
-        </a>
-      </div>
+        <div class="faldoni-grid">
+          ${Object.entries(bustaGroups)
+            .filter(([name]) => name !== "Senza busta")
+            .map(([name, list]) => `
+              <a class="faldone-card" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(faldoneParam)}&busta=${encodeURIComponent(name)}">
+                <div class="name">${escapeHtml(name)}</div>
+                <div class="desc">${list.length} record</div>
+              </a>
+            `).join("")}
+        </div>
 
-    </div>
-  `;
+        <div style="margin-top:24px">
+          <a class="btn" href="#/fondo/${encodeURIComponent(key)}?faldone=${encodeURIComponent(faldoneParam)}&all=1">
+            Mostra tutti i record del faldone
+          </a>
+        </div>
+
+      </div>
+    `;
+  }
 }
+  }
 
 // 👉 Se siamo dentro una busta, oppure abbiamo chiesto tutti i record → mostra tabella
 if (bustaParam || showAll) {
