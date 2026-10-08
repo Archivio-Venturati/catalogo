@@ -354,6 +354,9 @@ function renderHome() {
   const libriCount = RECORDS.filter(r => isLibro(r.tipo)).length;
   const fotoCount  = RECORDS.filter(r => isFoto(r.tipo)).length;
   const docCount   = totalAll - libriCount - fotoCount; // tutto il resto
+  const docScanCount = RECORDS.filter(r =>
+  !isLibro(r.tipo) && !isFoto(r.tipo) && r.pdf
+).length;
 const ringHtml = (label, count, total, desc, link) => {
   const p = total > 0 ? (count / total) : 0;
   const safeP = Math.max(0, Math.min(1, p));
@@ -409,7 +412,7 @@ const ringHtml = (label, count, total, desc, link) => {
     <div class="ring-panel">
   <div class="rings">
 ${ringHtml("Patrimonio librario", libriCount, totalAll, "", "#/archivio?tipo=libro&all=1")}
-${ringHtml("Patrimonio documentale", docCount, totalAll, "", "#/archivio?tipo=documento&all=1")}
+${ringHtml("Patrimonio documentale", docCount, totalAll, `di cui ${docScanCount} scannerizzati`, "#/archivio?tipo=documento&all=1")}
 ${ringHtml("Patrimonio fotografico", fotoCount, totalAll, "", "#/archivio?tipo=foto&all=1")}
   </div>
 </div>
