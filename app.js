@@ -447,8 +447,8 @@ ${ringHtml("Patrimonio fotografico", fotoCount, totalAll, "", "#/archivio?tipo=f
             L'Archivio raccoglie anche materiale fotografico rinvenuto alla Casa del Popolo o donato da privati afferenti a realtà politiche.
             Si tratta di immagini di momenti di vita politica. Abbiamo deciso di caricare le immagini che raffigurano momenti di vita politica
             <i>collettiva</i> senza oscurare le persone che ne avessero avuto ruolo organizzativo. Diverse immagini, però, hanno i volti oscurati per proteggere la privacy di chi per un momento della
-            sua vita ha fatto parte della storia della Casa del Popolo, ma ora ha preso strade differenti. Se qualcuno volesse consultare per fini di ricerca o personali, non esiti a contattarci.
-            Allo stesso modo, se qualcuno volesse oscurare una fotografia che lo ritrae, non esiti a contattarci.
+            sua vita ha fatto parte della storia della Casa del Popolo, ma ora ha preso strade differenti. Analogamente, abbiamo oscurato la maggior parte dei documenti che potessero includere informazioni personali. Solo chi ha ricoperto un ruolo dirigenziale di primo piano a Caravaggio e nei livelli superiori (segreterie e presidenze) sono chiaramente citati, anche per dare il giusto contributo all'impegno. Se qualcuno volesse consultare per fini di ricerca o personali, non esiti a contattarci.
+            Allo stesso modo, se qualcuno volesse oscurare una fotografia che lo ritrae o un documento che lo cita, non esiti a contattarci.
             Immagini e documenti sono pubblicati ai soli fini di documentazione storica e culturale
           </div>
         </details>
